@@ -4,12 +4,12 @@ import path from 'path';
 
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import { StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-
-import configureStore from '../shared/store/configureStore';
 import { ChunkExtractor } from '@loadable/server';
+import configureStore from '../shared/store/configureStore';
 
-import App from '../shared/containers/App';
+import App from '../shared/containers';
 
 const app = new Express();
 const port = 3000;
@@ -28,11 +28,16 @@ const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
 const webExtractor = new ChunkExtractor({ statsFile: webStats })
 
 
-app.get( '*', (req, res) => {
+app.get( '*', async (req, res) => {
+
+  const url = req.url;
+  const context= {};
 
   const jsx = webExtractor.collectChunks(
       <Provider store={ store }>
-        <App />
+        <StaticRouter location={req.url} context={context}>
+          <App />
+        </StaticRouter>
       </Provider>
   );
 

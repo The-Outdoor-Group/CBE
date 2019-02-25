@@ -31,8 +31,8 @@ module.exports = {
   entry: `${srcPath}/client/index.js`,
   output: {
     path: `${distPath}/web/`,
-    filename: '[name].js',
-    publicPath: '/assets/web'
+    filename: '[name].[hash].js',
+    publicPath: '/assets/web/'
   },
   resolve: {
       modules: ['node_modules', 'shared'],
