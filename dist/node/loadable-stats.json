@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "516a9d9b89e582813fc7",
+  "hash": "5521f71ae9cb95b329f3",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
   "assetsByChunkName": {
@@ -24,7 +24,7 @@
   "assets": [
     {
       "name": "0.server.js",
-      "size": 206,
+      "size": 1672,
       "chunks": [
         0
       ],
@@ -101,7 +101,7 @@
     },
     {
       "name": "server.js",
-      "size": 6340,
+      "size": 6381,
       "chunks": [
         4
       ],

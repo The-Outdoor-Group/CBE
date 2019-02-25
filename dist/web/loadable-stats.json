@@ -2,47 +2,47 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "46231aa1a5fc0bbaf6c6",
+  "hash": "9c44235f3e6f94f961f6",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
+    "vendors": [
+      "vendors.9c44235f3e6f94f961f6.js",
+      "vendors.9c44235f3e6f94f961f6.js.map"
+    ],
     "OtherComponent": [
       "OtherComponent.css",
-      "OtherComponent.46231aa1a5fc0bbaf6c6.js",
+      "OtherComponent.9c44235f3e6f94f961f6.js",
       "OtherComponent.css.map",
-      "OtherComponent.46231aa1a5fc0bbaf6c6.js.map"
+      "OtherComponent.9c44235f3e6f94f961f6.js.map"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "components-Bar.46231aa1a5fc0bbaf6c6.js",
+      "components-Bar.9c44235f3e6f94f961f6.js",
       "components-Bar.css.map",
-      "components-Bar.46231aa1a5fc0bbaf6c6.js.map"
+      "components-Bar.9c44235f3e6f94f961f6.js.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "components-Foo.46231aa1a5fc0bbaf6c6.js",
+      "components-Foo.9c44235f3e6f94f961f6.js",
       "components-Foo.css.map",
-      "components-Foo.46231aa1a5fc0bbaf6c6.js.map"
+      "components-Foo.9c44235f3e6f94f961f6.js.map"
     ],
     "containers-App-old": [
-      "containers-App-old.46231aa1a5fc0bbaf6c6.js",
-      "containers-App-old.46231aa1a5fc0bbaf6c6.js.map"
+      "containers-App-old.9c44235f3e6f94f961f6.js",
+      "containers-App-old.9c44235f3e6f94f961f6.js.map"
     ],
     "main": [
-      "main.46231aa1a5fc0bbaf6c6.js",
-      "main.46231aa1a5fc0bbaf6c6.js.map"
-    ],
-    "vendors": [
-      "vendors.46231aa1a5fc0bbaf6c6.js",
-      "vendors.46231aa1a5fc0bbaf6c6.js.map"
+      "main.9c44235f3e6f94f961f6.js",
+      "main.9c44235f3e6f94f961f6.js.map"
     ]
   },
   "assets": [
     {
-      "name": "OtherComponent.46231aa1a5fc0bbaf6c6.js",
-      "size": 327,
+      "name": "OtherComponent.9c44235f3e6f94f961f6.js",
+      "size": 1787,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
         "OtherComponent"
@@ -50,10 +50,10 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.46231aa1a5fc0bbaf6c6.js.map",
-      "size": 618,
+      "name": "OtherComponent.9c44235f3e6f94f961f6.js.map",
+      "size": 822,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
         "OtherComponent"
@@ -64,7 +64,7 @@
       "name": "OtherComponent.css",
       "size": 69,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
         "OtherComponent"
@@ -75,7 +75,7 @@
       "name": "OtherComponent.css.map",
       "size": 195,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
         "OtherComponent"
@@ -83,10 +83,10 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.46231aa1a5fc0bbaf6c6.js",
+      "name": "components-Bar.9c44235f3e6f94f961f6.js",
       "size": 325,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "components-Bar"
@@ -94,10 +94,10 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.46231aa1a5fc0bbaf6c6.js.map",
+      "name": "components-Bar.9c44235f3e6f94f961f6.js.map",
       "size": 572,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "components-Bar"
@@ -108,7 +108,7 @@
       "name": "components-Bar.css",
       "size": 69,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "components-Bar"
@@ -119,7 +119,7 @@
       "name": "components-Bar.css.map",
       "size": 195,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "components-Bar"
@@ -127,10 +127,10 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.46231aa1a5fc0bbaf6c6.js",
+      "name": "components-Foo.9c44235f3e6f94f961f6.js",
       "size": 325,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "components-Foo"
@@ -138,10 +138,10 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.46231aa1a5fc0bbaf6c6.js.map",
+      "name": "components-Foo.9c44235f3e6f94f961f6.js.map",
       "size": 572,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "components-Foo"
@@ -152,7 +152,7 @@
       "name": "components-Foo.css",
       "size": 69,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "components-Foo"
@@ -163,7 +163,7 @@
       "name": "components-Foo.css.map",
       "size": 195,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "components-Foo"
@@ -171,10 +171,10 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.46231aa1a5fc0bbaf6c6.js",
-      "size": 971,
+      "name": "containers-App-old.9c44235f3e6f94f961f6.js",
+      "size": 993,
       "chunks": [
-        3
+        4
       ],
       "chunkNames": [
         "containers-App-old"
@@ -182,10 +182,10 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.46231aa1a5fc0bbaf6c6.js.map",
-      "size": 2644,
+      "name": "containers-App-old.9c44235f3e6f94f961f6.js.map",
+      "size": 2696,
       "chunks": [
-        3
+        4
       ],
       "chunkNames": [
         "containers-App-old"
@@ -200,10 +200,10 @@
       "emitted": false
     },
     {
-      "name": "main.46231aa1a5fc0bbaf6c6.js",
+      "name": "main.9c44235f3e6f94f961f6.js",
       "size": 6123,
       "chunks": [
-        4
+        5
       ],
       "chunkNames": [
         "main"
@@ -211,10 +211,10 @@
       "emitted": false
     },
     {
-      "name": "main.46231aa1a5fc0bbaf6c6.js.map",
+      "name": "main.9c44235f3e6f94f961f6.js.map",
       "size": 22217,
       "chunks": [
-        4
+        5
       ],
       "chunkNames": [
         "main"
@@ -222,10 +222,10 @@
       "emitted": false
     },
     {
-      "name": "vendors.46231aa1a5fc0bbaf6c6.js",
-      "size": 262704,
+      "name": "vendors.9c44235f3e6f94f961f6.js",
+      "size": 383348,
       "chunks": [
-        5
+        0
       ],
       "chunkNames": [
         "vendors"
@@ -233,10 +233,10 @@
       "emitted": false
     },
     {
-      "name": "vendors.46231aa1a5fc0bbaf6c6.js.map",
-      "size": 940540,
+      "name": "vendors.9c44235f3e6f94f961f6.js.map",
+      "size": 1550528,
       "chunks": [
-        5
+        0
       ],
       "chunkNames": [
         "vendors"
@@ -248,14 +248,14 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        5,
-        4
+        0,
+        5
       ],
       "assets": [
-        "vendors.46231aa1a5fc0bbaf6c6.js",
-        "vendors.46231aa1a5fc0bbaf6c6.js.map",
-        "main.46231aa1a5fc0bbaf6c6.js",
-        "main.46231aa1a5fc0bbaf6c6.js.map"
+        "vendors.9c44235f3e6f94f961f6.js",
+        "vendors.9c44235f3e6f94f961f6.js.map",
+        "main.9c44235f3e6f94f961f6.js",
+        "main.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -264,64 +264,67 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        5,
-        4
+        0,
+        5
       ],
       "assets": [
-        "vendors.46231aa1a5fc0bbaf6c6.js",
-        "vendors.46231aa1a5fc0bbaf6c6.js.map",
-        "main.46231aa1a5fc0bbaf6c6.js",
-        "main.46231aa1a5fc0bbaf6c6.js.map"
+        "vendors.9c44235f3e6f94f961f6.js",
+        "vendors.9c44235f3e6f94f961f6.js.map",
+        "main.9c44235f3e6f94f961f6.js",
+        "main.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-App-old": {
       "chunks": [
-        3
+        4
       ],
       "assets": [
-        "containers-App-old.46231aa1a5fc0bbaf6c6.js",
-        "containers-App-old.46231aa1a5fc0bbaf6c6.js.map"
+        "containers-App-old.9c44235f3e6f94f961f6.js",
+        "containers-App-old.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        2
+        3
       ],
       "assets": [
         "components-Foo.css",
-        "components-Foo.46231aa1a5fc0bbaf6c6.js",
+        "components-Foo.9c44235f3e6f94f961f6.js",
         "components-Foo.css.map",
-        "components-Foo.46231aa1a5fc0bbaf6c6.js.map"
+        "components-Foo.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
         "components-Bar.css",
-        "components-Bar.46231aa1a5fc0bbaf6c6.js",
+        "components-Bar.9c44235f3e6f94f961f6.js",
         "components-Bar.css.map",
-        "components-Bar.46231aa1a5fc0bbaf6c6.js.map"
+        "components-Bar.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "OtherComponent": {
       "chunks": [
-        0
+        0,
+        1
       ],
       "assets": [
+        "vendors.9c44235f3e6f94f961f6.js",
+        "vendors.9c44235f3e6f94f961f6.js.map",
         "OtherComponent.css",
-        "OtherComponent.46231aa1a5fc0bbaf6c6.js",
+        "OtherComponent.9c44235f3e6f94f961f6.js",
         "OtherComponent.css.map",
-        "OtherComponent.46231aa1a5fc0bbaf6c6.js.map"
+        "OtherComponent.9c44235f3e6f94f961f6.js.map"
       ],
       "children": {},
       "childAssets": {}

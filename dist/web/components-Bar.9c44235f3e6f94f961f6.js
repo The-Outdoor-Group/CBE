@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[2],{156:function(n,_,t){"use strict";t.r(_);var e=t(2),u=t.n(e);t(374);_.default=function(){return u.a.createElement("h1",null,"I am the Bar component")}},374:function(n,_,t){}}]);
+//# sourceMappingURL=components-Bar.9c44235f3e6f94f961f6.js.map
