@@ -2,39 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "d4f7076a663e34f93dc7",
+  "hash": "46231aa1a5fc0bbaf6c6",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "OtherComponent": [
-      "OtherComponent.d4f7076a663e34f93dc7.js",
-      "OtherComponent.d4f7076a663e34f93dc7.js.map"
+      "OtherComponent.css",
+      "OtherComponent.46231aa1a5fc0bbaf6c6.js",
+      "OtherComponent.css.map",
+      "OtherComponent.46231aa1a5fc0bbaf6c6.js.map"
     ],
     "components-Bar": [
-      "components-Bar.d4f7076a663e34f93dc7.js",
-      "components-Bar.d4f7076a663e34f93dc7.js.map"
+      "components-Bar.css",
+      "components-Bar.46231aa1a5fc0bbaf6c6.js",
+      "components-Bar.css.map",
+      "components-Bar.46231aa1a5fc0bbaf6c6.js.map"
     ],
     "components-Foo": [
-      "components-Foo.d4f7076a663e34f93dc7.js",
-      "components-Foo.d4f7076a663e34f93dc7.js.map"
+      "components-Foo.css",
+      "components-Foo.46231aa1a5fc0bbaf6c6.js",
+      "components-Foo.css.map",
+      "components-Foo.46231aa1a5fc0bbaf6c6.js.map"
     ],
     "containers-App-old": [
-      "containers-App-old.d4f7076a663e34f93dc7.js",
-      "containers-App-old.d4f7076a663e34f93dc7.js.map"
+      "containers-App-old.46231aa1a5fc0bbaf6c6.js",
+      "containers-App-old.46231aa1a5fc0bbaf6c6.js.map"
     ],
     "main": [
-      "main.d4f7076a663e34f93dc7.js",
-      "main.d4f7076a663e34f93dc7.js.map"
+      "main.46231aa1a5fc0bbaf6c6.js",
+      "main.46231aa1a5fc0bbaf6c6.js.map"
     ],
     "vendors": [
-      "vendors.d4f7076a663e34f93dc7.js",
-      "vendors.d4f7076a663e34f93dc7.js.map"
+      "vendors.46231aa1a5fc0bbaf6c6.js",
+      "vendors.46231aa1a5fc0bbaf6c6.js.map"
     ]
   },
   "assets": [
     {
-      "name": "OtherComponent.d4f7076a663e34f93dc7.js",
-      "size": 298,
+      "name": "OtherComponent.46231aa1a5fc0bbaf6c6.js",
+      "size": 327,
       "chunks": [
         0
       ],
@@ -44,8 +50,8 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.d4f7076a663e34f93dc7.js.map",
-      "size": 587,
+      "name": "OtherComponent.46231aa1a5fc0bbaf6c6.js.map",
+      "size": 618,
       "chunks": [
         0
       ],
@@ -55,8 +61,30 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.d4f7076a663e34f93dc7.js",
-      "size": 296,
+      "name": "OtherComponent.css",
+      "size": 69,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "OtherComponent.css.map",
+      "size": 195,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Bar.46231aa1a5fc0bbaf6c6.js",
+      "size": 325,
       "chunks": [
         1
       ],
@@ -66,8 +94,8 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.d4f7076a663e34f93dc7.js.map",
-      "size": 541,
+      "name": "components-Bar.46231aa1a5fc0bbaf6c6.js.map",
+      "size": 572,
       "chunks": [
         1
       ],
@@ -77,8 +105,30 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.d4f7076a663e34f93dc7.js",
-      "size": 296,
+      "name": "components-Bar.css",
+      "size": 69,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "components-Bar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Bar.css.map",
+      "size": 195,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "components-Bar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Foo.46231aa1a5fc0bbaf6c6.js",
+      "size": 325,
       "chunks": [
         2
       ],
@@ -88,8 +138,8 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.d4f7076a663e34f93dc7.js.map",
-      "size": 541,
+      "name": "components-Foo.46231aa1a5fc0bbaf6c6.js.map",
+      "size": 572,
       "chunks": [
         2
       ],
@@ -99,7 +149,29 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.d4f7076a663e34f93dc7.js",
+      "name": "components-Foo.css",
+      "size": 69,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Foo.css.map",
+      "size": 195,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-App-old.46231aa1a5fc0bbaf6c6.js",
       "size": 971,
       "chunks": [
         3
@@ -110,7 +182,7 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.d4f7076a663e34f93dc7.js.map",
+      "name": "containers-App-old.46231aa1a5fc0bbaf6c6.js.map",
       "size": 2644,
       "chunks": [
         3
@@ -128,8 +200,8 @@
       "emitted": false
     },
     {
-      "name": "main.d4f7076a663e34f93dc7.js",
-      "size": 5248,
+      "name": "main.46231aa1a5fc0bbaf6c6.js",
+      "size": 6123,
       "chunks": [
         4
       ],
@@ -139,8 +211,8 @@
       "emitted": false
     },
     {
-      "name": "main.d4f7076a663e34f93dc7.js.map",
-      "size": 18852,
+      "name": "main.46231aa1a5fc0bbaf6c6.js.map",
+      "size": 22217,
       "chunks": [
         4
       ],
@@ -150,7 +222,7 @@
       "emitted": false
     },
     {
-      "name": "vendors.d4f7076a663e34f93dc7.js",
+      "name": "vendors.46231aa1a5fc0bbaf6c6.js",
       "size": 262704,
       "chunks": [
         5
@@ -161,7 +233,7 @@
       "emitted": false
     },
     {
-      "name": "vendors.d4f7076a663e34f93dc7.js.map",
+      "name": "vendors.46231aa1a5fc0bbaf6c6.js.map",
       "size": 940540,
       "chunks": [
         5
@@ -180,10 +252,10 @@
         4
       ],
       "assets": [
-        "vendors.d4f7076a663e34f93dc7.js",
-        "vendors.d4f7076a663e34f93dc7.js.map",
-        "main.d4f7076a663e34f93dc7.js",
-        "main.d4f7076a663e34f93dc7.js.map"
+        "vendors.46231aa1a5fc0bbaf6c6.js",
+        "vendors.46231aa1a5fc0bbaf6c6.js.map",
+        "main.46231aa1a5fc0bbaf6c6.js",
+        "main.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -196,10 +268,10 @@
         4
       ],
       "assets": [
-        "vendors.d4f7076a663e34f93dc7.js",
-        "vendors.d4f7076a663e34f93dc7.js.map",
-        "main.d4f7076a663e34f93dc7.js",
-        "main.d4f7076a663e34f93dc7.js.map"
+        "vendors.46231aa1a5fc0bbaf6c6.js",
+        "vendors.46231aa1a5fc0bbaf6c6.js.map",
+        "main.46231aa1a5fc0bbaf6c6.js",
+        "main.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -209,8 +281,8 @@
         3
       ],
       "assets": [
-        "containers-App-old.d4f7076a663e34f93dc7.js",
-        "containers-App-old.d4f7076a663e34f93dc7.js.map"
+        "containers-App-old.46231aa1a5fc0bbaf6c6.js",
+        "containers-App-old.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -220,8 +292,10 @@
         2
       ],
       "assets": [
-        "components-Foo.d4f7076a663e34f93dc7.js",
-        "components-Foo.d4f7076a663e34f93dc7.js.map"
+        "components-Foo.css",
+        "components-Foo.46231aa1a5fc0bbaf6c6.js",
+        "components-Foo.css.map",
+        "components-Foo.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -231,8 +305,10 @@
         1
       ],
       "assets": [
-        "components-Bar.d4f7076a663e34f93dc7.js",
-        "components-Bar.d4f7076a663e34f93dc7.js.map"
+        "components-Bar.css",
+        "components-Bar.46231aa1a5fc0bbaf6c6.js",
+        "components-Bar.css.map",
+        "components-Bar.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -242,8 +318,10 @@
         0
       ],
       "assets": [
-        "OtherComponent.d4f7076a663e34f93dc7.js",
-        "OtherComponent.d4f7076a663e34f93dc7.js.map"
+        "OtherComponent.css",
+        "OtherComponent.46231aa1a5fc0bbaf6c6.js",
+        "OtherComponent.css.map",
+        "OtherComponent.46231aa1a5fc0bbaf6c6.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -294,6 +372,41 @@
       },
       "children": [],
       "name": "html-webpack-plugin for \"index.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/h1.css"
     }
   ]
 }

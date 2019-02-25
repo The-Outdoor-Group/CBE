@@ -1,2 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[2],{153:function(n,_,t){"use strict";t.r(_);var e=t(1),o=t.n(e);_.default=function(){return o.a.createElement("h1",null,"I am the Foo component")}}}]);
-//# sourceMappingURL=components-Foo.d4f7076a663e34f93dc7.js.map

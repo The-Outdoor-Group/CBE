@@ -2,20 +2,29 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "5ffa1a2fdf562e8c6495",
+  "hash": "516a9d9b89e582813fc7",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
   "assetsByChunkName": {
-    "OtherComponent": "0.server.js",
-    "components-Bar": "1.server.js",
-    "components-Foo": "2.server.js",
+    "OtherComponent": [
+      "OtherComponent.css",
+      "0.server.js"
+    ],
+    "components-Bar": [
+      "components-Bar.css",
+      "1.server.js"
+    ],
+    "components-Foo": [
+      "components-Foo.css",
+      "2.server.js"
+    ],
     "containers-App-old": "3.server.js",
     "main": "server.js"
   },
   "assets": [
     {
       "name": "0.server.js",
-      "size": 179,
+      "size": 206,
       "chunks": [
         0
       ],
@@ -26,7 +35,7 @@
     },
     {
       "name": "1.server.js",
-      "size": 177,
+      "size": 204,
       "chunks": [
         1
       ],
@@ -37,7 +46,7 @@
     },
     {
       "name": "2.server.js",
-      "size": 177,
+      "size": 204,
       "chunks": [
         2
       ],
@@ -58,8 +67,41 @@
       "emitted": false
     },
     {
+      "name": "OtherComponent.css",
+      "size": 23,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Bar.css",
+      "size": 23,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "components-Bar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Foo.css",
+      "size": 23,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
       "name": "server.js",
-      "size": 5461,
+      "size": 6340,
       "chunks": [
         4
       ],
@@ -108,6 +150,7 @@
         2
       ],
       "assets": [
+        "components-Foo.css",
         "2.server.js"
       ],
       "children": {},
@@ -118,6 +161,7 @@
         1
       ],
       "assets": [
+        "components-Bar.css",
         "1.server.js"
       ],
       "children": {},
@@ -128,11 +172,48 @@
         0
       ],
       "assets": [
+        "OtherComponent.css",
         "0.server.js"
       ],
       "children": {},
       "childAssets": {}
     }
   },
-  "children": []
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/h1.css"
+    }
+  ]
 }

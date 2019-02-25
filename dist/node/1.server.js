@@ -1,1 +1,1 @@
-exports.ids=[1],exports.modules={14:function(e,t,n){"use strict";n.r(t);var r=n(0),o=n.n(r);t.default=function(){return o.a.createElement("h1",null,"I am the Bar component")}}};
+exports.ids=[1],exports.modules={14:function(t,e,n){"use strict";n.r(e);var r=n(0),o=n.n(r);n(19);e.default=function(){return o.a.createElement("h1",null,"I am the Bar component")}},19:function(t,e,n){}};

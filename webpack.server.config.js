@@ -1,11 +1,13 @@
 const nodeExternals = require('webpack-node-externals');
 const LoadablePlugin = require('@loadable/webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
 
 const plugins = [
+  new MiniCssExtractPlugin(),
   new LoadablePlugin()
 ];
 
@@ -30,6 +32,15 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         include: __dirname
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+          },
+          'css-loader'
+        ]
       }
     ]
   },
