@@ -1,0 +1,188 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.29.5",
+  "hash": "81707c94765f46e0a510",
+  "publicPath": "/assets/web",
+  "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+  "assetsByChunkName": {
+    "OtherComponent": [
+      "OtherComponent.js",
+      "OtherComponent.js.map"
+    ],
+    "main": [
+      "main.js",
+      "main.js.map"
+    ],
+    "vendors": [
+      "vendors.js",
+      "vendors.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "OtherComponent.js",
+      "size": 277,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "OtherComponent.js.map",
+      "size": 566,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "index.html",
+      "size": 318,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "main.js",
+      "size": 4008,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.js.map",
+      "size": 17182,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "vendors.js",
+      "size": 240506,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "vendors.js.map",
+      "size": 837872,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        2,
+        1
+      ],
+      "assets": [
+        "vendors.js",
+        "vendors.js.map",
+        "main.js",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        2,
+        1
+      ],
+      "assets": [
+        "vendors.js",
+        "vendors.js.map",
+        "main.js",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "OtherComponent.js",
+        "OtherComponent.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web",
+      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 545129,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    }
+  ]
+}

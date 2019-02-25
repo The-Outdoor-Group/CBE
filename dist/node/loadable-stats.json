@@ -1,0 +1,72 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.29.5",
+  "hash": "f5173d3d227b05c18e3f",
+  "publicPath": "/assets/node",
+  "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
+  "assetsByChunkName": {
+    "OtherComponent": "0.server.js",
+    "main": "server.js"
+  },
+  "assets": [
+    {
+      "name": "0.server.js",
+      "size": 179,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "server.js",
+      "size": 4357,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "0.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}
