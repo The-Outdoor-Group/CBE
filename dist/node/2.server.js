@@ -1,1 +1,1 @@
-exports.ids=[2],exports.modules={11:function(e,t,n){"use strict";n.r(t);var r=n(0),u=n.n(r);t.default=function(){return u.a.createElement("h1",null,"I am the App Container")}}};
+exports.ids=[2],exports.modules={13:function(e,t,n){"use strict";n.r(t);var o=n(0),r=n.n(o);t.default=function(){return r.a.createElement("h1",null,"I am the Foo component")}}};

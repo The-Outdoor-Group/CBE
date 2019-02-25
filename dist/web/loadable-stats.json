@@ -2,37 +2,63 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "a4d4c26e8698229c963b",
+  "hash": "d4f7076a663e34f93dc7",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
+    "OtherComponent": [
+      "OtherComponent.d4f7076a663e34f93dc7.js",
+      "OtherComponent.d4f7076a663e34f93dc7.js.map"
+    ],
     "components-Bar": [
-      "components-Bar.a4d4c26e8698229c963b.js",
-      "components-Bar.a4d4c26e8698229c963b.js.map"
+      "components-Bar.d4f7076a663e34f93dc7.js",
+      "components-Bar.d4f7076a663e34f93dc7.js.map"
     ],
     "components-Foo": [
-      "components-Foo.a4d4c26e8698229c963b.js",
-      "components-Foo.a4d4c26e8698229c963b.js.map"
+      "components-Foo.d4f7076a663e34f93dc7.js",
+      "components-Foo.d4f7076a663e34f93dc7.js.map"
     ],
     "containers-App-old": [
-      "containers-App-old.a4d4c26e8698229c963b.js",
-      "containers-App-old.a4d4c26e8698229c963b.js.map"
+      "containers-App-old.d4f7076a663e34f93dc7.js",
+      "containers-App-old.d4f7076a663e34f93dc7.js.map"
     ],
     "main": [
-      "main.a4d4c26e8698229c963b.js",
-      "main.a4d4c26e8698229c963b.js.map"
+      "main.d4f7076a663e34f93dc7.js",
+      "main.d4f7076a663e34f93dc7.js.map"
     ],
     "vendors": [
-      "vendors.a4d4c26e8698229c963b.js",
-      "vendors.a4d4c26e8698229c963b.js.map"
+      "vendors.d4f7076a663e34f93dc7.js",
+      "vendors.d4f7076a663e34f93dc7.js.map"
     ]
   },
   "assets": [
     {
-      "name": "components-Bar.a4d4c26e8698229c963b.js",
-      "size": 296,
+      "name": "OtherComponent.d4f7076a663e34f93dc7.js",
+      "size": 298,
       "chunks": [
         0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "OtherComponent.d4f7076a663e34f93dc7.js.map",
+      "size": 587,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Bar.d4f7076a663e34f93dc7.js",
+      "size": 296,
+      "chunks": [
+        1
       ],
       "chunkNames": [
         "components-Bar"
@@ -40,10 +66,10 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.a4d4c26e8698229c963b.js.map",
+      "name": "components-Bar.d4f7076a663e34f93dc7.js.map",
       "size": 541,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
         "components-Bar"
@@ -51,32 +77,32 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.a4d4c26e8698229c963b.js",
+      "name": "components-Foo.d4f7076a663e34f93dc7.js",
       "size": 296,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Foo.a4d4c26e8698229c963b.js.map",
-      "size": 541,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "containers-App-old.a4d4c26e8698229c963b.js",
-      "size": 300,
       "chunks": [
         2
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-Foo.d4f7076a663e34f93dc7.js.map",
+      "size": 541,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-App-old.d4f7076a663e34f93dc7.js",
+      "size": 971,
+      "chunks": [
+        3
       ],
       "chunkNames": [
         "containers-App-old"
@@ -84,10 +110,10 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.a4d4c26e8698229c963b.js.map",
-      "size": 1042,
+      "name": "containers-App-old.d4f7076a663e34f93dc7.js.map",
+      "size": 2644,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "containers-App-old"
@@ -102,32 +128,32 @@
       "emitted": false
     },
     {
-      "name": "main.a4d4c26e8698229c963b.js",
-      "size": 4764,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "main.a4d4c26e8698229c963b.js.map",
-      "size": 18337,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "vendors.a4d4c26e8698229c963b.js",
-      "size": 261984,
+      "name": "main.d4f7076a663e34f93dc7.js",
+      "size": 5248,
       "chunks": [
         4
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.d4f7076a663e34f93dc7.js.map",
+      "size": 18852,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "vendors.d4f7076a663e34f93dc7.js",
+      "size": 262704,
+      "chunks": [
+        5
       ],
       "chunkNames": [
         "vendors"
@@ -135,10 +161,10 @@
       "emitted": false
     },
     {
-      "name": "vendors.a4d4c26e8698229c963b.js.map",
-      "size": 939673,
+      "name": "vendors.d4f7076a663e34f93dc7.js.map",
+      "size": 940540,
       "chunks": [
-        4
+        5
       ],
       "chunkNames": [
         "vendors"
@@ -150,14 +176,14 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        4,
-        3
+        5,
+        4
       ],
       "assets": [
-        "vendors.a4d4c26e8698229c963b.js",
-        "vendors.a4d4c26e8698229c963b.js.map",
-        "main.a4d4c26e8698229c963b.js",
-        "main.a4d4c26e8698229c963b.js.map"
+        "vendors.d4f7076a663e34f93dc7.js",
+        "vendors.d4f7076a663e34f93dc7.js.map",
+        "main.d4f7076a663e34f93dc7.js",
+        "main.d4f7076a663e34f93dc7.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -166,47 +192,58 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        4,
-        3
+        5,
+        4
       ],
       "assets": [
-        "vendors.a4d4c26e8698229c963b.js",
-        "vendors.a4d4c26e8698229c963b.js.map",
-        "main.a4d4c26e8698229c963b.js",
-        "main.a4d4c26e8698229c963b.js.map"
+        "vendors.d4f7076a663e34f93dc7.js",
+        "vendors.d4f7076a663e34f93dc7.js.map",
+        "main.d4f7076a663e34f93dc7.js",
+        "main.d4f7076a663e34f93dc7.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-App-old": {
       "chunks": [
-        2
+        3
       ],
       "assets": [
-        "containers-App-old.a4d4c26e8698229c963b.js",
-        "containers-App-old.a4d4c26e8698229c963b.js.map"
+        "containers-App-old.d4f7076a663e34f93dc7.js",
+        "containers-App-old.d4f7076a663e34f93dc7.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
-        "components-Foo.a4d4c26e8698229c963b.js",
-        "components-Foo.a4d4c26e8698229c963b.js.map"
+        "components-Foo.d4f7076a663e34f93dc7.js",
+        "components-Foo.d4f7076a663e34f93dc7.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
+        1
+      ],
+      "assets": [
+        "components-Bar.d4f7076a663e34f93dc7.js",
+        "components-Bar.d4f7076a663e34f93dc7.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent": {
+      "chunks": [
         0
       ],
       "assets": [
-        "components-Bar.a4d4c26e8698229c963b.js",
-        "components-Bar.a4d4c26e8698229c963b.js.map"
+        "OtherComponent.d4f7076a663e34f93dc7.js",
+        "OtherComponent.d4f7076a663e34f93dc7.js.map"
       ],
       "children": {},
       "childAssets": {}

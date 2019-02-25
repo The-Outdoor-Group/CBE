@@ -28,7 +28,7 @@ const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
 const webExtractor = new ChunkExtractor({ statsFile: webStats })
 
 
-app.get( '*', async (req, res) => {
+app.get( '*', (req, res) => {
 
   const url = req.url;
   const context= {};
