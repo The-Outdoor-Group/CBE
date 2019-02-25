@@ -7,7 +7,7 @@ import { renderToString } from 'react-dom/server';
 import { Provider } from 'react-redux';
 
 import configureStore from '../shared/store/configureStore';
-import { ChunkExtractor, ChunkExtractorManager } from '@loadable/server';
+import { ChunkExtractor } from '@loadable/server';
 
 import App from '../shared/containers/App';
 
@@ -25,11 +25,8 @@ const nodeStats = path.resolve(__dirname, '../node/loadable-stats.json');
 
 const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
 
-const nodeExtractor = new ChunkExtractor({ statsFile: nodeStats })
-   // const { default: 'index.js' } = nodeExtractor.requireEntrypoint()
+const webExtractor = new ChunkExtractor({ statsFile: webStats })
 
-   const webExtractor = new ChunkExtractor({ statsFile: webStats })
-   const jsx = webExtractor.collectChunks(<App />)
 
 app.get( '*', (req, res) => {
 
