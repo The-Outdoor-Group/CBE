@@ -2,44 +2,44 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "9c44235f3e6f94f961f6",
+  "hash": "b0a224ece6df1578e1fe",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "vendors": [
-      "vendors.9c44235f3e6f94f961f6.js",
-      "vendors.9c44235f3e6f94f961f6.js.map"
+      "vendors.b0a224ece6df1578e1fe.js",
+      "vendors.b0a224ece6df1578e1fe.js.map"
     ],
     "OtherComponent": [
       "OtherComponent.css",
-      "OtherComponent.9c44235f3e6f94f961f6.js",
+      "OtherComponent.b0a224ece6df1578e1fe.js",
       "OtherComponent.css.map",
-      "OtherComponent.9c44235f3e6f94f961f6.js.map"
+      "OtherComponent.b0a224ece6df1578e1fe.js.map"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "components-Bar.9c44235f3e6f94f961f6.js",
+      "components-Bar.b0a224ece6df1578e1fe.js",
       "components-Bar.css.map",
-      "components-Bar.9c44235f3e6f94f961f6.js.map"
+      "components-Bar.b0a224ece6df1578e1fe.js.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "components-Foo.9c44235f3e6f94f961f6.js",
+      "components-Foo.b0a224ece6df1578e1fe.js",
       "components-Foo.css.map",
-      "components-Foo.9c44235f3e6f94f961f6.js.map"
+      "components-Foo.b0a224ece6df1578e1fe.js.map"
     ],
     "containers-App-old": [
-      "containers-App-old.9c44235f3e6f94f961f6.js",
-      "containers-App-old.9c44235f3e6f94f961f6.js.map"
+      "containers-App-old.b0a224ece6df1578e1fe.js",
+      "containers-App-old.b0a224ece6df1578e1fe.js.map"
     ],
     "main": [
-      "main.9c44235f3e6f94f961f6.js",
-      "main.9c44235f3e6f94f961f6.js.map"
+      "main.b0a224ece6df1578e1fe.js",
+      "main.b0a224ece6df1578e1fe.js.map"
     ]
   },
   "assets": [
     {
-      "name": "OtherComponent.9c44235f3e6f94f961f6.js",
+      "name": "OtherComponent.b0a224ece6df1578e1fe.js",
       "size": 1787,
       "chunks": [
         1
@@ -50,7 +50,7 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.9c44235f3e6f94f961f6.js.map",
+      "name": "OtherComponent.b0a224ece6df1578e1fe.js.map",
       "size": 822,
       "chunks": [
         1
@@ -83,7 +83,7 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.9c44235f3e6f94f961f6.js",
+      "name": "components-Bar.b0a224ece6df1578e1fe.js",
       "size": 325,
       "chunks": [
         2
@@ -94,7 +94,7 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.9c44235f3e6f94f961f6.js.map",
+      "name": "components-Bar.b0a224ece6df1578e1fe.js.map",
       "size": 572,
       "chunks": [
         2
@@ -127,7 +127,7 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.9c44235f3e6f94f961f6.js",
+      "name": "components-Foo.b0a224ece6df1578e1fe.js",
       "size": 325,
       "chunks": [
         3
@@ -138,7 +138,7 @@
       "emitted": false
     },
     {
-      "name": "components-Foo.9c44235f3e6f94f961f6.js.map",
+      "name": "components-Foo.b0a224ece6df1578e1fe.js.map",
       "size": 572,
       "chunks": [
         3
@@ -171,7 +171,7 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.9c44235f3e6f94f961f6.js",
+      "name": "containers-App-old.b0a224ece6df1578e1fe.js",
       "size": 993,
       "chunks": [
         4
@@ -182,7 +182,7 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.9c44235f3e6f94f961f6.js.map",
+      "name": "containers-App-old.b0a224ece6df1578e1fe.js.map",
       "size": 2696,
       "chunks": [
         4
@@ -200,8 +200,8 @@
       "emitted": false
     },
     {
-      "name": "main.9c44235f3e6f94f961f6.js",
-      "size": 6123,
+      "name": "main.b0a224ece6df1578e1fe.js",
+      "size": 6364,
       "chunks": [
         5
       ],
@@ -211,8 +211,8 @@
       "emitted": false
     },
     {
-      "name": "main.9c44235f3e6f94f961f6.js.map",
-      "size": 22217,
+      "name": "main.b0a224ece6df1578e1fe.js.map",
+      "size": 22999,
       "chunks": [
         5
       ],
@@ -222,7 +222,7 @@
       "emitted": false
     },
     {
-      "name": "vendors.9c44235f3e6f94f961f6.js",
+      "name": "vendors.b0a224ece6df1578e1fe.js",
       "size": 383348,
       "chunks": [
         0
@@ -233,7 +233,7 @@
       "emitted": false
     },
     {
-      "name": "vendors.9c44235f3e6f94f961f6.js.map",
+      "name": "vendors.b0a224ece6df1578e1fe.js.map",
       "size": 1550528,
       "chunks": [
         0
@@ -252,10 +252,10 @@
         5
       ],
       "assets": [
-        "vendors.9c44235f3e6f94f961f6.js",
-        "vendors.9c44235f3e6f94f961f6.js.map",
-        "main.9c44235f3e6f94f961f6.js",
-        "main.9c44235f3e6f94f961f6.js.map"
+        "vendors.b0a224ece6df1578e1fe.js",
+        "vendors.b0a224ece6df1578e1fe.js.map",
+        "main.b0a224ece6df1578e1fe.js",
+        "main.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -268,10 +268,10 @@
         5
       ],
       "assets": [
-        "vendors.9c44235f3e6f94f961f6.js",
-        "vendors.9c44235f3e6f94f961f6.js.map",
-        "main.9c44235f3e6f94f961f6.js",
-        "main.9c44235f3e6f94f961f6.js.map"
+        "vendors.b0a224ece6df1578e1fe.js",
+        "vendors.b0a224ece6df1578e1fe.js.map",
+        "main.b0a224ece6df1578e1fe.js",
+        "main.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -281,8 +281,8 @@
         4
       ],
       "assets": [
-        "containers-App-old.9c44235f3e6f94f961f6.js",
-        "containers-App-old.9c44235f3e6f94f961f6.js.map"
+        "containers-App-old.b0a224ece6df1578e1fe.js",
+        "containers-App-old.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -293,9 +293,9 @@
       ],
       "assets": [
         "components-Foo.css",
-        "components-Foo.9c44235f3e6f94f961f6.js",
+        "components-Foo.b0a224ece6df1578e1fe.js",
         "components-Foo.css.map",
-        "components-Foo.9c44235f3e6f94f961f6.js.map"
+        "components-Foo.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -306,9 +306,9 @@
       ],
       "assets": [
         "components-Bar.css",
-        "components-Bar.9c44235f3e6f94f961f6.js",
+        "components-Bar.b0a224ece6df1578e1fe.js",
         "components-Bar.css.map",
-        "components-Bar.9c44235f3e6f94f961f6.js.map"
+        "components-Bar.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -319,12 +319,12 @@
         1
       ],
       "assets": [
-        "vendors.9c44235f3e6f94f961f6.js",
-        "vendors.9c44235f3e6f94f961f6.js.map",
+        "vendors.b0a224ece6df1578e1fe.js",
+        "vendors.b0a224ece6df1578e1fe.js.map",
         "OtherComponent.css",
-        "OtherComponent.9c44235f3e6f94f961f6.js",
+        "OtherComponent.b0a224ece6df1578e1fe.js",
         "OtherComponent.css.map",
-        "OtherComponent.9c44235f3e6f94f961f6.js.map"
+        "OtherComponent.b0a224ece6df1578e1fe.js.map"
       ],
       "children": {},
       "childAssets": {}

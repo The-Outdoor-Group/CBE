@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
@@ -22,6 +23,10 @@ const plugins = [
     'process.env.NODE_ENV': '"production"'
   }),
   new MiniCssExtractPlugin(),
+  new WorkboxPlugin.GenerateSW({
+    clientsClaim: true,
+    skipWaiting: true
+  })
 ];
 
 module.exports = {
