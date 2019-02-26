@@ -2,45 +2,67 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "3bf5789734d6e15b0fb6",
+  "hash": "0cd0c38a788991f083cf",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "vendors": [
-      "vendors.3bf5789734d6e15b0fb6.js",
-      "vendors.3bf5789734d6e15b0fb6.js.map"
+      "0.js",
+      "0.js.map"
     ],
     "OtherComponent": [
       "OtherComponent.css",
-      "OtherComponent.3bf5789734d6e15b0fb6.js",
+      "1.js",
       "OtherComponent.css.map",
-      "OtherComponent.3bf5789734d6e15b0fb6.js.map"
+      "1.js.map"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "components-Bar.3bf5789734d6e15b0fb6.js",
+      "2.js",
       "components-Bar.css.map",
-      "components-Bar.3bf5789734d6e15b0fb6.js.map"
+      "2.js.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "components-Foo.3bf5789734d6e15b0fb6.js",
+      "3.js",
       "components-Foo.css.map",
-      "components-Foo.3bf5789734d6e15b0fb6.js.map"
+      "3.js.map"
     ],
     "containers-App-old": [
-      "containers-App-old.3bf5789734d6e15b0fb6.js",
-      "containers-App-old.3bf5789734d6e15b0fb6.js.map"
+      "4.js",
+      "4.js.map"
     ],
     "main": [
-      "main.3bf5789734d6e15b0fb6.js",
-      "main.3bf5789734d6e15b0fb6.js.map"
+      "main.0cd0c38a788991f083cf.js",
+      "main.0cd0c38a788991f083cf.js.map"
     ]
   },
   "assets": [
     {
-      "name": "OtherComponent.3bf5789734d6e15b0fb6.js",
-      "size": 1787,
+      "name": "0.js",
+      "size": 383321,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "0.js.map",
+      "size": 1550501,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "1.js",
+      "size": 1753,
       "chunks": [
         1
       ],
@@ -50,13 +72,79 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.3bf5789734d6e15b0fb6.js.map",
-      "size": 822,
+      "name": "1.js.map",
+      "size": 788,
       "chunks": [
         1
       ],
       "chunkNames": [
         "OtherComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "2.js",
+      "size": 291,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Bar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "2.js.map",
+      "size": 538,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "components-Bar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "3.js",
+      "size": 291,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "3.js.map",
+      "size": 538,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4.js",
+      "size": 955,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "containers-App-old"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4.js.map",
+      "size": 2658,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "containers-App-old"
       ],
       "emitted": false
     },
@@ -83,28 +171,6 @@
       "emitted": false
     },
     {
-      "name": "components-Bar.3bf5789734d6e15b0fb6.js",
-      "size": 325,
-      "chunks": [
-        2
-      ],
-      "chunkNames": [
-        "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Bar.3bf5789734d6e15b0fb6.js.map",
-      "size": 572,
-      "chunks": [
-        2
-      ],
-      "chunkNames": [
-        "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
       "name": "components-Bar.css",
       "size": 69,
       "chunks": [
@@ -123,28 +189,6 @@
       ],
       "chunkNames": [
         "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Foo.3bf5789734d6e15b0fb6.js",
-      "size": 325,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Foo.3bf5789734d6e15b0fb6.js.map",
-      "size": 572,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "components-Foo"
       ],
       "emitted": false
     },
@@ -171,37 +215,15 @@
       "emitted": false
     },
     {
-      "name": "containers-App-old.3bf5789734d6e15b0fb6.js",
-      "size": 993,
-      "chunks": [
-        4
-      ],
-      "chunkNames": [
-        "containers-App-old"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "containers-App-old.3bf5789734d6e15b0fb6.js.map",
-      "size": 2696,
-      "chunks": [
-        4
-      ],
-      "chunkNames": [
-        "containers-App-old"
-      ],
-      "emitted": false
-    },
-    {
       "name": "index.html",
-      "size": 360,
+      "size": 333,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.3bf5789734d6e15b0fb6.js",
-      "size": 6374,
+      "name": "main.0cd0c38a788991f083cf.js",
+      "size": 6265,
       "chunks": [
         5
       ],
@@ -211,35 +233,13 @@
       "emitted": false
     },
     {
-      "name": "main.3bf5789734d6e15b0fb6.js.map",
-      "size": 23009,
+      "name": "main.0cd0c38a788991f083cf.js.map",
+      "size": 22804,
       "chunks": [
         5
       ],
       "chunkNames": [
         "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "vendors.3bf5789734d6e15b0fb6.js",
-      "size": 383348,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "vendors"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "vendors.3bf5789734d6e15b0fb6.js.map",
-      "size": 1550528,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "vendors"
       ],
       "emitted": false
     }
@@ -252,10 +252,10 @@
         5
       ],
       "assets": [
-        "vendors.3bf5789734d6e15b0fb6.js",
-        "vendors.3bf5789734d6e15b0fb6.js.map",
-        "main.3bf5789734d6e15b0fb6.js",
-        "main.3bf5789734d6e15b0fb6.js.map"
+        "0.js",
+        "0.js.map",
+        "main.0cd0c38a788991f083cf.js",
+        "main.0cd0c38a788991f083cf.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -268,10 +268,10 @@
         5
       ],
       "assets": [
-        "vendors.3bf5789734d6e15b0fb6.js",
-        "vendors.3bf5789734d6e15b0fb6.js.map",
-        "main.3bf5789734d6e15b0fb6.js",
-        "main.3bf5789734d6e15b0fb6.js.map"
+        "0.js",
+        "0.js.map",
+        "main.0cd0c38a788991f083cf.js",
+        "main.0cd0c38a788991f083cf.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -281,8 +281,8 @@
         4
       ],
       "assets": [
-        "containers-App-old.3bf5789734d6e15b0fb6.js",
-        "containers-App-old.3bf5789734d6e15b0fb6.js.map"
+        "4.js",
+        "4.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -293,9 +293,9 @@
       ],
       "assets": [
         "components-Foo.css",
-        "components-Foo.3bf5789734d6e15b0fb6.js",
+        "3.js",
         "components-Foo.css.map",
-        "components-Foo.3bf5789734d6e15b0fb6.js.map"
+        "3.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -306,9 +306,9 @@
       ],
       "assets": [
         "components-Bar.css",
-        "components-Bar.3bf5789734d6e15b0fb6.js",
+        "2.js",
         "components-Bar.css.map",
-        "components-Bar.3bf5789734d6e15b0fb6.js.map"
+        "2.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -319,12 +319,12 @@
         1
       ],
       "assets": [
-        "vendors.3bf5789734d6e15b0fb6.js",
-        "vendors.3bf5789734d6e15b0fb6.js.map",
+        "0.js",
+        "0.js.map",
         "OtherComponent.css",
-        "OtherComponent.3bf5789734d6e15b0fb6.js",
+        "1.js",
         "OtherComponent.css.map",
-        "OtherComponent.3bf5789734d6e15b0fb6.js.map"
+        "1.js.map"
       ],
       "children": {},
       "childAssets": {}

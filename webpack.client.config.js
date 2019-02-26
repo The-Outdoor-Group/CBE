@@ -37,6 +37,7 @@ module.exports = {
   output: {
     path: `${distPath}/web/`,
     filename: '[name].[hash].js',
+    chunkFilename: '[id].js',
     publicPath: '/assets/web/'
   },
   resolve: {
