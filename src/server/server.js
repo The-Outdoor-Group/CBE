@@ -59,7 +59,7 @@ app.get( '*', (req, res) => {
     `);
 });
 
-app.listen(port, (error) => {
+app.listen(process.env.PORT || port, (error) => {
   if (error) {
     console.error('error occurred: ', error);
   } else {
