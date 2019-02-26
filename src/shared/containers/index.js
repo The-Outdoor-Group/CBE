@@ -20,10 +20,12 @@ const registerSW = () => {
         });
     });
   }
-}
+};
 
 const App = () => {
   if (process.env.IS_BROWSER) registerSW();
+
+  // (process.env.IS_BROWSER) ? create another service worker to do push notifications
 
   return (<Fragment>
       <MainNav />

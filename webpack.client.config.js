@@ -25,7 +25,11 @@ const plugins = [
   new MiniCssExtractPlugin(),
   new WorkboxPlugin.GenerateSW({
     clientsClaim: true,
-    skipWaiting: true
+    skipWaiting: true,
+    runtimeCaching: [{
+      urlPattern: /\.(?:png|jpg|svg)S/,
+      handler: 'cacheFirst',
+    }]
   })
 ];
 
@@ -81,10 +85,10 @@ module.exports = {
       maxAsyncRequests: 5,
       maxInitialRequests: 3,
       automaticNameDelimiter: '~',
-      name: true,
+      name: false,
       cacheGroups: {
         vendors: {
-          test: /[\\/]node_modules[\\/]/,
+          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-thunk|react-router|gsap)[\\/]/,
           name: 'vendors',
           chunks: 'all',
           priority: -10
