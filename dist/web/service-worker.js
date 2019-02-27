@@ -11,7 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/assets/web/workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/assets/web/workbox-v3.6.3"});
 
 importScripts(
   "/assets/web/precache-manifest.f48b37fd62b58d8dbe5915968f211b46.js"
@@ -29,4 +30,4 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/\.(?:png|jpg|svg)S/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/\.(?:png|jpg|svg|html|js|css)S/, workbox.strategies.cacheFirst(), 'GET');

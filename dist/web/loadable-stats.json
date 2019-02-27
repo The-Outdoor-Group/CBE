@@ -6,52 +6,26 @@
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
-    "vendors": [
-      "0.js",
-      "0.js.map"
-    ],
+    "vendors": "0.js",
     "OtherComponent": [
       "OtherComponent.css",
-      "1.js",
-      "OtherComponent.css.map",
-      "1.js.map"
+      "1.js"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "2.js",
-      "components-Bar.css.map",
-      "2.js.map"
+      "2.js"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "3.js",
-      "components-Foo.css.map",
-      "3.js.map"
+      "3.js"
     ],
-    "containers-App-old": [
-      "4.js",
-      "4.js.map"
-    ],
-    "main": [
-      "main.85a19f7b7928ce725eeb.js",
-      "main.85a19f7b7928ce725eeb.js.map"
-    ]
+    "containers-App-old": "4.js",
+    "main": "main.85a19f7b7928ce725eeb.js"
   },
   "assets": [
     {
       "name": "0.js",
-      "size": 268013,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "vendors"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "0.js.map",
-      "size": 1019379,
+      "size": 1627228,
       "chunks": [
         0
       ],
@@ -62,18 +36,7 @@
     },
     {
       "name": "1.js",
-      "size": 1753,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "OtherComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "1.js.map",
-      "size": 788,
+      "size": 2840,
       "chunks": [
         1
       ],
@@ -84,18 +47,7 @@
     },
     {
       "name": "2.js",
-      "size": 291,
-      "chunks": [
-        2
-      ],
-      "chunkNames": [
-        "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.js.map",
-      "size": 538,
+      "size": 1046,
       "chunks": [
         2
       ],
@@ -106,18 +58,7 @@
     },
     {
       "name": "3.js",
-      "size": 291,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "3.js.map",
-      "size": 538,
+      "size": 1046,
       "chunks": [
         3
       ],
@@ -128,18 +69,7 @@
     },
     {
       "name": "4.js",
-      "size": 955,
-      "chunks": [
-        4
-      ],
-      "chunkNames": [
-        "containers-App-old"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "4.js.map",
-      "size": 2658,
+      "size": 4534,
       "chunks": [
         4
       ],
@@ -150,18 +80,7 @@
     },
     {
       "name": "OtherComponent.css",
-      "size": 69,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "OtherComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "OtherComponent.css.map",
-      "size": 195,
+      "size": 350,
       "chunks": [
         1
       ],
@@ -172,18 +91,7 @@
     },
     {
       "name": "components-Bar.css",
-      "size": 69,
-      "chunks": [
-        2
-      ],
-      "chunkNames": [
-        "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Bar.css.map",
-      "size": 195,
+      "size": 350,
       "chunks": [
         2
       ],
@@ -194,18 +102,7 @@
     },
     {
       "name": "components-Foo.css",
-      "size": 69,
-      "chunks": [
-        3
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "components-Foo.css.map",
-      "size": 195,
+      "size": 350,
       "chunks": [
         3
       ],
@@ -223,18 +120,7 @@
     },
     {
       "name": "main.85a19f7b7928ce725eeb.js",
-      "size": 122035,
-      "chunks": [
-        5
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "main.85a19f7b7928ce725eeb.js.map",
-      "size": 552506,
+      "size": 858726,
       "chunks": [
         5
       ],
@@ -253,9 +139,7 @@
       ],
       "assets": [
         "0.js",
-        "0.js.map",
-        "main.85a19f7b7928ce725eeb.js",
-        "main.85a19f7b7928ce725eeb.js.map"
+        "main.85a19f7b7928ce725eeb.js"
       ],
       "children": {},
       "childAssets": {}
@@ -269,9 +153,7 @@
       ],
       "assets": [
         "0.js",
-        "0.js.map",
-        "main.85a19f7b7928ce725eeb.js",
-        "main.85a19f7b7928ce725eeb.js.map"
+        "main.85a19f7b7928ce725eeb.js"
       ],
       "children": {},
       "childAssets": {}
@@ -281,8 +163,7 @@
         4
       ],
       "assets": [
-        "4.js",
-        "4.js.map"
+        "4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -293,9 +174,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "3.js",
-        "components-Foo.css.map",
-        "3.js.map"
+        "3.js"
       ],
       "children": {},
       "childAssets": {}
@@ -306,9 +185,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "2.js",
-        "components-Bar.css.map",
-        "2.js.map"
+        "2.js"
       ],
       "children": {},
       "childAssets": {}
@@ -320,11 +197,8 @@
       ],
       "assets": [
         "0.js",
-        "0.js.map",
         "OtherComponent.css",
-        "1.js",
-        "OtherComponent.css.map",
-        "1.js.map"
+        "1.js"
       ],
       "children": {},
       "childAssets": {}

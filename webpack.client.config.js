@@ -26,9 +26,10 @@ const plugins = [
   new WorkboxPlugin.GenerateSW({
     clientsClaim: true,
     skipWaiting: true,
+    importWorkboxFrom: 'local',
     include: [/\.html$/, /\.js$/, /\.css$/],
     runtimeCaching: [{
-      urlPattern: /\.(?:png|jpg|svg)S/,
+      urlPattern: /\.(?:png|jpg|svg|html|js|css)S/,
       handler: 'cacheFirst',
     }]
   }),
@@ -104,5 +105,5 @@ module.exports = {
     }
   },
   plugins,
-  devtool: 'source-map'
+  devtool: 'inline-source-map'
 }
