@@ -26,12 +26,14 @@ const plugins = [
   new WorkboxPlugin.GenerateSW({
     clientsClaim: true,
     skipWaiting: true,
+    include: [/\.html$/, /\.js$/],
     runtimeCaching: [{
       urlPattern: /\.(?:png|jpg|svg)S/,
       handler: 'cacheFirst',
     }]
-  })
+  }),
 ];
+
 
 module.exports = {
   context: srcPath,
@@ -88,7 +90,7 @@ module.exports = {
       name: false,
       cacheGroups: {
         vendors: {
-          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-thunk|react-router|gsap)[\\/]/,
+          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-thunk|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
           name: 'vendors',
           chunks: 'all',
           priority: -10

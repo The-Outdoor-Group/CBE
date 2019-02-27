@@ -44,6 +44,31 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'async',
+      minSize: 30000,
+      maxSize: 0,
+      minChunks: 1,
+      maxAsyncRequests: 5,
+      maxInitialRequests: 3,
+      automaticNameDelimiter: '~',
+      name: false,
+      cacheGroups: {
+        vendors: {
+          test:  /[\\/]node_modules[\\/](express|pm2|@loadable)[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+          priority: -10
+        },
+        default: {
+          minChunks: 2,
+          priority: -20,
+          reuseExistingChunk: true
+        }
+      }
+    }
+  },
   plugins,
   externals: nodeExternals()
 }

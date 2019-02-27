@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.5",
-  "hash": "555dfcc267b170f14997",
+  "hash": "85a19f7b7928ce725eeb",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
@@ -33,14 +33,14 @@
       "4.js.map"
     ],
     "main": [
-      "main.555dfcc267b170f14997.js",
-      "main.555dfcc267b170f14997.js.map"
+      "main.85a19f7b7928ce725eeb.js",
+      "main.85a19f7b7928ce725eeb.js.map"
     ]
   },
   "assets": [
     {
       "name": "0.js",
-      "size": 259183,
+      "size": 268013,
       "chunks": [
         0
       ],
@@ -51,7 +51,7 @@
     },
     {
       "name": "0.js.map",
-      "size": 985992,
+      "size": 1019379,
       "chunks": [
         0
       ],
@@ -222,8 +222,8 @@
       "emitted": false
     },
     {
-      "name": "main.555dfcc267b170f14997.js",
-      "size": 130637,
+      "name": "main.85a19f7b7928ce725eeb.js",
+      "size": 122035,
       "chunks": [
         5
       ],
@@ -233,8 +233,8 @@
       "emitted": false
     },
     {
-      "name": "main.555dfcc267b170f14997.js.map",
-      "size": 586241,
+      "name": "main.85a19f7b7928ce725eeb.js.map",
+      "size": 552506,
       "chunks": [
         5
       ],
@@ -254,8 +254,8 @@
       "assets": [
         "0.js",
         "0.js.map",
-        "main.555dfcc267b170f14997.js",
-        "main.555dfcc267b170f14997.js.map"
+        "main.85a19f7b7928ce725eeb.js",
+        "main.85a19f7b7928ce725eeb.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -270,8 +270,8 @@
       "assets": [
         "0.js",
         "0.js.map",
-        "main.555dfcc267b170f14997.js",
-        "main.555dfcc267b170f14997.js.map"
+        "main.85a19f7b7928ce725eeb.js",
+        "main.85a19f7b7928ce725eeb.js.map"
       ],
       "children": {},
       "childAssets": {}
