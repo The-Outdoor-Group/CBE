@@ -7,6 +7,18 @@ self.__precacheManifest = [
     "url": "/assets/web/index.html"
   },
   {
+    "revision": "42d9df71eff4c860e072",
+    "url": "/assets/web/components-Foo.css"
+  },
+  {
+    "revision": "3759b6f3c89f6cacc80e",
+    "url": "/assets/web/components-Bar.css"
+  },
+  {
+    "revision": "ba51820f69e599eb28ae",
+    "url": "/assets/web/OtherComponent.css"
+  },
+  {
     "revision": "00427a9c496841932774",
     "url": "/assets/web/4.js"
   },

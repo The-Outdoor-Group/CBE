@@ -26,7 +26,7 @@ const plugins = [
   new WorkboxPlugin.GenerateSW({
     clientsClaim: true,
     skipWaiting: true,
-    include: [/\.html$/, /\.js$/],
+    include: [/\.html$/, /\.js$/, /\.css$/],
     runtimeCaching: [{
       urlPattern: /\.(?:png|jpg|svg)S/,
       handler: 'cacheFirst',
