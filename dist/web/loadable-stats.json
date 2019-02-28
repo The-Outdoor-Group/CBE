@@ -1,55 +1,29 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.29.5",
-  "hash": "85a19f7b7928ce725eeb",
+  "version": "4.29.6",
+  "hash": "37a243eb8c0d270d7a68",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
-    "vendors": "0.js",
-    "OtherComponent": [
-      "OtherComponent.css",
-      "1.js"
-    ],
     "components-Bar": [
       "components-Bar.css",
-      "2.js"
+      "0.js"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "3.js"
+      "1.js"
     ],
-    "containers-App-old": "4.js",
-    "main": "main.85a19f7b7928ce725eeb.js"
+    "containers-App-old": "2.js",
+    "main": "main.37a243eb8c0d270d7a68.js",
+    "vendors": "4.js"
   },
   "assets": [
     {
       "name": "0.js",
-      "size": 1627228,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "vendors"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "1.js",
-      "size": 2840,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "OtherComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.js",
       "size": 1046,
       "chunks": [
-        2
+        0
       ],
       "chunkNames": [
         "components-Bar"
@@ -57,10 +31,10 @@
       "emitted": false
     },
     {
-      "name": "3.js",
+      "name": "1.js",
       "size": 1046,
       "chunks": [
-        3
+        1
       ],
       "chunkNames": [
         "components-Foo"
@@ -68,10 +42,10 @@
       "emitted": false
     },
     {
-      "name": "4.js",
-      "size": 4534,
+      "name": "2.js",
+      "size": 12230,
       "chunks": [
-        4
+        2
       ],
       "chunkNames": [
         "containers-App-old"
@@ -79,13 +53,13 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.css",
-      "size": 350,
+      "name": "4.js",
+      "size": 1311798,
       "chunks": [
-        1
+        4
       ],
       "chunkNames": [
-        "OtherComponent"
+        "vendors"
       ],
       "emitted": false
     },
@@ -93,7 +67,7 @@
       "name": "components-Bar.css",
       "size": 350,
       "chunks": [
-        2
+        0
       ],
       "chunkNames": [
         "components-Bar"
@@ -104,7 +78,7 @@
       "name": "components-Foo.css",
       "size": 350,
       "chunks": [
-        3
+        1
       ],
       "chunkNames": [
         "components-Foo"
@@ -119,10 +93,10 @@
       "emitted": false
     },
     {
-      "name": "main.85a19f7b7928ce725eeb.js",
-      "size": 858726,
+      "name": "main.37a243eb8c0d270d7a68.js",
+      "size": 502671,
       "chunks": [
-        5
+        3
       ],
       "chunkNames": [
         "main"
@@ -134,12 +108,12 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        0,
-        5
+        4,
+        3
       ],
       "assets": [
-        "0.js",
-        "main.85a19f7b7928ce725eeb.js"
+        "4.js",
+        "main.37a243eb8c0d270d7a68.js"
       ],
       "children": {},
       "childAssets": {}
@@ -148,57 +122,44 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        0,
-        5
+        4,
+        3
       ],
       "assets": [
-        "0.js",
-        "main.85a19f7b7928ce725eeb.js"
+        "4.js",
+        "main.37a243eb8c0d270d7a68.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-App-old": {
       "chunks": [
-        4
+        2
       ],
       "assets": [
-        "4.js"
+        "2.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        3
+        1
       ],
       "assets": [
         "components-Foo.css",
-        "3.js"
+        "1.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
-        2
+        0
       ],
       "assets": [
         "components-Bar.css",
-        "2.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "OtherComponent": {
-      "chunks": [
-        0,
-        1
-      ],
-      "assets": [
-        "0.js",
-        "OtherComponent.css",
-        "1.js"
+        "0.js"
       ],
       "children": {},
       "childAssets": {}

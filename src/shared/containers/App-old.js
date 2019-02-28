@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Counter from '../components/Counter';
-import * as CounterActions from '../actions';
+import { fetchUsers } from './../actions/users';
 
-// const AppOld = () => (<h1>I am the App Container</h1>);
-//
-// export default AppOld;
+class AppOld extends Component {
+  componentWillMount() {
+    this.props.fetchUsers();
+  }
 
-const mapStateToProps = (state) => ({
-  counter: state.counter
-});
+  render() {
+    console.log('this.props: ', this.props);
+    const { users } = this.props;
 
-const mapDispatchToProps = (dispatch) => {
-  return bindActionCreators(CounterActions, dispatch)
-};
+    const userNodes = () => users.map( user => <p key={user.id}>{user.owner.login}</p>)
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+    return (
+      <div>
+        { this.props.users.length > 0 ? userNodes() : <h1>No users</h1>}
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = ({ users }) => ({ users });
+export default connect(mapStateToProps, { fetchUsers })(AppOld);

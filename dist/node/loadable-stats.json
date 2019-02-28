@@ -1,35 +1,31 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.29.5",
-  "hash": "a6c101945ff696670df6",
+  "version": "4.29.6",
+  "hash": "03139f311640fcc1d4f8",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
   "assetsByChunkName": {
-    "OtherComponent": [
-      "OtherComponent.css",
-      "0.server.js"
-    ],
     "components-Bar": [
       "components-Bar.css",
-      "1.server.js"
+      "0.server.js"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "2.server.js"
+      "1.server.js"
     ],
-    "containers-App-old": "3.server.js",
+    "containers-App-old": "2.server.js",
     "main": "server.js"
   },
   "assets": [
     {
       "name": "0.server.js",
-      "size": 1672,
+      "size": 204,
       "chunks": [
         0
       ],
       "chunkNames": [
-        "OtherComponent"
+        "components-Bar"
       ],
       "emitted": false
     },
@@ -40,26 +36,15 @@
         1
       ],
       "chunkNames": [
-        "components-Bar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.server.js",
-      "size": 204,
-      "chunks": [
-        2
-      ],
-      "chunkNames": [
         "components-Foo"
       ],
       "emitted": false
     },
     {
-      "name": "3.server.js",
-      "size": 833,
+      "name": "2.server.js",
+      "size": 746,
       "chunks": [
-        3
+        2
       ],
       "chunkNames": [
         "containers-App-old"
@@ -67,21 +52,10 @@
       "emitted": false
     },
     {
-      "name": "OtherComponent.css",
-      "size": 23,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "OtherComponent"
-      ],
-      "emitted": false
-    },
-    {
       "name": "components-Bar.css",
       "size": 23,
       "chunks": [
-        1
+        0
       ],
       "chunkNames": [
         "components-Bar"
@@ -92,7 +66,7 @@
       "name": "components-Foo.css",
       "size": 23,
       "chunks": [
-        2
+        1
       ],
       "chunkNames": [
         "components-Foo"
@@ -101,9 +75,9 @@
     },
     {
       "name": "server.js",
-      "size": 6675,
+      "size": 8704,
       "chunks": [
-        4
+        3
       ],
       "chunkNames": [
         "main"
@@ -115,7 +89,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        4
+        3
       ],
       "assets": [
         "server.js"
@@ -127,7 +101,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        4
+        3
       ],
       "assets": [
         "server.js"
@@ -137,42 +111,31 @@
     },
     "containers-App-old": {
       "chunks": [
-        3
+        2
       ],
       "assets": [
-        "3.server.js"
+        "2.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        2
+        1
       ],
       "assets": [
         "components-Foo.css",
-        "2.server.js"
+        "1.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
-        1
-      ],
-      "assets": [
-        "components-Bar.css",
-        "1.server.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "OtherComponent": {
-      "chunks": [
         0
       ],
       "assets": [
-        "OtherComponent.css",
+        "components-Bar.css",
         "0.server.js"
       ],
       "children": {},

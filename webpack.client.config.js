@@ -91,7 +91,7 @@ module.exports = {
       name: false,
       cacheGroups: {
         vendors: {
-          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-thunk|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
+          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
           name: 'vendors',
           chunks: 'all',
           priority: -10

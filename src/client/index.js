@@ -1,15 +1,16 @@
-import 'babel-polyfill';
 import React from 'react';
 import { hydrate } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { loadableReady } from '@loadable/component';
 import configureStore from '../shared/store/configureStore';
+import rootSaga from '../shared/sagas/rootSaga';
 import App from '../shared/containers';
 
 const preloadedState = window.__PRELOADED_STATE__;
 const store = configureStore(preloadedState);
-const rootElement = document.getElementById('app');
+
+store.runSaga(rootSaga)
 
 loadableReady( () => {
   hydrate(
@@ -18,6 +19,6 @@ loadableReady( () => {
         <App/>
       </BrowserRouter>
     </Provider>,
-    rootElement
+    document.getElementById('app')
   );
 });
