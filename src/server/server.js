@@ -18,10 +18,6 @@ app.use( '/assets/web', Express.static('dist/web') );
 
 const store = configureStore({});
 
-const nodeStats = path.resolve(__dirname, '../node/loadable-stats.json');
-const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
-const webExtractor = new ChunkExtractor({ statsFile: webStats });
-
 const layout = (html, preloadedState, webExtractor) => (`
   <!DOCTYPE html>
     <html>
@@ -36,54 +32,43 @@ const layout = (html, preloadedState, webExtractor) => (`
     </html>
   `);
 
+const getWebExtractor = () => {
+  const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
+  return new ChunkExtractor({ statsFile: webStats });
+};
 
-app.get( '*', (req, res) => {
+const sendContent = (req) => (
+  layout(
+    createJsx( req ),
+    JSON.stringify( store.getState() ),
+    getWebExtractor()
+  )
+);
+
+const createJsx = (req) => {
+  let webExtractor = getWebExtractor();
 
   let context = {};
 
   let jsx = webExtractor.collectChunks(
-      <Provider store={ store }>
-        <StaticRouter location={req.url} context={context}>
-          <App />
-        </StaticRouter>
-      </Provider>
+    <Provider store={ store }>
+      <StaticRouter location={req.url} context={context}>
+        <App />
+      </StaticRouter>
+    </Provider>
   );
 
-  let html = renderToString( jsx );
+  return renderToString( jsx );
+};
+
+
+app.get( '*', (req, res) => {
 
   store.runSaga(rootSaga).toPromise()
-    .then( () => {
-      console.log('saga server complete');
+    .then( () => res.status(200).send( sendContent(req) ) )
+    .catch( e => res.status(500).send(e.message) );
 
-      res.status(200).send(
-        layout(
-          html,
-          JSON.stringify( store.getState() ),
-          webExtractor
-        )
-      )
-    }).catch( e => {
-      console.log('Error occurred: ', e.message);
-      res.status(500).send(e.message);
-    });
-
-    context = {};
-
-     jsx = webExtractor.collectChunks(
-        <Provider store={ store }>
-          <StaticRouter location={req.url} context={context}>
-            <App />
-          </StaticRouter>
-        </Provider>
-    );
-
-    html = renderToString( jsx );
-
-    layout(
-      html,
-      JSON.stringify( store.getState() ),
-      webExtractor
-    )
+    sendContent(req);
 
     store.close();
 

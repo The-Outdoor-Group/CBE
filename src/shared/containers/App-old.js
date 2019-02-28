@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchUsers } from './../actions/users';
 
 class AppOld extends Component {
+
   componentWillMount() {
     this.props.fetchUsers();
   }
