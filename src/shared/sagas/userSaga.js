@@ -14,17 +14,13 @@ export const fetchUsersFromApi = () => fetch(url).then( response => !response.ok
 
 function* fetchGists() {
   try {
-    console.log('fetchGists saga');
     const gists = yield call(fetchUsersFromApi);
-    console.log('responseFromApi gists: ', gists);
 
     yield put({
       type: FETCH_USERS_SUCCEEDED,
       payload: gists
     });
-  }
-
-  catch (error) {
+  } catch (error) {
     yield put({
       type: FETCH_USERS_FAILED,
       payload: error

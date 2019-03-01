@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "37a243eb8c0d270d7a68",
+  "hash": "e555c8255b9e2b35a05e",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
@@ -15,13 +15,13 @@
       "1.js"
     ],
     "containers-App-old": "2.js",
-    "main": "main.37a243eb8c0d270d7a68.js",
+    "main": "main.e555c8255b9e2b35a05e.js",
     "vendors": "4.js"
   },
   "assets": [
     {
       "name": "0.js",
-      "size": 1046,
+      "size": 1530,
       "chunks": [
         0
       ],
@@ -32,7 +32,7 @@
     },
     {
       "name": "1.js",
-      "size": 1046,
+      "size": 1530,
       "chunks": [
         1
       ],
@@ -43,7 +43,7 @@
     },
     {
       "name": "2.js",
-      "size": 12230,
+      "size": 2950,
       "chunks": [
         2
       ],
@@ -54,7 +54,7 @@
     },
     {
       "name": "4.js",
-      "size": 1311798,
+      "size": 1311816,
       "chunks": [
         4
       ],
@@ -93,8 +93,8 @@
       "emitted": false
     },
     {
-      "name": "main.37a243eb8c0d270d7a68.js",
-      "size": 502671,
+      "name": "main.e555c8255b9e2b35a05e.js",
+      "size": 631766,
       "chunks": [
         3
       ],
@@ -113,7 +113,7 @@
       ],
       "assets": [
         "4.js",
-        "main.37a243eb8c0d270d7a68.js"
+        "main.e555c8255b9e2b35a05e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -127,7 +127,7 @@
       ],
       "assets": [
         "4.js",
-        "main.37a243eb8c0d270d7a68.js"
+        "main.e555c8255b9e2b35a05e.js"
       ],
       "children": {},
       "childAssets": {}

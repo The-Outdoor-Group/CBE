@@ -5,6 +5,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { ChunkExtractor } from '@loadable/server';
 import configureStore from '../shared/store/configureStore';
 import rootSaga from '../shared/sagas/rootSaga';
@@ -18,35 +19,48 @@ app.use( '/assets/web', Express.static('dist/web') );
 
 const store = configureStore({});
 
-const layout = (html, preloadedState, webExtractor) => (`
-  <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Universal Example</title>
-      </head>
-      <body>
-        <div id="app">${html}</div>
-      </body>
-      <script>window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\x3c')}</script>
-      ${webExtractor.getScriptTags()}
-    </html>
-  `);
+// const getTitle = (url) => {
+//   console.log('getTitle init: ', url);
+//   return url;
+// }
+
+const layout = (html, preloadedState, webExtractor) => {
+  const helmet = Helmet.renderStatic();
+
+  return (
+  `
+    <!DOCTYPE html>
+      <html>
+        <head>
+          ${helmet.title.toString()}
+        </head>
+        <body>
+          <div id="app">${html}</div>
+        </body>
+        <script>window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\x3c')}</script>
+        ${webExtractor.getScriptTags()}
+      </html>
+  `
+  );
+};
 
 const getWebExtractor = () => {
   const webStats = path.resolve(__dirname, '../web/loadable-stats.json');
   return new ChunkExtractor({ statsFile: webStats });
 };
 
-const sendContent = (req) => (
-  layout(
+const sendContent = (req) => {
+  return layout(
     createJsx( req ),
     JSON.stringify( store.getState() ),
     getWebExtractor()
   )
-);
+};
 
 const createJsx = (req) => {
   let webExtractor = getWebExtractor();
+
+  console.log('store: ', store);
 
   let context = {};
 
@@ -57,6 +71,11 @@ const createJsx = (req) => {
       </StaticRouter>
     </Provider>
   );
+
+  if (context.url) {
+    res.redirect(context.url);
+    return;
+  }
 
   return renderToString( jsx );
 };

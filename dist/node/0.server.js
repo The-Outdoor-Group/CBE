@@ -1,1 +1,1 @@
-exports.ids=[0],exports.modules={18:function(t,e,n){"use strict";n.r(e);var r=n(0),o=n.n(r);n(30);e.default=function(){return o.a.createElement("h1",null,"I am the Bar component")}},30:function(t,e,n){}};
+exports.ids=[0],exports.modules={24:function(e,t,n){"use strict";n.r(t);var l=n(0),a=n.n(l),r=n(7);n(31);t.default=function(){return a.a.createElement("div",null,a.a.createElement(r.Helmet,null,a.a.createElement("title",null,"Bar Component")),a.a.createElement("h1",null,"I am the Bar component"))}},31:function(e,t,n){}};

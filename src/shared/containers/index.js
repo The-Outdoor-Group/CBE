@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import MainNav from './../components/MainNav';
@@ -22,21 +23,30 @@ const registerSW = () => {
   }
 };
 
-const App = () => {
-  if (process.env.IS_BROWSER) registerSW();
+class App extends Component {
 
-  // (process.env.IS_BROWSER) ? create another service worker to do push notifications
+  componentDidMount() {
+    if (process.env.IS_BROWSER) registerSW();
+  }
 
-  return (<Fragment>
-      <MainNav />
-      <main id="main-content">
-        <Switch>
-          <Route exact path='/' component={() => <Routes.HomePage />} />
-          <Route path='/foo' component={() => <Routes.FooPage /> } />
-          <Route path='/bar' component={() => <Routes.BarPage />} />
-        </Switch>
-      </main>
-    </Fragment>);
+  render() {
+
+    return (
+      <Fragment>
+        <Helmet>
+          <title>My Helmet Title from App</title>
+        </Helmet>
+        <MainNav />
+        <main id="main-content">
+          <Switch>
+            <Route exact path='/' component={() => <Routes.HomePage />} />
+            <Route path='/foo' component={() => <Routes.FooPage /> } />
+            <Route path='/bar' component={() => <Routes.BarPage />} />
+          </Switch>
+        </main>
+      </Fragment>
+    );
+  }
 };
 
 export default App
