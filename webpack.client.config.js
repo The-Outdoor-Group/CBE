@@ -4,6 +4,7 @@ const LoadablePlugin = require('@loadable/webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
@@ -11,7 +12,7 @@ const distPath = path.resolve(__dirname, 'dist');
 const plugins = [
   new HtmlWebpackPlugin({
     template: path.resolve(__dirname, 'src/client/index.html'),
-          hash: true
+    hash: true
   }),
   new LoadablePlugin(),
   new webpack.DefinePlugin({
@@ -39,8 +40,8 @@ const plugins = [
 module.exports = {
   context: srcPath,
   target: 'web',
-  // mode: process.env.NODE_ENV, // || 'development',
   entry: `${srcPath}/client/index.js`,
+
   output: {
     path: `${distPath}/web/`,
     filename: '[name].[hash].js',
@@ -81,7 +82,7 @@ module.exports = {
   },
   optimization: {
     splitChunks: {
-      chunks: 'async',
+      chunks: 'all',
       minSize: 30000,
       maxSize: 0,
       minChunks: 1,
@@ -91,10 +92,11 @@ module.exports = {
       name: false,
       cacheGroups: {
         vendors: {
-          test:  /[\\/]node_modules[\\/](react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
+          test:  /[\\/](helmet|react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
           name: 'vendors',
           chunks: 'all',
-          priority: -10
+          priority: -10,
+          enforce: true
         },
         default: {
           minChunks: 2,
@@ -102,8 +104,9 @@ module.exports = {
           reuseExistingChunk: true
         }
       }
-    }
+    },
+    minimizer: [new UglifyJsPlugin()]
   },
   plugins,
-  devtool: 'inline-source-map'
+  devtool: 'source-map'
 }

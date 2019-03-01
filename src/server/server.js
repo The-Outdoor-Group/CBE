@@ -19,11 +19,6 @@ app.use( '/assets/web', Express.static('dist/web') );
 
 const store = configureStore({});
 
-// const getTitle = (url) => {
-//   console.log('getTitle init: ', url);
-//   return url;
-// }
-
 const layout = (html, preloadedState, webExtractor) => {
   const helmet = Helmet.renderStatic();
 
@@ -54,13 +49,11 @@ const sendContent = (req) => {
     createJsx( req ),
     JSON.stringify( store.getState() ),
     getWebExtractor()
-  )
+  );
 };
 
 const createJsx = (req) => {
   let webExtractor = getWebExtractor();
-
-  console.log('store: ', store);
 
   let context = {};
 
