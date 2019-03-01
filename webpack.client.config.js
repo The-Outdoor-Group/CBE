@@ -108,5 +108,5 @@ module.exports = {
     minimizer: [new UglifyJsPlugin()]
   },
   plugins,
-  devtool: 'source-map'
+  devtool: 'hidden-source-map'
 }

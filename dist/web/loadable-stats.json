@@ -67,7 +67,7 @@
     },
     {
       "name": "components-Bar.css",
-      "size": 69,
+      "size": 23,
       "chunks": [
         0
       ],
@@ -89,7 +89,7 @@
     },
     {
       "name": "components-Foo.css",
-      "size": 69,
+      "size": 23,
       "chunks": [
         1
       ],
