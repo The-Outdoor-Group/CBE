@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "cfa69bed7b4c5ec198c6",
+  "hash": "a7291b71ed50a6ed1c0a",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.cfa69bed7b4c5ec198c6.js",
+      "0.a7291b71ed50a6ed1c0a.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.cfa69bed7b4c5ec198c6.js",
+      "1.a7291b71ed50a6ed1c0a.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.cfa69bed7b4c5ec198c6.js",
-    "main": "main.cfa69bed7b4c5ec198c6.js",
-    "vendors": "4.cfa69bed7b4c5ec198c6.js"
+    "containers-App-old": "2.a7291b71ed50a6ed1c0a.js",
+    "main": "main.a7291b71ed50a6ed1c0a.js",
+    "vendors": "4.a7291b71ed50a6ed1c0a.js"
   },
   "assets": [
     {
-      "name": "0.cfa69bed7b4c5ec198c6.js",
+      "name": "0.a7291b71ed50a6ed1c0a.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +33,7 @@
       "emitted": false
     },
     {
-      "name": "1.cfa69bed7b4c5ec198c6.js",
+      "name": "1.a7291b71ed50a6ed1c0a.js",
       "size": 381,
       "chunks": [
         1
@@ -44,7 +44,7 @@
       "emitted": false
     },
     {
-      "name": "2.cfa69bed7b4c5ec198c6.js",
+      "name": "2.a7291b71ed50a6ed1c0a.js",
       "size": 845,
       "chunks": [
         2
@@ -55,7 +55,7 @@
       "emitted": false
     },
     {
-      "name": "4.cfa69bed7b4c5ec198c6.js",
+      "name": "4.a7291b71ed50a6ed1c0a.js",
       "size": 205120,
       "chunks": [
         4
@@ -117,7 +117,7 @@
       "emitted": false
     },
     {
-      "name": "main.cfa69bed7b4c5ec198c6.js",
+      "name": "main.a7291b71ed50a6ed1c0a.js",
       "size": 90930,
       "chunks": [
         3
@@ -136,8 +136,8 @@
         3
       ],
       "assets": [
-        "4.cfa69bed7b4c5ec198c6.js",
-        "main.cfa69bed7b4c5ec198c6.js"
+        "4.a7291b71ed50a6ed1c0a.js",
+        "main.a7291b71ed50a6ed1c0a.js"
       ],
       "children": {},
       "childAssets": {}
@@ -150,8 +150,8 @@
         3
       ],
       "assets": [
-        "4.cfa69bed7b4c5ec198c6.js",
-        "main.cfa69bed7b4c5ec198c6.js"
+        "4.a7291b71ed50a6ed1c0a.js",
+        "main.a7291b71ed50a6ed1c0a.js"
       ],
       "children": {},
       "childAssets": {}
@@ -161,7 +161,7 @@
         2
       ],
       "assets": [
-        "2.cfa69bed7b4c5ec198c6.js"
+        "2.a7291b71ed50a6ed1c0a.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +172,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.cfa69bed7b4c5ec198c6.js",
+        "1.a7291b71ed50a6ed1c0a.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -184,7 +184,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.cfa69bed7b4c5ec198c6.js",
+        "0.a7291b71ed50a6ed1c0a.js",
         "components-Bar.css.map"
       ],
       "children": {},

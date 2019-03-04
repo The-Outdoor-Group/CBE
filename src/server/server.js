@@ -7,9 +7,11 @@ import { StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { ChunkExtractor } from '@loadable/server';
+import serialize from 'serialize-javascript';
 import configureStore from '../shared/store/configureStore';
 import rootSaga from '../shared/sagas/rootSaga';
 import App from '../shared/containers';
+
 
 const app = new Express();
 const port = 3000;
@@ -32,7 +34,7 @@ const layout = (html, preloadedState, webExtractor) => {
         <body>
           <div id="app">${html}</div>
         </body>
-        <script>window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\x3c')}</script>
+        <script>window.__PRELOADED_STATE__ = ${serialize(preloadedState).replace(/</g, '\\x3c')}</script>
         ${webExtractor.getScriptTags()}
       </html>
   `

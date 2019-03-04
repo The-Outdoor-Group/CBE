@@ -10,7 +10,7 @@ class AppOld extends Component {
   }
 
   render() {
-    // console.log('this.props: ', this.props);
+
 
     const { users } = this.props;
 
