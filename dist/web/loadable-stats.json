@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "ccdfc620acdd2101ab83",
+  "hash": "cfa69bed7b4c5ec198c6",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.js",
+      "0.cfa69bed7b4c5ec198c6.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.js",
+      "1.cfa69bed7b4c5ec198c6.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.js",
-    "main": "main.ccdfc620acdd2101ab83.js",
-    "vendors": "4.js"
+    "containers-App-old": "2.cfa69bed7b4c5ec198c6.js",
+    "main": "main.cfa69bed7b4c5ec198c6.js",
+    "vendors": "4.cfa69bed7b4c5ec198c6.js"
   },
   "assets": [
     {
-      "name": "0.js",
+      "name": "0.cfa69bed7b4c5ec198c6.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +33,7 @@
       "emitted": false
     },
     {
-      "name": "1.js",
+      "name": "1.cfa69bed7b4c5ec198c6.js",
       "size": 381,
       "chunks": [
         1
@@ -44,7 +44,7 @@
       "emitted": false
     },
     {
-      "name": "2.js",
+      "name": "2.cfa69bed7b4c5ec198c6.js",
       "size": 845,
       "chunks": [
         2
@@ -55,7 +55,7 @@
       "emitted": false
     },
     {
-      "name": "4.js",
+      "name": "4.cfa69bed7b4c5ec198c6.js",
       "size": 205120,
       "chunks": [
         4
@@ -111,14 +111,14 @@
     },
     {
       "name": "index.html",
-      "size": 333,
+      "size": 354,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.ccdfc620acdd2101ab83.js",
-      "size": 90909,
+      "name": "main.cfa69bed7b4c5ec198c6.js",
+      "size": 90930,
       "chunks": [
         3
       ],
@@ -136,8 +136,8 @@
         3
       ],
       "assets": [
-        "4.js",
-        "main.ccdfc620acdd2101ab83.js"
+        "4.cfa69bed7b4c5ec198c6.js",
+        "main.cfa69bed7b4c5ec198c6.js"
       ],
       "children": {},
       "childAssets": {}
@@ -150,8 +150,8 @@
         3
       ],
       "assets": [
-        "4.js",
-        "main.ccdfc620acdd2101ab83.js"
+        "4.cfa69bed7b4c5ec198c6.js",
+        "main.cfa69bed7b4c5ec198c6.js"
       ],
       "children": {},
       "childAssets": {}
@@ -161,7 +161,7 @@
         2
       ],
       "assets": [
-        "2.js"
+        "2.cfa69bed7b4c5ec198c6.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +172,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.js",
+        "1.cfa69bed7b4c5ec198c6.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -184,7 +184,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.js",
+        "0.cfa69bed7b4c5ec198c6.js",
         "components-Bar.css.map"
       ],
       "children": {},

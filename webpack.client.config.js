@@ -24,15 +24,9 @@ const plugins = [
     'process.env.NODE_ENV': '"production"'
   }),
   new MiniCssExtractPlugin(),
-  new WorkboxPlugin.GenerateSW({
-    clientsClaim: true,
-    skipWaiting: true,
-    importWorkboxFrom: 'local',
-    include: [/\.html$/, /\.js$/, /\.css$/],
-    runtimeCaching: [{
-      urlPattern: /\.(?:png|jpg|svg|html|js|css)S/,
-      handler: 'cacheFirst',
-    }]
+  new WorkboxPlugin.InjectManifest({
+    swSrc: path.resolve(__dirname, 'src/shared/service-workers/sw.js'),
+    swDest: `${distPath}/web/service-worker.js`,
   }),
 ];
 
@@ -45,7 +39,7 @@ module.exports = {
   output: {
     path: `${distPath}/web/`,
     filename: '[name].[hash].js',
-    chunkFilename: '[id].js',
+    chunkFilename: '[id].[hash].js',
     publicPath: '/assets/web/'
   },
   resolve: {

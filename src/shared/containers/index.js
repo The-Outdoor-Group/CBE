@@ -8,6 +8,7 @@ import * as Routes from './../routes/routes';
 
 const Fragment = React.Fragment;
 
+
 const registerSW = () => {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
