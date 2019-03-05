@@ -1,4 +1,4 @@
-import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
+import { call, fork, put, takeEvery, takeLatest } from 'redux-saga/effects';
 import fetch from 'isomorphic-fetch';
 
 import {
@@ -10,7 +10,8 @@ import {
 
 const url = 'https://api.github.com/gists';
 
-export const fetchUsersFromApi = () => fetch(url).then( response => !response.ok ? ( () => { throw "error" } ) : response.json() );
+const fetchUsersFromApi = () => fetch(url).then( response => !response.ok ? ( () => { throw "error" } ) : response.json() );
+
 
 function* fetchGists() {
   try {
@@ -30,5 +31,5 @@ function* fetchGists() {
 };
 
 export function* fetchUsersSaga() {
-  yield takeLatest(FETCH_USERS_REQUESTED, fetchGists);
+  yield takeEvery(FETCH_USERS_REQUESTED, fetchGists);
 };

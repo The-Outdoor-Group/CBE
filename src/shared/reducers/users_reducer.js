@@ -2,7 +2,13 @@ import { merge } from 'lodash/object';
 import { union } from 'lodash/array';
 import { FETCH_USERS_SUCCEEDED } from './../actions/users';
 
-const initialState = [];
+const initialState = [
+  {
+    owner: {
+      login: "jcardella"
+    }
+  }
+];
 
 const usersReducer = ( state = initialState, { type, payload } ) => {
   switch (type) {

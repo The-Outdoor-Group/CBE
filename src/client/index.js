@@ -7,16 +7,20 @@ import configureStore from '../shared/store/configureStore';
 import rootSaga from '../shared/sagas/rootSaga';
 import App from '../shared/containers';
 
+
 const preloadedState = window.__PRELOADED_STATE__;
+
+delete window.__PRELOADED_STATE__;
+
 const store = configureStore(preloadedState);
 
-store.runSaga(rootSaga)
+store.runSaga(rootSaga);
 
 loadableReady( () => {
   hydrate(
     <Provider store={ store }>
       <BrowserRouter>
-        <App/>
+        <App />
       </BrowserRouter>
     </Provider>,
     document.getElementById('app')

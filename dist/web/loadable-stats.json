@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "a7291b71ed50a6ed1c0a",
+  "hash": "1dd43b37cda380dc2baf",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.a7291b71ed50a6ed1c0a.js",
+      "0.1dd43b37cda380dc2baf.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.a7291b71ed50a6ed1c0a.js",
+      "1.1dd43b37cda380dc2baf.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.a7291b71ed50a6ed1c0a.js",
-    "main": "main.a7291b71ed50a6ed1c0a.js",
-    "vendors": "4.a7291b71ed50a6ed1c0a.js"
+    "containers-App-old": "2.1dd43b37cda380dc2baf.js",
+    "main": "main.1dd43b37cda380dc2baf.js",
+    "vendors": "4.1dd43b37cda380dc2baf.js"
   },
   "assets": [
     {
-      "name": "0.a7291b71ed50a6ed1c0a.js",
+      "name": "0.1dd43b37cda380dc2baf.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +33,7 @@
       "emitted": false
     },
     {
-      "name": "1.a7291b71ed50a6ed1c0a.js",
+      "name": "1.1dd43b37cda380dc2baf.js",
       "size": 381,
       "chunks": [
         1
@@ -44,7 +44,7 @@
       "emitted": false
     },
     {
-      "name": "2.a7291b71ed50a6ed1c0a.js",
+      "name": "2.1dd43b37cda380dc2baf.js",
       "size": 845,
       "chunks": [
         2
@@ -55,7 +55,7 @@
       "emitted": false
     },
     {
-      "name": "4.a7291b71ed50a6ed1c0a.js",
+      "name": "4.1dd43b37cda380dc2baf.js",
       "size": 205120,
       "chunks": [
         4
@@ -111,14 +111,14 @@
     },
     {
       "name": "index.html",
-      "size": 354,
+      "size": 453,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.a7291b71ed50a6ed1c0a.js",
-      "size": 90930,
+      "name": "main.1dd43b37cda380dc2baf.js",
+      "size": 90802,
       "chunks": [
         3
       ],
@@ -136,8 +136,8 @@
         3
       ],
       "assets": [
-        "4.a7291b71ed50a6ed1c0a.js",
-        "main.a7291b71ed50a6ed1c0a.js"
+        "4.1dd43b37cda380dc2baf.js",
+        "main.1dd43b37cda380dc2baf.js"
       ],
       "children": {},
       "childAssets": {}
@@ -150,8 +150,8 @@
         3
       ],
       "assets": [
-        "4.a7291b71ed50a6ed1c0a.js",
-        "main.a7291b71ed50a6ed1c0a.js"
+        "4.1dd43b37cda380dc2baf.js",
+        "main.1dd43b37cda380dc2baf.js"
       ],
       "children": {},
       "childAssets": {}
@@ -161,7 +161,7 @@
         2
       ],
       "assets": [
-        "2.a7291b71ed50a6ed1c0a.js"
+        "2.1dd43b37cda380dc2baf.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +172,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.a7291b71ed50a6ed1c0a.js",
+        "1.1dd43b37cda380dc2baf.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -184,7 +184,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.a7291b71ed50a6ed1c0a.js",
+        "0.1dd43b37cda380dc2baf.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -201,7 +201,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 545130,
+          "size": 545230,
           "chunks": [
             0
           ],

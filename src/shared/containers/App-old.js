@@ -11,7 +11,6 @@ class AppOld extends Component {
 
   render() {
 
-
     const { users } = this.props;
 
     const userNodes = () => users.map( user => <p key={user.id}>{user.owner.login}</p>)
@@ -21,7 +20,7 @@ class AppOld extends Component {
         <Helmet>
           <title>Users</title>
         </Helmet>
-        { this.props.users.length > 0 ? userNodes() : <h1>No users</h1>}
+        { this.props.users.length > 0 ? userNodes() : <h1>No Users</h1>}
       </div>
     )
   }
