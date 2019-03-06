@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "5cbdbe999471eab250ca",
+  "hash": "8fad5a5aac0db74e98b7",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.5cbdbe999471eab250ca.js",
+      "0.8fad5a5aac0db74e98b7.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.5cbdbe999471eab250ca.js",
+      "1.8fad5a5aac0db74e98b7.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.5cbdbe999471eab250ca.js",
-    "main": "main.5cbdbe999471eab250ca.js",
-    "vendors": "4.5cbdbe999471eab250ca.js"
+    "containers-App-old": "2.8fad5a5aac0db74e98b7.js",
+    "main": "main.8fad5a5aac0db74e98b7.js",
+    "vendors": "4.8fad5a5aac0db74e98b7.js"
   },
   "assets": [
     {
-      "name": "0.5cbdbe999471eab250ca.js",
+      "name": "0.8fad5a5aac0db74e98b7.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +33,7 @@
       "emitted": false
     },
     {
-      "name": "1.5cbdbe999471eab250ca.js",
+      "name": "1.8fad5a5aac0db74e98b7.js",
       "size": 381,
       "chunks": [
         1
@@ -44,7 +44,7 @@
       "emitted": false
     },
     {
-      "name": "2.5cbdbe999471eab250ca.js",
+      "name": "2.8fad5a5aac0db74e98b7.js",
       "size": 845,
       "chunks": [
         2
@@ -55,14 +55,49 @@
       "emitted": false
     },
     {
-      "name": "4.5cbdbe999471eab250ca.js",
-      "size": 205120,
+      "name": "29ff4983730cde61545de2e5260f5d2e.png",
+      "size": 876,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "2a9397b3be4862c3d7d1ffb0547b5856.png",
+      "size": 10363,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "4.8fad5a5aac0db74e98b7.js",
+      "size": 205125,
       "chunks": [
         4
       ],
       "chunkNames": [
         "vendors"
       ],
+      "emitted": false
+    },
+    {
+      "name": "4d2c24cff09792200910d7228266ad3c.png",
+      "size": 1560,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "71f0872ccf4b3446812f20d8c9640891.svg",
+      "size": 2512,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "ac133a441768e68a50c0560cf6c15b5e.ico",
+      "size": 15086,
+      "chunks": [],
+      "chunkNames": [],
       "emitted": false
     },
     {
@@ -111,14 +146,14 @@
     },
     {
       "name": "index.html",
-      "size": 454,
+      "size": 349,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.5cbdbe999471eab250ca.js",
-      "size": 90802,
+      "name": "main.8fad5a5aac0db74e98b7.js",
+      "size": 93270,
       "chunks": [
         3
       ],
@@ -136,8 +171,8 @@
         3
       ],
       "assets": [
-        "4.5cbdbe999471eab250ca.js",
-        "main.5cbdbe999471eab250ca.js"
+        "4.8fad5a5aac0db74e98b7.js",
+        "main.8fad5a5aac0db74e98b7.js"
       ],
       "children": {},
       "childAssets": {}
@@ -150,8 +185,8 @@
         3
       ],
       "assets": [
-        "4.5cbdbe999471eab250ca.js",
-        "main.5cbdbe999471eab250ca.js"
+        "4.8fad5a5aac0db74e98b7.js",
+        "main.8fad5a5aac0db74e98b7.js"
       ],
       "children": {},
       "childAssets": {}
@@ -161,7 +196,7 @@
         2
       ],
       "assets": [
-        "2.5cbdbe999471eab250ca.js"
+        "2.8fad5a5aac0db74e98b7.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +207,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.5cbdbe999471eab250ca.js",
+        "1.8fad5a5aac0db74e98b7.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -184,7 +219,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.5cbdbe999471eab250ca.js",
+        "0.8fad5a5aac0db74e98b7.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -201,7 +236,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 545231,
+          "size": 545125,
           "chunks": [
             0
           ],

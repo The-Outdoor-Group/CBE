@@ -71,7 +71,13 @@ module.exports = {
           },
           'css-loader'
         ]
-      }
+      },
+      {
+        test: /\.(png|svg|jpg|gif|ico)$/,
+        use: [
+          'file-loader'
+        ]
+      },
     ]
   },
   optimization: {

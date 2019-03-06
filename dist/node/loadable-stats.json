@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "57977c1fd25e98b51fe6",
+  "hash": "ec059575f0bc920ba252",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -52,6 +52,41 @@
       "emitted": false
     },
     {
+      "name": "29ff4983730cde61545de2e5260f5d2e.png",
+      "size": 876,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "2a9397b3be4862c3d7d1ffb0547b5856.png",
+      "size": 10363,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "4d2c24cff09792200910d7228266ad3c.png",
+      "size": 1560,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "71f0872ccf4b3446812f20d8c9640891.svg",
+      "size": 2512,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "ac133a441768e68a50c0560cf6c15b5e.ico",
+      "size": 15086,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
       "name": "components-Bar.css",
       "size": 23,
       "chunks": [
@@ -75,7 +110,7 @@
     },
     {
       "name": "server.js",
-      "size": 8865,
+      "size": 11416,
       "chunks": [
         3
       ],

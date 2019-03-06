@@ -30,6 +30,8 @@ const layout = (html, preloadedState, webExtractor) => {
       <html>
         <head>
           ${helmet.title.toString()}
+          ${helmet.link.toString()}
+          ${helmet.meta.toString()}
         </head>
         <body>
           <div id="app">${html}</div>
