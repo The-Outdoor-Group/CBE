@@ -2,27 +2,31 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "8fad5a5aac0db74e98b7",
+  "hash": "ffc82168ce275490453f",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.8fad5a5aac0db74e98b7.js",
+      "0.ffc82168ce275490453f.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.8fad5a5aac0db74e98b7.js",
+      "1.ffc82168ce275490453f.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.8fad5a5aac0db74e98b7.js",
-    "main": "main.8fad5a5aac0db74e98b7.js",
-    "vendors": "4.8fad5a5aac0db74e98b7.js"
+    "containers-App-old": "2.ffc82168ce275490453f.js",
+    "main": [
+      "main.css",
+      "main.ffc82168ce275490453f.js",
+      "main.css.map"
+    ],
+    "vendors": "4.ffc82168ce275490453f.js"
   },
   "assets": [
     {
-      "name": "0.8fad5a5aac0db74e98b7.js",
+      "name": "0.ffc82168ce275490453f.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +37,7 @@
       "emitted": false
     },
     {
-      "name": "1.8fad5a5aac0db74e98b7.js",
+      "name": "1.ffc82168ce275490453f.js",
       "size": 381,
       "chunks": [
         1
@@ -44,8 +48,8 @@
       "emitted": false
     },
     {
-      "name": "2.8fad5a5aac0db74e98b7.js",
-      "size": 845,
+      "name": "2.ffc82168ce275490453f.js",
+      "size": 840,
       "chunks": [
         2
       ],
@@ -69,8 +73,8 @@
       "emitted": false
     },
     {
-      "name": "4.8fad5a5aac0db74e98b7.js",
-      "size": 205125,
+      "name": "4.ffc82168ce275490453f.js",
+      "size": 205142,
       "chunks": [
         4
       ],
@@ -146,14 +150,36 @@
     },
     {
       "name": "index.html",
-      "size": 349,
+      "size": 421,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.8fad5a5aac0db74e98b7.js",
-      "size": 93270,
+      "name": "main.css",
+      "size": 737,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.css.map",
+      "size": 1183,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.ffc82168ce275490453f.js",
+      "size": 96318,
       "chunks": [
         3
       ],
@@ -171,8 +197,10 @@
         3
       ],
       "assets": [
-        "4.8fad5a5aac0db74e98b7.js",
-        "main.8fad5a5aac0db74e98b7.js"
+        "4.ffc82168ce275490453f.js",
+        "main.css",
+        "main.ffc82168ce275490453f.js",
+        "main.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -185,8 +213,10 @@
         3
       ],
       "assets": [
-        "4.8fad5a5aac0db74e98b7.js",
-        "main.8fad5a5aac0db74e98b7.js"
+        "4.ffc82168ce275490453f.js",
+        "main.css",
+        "main.ffc82168ce275490453f.js",
+        "main.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -196,7 +226,7 @@
         2
       ],
       "assets": [
-        "2.8fad5a5aac0db74e98b7.js"
+        "2.ffc82168ce275490453f.js"
       ],
       "children": {},
       "childAssets": {}
@@ -207,7 +237,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.8fad5a5aac0db74e98b7.js",
+        "1.ffc82168ce275490453f.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -219,7 +249,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.8fad5a5aac0db74e98b7.js",
+        "0.ffc82168ce275490453f.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -306,6 +336,76 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/h1.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/logo.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/main-nav.css"
     }
   ]
 }

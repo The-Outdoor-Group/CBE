@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "ec059575f0bc920ba252",
+  "hash": "b7394f6fa5822cb2511b",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -15,7 +15,10 @@
       "1.server.js"
     ],
     "containers-App-old": "2.server.js",
-    "main": "server.js"
+    "main": [
+      "main.css",
+      "server.js"
+    ]
   },
   "assets": [
     {
@@ -42,7 +45,7 @@
     },
     {
       "name": "2.server.js",
-      "size": 787,
+      "size": 785,
       "chunks": [
         2
       ],
@@ -109,8 +112,19 @@
       "emitted": false
     },
     {
+      "name": "main.css",
+      "size": 737,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
       "name": "server.js",
-      "size": 11416,
+      "size": 14466,
       "chunks": [
         3
       ],
@@ -127,6 +141,7 @@
         3
       ],
       "assets": [
+        "main.css",
         "server.js"
       ],
       "children": {},
@@ -139,6 +154,7 @@
         3
       ],
       "assets": [
+        "main.css",
         "server.js"
       ],
       "children": {},
@@ -212,6 +228,76 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/h1.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/logo.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/main-nav.css"
     }
   ]
 }
