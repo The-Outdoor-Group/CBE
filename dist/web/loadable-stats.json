@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "1dd43b37cda380dc2baf",
+  "hash": "5cbdbe999471eab250ca",
   "publicPath": "/assets/web/",
-  "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+  "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
-      "0.1dd43b37cda380dc2baf.js",
+      "0.5cbdbe999471eab250ca.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.1dd43b37cda380dc2baf.js",
+      "1.5cbdbe999471eab250ca.js",
       "components-Foo.css.map"
     ],
-    "containers-App-old": "2.1dd43b37cda380dc2baf.js",
-    "main": "main.1dd43b37cda380dc2baf.js",
-    "vendors": "4.1dd43b37cda380dc2baf.js"
+    "containers-App-old": "2.5cbdbe999471eab250ca.js",
+    "main": "main.5cbdbe999471eab250ca.js",
+    "vendors": "4.5cbdbe999471eab250ca.js"
   },
   "assets": [
     {
-      "name": "0.1dd43b37cda380dc2baf.js",
+      "name": "0.5cbdbe999471eab250ca.js",
       "size": 381,
       "chunks": [
         0
@@ -33,7 +33,7 @@
       "emitted": false
     },
     {
-      "name": "1.1dd43b37cda380dc2baf.js",
+      "name": "1.5cbdbe999471eab250ca.js",
       "size": 381,
       "chunks": [
         1
@@ -44,7 +44,7 @@
       "emitted": false
     },
     {
-      "name": "2.1dd43b37cda380dc2baf.js",
+      "name": "2.5cbdbe999471eab250ca.js",
       "size": 845,
       "chunks": [
         2
@@ -55,7 +55,7 @@
       "emitted": false
     },
     {
-      "name": "4.1dd43b37cda380dc2baf.js",
+      "name": "4.5cbdbe999471eab250ca.js",
       "size": 205120,
       "chunks": [
         4
@@ -111,13 +111,13 @@
     },
     {
       "name": "index.html",
-      "size": 453,
+      "size": 454,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
     },
     {
-      "name": "main.1dd43b37cda380dc2baf.js",
+      "name": "main.5cbdbe999471eab250ca.js",
       "size": 90802,
       "chunks": [
         3
@@ -136,8 +136,8 @@
         3
       ],
       "assets": [
-        "4.1dd43b37cda380dc2baf.js",
-        "main.1dd43b37cda380dc2baf.js"
+        "4.5cbdbe999471eab250ca.js",
+        "main.5cbdbe999471eab250ca.js"
       ],
       "children": {},
       "childAssets": {}
@@ -150,8 +150,8 @@
         3
       ],
       "assets": [
-        "4.1dd43b37cda380dc2baf.js",
-        "main.1dd43b37cda380dc2baf.js"
+        "4.5cbdbe999471eab250ca.js",
+        "main.5cbdbe999471eab250ca.js"
       ],
       "children": {},
       "childAssets": {}
@@ -161,7 +161,7 @@
         2
       ],
       "assets": [
-        "2.1dd43b37cda380dc2baf.js"
+        "2.5cbdbe999471eab250ca.js"
       ],
       "children": {},
       "childAssets": {}
@@ -172,7 +172,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "1.1dd43b37cda380dc2baf.js",
+        "1.5cbdbe999471eab250ca.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -184,7 +184,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "0.1dd43b37cda380dc2baf.js",
+        "0.5cbdbe999471eab250ca.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -196,12 +196,12 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/assets/web/",
-      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
       "assetsByChunkName": {},
       "assets": [
         {
           "name": "index.html",
-          "size": 545230,
+          "size": 545231,
           "chunks": [
             0
           ],
@@ -241,7 +241,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/assets/web/",
-      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,

@@ -4,7 +4,7 @@
   "version": "4.29.6",
   "hash": "57977c1fd25e98b51fe6",
   "publicPath": "/assets/node/",
-  "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
+  "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
     "components-Bar": [
       "components-Bar.css",
@@ -147,7 +147,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/assets/node/",
-      "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
