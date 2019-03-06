@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
-import MainNav from './../components/MainNav';
+import MainNav from './../components/main-nav/MainNav';
 
 import * as Routes from './../routes/routes';
 
@@ -40,6 +40,7 @@ class App extends Component {
 
     return (
       <Fragment>
+
         <Helmet>
           <title>Custom Bow Equipment</title>
           <link rel="shortcut icon" href={favIcon} />
@@ -63,7 +64,9 @@ class App extends Component {
           <meta name="twitter:image" content="" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
         </Helmet>
+
         <MainNav />
+
         <main id="main-content">
           <Switch>
             <Route exact path='/' component={() => <Routes.HomePage />} />
@@ -71,6 +74,7 @@ class App extends Component {
             <Route path='/bar' component={() => <Routes.BarPage />} />
           </Switch>
         </main>
+
       </Fragment>
     );
   }
