@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "d9a4e373634f23b0bd04",
+  "hash": "57977c1fd25e98b51fe6",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/universal-framework/dist/node/",
   "assetsByChunkName": {
@@ -20,7 +20,7 @@
   "assets": [
     {
       "name": "0.server.js",
-      "size": 323,
+      "size": 322,
       "chunks": [
         0
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "1.server.js",
-      "size": 323,
+      "size": 322,
       "chunks": [
         1
       ],
@@ -42,7 +42,7 @@
     },
     {
       "name": "2.server.js",
-      "size": 788,
+      "size": 787,
       "chunks": [
         2
       ],
@@ -75,7 +75,7 @@
     },
     {
       "name": "server.js",
-      "size": 9214,
+      "size": 8865,
       "chunks": [
         3
       ],
