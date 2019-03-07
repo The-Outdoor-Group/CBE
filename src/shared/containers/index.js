@@ -1,9 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
-import MainNav from './../components/main-nav/MainNav';
-import MainSecondaryNav from '../components/main-secondary-nav/MainSecondaryNav';
+import loadable from '@loadable/component'
 
 import * as Routes from './../routes/routes';
 
@@ -15,8 +13,6 @@ import favIconSafari from './assets/images/safari-pinned-tab.svg';
 
 import './assets/css/global.css';
 
-
-// const Fragment = React.Fragment;
 
 const registerSW = () => {
   if ('serviceWorker' in navigator) {
@@ -32,6 +28,9 @@ const registerSW = () => {
     });
   }
 };
+
+const MainNav = loadable( () => import('./../components/main-nav/MainNav') );
+const MainSecondaryNav = loadable( () => import('../components/main-secondary-nav/MainSecondaryNav') );
 
 class App extends Component {
 

@@ -2,19 +2,35 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "9af870821caeb6c37a6d",
+  "hash": "a5831724f24dc4611470",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
+    "assets-images-logo": [
+      "assets-images-logo.css",
+      "0.server.js"
+    ],
+    "assets-images-secondary-menu-icon": [
+      "assets-images-secondary-menu-icon.css",
+      "1.server.js"
+    ],
     "components-Bar": [
       "components-Bar.css",
-      "0.server.js"
+      "2.server.js"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "1.server.js"
+      "3.server.js"
     ],
-    "containers-App-old": "2.server.js",
+    "components-main-nav-MainNav": [
+      "components-main-nav-MainNav.css",
+      "4.server.js"
+    ],
+    "components-main-secondary-nav-MainSecondaryNav": [
+      "components-main-secondary-nav-MainSecondaryNav.css",
+      "5.server.js"
+    ],
+    "containers-App-old": "6.server.js",
     "main": [
       "main.css",
       "server.js"
@@ -23,34 +39,34 @@
   "assets": [
     {
       "name": "0.server.js",
-      "size": 323,
+      "size": 3000,
       "chunks": [
         0
       ],
       "chunkNames": [
-        "components-Bar"
+        "assets-images-logo"
       ],
       "emitted": false
     },
     {
       "name": "1.server.js",
-      "size": 323,
+      "size": 1308,
       "chunks": [
         1
       ],
       "chunkNames": [
-        "components-Foo"
+        "assets-images-secondary-menu-icon"
       ],
       "emitted": false
     },
     {
       "name": "2.server.js",
-      "size": 783,
+      "size": 322,
       "chunks": [
         2
       ],
       "chunkNames": [
-        "containers-App-old"
+        "components-Bar"
       ],
       "emitted": false
     },
@@ -69,10 +85,54 @@
       "emitted": false
     },
     {
+      "name": "3.server.js",
+      "size": 322,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "components-Foo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4.server.js",
+      "size": 1489,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
       "name": "4d2c24cff09792200910d7228266ad3c.png",
       "size": 1560,
       "chunks": [],
       "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "5.server.js",
+      "size": 1571,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "components-main-secondary-nav-MainSecondaryNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "6.server.js",
+      "size": 787,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "containers-App-old"
+      ],
       "emitted": false
     },
     {
@@ -90,10 +150,32 @@
       "emitted": false
     },
     {
+      "name": "assets-images-logo.css",
+      "size": 553,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "assets-images-logo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-secondary-menu-icon.css",
+      "size": 244,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "assets-images-secondary-menu-icon"
+      ],
+      "emitted": false
+    },
+    {
       "name": "components-Bar.css",
       "size": 23,
       "chunks": [
-        0
+        2
       ],
       "chunkNames": [
         "components-Bar"
@@ -104,7 +186,7 @@
       "name": "components-Foo.css",
       "size": 23,
       "chunks": [
-        1
+        3
       ],
       "chunkNames": [
         "components-Foo"
@@ -112,10 +194,32 @@
       "emitted": false
     },
     {
-      "name": "main.css",
-      "size": 3270,
+      "name": "components-main-nav-MainNav.css",
+      "size": 808,
       "chunks": [
-        3
+        4
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-main-secondary-nav-MainSecondaryNav.css",
+      "size": 536,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "components-main-secondary-nav-MainSecondaryNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 1129,
+      "chunks": [
+        7
       ],
       "chunkNames": [
         "main"
@@ -124,9 +228,9 @@
     },
     {
       "name": "server.js",
-      "size": 18356,
+      "size": 13271,
       "chunks": [
-        3
+        7
       ],
       "chunkNames": [
         "main"
@@ -138,7 +242,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        3
+        7
       ],
       "assets": [
         "main.css",
@@ -151,7 +255,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        3
+        7
       ],
       "assets": [
         "main.css",
@@ -160,34 +264,78 @@
       "children": {},
       "childAssets": {}
     },
-    "containers-App-old": {
+    "components-main-nav-MainNav": {
       "chunks": [
-        2
+        4
       ],
       "assets": [
-        "2.server.js"
+        "components-main-nav-MainNav.css",
+        "4.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-main-secondary-nav-MainSecondaryNav": {
+      "chunks": [
+        5
+      ],
+      "assets": [
+        "components-main-secondary-nav-MainSecondaryNav.css",
+        "5.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-App-old": {
+      "chunks": [
+        6
+      ],
+      "assets": [
+        "6.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        1
+        3
       ],
       "assets": [
         "components-Foo.css",
-        "1.server.js"
+        "3.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
-        0
+        2
       ],
       "assets": [
         "components-Bar.css",
+        "2.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-logo": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "assets-images-logo.css",
         "0.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-secondary-menu-icon": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "assets-images-secondary-menu-icon.css",
+        "1.server.js"
       ],
       "children": {},
       "childAssets": {}

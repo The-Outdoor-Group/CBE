@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from './assets/images/logo';
-import SecondaryMenuIcon from './assets/images/secondary-menu-icon';
+import loadable from '@loadable/component'
+
 import './assets/css/main-nav.css';
+
+const Logo = loadable( () => import('./assets/images/logo') );
+const SecondaryMenuIcon = loadable( () => import('./assets/images/secondary-menu-icon') );
 
 /*
   will need to update the middle nav menu so that it shows pertinant navigation if customer
