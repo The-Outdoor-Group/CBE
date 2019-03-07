@@ -1,12 +1,50 @@
-nav#main-nav ul {
+#main-nav-container {
+  display: grid;
+  grid-template-columns: 20% 60% 10%;
+  align-items: center;
+  padding: 0 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 98%;
+  height: 5rem;
+  z-index: 1;
+}
+
+#main-nav-container a#home-link {
+  justify-self: center;
+  width: 50%;
+}
+
+#main-nav-container svg#logo {
+  grid-column-start: 1;
+}
+
+#main-nav-container nav {
+  grid-column-start: 2;
+}
+
+#main-nav-container nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
 }
 
-nav#main-nav ul li a {
-  font-family: sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
+/* #main-nav-container nav ul li a {} */
+
+#main-nav-container a#shop {
+  grid-column-start: 3;
+  justify-self: end;
+  font-weight: 900;
+  font-size: 120%;
+}
+
+#secondary-menu-icon-wrapper {
+  position: fixed;
+  height: 3rem;
+  width: 3.5rem;
+  top: 1rem;
+  right: 2rem;
+  z-index: 2;
 }

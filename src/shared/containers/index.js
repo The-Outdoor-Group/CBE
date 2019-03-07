@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import MainNav from './../components/main-nav/MainNav';
+import MainSecondaryNav from '../components/main-secondary-nav/MainSecondaryNav';
 
 import * as Routes from './../routes/routes';
 
@@ -12,8 +13,10 @@ import favIcon32 from './assets/images/favicon-32x32.png';
 import favIconApple from './assets/images/apple-touch-icon.png';
 import favIconSafari from './assets/images/safari-pinned-tab.svg';
 
-const Fragment = React.Fragment;
+import './assets/css/global.css';
 
+
+// const Fragment = React.Fragment;
 
 const registerSW = () => {
   if ('serviceWorker' in navigator) {
@@ -75,7 +78,7 @@ class App extends Component {
             <Route path='/bar' component={() => <Routes.BarPage />} />
           </Switch>
         </main>
-
+        <MainSecondaryNav />
       </Fragment>
     );
   }

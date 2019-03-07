@@ -1,4 +1,4 @@
-import { call, fork, put, takeEvery, takeLatest } from 'redux-saga/effects';
+import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
 import fetch from 'isomorphic-fetch';
 
 import {
@@ -31,5 +31,5 @@ function* fetchGists() {
 };
 
 export function* fetchUsersSaga() {
-  yield takeEvery(FETCH_USERS_REQUESTED, fetchGists);
+  yield takeLatest(FETCH_USERS_REQUESTED, fetchGists);
 };

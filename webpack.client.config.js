@@ -32,10 +32,10 @@ const plugins = [
 
 
 module.exports = {
+  mode: 'production',
   context: srcPath,
   target: 'web',
   entry: `${srcPath}/client/index.js`,
-
   output: {
     path: `${distPath}/web/`,
     filename: '[name].[hash].js',
@@ -92,8 +92,9 @@ module.exports = {
       name: false,
       cacheGroups: {
         vendors: {
-          test:  /[\\/](helmet|react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|@loadable|prop-types)[\\/]/,
-          name: 'vendors',
+          // test:  /[\\/]node_modules[\\/](helmet|react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|TimelineMax|TweenMax|@loadable|prop-types)[\\/]/,
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
           chunks: 'all',
           priority: -10,
           enforce: true

@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[0],{193:function(e,n,t){"use strict";t.r(n);var l=t(1),a=t.n(l),_=t(116);t(419);n.default=function(){return a.a.createElement("div",null,a.a.createElement(_.Helmet,null,a.a.createElement("title",null,"Bar Component")),a.a.createElement("h1",null,"I am the Bar component"))}},419:function(e,n,t){}}]);

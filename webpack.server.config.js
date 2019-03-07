@@ -12,8 +12,8 @@ const plugins = [
 ];
 
 module.exports = {
+  mode: 'production',
   context: srcPath,
-  // mode: process.env.NODE_ENV, // || 'development',
   entry: './server/index.js',
   output: {
     filename: 'server.js',

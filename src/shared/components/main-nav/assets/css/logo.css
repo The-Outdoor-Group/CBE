@@ -1,4 +1,8 @@
 
+svg#logo {
+  width: 100%;
+}
+
 .e2528cc1-e2ed-45d4-8532-45a5fe1df121 {
   fill: none;
   stroke: #000;
@@ -9,7 +13,7 @@
 
 .e62393f8-8251-4737-ad73-c57bb1818d90 {
   font-size: 25px;
-  font-family: FranklinGothic-Demi, Franklin Gothic Demi;
+  font-family: 'sans-serif, FranklinGothic-Demi Franklin Gothic Demi';
   font-weight: 300;
   letter-spacing: 0em;
 }

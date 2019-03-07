@@ -1,0 +1,15 @@
+svg#secondary-menu-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.f9e01109-13bb-4aba-8a9d-a559ca668c4d {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 8;
+  stroke-width: 8px;
+
+}

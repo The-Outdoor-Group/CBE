@@ -1,5 +1,5 @@
-import { merge } from 'lodash/object';
-import { union } from 'lodash/array';
+// import { merge } from 'lodash/object';
+// import { union } from 'lodash/array';
 import { FETCH_USERS_SUCCEEDED } from './../actions/users';
 
 const initialState = [
