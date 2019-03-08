@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "a5831724f24dc4611470",
+  "hash": "122f650c7301aa56ef93",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -50,7 +50,7 @@
     },
     {
       "name": "1.server.js",
-      "size": 1308,
+      "size": 1897,
       "chunks": [
         1
       ],
@@ -162,7 +162,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css",
-      "size": 244,
+      "size": 278,
       "chunks": [
         1
       ],

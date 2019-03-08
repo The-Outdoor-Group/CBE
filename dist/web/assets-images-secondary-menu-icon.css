@@ -11,6 +11,6 @@ svg#secondary-menu-icon {
   stroke: #000;
   stroke-miterlimit: 8;
   stroke-width: 8px;
-
+  transform-origin: center center;
 }
 

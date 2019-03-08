@@ -2,51 +2,51 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "a775cead76d1fc1050ec",
+  "hash": "89d6873acadf596cbf27",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.a775cead76d1fc1050ec.js",
+    "vendor": "0.89d6873acadf596cbf27.js",
     "assets-images-logo": [
       "assets-images-logo.css",
-      "1.a775cead76d1fc1050ec.js",
+      "1.89d6873acadf596cbf27.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "2.a775cead76d1fc1050ec.js",
+      "2.89d6873acadf596cbf27.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "3.a775cead76d1fc1050ec.js",
+      "3.89d6873acadf596cbf27.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "4.a775cead76d1fc1050ec.js",
+      "4.89d6873acadf596cbf27.js",
       "components-Foo.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "5.a775cead76d1fc1050ec.js",
+      "5.89d6873acadf596cbf27.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "6.a775cead76d1fc1050ec.js",
+      "6.89d6873acadf596cbf27.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
-    "containers-App-old": "7.a775cead76d1fc1050ec.js",
+    "containers-App-old": "7.89d6873acadf596cbf27.js",
     "main": [
       "main.css",
-      "main.a775cead76d1fc1050ec.js",
+      "main.89d6873acadf596cbf27.js",
       "main.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.a775cead76d1fc1050ec.js",
+      "name": "0.89d6873acadf596cbf27.js",
       "size": 392127,
       "chunks": [
         0
@@ -57,7 +57,7 @@
       "emitted": false
     },
     {
-      "name": "1.a775cead76d1fc1050ec.js",
+      "name": "1.89d6873acadf596cbf27.js",
       "size": 3057,
       "chunks": [
         1
@@ -68,8 +68,8 @@
       "emitted": false
     },
     {
-      "name": "2.a775cead76d1fc1050ec.js",
-      "size": 1361,
+      "name": "2.89d6873acadf596cbf27.js",
+      "size": 1941,
       "chunks": [
         2
       ],
@@ -93,7 +93,7 @@
       "emitted": false
     },
     {
-      "name": "3.a775cead76d1fc1050ec.js",
+      "name": "3.89d6873acadf596cbf27.js",
       "size": 380,
       "chunks": [
         3
@@ -104,7 +104,7 @@
       "emitted": false
     },
     {
-      "name": "4.a775cead76d1fc1050ec.js",
+      "name": "4.89d6873acadf596cbf27.js",
       "size": 380,
       "chunks": [
         4
@@ -122,8 +122,8 @@
       "emitted": false
     },
     {
-      "name": "5.a775cead76d1fc1050ec.js",
-      "size": 1558,
+      "name": "5.89d6873acadf596cbf27.js",
+      "size": 1580,
       "chunks": [
         5
       ],
@@ -133,7 +133,7 @@
       "emitted": false
     },
     {
-      "name": "6.a775cead76d1fc1050ec.js",
+      "name": "6.89d6873acadf596cbf27.js",
       "size": 1597,
       "chunks": [
         6
@@ -144,7 +144,7 @@
       "emitted": false
     },
     {
-      "name": "7.a775cead76d1fc1050ec.js",
+      "name": "7.89d6873acadf596cbf27.js",
       "size": 838,
       "chunks": [
         7
@@ -192,7 +192,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css",
-      "size": 244,
+      "size": 278,
       "chunks": [
         2
       ],
@@ -203,7 +203,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css.map",
-      "size": 536,
+      "size": 574,
       "chunks": [
         2
       ],
@@ -308,7 +308,7 @@
       "emitted": false
     },
     {
-      "name": "main.a775cead76d1fc1050ec.js",
+      "name": "main.89d6873acadf596cbf27.js",
       "size": 11937,
       "chunks": [
         8
@@ -349,9 +349,9 @@
         8
       ],
       "assets": [
-        "0.a775cead76d1fc1050ec.js",
+        "0.89d6873acadf596cbf27.js",
         "main.css",
-        "main.a775cead76d1fc1050ec.js",
+        "main.89d6873acadf596cbf27.js",
         "main.css.map"
       ],
       "children": {},
@@ -365,9 +365,9 @@
         8
       ],
       "assets": [
-        "0.a775cead76d1fc1050ec.js",
+        "0.89d6873acadf596cbf27.js",
         "main.css",
-        "main.a775cead76d1fc1050ec.js",
+        "main.89d6873acadf596cbf27.js",
         "main.css.map"
       ],
       "children": {},
@@ -379,9 +379,9 @@
         5
       ],
       "assets": [
-        "0.a775cead76d1fc1050ec.js",
+        "0.89d6873acadf596cbf27.js",
         "components-main-nav-MainNav.css",
-        "5.a775cead76d1fc1050ec.js",
+        "5.89d6873acadf596cbf27.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -393,9 +393,9 @@
         6
       ],
       "assets": [
-        "0.a775cead76d1fc1050ec.js",
+        "0.89d6873acadf596cbf27.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "6.a775cead76d1fc1050ec.js",
+        "6.89d6873acadf596cbf27.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -406,7 +406,7 @@
         7
       ],
       "assets": [
-        "7.a775cead76d1fc1050ec.js"
+        "7.89d6873acadf596cbf27.js"
       ],
       "children": {},
       "childAssets": {}
@@ -417,7 +417,7 @@
       ],
       "assets": [
         "components-Foo.css",
-        "4.a775cead76d1fc1050ec.js",
+        "4.89d6873acadf596cbf27.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -429,7 +429,7 @@
       ],
       "assets": [
         "components-Bar.css",
-        "3.a775cead76d1fc1050ec.js",
+        "3.89d6873acadf596cbf27.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -441,7 +441,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "1.a775cead76d1fc1050ec.js",
+        "1.89d6873acadf596cbf27.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -449,11 +449,13 @@
     },
     "assets-images-secondary-menu-icon": {
       "chunks": [
+        0,
         2
       ],
       "assets": [
+        "0.89d6873acadf596cbf27.js",
         "assets-images-secondary-menu-icon.css",
-        "2.a775cead76d1fc1050ec.js",
+        "2.89d6873acadf596cbf27.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
