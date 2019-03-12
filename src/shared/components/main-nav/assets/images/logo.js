@@ -2,9 +2,42 @@ import React, { Component } from 'react';
 import './../css/logo.css';
 
 export default class Logo extends Component {
+
+  constructor() {
+    super();
+
+    this.logo;
+  }
+
+  commponentDidMount() {
+    const TweenLite = require('gsap/TweenLite');
+  }
+
+  componentDidUpdate(prevProps, nextState) {
+    let prevColor = prevProps.colorTheme;
+    let currentColor = this.props.colorTheme;
+
+    if (prevColor !== currentColor) {
+      if (currentColor === 'light') {
+        TweenLite.fromTo(
+          this.logo,
+          1,
+          {fill: '#000'}, {fill: '#fff'}
+        );
+      } else {
+        TweenLite.fromTo(
+          this.logo,
+          1,
+          {fill: '#FFF'},{fill: '#000'}
+        );
+      }
+    }
+  }
+
   render() {
+    console.log('Logo this.props: ', this.props);
     return (
-      <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -15 400 150">
+      <svg ref={el => this.logo = el} id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -15 400 150">
         <g>
           <path d="M898.4,494.9H973c7.6.6,19.7,14.5,18.2,27.5-.8,7.4-3,13.9-9.9,18.2a18.9,18.9,0,0,1,8.6,11.1,26.4,26.4,0,0,1,1.5,8.3c.3,11.2-6.2,23.9-17.4,25.9H898.4S898.5,496.7,898.4,494.9Zm24.8,71.6c12.5,0,24.6.2,36.7-.1,4-.1,6-2.9,6.3-7,.5-5.9-2.4-9.2-8.8-9.3-10.5-.1-21,0-31.4,0-1,0-2-.1-2.8,1.2Zm0-36.1c.8.3,1.1.6,1.4.6,11.3,0,22.6.1,34,0,5-.1,7.6-3,7.7-7.9s-2.4-8.3-7.7-8.4c-11.3-.2-22.6,0-33.9,0-.5,0-.9.4-1.5.8A123.4,123.4,0,0,0,923.2,530.4Z" transform="translate(-793.1 -494.8)"/>
           <path d="M1095,567v19h-93V495h93c0,6.4.1,13,.1,19.3l-67.9.2s-.2,11.5,0,17.3h55.9l.2,18.1h-56c-.1,5.4.1,16.8.1,16.8Z" transform="translate(-793.1 -494.8)"/>

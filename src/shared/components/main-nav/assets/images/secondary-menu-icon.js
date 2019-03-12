@@ -10,17 +10,19 @@ class SecondaryMenuIcon extends Component {
   constructor() {
     super();
 
-    this.state = {
-      showSecondaryMenu: false
-    };
-
     this.topLine, this.middleLine, this.bottomLine;
     this.timeline = new TimelineMax({ paused: true });
 
     this.handleClick = this.handleClick.bind(this);
+
+    this.state = {
+      showSecondaryMenu: false
+    };
   }
 
   componentDidMount() {
+    const TweenMax = require('gsap/TweenMax');
+
     this.timeline
       .fromTo(
         this.topLine,
@@ -42,6 +44,28 @@ class SecondaryMenuIcon extends Component {
         { autoAlpha: 0, y: "-5px" },
         "-=0.6"
       );
+
+  }
+
+  componentDidUpdate(prevProps, nextState) {
+    let prevColor = prevProps.colorTheme;
+    let currentColor = this.props.colorTheme;
+
+    if (prevColor !== currentColor) {
+      if (currentColor === 'light') {
+        TweenLite.fromTo(
+          [this.topLine, this.middleLine, this.bottomLine],
+          1,
+          {stroke: '#000'}, {stroke: '#fff'}
+        );
+      } else {
+        TweenLite.fromTo(
+          [this.topLine, this.middleLine, this.bottomLine],
+          1,
+          {stroke: '#FFF'},{stroke: '#000'}
+        );
+      }
+    }
   }
 
   handleClick() {
@@ -58,7 +82,7 @@ class SecondaryMenuIcon extends Component {
     // console.log('this.props sec menu icon: ', this.props);
 
     return (
-        <svg onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="57" height="38" viewBox="0 0 57 38">
+        <svg ref={el => this.icon = el} onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="57" height="38" viewBox="0 0 57 38">
         <title>secondary-menu-icon</title>
         <line ref={(el) => this.topLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="5" x2="57" y2="5" />
         <line ref={(el) => this.middleLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="19" x2="57" y2="19" />

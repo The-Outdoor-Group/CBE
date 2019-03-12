@@ -1,98 +1,135 @@
 import React, { Component, Fragment } from 'react';
 import loadable from '@loadable/component';
-import { TweenLite } from 'gsap';
 import _debounce from 'lodash/debounce';
+import { connect } from 'react-redux';
+import { setMainNavThemeColor } from '../actions/shared-ui-actions';
 
-import { detectScrollDirection } from './assets/utilities/detect-scroll-direction';
+const Hero = loadable( () => import('./../components/content/Hero') );
 
-import Hero from './../components/content/Hero';
-// const Hero = loadable( () => import('./../components/content/Hero') );
+const heroNodes = [
+  {class: "light", copy: "0 div"},
+  {class: "dark", copy: "1 div"},
+  {class: "light", copy: "2 div"},
+  {class: "dark", copy: "3 div"}
+];
 
-
-export default class HomePage extends Component {
+class HomePage extends Component {
 
   constructor() {
     super();
 
-    this.handleScroll = this.handleScroll.bind(this);
-    this.animateScroll = this.animateScroll.bind(this);
-    this.checkIfNextRegionExists = this.checkIfNextRegionExists.bind(this);
+    this.debouncedScroll;
+    this.mainNavHeight
 
-    this.state = {
-      scrollDirection: null,
-      currentPos: 0,
-      scrolling: false
-    };
+    this.handleScroll = this.handleScroll.bind(this);
+    this.locateElAtTop = this.locateElAtTop.bind(this);
+    this.isInViewPort = this.isInViewPort.bind(this);
+    this.getElementDistance = this.getElementDistance.bind(this);
+
   }
 
   componentDidMount() {
-    // imported in this fashion because SSR
-    const ScrollToPlugin = require('gsap/ScrollToPlugin');
-    window.addEventListener( 'scroll', _debounce(this.handleScroll, 1000, { leading: true }) );
+    this.debouncedScroll = _debounce(this.handleScroll, 750);
+    window.addEventListener( 'scroll', this.debouncedScroll );
 
+    this.mainNavHeight = 80;
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  animateScroll(direction, currentPos) {
-    console.log('animateScroll() currentPos: ', currentPos);
-    console.log('should scrollTo el: ', this[`heroRegion${currentPos}`]);
-    TweenLite.to(window, 1, { scrollTo: this[`heroRegion${currentPos}`],
-      onComplete: () => {
-        this.setState({ currentPos, scrolling: false });
-        console.log('completed animation');
-      }
-    });
-  }
-
-  checkIfNextRegionExists(direction) {
-    let { currentPos } = this.state;
-
-      if (direction === 'up') {
-        if (currentPos > 0) {
-          if (this[`heroRegion${currentPos - 1}`]) {
-            console.log('on scrolling up, PREVIOUS region exists');
-            return {exists: true, currentPos: currentPos - 1};
-          } else {
-            console.log('on scrolling up, PREVIOUS region DOES NOT exist');
-            return {exists: false, currentPos};
-          }
-        } else {
-          console.log('we are at the beginning, so there is NO PREVIOUS region');
-          return {exists: false, currentPos};
-        }
-      } else {
-        if (this[`heroRegion${currentPos + 1}`]) {
-          console.log('on scrolling down, NEXT region exists');
-          return {exists: true, currentPos: currentPos + 1};
-        } else {
-          console.log('on scrolling down, NEXT region DOES NOT exist. We are at the end.');
-          return {exists: false, currentPos};
-        }
-      }
+    window.removeEventListener('scroll', this.debouncedScroll );
   }
 
   handleScroll() {
-    let direction = detectScrollDirection();
-    let { exists, currentPos } = this.checkIfNextRegionExists( direction );
-    if (exists) {
-      this.animateScroll(direction, currentPos);
+    console.log('scrolling - record what class name is at top of window');
+
+    let el = this.locateElAtTop();
+
+    if (el) {
+      console.log('el match: ', el)
+      console.log('el has light class: ', el.classList.contains('light'));
+      console.log('el has dark class: ', el.classList.contains('dark'));
+      // send to nav so it can change color
+      if ( el.classList.contains('light') ) {
+        this.props.setMainNavThemeColor( 'dark' );
+      } else {
+        this.props.setMainNavThemeColor( 'light' );
+      }
     }
+
+    // let result = this.isInViewPort(el);
+    // console.log('result: ', result);
+    //
+    // let location = this.getElementDistance(el);
+    // console.log('location is the element\'s position on page: ', location);
+
+    /*
+    The case where it is completely true when the element is in the viewport:
+    rect top: 0;
+    rect bottom: 798
+    element's position from top of page (position): 798
+    location: 798
+
+    location === rect.bottom means element is in the viewport fully (100vh)
+    * 1. location - position = 0, element is at top of viewport (must be a positive result; if negative, scrolled past)
+    * 2. location < position, element has scrolled past the top of viewport
+
+    - what if it's scrolled just past, but not all the way through? Will want to maintain color. Need to be able to read the className
+    - will also need the bottom
+    - do I need the heigt? bottom - top === the element's height
+
+    should not be too expensive since only on debounced scroll
+
+    Will need some math to determine which el meets * condition
+
+    */
+  }
+
+  locateElAtTop() {
+    let heroRegions = document.querySelectorAll('.hero-region');
+    let result = Array.from(heroRegions).filter( region => this.isInViewPort(region) )[0];
+
+    console.log('result: ', result);
+    return result;
+  }
+
+  // determines if an element is in viewport
+  isInViewPort(el) {
+    let rect = el.getBoundingClientRect();
+    console.log('top: ', rect.top);
+    console.log('bottom: ', rect.bottom);
+    console.log('window.innerHeight: ', window.innerHeight);
+
+    return (
+      // rect.top >= 0 &&
+      // rect.left >= 0 &&
+      // rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
+      // rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
+
+      (rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) && rect.bottom >= this.mainNavHeight )
+    );
+  }
+
+  // determine element's distance to top of document
+  getElementDistance(el) {
+    // get current location's distance from top of page
+    let position = window.pageYOffset;
+    console.log('window.pageYOffset: ', position);
+
+    let location = 0;
+
+    if (el.offsetParent) {
+      do {
+        location += el.offsetTop;
+        el = el.offsetParent;
+      } while (el);
+    }
+
+    return location >= 0 ? location : 0;
   }
 
   render() {
 
-    let { currentPos } = this.state;
-    console.log('RENDER() this.state.currentPos: ', currentPos);
-
-    const createHeroNodes = () => [
-      {class: "light", copy: "0 div"},
-      {class: "dark", copy: "1 div"},
-      {class: "light", copy: "2 div"},
-      {class: "dark", copy: "3 div"}
-    ].map( (hero, i) => <Hero heroRef={ (el) => this[`heroRegion${i}`] = el } class={hero.class} copy={hero.copy} />);
+    const createHeroNodes = () => heroNodes.map( (hero, i) => <Hero heroRef={ (el) => this[`heroRegion${i}`] = el } class={hero.class} copy={hero.copy} />);
 
     return (
     <Fragment>
@@ -101,3 +138,6 @@ export default class HomePage extends Component {
     );
   }
 }
+
+const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
+export default connect(mapStateToProps, { setMainNavThemeColor })(HomePage);
