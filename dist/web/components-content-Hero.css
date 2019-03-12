@@ -14,10 +14,38 @@
   position: relative;
 }
 
-.hero-region h3 {
+.hero-region .hero-copy {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
+}
+
+.hero-copy h3 {
+  font-family: sans-serif;
+  font-size: 320%;
+  text-transform: uppercase;
+}
+
+.hero-copy ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.hero-copy ul li button {
+  background: none;
+  border: 3px solid #fff;
+  color: #fff;
+  border-radius: 5rem;
+  font-size: 110%;
+  text-transform: uppercase;
+  padding: 0.25rem 2rem;
+}
+
+.hero-copy ul li button.active {
+  background: #fff;
+  color: #000;
 }
 

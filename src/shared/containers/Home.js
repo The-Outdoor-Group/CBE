@@ -7,7 +7,7 @@ import { setMainNavThemeColor } from '../actions/shared-ui-actions';
 const Hero = loadable( () => import('./../components/content/Hero') );
 
 const heroNodes = [
-  {class: "light", copy: "0 div"},
+  {class: "light", copy: "Engage Hybrid"},
   {class: "dark", copy: "1 div"},
   {class: "light", copy: "2 div"},
   {class: "dark", copy: "3 div"}
