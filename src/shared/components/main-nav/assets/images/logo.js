@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { tweenLogoSvgColor } from '../utilities/color-tween';
 import './../css/logo.css';
 
 export default class Logo extends Component {
@@ -9,33 +10,16 @@ export default class Logo extends Component {
     this.logo;
   }
 
-  commponentDidMount() {
-    const TweenLite = require('gsap/TweenLite');
-  }
-
   componentDidUpdate(prevProps, nextState) {
     let prevColor = prevProps.colorTheme;
     let currentColor = this.props.colorTheme;
 
     if (prevColor !== currentColor) {
-      if (currentColor === 'light') {
-        TweenLite.fromTo(
-          this.logo,
-          1,
-          {fill: '#000'}, {fill: '#fff'}
-        );
-      } else {
-        TweenLite.fromTo(
-          this.logo,
-          1,
-          {fill: '#FFF'},{fill: '#000'}
-        );
-      }
+      tweenLogoSvgColor(currentColor, this.logo);
     }
   }
 
   render() {
-    console.log('Logo this.props: ', this.props);
     return (
       <svg ref={el => this.logo = el} id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -15 400 150">
         <g>

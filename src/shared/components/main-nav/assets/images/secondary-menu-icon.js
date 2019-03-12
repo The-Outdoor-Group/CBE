@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setSecondaryNavState } from './../../../../actions/shared-ui-actions';
-import { TimelineMax } from 'gsap';
+import { hamburgerIconTimeline, tweenSecondaryMenuColor } from '../utilities/color-tween';
 
 import './../css/secondary-menu-icon.css';
 
@@ -11,7 +11,7 @@ class SecondaryMenuIcon extends Component {
     super();
 
     this.topLine, this.middleLine, this.bottomLine;
-    this.timeline = new TimelineMax({ paused: true });
+    this.timeline;
 
     this.handleClick = this.handleClick.bind(this);
 
@@ -21,30 +21,7 @@ class SecondaryMenuIcon extends Component {
   }
 
   componentDidMount() {
-    const TweenMax = require('gsap/TweenMax');
-
-    this.timeline
-      .fromTo(
-        this.topLine,
-        0.5,
-        { rotation: 0, x: "0px", y: "0px" },
-        { rotation: 45, x: "-12px", y: "8px" }
-      )
-      .fromTo(
-        this.middleLine,
-        0.5,
-        { rotation: 0, x: "0px", y: "0px" },
-        { rotation: -45, x: "12px", y: "-6px" },
-        "-=0.5"
-      )
-      .fromTo(
-        this.bottomLine,
-        0.5,
-        { autoAlpha: 1, y: "0px" },
-        { autoAlpha: 0, y: "-5px" },
-        "-=0.6"
-      );
-
+    this.timeline = hamburgerIconTimeline(this.topLine, this.middleLine, this.bottomLine);
   }
 
   componentDidUpdate(prevProps, nextState) {
@@ -52,19 +29,7 @@ class SecondaryMenuIcon extends Component {
     let currentColor = this.props.colorTheme;
 
     if (prevColor !== currentColor) {
-      if (currentColor === 'light') {
-        TweenLite.fromTo(
-          [this.topLine, this.middleLine, this.bottomLine],
-          1,
-          {stroke: '#000'}, {stroke: '#fff'}
-        );
-      } else {
-        TweenLite.fromTo(
-          [this.topLine, this.middleLine, this.bottomLine],
-          1,
-          {stroke: '#FFF'},{stroke: '#000'}
-        );
-      }
+      tweenSecondaryMenuColor( currentColor, [this.topLine, this.middleLine, this.bottomLine] );
     }
   }
 
@@ -82,7 +47,7 @@ class SecondaryMenuIcon extends Component {
     // console.log('this.props sec menu icon: ', this.props);
 
     return (
-        <svg ref={el => this.icon = el} onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="57" height="38" viewBox="0 0 57 38">
+        <svg onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="57" height="38" viewBox="0 0 57 38">
         <title>secondary-menu-icon</title>
         <line ref={(el) => this.topLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="5" x2="57" y2="5" />
         <line ref={(el) => this.middleLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="19" x2="57" y2="19" />

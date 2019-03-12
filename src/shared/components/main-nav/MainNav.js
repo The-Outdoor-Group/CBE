@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 import { connect } from 'react-redux';
+import { tweenNavLinkColor } from './assets/utilities/color-tween';
 
 import './assets/css/main-nav.css';
 
@@ -9,7 +10,7 @@ const Logo = loadable( () => import('./assets/images/logo') );
 const SecondaryMenuIcon = loadable( () => import('./assets/images/secondary-menu-icon') );
 
 /*
-  will need to update the middle nav menu so that it shows pertinant navigation if customer
+  just an idea - update the middle nav menu so that it shows pertinant navigation if customer
   is over a specific part of the page
 */
 
@@ -25,7 +26,7 @@ class MainNav extends Component {
   }
 
   componentDidMount() {
-    const TweenLite = require('gsap/TweenLite');
+    // just for dev; will make a connected prop
     let rect = this.nav.getBoundingClientRect();
     console.log('main nav height: ', rect.bottom - rect.top );
 
@@ -38,19 +39,8 @@ class MainNav extends Component {
     let currentColor = this.props.sharedUiState.mainNavThemeColor;
 
     if (prevColor !== currentColor) {
-      if (currentColor === 'light') {
-        TweenLite.fromTo(
-          this.elArray,
-          1,
-          {color: '#000'}, {color: '#fff'}
-        );
-      } else {
-        TweenLite.fromTo(
-          this.elArray,
-          1,
-          {color: '#FFF'},{color: '#000'}
-        );
-      }
+      tweenNavLinkColor(currentColor, this.elArray);
+
       this.setState({
         colorTheme: currentColor
       });

@@ -24,7 +24,6 @@ class HomePage extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.locateElAtTop = this.locateElAtTop.bind(this);
     this.isInViewPort = this.isInViewPort.bind(this);
-    this.getElementDistance = this.getElementDistance.bind(this);
 
   }
 
@@ -40,15 +39,9 @@ class HomePage extends Component {
   }
 
   handleScroll() {
-    console.log('scrolling - record what class name is at top of window');
-
     let el = this.locateElAtTop();
 
     if (el) {
-      console.log('el match: ', el)
-      console.log('el has light class: ', el.classList.contains('light'));
-      console.log('el has dark class: ', el.classList.contains('dark'));
-      // send to nav so it can change color
       if ( el.classList.contains('light') ) {
         this.props.setMainNavThemeColor( 'dark' );
       } else {
@@ -59,49 +52,19 @@ class HomePage extends Component {
   }
 
   locateElAtTop() {
-    let heroRegions = document.querySelectorAll('.hero-region');
-    let result = Array.from(heroRegions).filter( region => this.isInViewPort(region) )[0];
-
-    console.log('result: ', result);
-    return result;
+    return Array.from( document.querySelectorAll('.hero-region') ).filter( region => this.isInViewPort(region) )[0];
   }
 
-  // determines if an element is in viewport
   isInViewPort(el) {
     let rect = el.getBoundingClientRect();
-    console.log('top: ', rect.top);
-    console.log('bottom: ', rect.bottom);
-    console.log('window.innerHeight: ', window.innerHeight);
 
     return (
-      // rect.top >= 0 &&
-      // rect.left >= 0 &&
-      // rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
-      // rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
-      (rect.bottom <= ( window.innerHeight + (this.mainNavHeight / 2) || document.documentElement.clientHeight + (this.mainNavHeight / 2) ) && rect.bottom >= this.mainNavHeight )
+      rect.bottom <= ( window.innerHeight + (this.mainNavHeight / 2) || document.documentElement.clientHeight + (this.mainNavHeight / 2) ) &&
+      rect.bottom >= this.mainNavHeight
     );
   }
 
-  // determine element's distance to top of document
-  getElementDistance(el) {
-    // get current location's distance from top of page
-    let position = window.pageYOffset;
-    console.log('window.pageYOffset: ', position);
-
-    let location = 0;
-
-    if (el.offsetParent) {
-      do {
-        location += el.offsetTop;
-        el = el.offsetParent;
-      } while (el);
-    }
-
-    return location >= 0 ? location : 0;
-  }
-
   render() {
-
     const createHeroNodes = () => heroNodes.map( (hero, i) => <Hero heroRef={ (el) => this[`heroRegion${i}`] = el } class={hero.class} copy={hero.copy} />);
 
     return (
@@ -114,3 +77,9 @@ class HomePage extends Component {
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
 export default connect(mapStateToProps, { setMainNavThemeColor })(HomePage);
+
+
+// rect.top >= 0 &&
+// rect.left >= 0 &&
+// rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
+// rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
