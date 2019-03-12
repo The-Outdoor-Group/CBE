@@ -56,32 +56,6 @@ class HomePage extends Component {
       }
     }
 
-    // let result = this.isInViewPort(el);
-    // console.log('result: ', result);
-    //
-    // let location = this.getElementDistance(el);
-    // console.log('location is the element\'s position on page: ', location);
-
-    /*
-    The case where it is completely true when the element is in the viewport:
-    rect top: 0;
-    rect bottom: 798
-    element's position from top of page (position): 798
-    location: 798
-
-    location === rect.bottom means element is in the viewport fully (100vh)
-    * 1. location - position = 0, element is at top of viewport (must be a positive result; if negative, scrolled past)
-    * 2. location < position, element has scrolled past the top of viewport
-
-    - what if it's scrolled just past, but not all the way through? Will want to maintain color. Need to be able to read the className
-    - will also need the bottom
-    - do I need the heigt? bottom - top === the element's height
-
-    should not be too expensive since only on debounced scroll
-
-    Will need some math to determine which el meets * condition
-
-    */
   }
 
   locateElAtTop() {
@@ -104,8 +78,7 @@ class HomePage extends Component {
       // rect.left >= 0 &&
       // rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
       // rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
-
-      (rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) && rect.bottom >= this.mainNavHeight )
+      (rect.bottom <= ( window.innerHeight + (this.mainNavHeight / 2) || document.documentElement.clientHeight + (this.mainNavHeight / 2) ) && rect.bottom >= this.mainNavHeight )
     );
   }
 
