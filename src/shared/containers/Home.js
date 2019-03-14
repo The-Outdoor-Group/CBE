@@ -5,12 +5,13 @@ import { connect } from 'react-redux';
 import { setMainNavThemeColor } from '../actions/shared-ui-actions';
 
 const Hero = loadable( () => import('./../components/content/Hero') );
+const MoreContentArrow = loadable( () => import('./../components/content/assets/images/MoreContentArrow') );
 
 const heroNodes = [
-  {class: "light", copy: "Engage Hybrid"},
-  {class: "dark", copy: "1 div"},
-  {class: "light", copy: "2 div"},
-  {class: "dark", copy: "3 div"}
+  { type: "intro", cssClass: "light", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] },
+  { type: "tech", cssClass: "dark", leftSide: { title: "Engage Hybrid" }, rightSide: { }  },
+  { type: "benefits", cssClass: "light", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] },
+  { type: "usecase", cssClass: "dark", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] }
 ];
 
 class HomePage extends Component {
@@ -65,12 +66,18 @@ class HomePage extends Component {
   }
 
   render() {
-    const createHeroNodes = () => heroNodes.map( (hero, i) => <Hero heroRef={ (el) => this[`heroRegion${i}`] = el } class={hero.class} copy={hero.copy} />);
+    const { mainNavThemeColor } = this.props.sharedUiState;
+
+    const createHeroNodes = () => {
+      // console.log('createHeroNodes run - prevent from re-running');
+      return heroNodes.map( (props, i) => <Hero props={props} />)
+    };
 
     return (
-    <Fragment>
-      { createHeroNodes() }
-    </Fragment>
+      <Fragment>
+        { createHeroNodes() }
+        <MoreContentArrow colorTheme={mainNavThemeColor} />
+      </Fragment>
     );
   }
 }
@@ -83,3 +90,6 @@ export default connect(mapStateToProps, { setMainNavThemeColor })(HomePage);
 // rect.left >= 0 &&
 // rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
 // rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
+
+
+// class={hero.class} copy={hero.copy} stats={hero.stats} type={hero.type} heroRef={ (el) => this[`heroRegion${i}`] = el }

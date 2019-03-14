@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setSecondaryNavState } from './../../../../actions/shared-ui-actions';
-import { hamburgerIconTimeline, tweenSecondaryMenuColor } from '../utilities/color-tween';
+import { hamburgerIconTimeline, tweenStrokeColor } from '../../../../utilities/tweens/color-tween';
 
 import './../css/secondary-menu-icon.css';
 
@@ -29,7 +29,7 @@ class SecondaryMenuIcon extends Component {
     let currentColor = this.props.colorTheme;
 
     if (prevColor !== currentColor) {
-      tweenSecondaryMenuColor( currentColor, [this.topLine, this.middleLine, this.bottomLine] );
+      tweenStrokeColor( currentColor, [this.topLine, this.middleLine, this.bottomLine] );
     }
   }
 

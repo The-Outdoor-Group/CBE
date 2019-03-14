@@ -2,6 +2,7 @@ import { TimelineMax } from 'gsap';
 
 if (process.env.IS_BROWSER) {
   const TweenLite = require('gsap/TweenLite');
+  const TweenMax = require('gsap/TweenMax');
 }
 
 export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
@@ -28,7 +29,19 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
       { autoAlpha: 0, y: "-5px" },
       "-=0.6"
     );
-}
+};
+
+
+export const moreContentArrowTimeline = ( el ) => {
+
+  TweenMax.fromTo(
+    el,
+    1,
+    { bottom: '1%', repeat: -1, yoyo: true },
+    { bottom: '0%', repeat: -1, yoyo: true }
+  )
+};
+
 
 export const tweenNavLinkColor = (currentColor, array) => {
   if (currentColor === 'light') {
@@ -45,25 +58,27 @@ export const tweenNavLinkColor = (currentColor, array) => {
       { color: '#000' }
     );
   }
-}
+};
 
-export const tweenSecondaryMenuColor = (currentColor, array) => {
+
+export const tweenStrokeColor = (currentColor, el) => {
   if (currentColor === 'light') {
     TweenLite.fromTo(
-      array,
+      el,
       1,
       { stroke: '#000' },
       { stroke: '#fff' }
     );
   } else {
     TweenLite.fromTo(
-      array,
+      el,
       1,
       { stroke: '#FFF' },
       { stroke: '#000' }
     );
   }
-}
+};
+
 
 export const tweenLogoSvgColor = (currentColor, el) => {
   if (currentColor === 'light') {
@@ -81,4 +96,4 @@ export const tweenLogoSvgColor = (currentColor, el) => {
       { fill: '#000' }
     );
   }
-}
+};

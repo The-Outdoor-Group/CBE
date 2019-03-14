@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { tweenLogoSvgColor } from '../utilities/color-tween';
+import { tweenLogoSvgColor } from '../../../../utilities/tweens/color-tween';
 import './../css/logo.css';
 
 export default class Logo extends Component {

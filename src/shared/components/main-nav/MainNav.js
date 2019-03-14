@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 import { connect } from 'react-redux';
-import { tweenNavLinkColor } from './assets/utilities/color-tween';
+import { tweenNavLinkColor } from '../../utilities/tweens/color-tween';
 
 import './assets/css/main-nav.css';
 
