@@ -7,13 +7,17 @@ const statNodes = (stats) => {
 
 // Will need a horizontal or vert prop to determine
 // if across bottom or on the right side
-const Stats = (props) => (
-  <div className="stats">
-    <ul>
-      { statNodes(props.stats) }
-      <li><button>order now</button></li>
-    </ul>
-  </div>
-);
+const Stats = (props) => {
+  const { cssClass, copy, orderButton } = props.stats;
+
+  return (
+    <div className={`stats ${cssClass}`}>
+      <ul className={cssClass}>
+        { statNodes(copy) }
+        {orderButton ? <li><button>order now</button></li> : null}
+      </ul>
+    </div>
+  );
+}
 
 export default Stats;

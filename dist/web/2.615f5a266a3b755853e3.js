@@ -1,0 +1,1 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[2],{347:function(e,n,t){"use strict";t.r(n);var l=t(2),a=t.n(l);t(367);n.default=function(e){return a.a.createElement("ul",{className:"call-to-action"},a.a.createElement("li",null,"+ Learn More"),a.a.createElement("li",null,a.a.createElement("button",null,"Order Now")))}},367:function(e,n,t){}}]);

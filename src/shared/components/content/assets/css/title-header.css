@@ -20,8 +20,8 @@
 
 .title-header-copy ul li button {
   background: none;
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid;
+  color: inherit;
   border-radius: 5rem;
   font-size: 90%;
   text-transform: uppercase;
@@ -29,6 +29,6 @@
 }
 
 .title-header-copy ul li button.active {
-  background: #fff;
-  color: #000;
+  background: inherit;
+  color: inherit;
 }

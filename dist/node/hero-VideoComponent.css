@@ -1,0 +1,19 @@
+.three-fourths-screen-video-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.three-fourths-screen-video-wrapper video {
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+
+.three-fourths-screen-video-wrapper .stats {
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+

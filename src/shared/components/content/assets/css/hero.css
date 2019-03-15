@@ -1,6 +1,6 @@
 .light {
   background: #C7C7C7;
-  color: #fff; /* #000; */
+  color: #000;
 }
 
 .dark {
@@ -9,7 +9,8 @@
 }
 
 .hero-region {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   width: auto;
   position: relative;
 }

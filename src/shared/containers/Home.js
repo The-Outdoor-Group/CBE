@@ -8,10 +8,74 @@ const Hero = loadable( () => import('./../components/content/Hero') );
 const MoreContentArrow = loadable( () => import('./../components/content/assets/images/MoreContentArrow') );
 
 const heroNodes = [
-  { type: "intro", cssClass: "light", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] },
-  { type: "tech", cssClass: "dark", leftSide: { title: "Engage Hybrid" }, rightSide: { }  },
-  { type: "benefits", cssClass: "light", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] },
-  { type: "usecase", cssClass: "dark", title: "Engage Hybrid", stats: ["QuadTrack Design", "2nd & 3rd axis adjustment", "Rapid Drive"] }
+  {
+    type: "intro",
+    cssClass: "light",
+    title: "Engage Hybrid",
+    stats: {
+      cssClass: "horizontal",
+      copy: [
+        "QuadTrack Design",
+        "2nd & 3rd axis adjustment",
+        "Rapid Drive"
+      ],
+      orderButton: true
+    },
+  },
+  {
+    type: "tech",
+    cssClass: "dark",
+    textArticle: {
+      cssClassName: "vertical",
+      h2: "Accuracy",
+      h1: "The Most Accurate",
+      p: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+    }
+  },
+  {
+    type: "benefits",
+    cssClass: "light",
+    stats: {
+      cssClass: "vertical",
+      copy: [
+        "QuadTrack Design",
+        "2nd & 3rd axis adjustment",
+        "Rapid Drive"
+      ],
+      orderButton: false
+    },
+    textArticle: {
+      cssClassName: "horizontal",
+      h2: "Benefits",
+      h1: "Benefits Component",
+      p: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+    }
+  },
+  {
+    type: "usecase",
+    cssClass: "dark",
+    title: "Engage Hybrid",
+    textArticle: {
+      cssClassName: "vertical",
+      h2: "Usecase",
+      h1: "Usecase Component",
+      p: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+    },
+    video: {
+      src: "https://s3.amazonaws.com/elite-website/2019/echelon/echelon-39/videos/christenberry-spotlight.mp4",
+      type: "video/mp4",
+      controls: true
+    },
+    stats: {
+      cssClass: "horizontal",
+      copy: [
+        "QuadTrack Design",
+        "2nd & 3rd axis adjustment",
+        "Rapid Drive"
+      ],
+      orderButton: false
+    },
+  }
 ];
 
 class HomePage extends Component {
