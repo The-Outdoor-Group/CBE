@@ -10,7 +10,7 @@ class MoreContentArrow extends Component {
   }
 
   componentDidMount() {
-    moreContentArrowTimeline(this.svg);
+    if (!this.props.endOfPage) moreContentArrowTimeline(this.svg);
   }
 
   componentDidUpdate(prevProps, nextState) {
@@ -18,16 +18,26 @@ class MoreContentArrow extends Component {
     let currentColor = this.props.colorTheme;
 
     if (prevColor !== currentColor) {
-      tweenStrokeColor( currentColor, this.line );
+      if (!this.props.endOfPage) {
+        tweenStrokeColor( currentColor, this.line );
+        moreContentArrowTimeline(this.svg);
+      }
     }
   }
 
   render() {
-    return (
-      <svg ref={el => this.svg = el} id="more-content-arrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="50.6" height="28.5" viewBox="0 0 50.6 28.5">
-        <polyline ref={el => this.line = el} class="cls-1" points="49.2 2.1 25.7 25.7 1.4 1.4"/>
-      </svg>
-    );
+
+    const renderMoreContentArrowNode = () => !this.props.endOfPage
+    ?
+      (
+        <svg ref={el => this.svg = el} id="more-content-arrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="50.6" height="28.5" viewBox="0 0 50.6 28.5">
+          <polyline ref={el => this.line = el} class="cls-1" points="49.2 2.1 25.7 25.7 1.4 1.4"/>
+        </svg>
+      )
+    :
+    null;
+
+    return renderMoreContentArrowNode();
   }
 }
 

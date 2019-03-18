@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "63653b9aec6c3306df68",
+  "hash": "fb1c4fa5b7fb5f20e6b6",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -104,7 +104,7 @@
     },
     {
       "name": "11.server.js",
-      "size": 4703,
+      "size": 4885,
       "chunks": [
         11
       ],
@@ -242,7 +242,7 @@
     },
     {
       "name": "8.server.js",
-      "size": 2244,
+      "size": 2337,
       "chunks": [
         8
       ],

@@ -89,7 +89,11 @@ class HomePage extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.locateElAtTop = this.locateElAtTop.bind(this);
     this.isInViewPort = this.isInViewPort.bind(this);
+    this.detectEndOfPage = this.detectEndOfPage.bind(this);
 
+    this.state = {
+      endOfPage: false
+    }
   }
 
   componentDidMount() {
@@ -103,13 +107,9 @@ class HomePage extends Component {
     window.removeEventListener('scroll', this.debouncedScroll );
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
-    // Performance enhancement; prevents calling createHeroNodes() when done scrolling.
-    return false;
-  }
-
   handleScroll() {
     let el = this.locateElAtTop();
+    this.detectEndOfPage();
 
     if (el) {
       if ( el.classList.contains('light') ) {
@@ -134,6 +134,18 @@ class HomePage extends Component {
     );
   }
 
+  detectEndOfPage() {
+    if ( (window.innerHeight + Math.ceil(window.pageYOffset) ) >= document.body.offsetHeight ) {
+      this.setState({
+        endOfPage: true
+      })
+    } else {
+      this.setState({
+        endOfPage: false
+      })
+    }
+  }
+
   render() {
     const { mainNavThemeColor } = this.props.sharedUiState;
 
@@ -145,7 +157,7 @@ class HomePage extends Component {
     return (
       <Fragment>
         { createHeroNodes() }
-        <MoreContentArrow colorTheme={mainNavThemeColor} />
+        <MoreContentArrow colorTheme={mainNavThemeColor} endOfPage={this.state.endOfPage} />
       </Fragment>
     );
   }
