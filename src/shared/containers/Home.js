@@ -9,7 +9,7 @@ const MoreContentArrow = loadable( () => import('./../components/content/assets/
 
 const heroNodes = [
   {
-    type: "intro",
+    type: "heroHorizontalWhole",
     cssClass: "light",
     title: "Engage Hybrid",
     stats: {
@@ -23,7 +23,7 @@ const heroNodes = [
     },
   },
   {
-    type: "tech",
+    type: "heroVerticalQuarterArticleThreeQuarterMedia",
     cssClass: "dark",
     textArticle: {
       cssClassName: "vertical",
@@ -33,7 +33,7 @@ const heroNodes = [
     }
   },
   {
-    type: "benefits",
+    type: "heroHorizontalThreeQuarterMediaQuarterArticle",
     cssClass: "light",
     stats: {
       cssClass: "vertical",
@@ -52,7 +52,7 @@ const heroNodes = [
     }
   },
   {
-    type: "usecase",
+    type: "heroVerticalThreeQuarterMediaQuarterArticle",
     cssClass: "dark",
     title: "Engage Hybrid",
     textArticle: {
@@ -101,6 +101,11 @@ class HomePage extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.debouncedScroll );
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    // Performance enhancement; prevents calling createHeroNodes() when done scrolling.
+    return false;
   }
 
   handleScroll() {

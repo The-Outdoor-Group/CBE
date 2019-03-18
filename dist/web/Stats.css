@@ -54,7 +54,7 @@ div.stats.vertical {
 .stats.vertical ul li {
   border-bottom: 1px solid;
   padding: 1.5rem 0;
-  text-align: right;
+  text-align: left;
 }
 
 .stats.horizontal ul li:last-child {

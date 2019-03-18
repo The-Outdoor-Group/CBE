@@ -4,16 +4,16 @@ import loadable from '@loadable/component'
 const TitleHeader = loadable( () => import('./../../hero/TitleHeader') );
 const Stats = loadable( () => import('./../../hero/Stats') );
 
-import './../css/intro-component.css'
+import './../css/hero-horizontal-whole-component.css';
 
-export const createIntroComponent = (props) => {
+export const createHeroHorizontalWholeComponent = (props) => {
   const { stats, title } = props;
   return (
-      <article className="intro-component">
+      <article className="hero-horizontal-whole-component">
         <TitleHeader title={title} />
         <Stats stats={stats} />
       </article>
   );
 }
 
-export default createIntroComponent;
+export default createHeroHorizontalWholeComponent;

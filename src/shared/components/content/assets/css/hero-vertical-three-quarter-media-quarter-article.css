@@ -1,0 +1,4 @@
+article.hero-vertical-three-quarter-media-quarter-article {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}

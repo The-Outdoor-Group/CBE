@@ -2,7 +2,7 @@ ul.call-to-action {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   margin: 1rem 0;
   text-transform: uppercase;
 }
@@ -14,4 +14,12 @@ ul.call-to-action li button {
   border-radius: 5rem;
   font-size: 90%;
   padding: 0.25rem 2rem;
+}
+
+
+li.learn-more-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
 }

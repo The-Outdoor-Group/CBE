@@ -97,3 +97,41 @@ export const tweenLogoSvgColor = (currentColor, el) => {
     );
   }
 };
+
+
+export const plusIconSvgTimeline = (currentColor, circle, lines) => {
+  let tl = new TimelineMax({ paused: true });
+
+  if (currentColor === 'light') {
+    tl
+      .fromTo(
+        circle,
+        0.25,
+        { fill: 'none' },
+        { fill: '#000' }
+      )
+      .fromTo(
+        lines,
+        0.25,
+        { stroke: '#000' },
+        { stroke: '#FFF' },
+        "-=0.25"
+      );
+  } else {
+    tl
+      .fromTo(
+        circle,
+        0.25,
+        { fill: 'none' },
+        { fill: '#FFF' }
+      )
+      .fromTo(
+        lines,
+        0.25,
+        { stroke: '#FFF' },
+        { stroke: '#000' },
+        "-=0.25"
+      );
+  }
+  return tl;
+}

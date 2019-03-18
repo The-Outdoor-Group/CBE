@@ -1,8 +1,8 @@
 import React from 'react';
-import createIntroComponent from './createIntroComponent';
-import createTechComponent from './createTechComponent';
-import createBenefitsComponent from './createBenefitsComponent';
-import createUsecaseComponent from './createUsecaseComponent';
+import createHeroHorizontalWholeComponent from './createHeroHorizontalWholeComponent';
+import createHeroVerticalQuarterArticleThreeQuarterMediaComponent from './createHeroVerticalQuarterArticleThreeQuarterMediaComponent';
+import createHeroHorizontalThreeQuarterMediaQuarterArticleComponent from './createHeroHorizontalThreeQuarterMediaQuarterArticleComponent';
+import createHeroVerticalThreeQuarterMediaQuarterArticleComponent from './createheroVerticalThreeQuarterMediaQuarterArticleComponent';
 
 const assembleComponent = (props) => {
 
@@ -10,17 +10,17 @@ const assembleComponent = (props) => {
 
   switch(type) {
 
-    case 'intro':
-     return createIntroComponent(props);
+    case 'heroHorizontalWhole':
+     return createHeroHorizontalWholeComponent(props);
 
-    case 'tech':
-      return createTechComponent(props);
+    case 'heroVerticalQuarterArticleThreeQuarterMedia':
+      return createHeroVerticalQuarterArticleThreeQuarterMediaComponent(props);
 
-    case 'benefits':
-      return createBenefitsComponent(props);
+    case 'heroHorizontalThreeQuarterMediaQuarterArticle':
+      return createHeroHorizontalThreeQuarterMediaQuarterArticleComponent(props);
 
-    case 'usecase':
-      return createUsecaseComponent(props);
+    case 'heroVerticalThreeQuarterMediaQuarterArticle':
+      return createHeroVerticalThreeQuarterMediaQuarterArticleComponent(props);
 
     default:
       return null;

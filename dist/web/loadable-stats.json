@@ -2,86 +2,91 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "615f5a266a3b755853e3",
+  "hash": "cf4a37db028cc9af4219",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.615f5a266a3b755853e3.js",
+    "vendor": "0.cf4a37db028cc9af4219.js",
     "Stats": [
       "Stats.css",
-      "1.615f5a266a3b755853e3.js",
+      "1.cf4a37db028cc9af4219.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "2.615f5a266a3b755853e3.js",
+      "2.cf4a37db028cc9af4219.js",
       "CallToAction.css.map"
+    ],
+    "assets-images-PlusIcon": [
+      "assets-images-PlusIcon.css",
+      "3.cf4a37db028cc9af4219.js",
+      "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "3.615f5a266a3b755853e3.js",
+      "4.cf4a37db028cc9af4219.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "4.615f5a266a3b755853e3.js",
+      "5.cf4a37db028cc9af4219.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "5.615f5a266a3b755853e3.js",
+      "6.cf4a37db028cc9af4219.js",
       "components-Bar.css.map"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "6.615f5a266a3b755853e3.js",
+      "7.cf4a37db028cc9af4219.js",
       "components-Foo.css.map"
     ],
     "components-content-Hero": [
       "components-content-Hero.css",
-      "7.615f5a266a3b755853e3.js",
+      "8.cf4a37db028cc9af4219.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "8.615f5a266a3b755853e3.js",
+      "9.cf4a37db028cc9af4219.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "9.615f5a266a3b755853e3.js",
+      "10.cf4a37db028cc9af4219.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "10.615f5a266a3b755853e3.js",
+      "11.cf4a37db028cc9af4219.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
-    "containers-Home": "11.615f5a266a3b755853e3.js",
+    "containers-Home": "12.cf4a37db028cc9af4219.js",
     "hero-TextArticle": [
       "hero-TextArticle.css",
-      "12.615f5a266a3b755853e3.js",
+      "13.cf4a37db028cc9af4219.js",
       "hero-TextArticle.css.map"
     ],
     "hero-TitleHeader": [
       "hero-TitleHeader.css",
-      "13.615f5a266a3b755853e3.js",
+      "14.cf4a37db028cc9af4219.js",
       "hero-TitleHeader.css.map"
     ],
     "hero-VideoComponent": [
       "hero-VideoComponent.css",
-      "14.615f5a266a3b755853e3.js",
+      "15.cf4a37db028cc9af4219.js",
       "hero-VideoComponent.css.map"
     ],
     "main": [
       "main.css",
-      "main.615f5a266a3b755853e3.js",
+      "main.cf4a37db028cc9af4219.js",
       "main.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.615f5a266a3b755853e3.js",
+      "name": "0.cf4a37db028cc9af4219.js",
       "size": 397850,
       "chunks": [
         0
@@ -92,7 +97,7 @@
       "emitted": false
     },
     {
-      "name": "1.615f5a266a3b755853e3.js",
+      "name": "1.cf4a37db028cc9af4219.js",
       "size": 566,
       "chunks": [
         1
@@ -103,10 +108,21 @@
       "emitted": false
     },
     {
-      "name": "10.615f5a266a3b755853e3.js",
-      "size": 1600,
+      "name": "10.cf4a37db028cc9af4219.js",
+      "size": 3872,
       "chunks": [
         10
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "11.cf4a37db028cc9af4219.js",
+      "size": 1600,
+      "chunks": [
+        11
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -114,10 +130,10 @@
       "emitted": false
     },
     {
-      "name": "11.615f5a266a3b755853e3.js",
-      "size": 4561,
+      "name": "12.cf4a37db028cc9af4219.js",
+      "size": 4810,
       "chunks": [
-        11
+        12
       ],
       "chunkNames": [
         "containers-Home"
@@ -125,10 +141,10 @@
       "emitted": false
     },
     {
-      "name": "12.615f5a266a3b755853e3.js",
-      "size": 949,
+      "name": "13.cf4a37db028cc9af4219.js",
+      "size": 983,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -136,10 +152,10 @@
       "emitted": false
     },
     {
-      "name": "13.615f5a266a3b755853e3.js",
+      "name": "14.cf4a37db028cc9af4219.js",
       "size": 492,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -147,10 +163,10 @@
       "emitted": false
     },
     {
-      "name": "14.615f5a266a3b755853e3.js",
+      "name": "15.cf4a37db028cc9af4219.js",
       "size": 1010,
       "chunks": [
-        14
+        15
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -158,8 +174,8 @@
       "emitted": false
     },
     {
-      "name": "2.615f5a266a3b755853e3.js",
-      "size": 379,
+      "name": "2.cf4a37db028cc9af4219.js",
+      "size": 1473,
       "chunks": [
         2
       ],
@@ -183,24 +199,24 @@
       "emitted": false
     },
     {
-      "name": "3.615f5a266a3b755853e3.js",
-      "size": 3240,
+      "name": "3.cf4a37db028cc9af4219.js",
+      "size": 2743,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "assets-images-logo"
+        "assets-images-PlusIcon"
       ],
       "emitted": false
     },
     {
-      "name": "4.615f5a266a3b755853e3.js",
-      "size": 1878,
+      "name": "4.cf4a37db028cc9af4219.js",
+      "size": 3240,
       "chunks": [
         4
       ],
       "chunkNames": [
-        "assets-images-secondary-menu-icon"
+        "assets-images-logo"
       ],
       "emitted": false
     },
@@ -212,10 +228,21 @@
       "emitted": false
     },
     {
-      "name": "5.615f5a266a3b755853e3.js",
-      "size": 381,
+      "name": "5.cf4a37db028cc9af4219.js",
+      "size": 1878,
       "chunks": [
         5
+      ],
+      "chunkNames": [
+        "assets-images-secondary-menu-icon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "6.cf4a37db028cc9af4219.js",
+      "size": 381,
+      "chunks": [
+        6
       ],
       "chunkNames": [
         "components-Bar"
@@ -223,24 +250,13 @@
       "emitted": false
     },
     {
-      "name": "6.615f5a266a3b755853e3.js",
+      "name": "7.cf4a37db028cc9af4219.js",
       "size": 381,
-      "chunks": [
-        6
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "7.615f5a266a3b755853e3.js",
-      "size": 3845,
       "chunks": [
         7
       ],
       "chunkNames": [
-        "components-content-Hero"
+        "components-Foo"
       ],
       "emitted": false
     },
@@ -252,10 +268,21 @@
       "emitted": false
     },
     {
-      "name": "8.615f5a266a3b755853e3.js",
-      "size": 1960,
+      "name": "8.cf4a37db028cc9af4219.js",
+      "size": 4183,
       "chunks": [
         8
+      ],
+      "chunkNames": [
+        "components-content-Hero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "9.cf4a37db028cc9af4219.js",
+      "size": 2256,
+      "chunks": [
+        9
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -263,19 +290,8 @@
       "emitted": false
     },
     {
-      "name": "9.615f5a266a3b755853e3.js",
-      "size": 3575,
-      "chunks": [
-        9
-      ],
-      "chunkNames": [
-        "components-main-nav-MainNav"
-      ],
-      "emitted": false
-    },
-    {
       "name": "CallToAction.css",
-      "size": 324,
+      "size": 433,
       "chunks": [
         2
       ],
@@ -286,7 +302,7 @@
     },
     {
       "name": "CallToAction.css.map",
-      "size": 605,
+      "size": 754,
       "chunks": [
         2
       ],
@@ -297,7 +313,7 @@
     },
     {
       "name": "Stats.css",
-      "size": 1049,
+      "size": 1048,
       "chunks": [
         1
       ],
@@ -308,7 +324,7 @@
     },
     {
       "name": "Stats.css.map",
-      "size": 1596,
+      "size": 1595,
       "chunks": [
         1
       ],
@@ -325,10 +341,32 @@
       "emitted": false
     },
     {
+      "name": "assets-images-PlusIcon.css",
+      "size": 256,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "assets-images-PlusIcon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-PlusIcon.css.map",
+      "size": 552,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "assets-images-PlusIcon"
+      ],
+      "emitted": false
+    },
+    {
       "name": "assets-images-logo.css",
       "size": 567,
       "chunks": [
-        3
+        4
       ],
       "chunkNames": [
         "assets-images-logo"
@@ -339,7 +377,7 @@
       "name": "assets-images-logo.css.map",
       "size": 915,
       "chunks": [
-        3
+        4
       ],
       "chunkNames": [
         "assets-images-logo"
@@ -350,7 +388,7 @@
       "name": "assets-images-secondary-menu-icon.css",
       "size": 278,
       "chunks": [
-        4
+        5
       ],
       "chunkNames": [
         "assets-images-secondary-menu-icon"
@@ -361,7 +399,7 @@
       "name": "assets-images-secondary-menu-icon.css.map",
       "size": 574,
       "chunks": [
-        4
+        5
       ],
       "chunkNames": [
         "assets-images-secondary-menu-icon"
@@ -372,7 +410,7 @@
       "name": "components-Bar.css",
       "size": 23,
       "chunks": [
-        5
+        6
       ],
       "chunkNames": [
         "components-Bar"
@@ -383,7 +421,7 @@
       "name": "components-Bar.css.map",
       "size": 195,
       "chunks": [
-        5
+        6
       ],
       "chunkNames": [
         "components-Bar"
@@ -394,7 +432,7 @@
       "name": "components-Foo.css",
       "size": 23,
       "chunks": [
-        6
+        7
       ],
       "chunkNames": [
         "components-Foo"
@@ -405,7 +443,7 @@
       "name": "components-Foo.css.map",
       "size": 195,
       "chunks": [
-        6
+        7
       ],
       "chunkNames": [
         "components-Foo"
@@ -414,9 +452,9 @@
     },
     {
       "name": "components-content-Hero.css",
-      "size": 1036,
+      "size": 1291,
       "chunks": [
-        7
+        8
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -425,9 +463,9 @@
     },
     {
       "name": "components-content-Hero.css.map",
-      "size": 1862,
+      "size": 2231,
       "chunks": [
-        7
+        8
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -438,7 +476,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 206,
       "chunks": [
-        8
+        9
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -449,7 +487,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css.map",
       "size": 510,
       "chunks": [
-        8
+        9
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -460,7 +498,7 @@
       "name": "components-main-nav-MainNav.css",
       "size": 808,
       "chunks": [
-        9
+        10
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -471,7 +509,7 @@
       "name": "components-main-nav-MainNav.css.map",
       "size": 1281,
       "chunks": [
-        9
+        10
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -482,7 +520,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css",
       "size": 536,
       "chunks": [
-        10
+        11
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -493,7 +531,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css.map",
       "size": 944,
       "chunks": [
-        10
+        11
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -504,7 +542,7 @@
       "name": "hero-TextArticle.css",
       "size": 657,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -515,7 +553,7 @@
       "name": "hero-TextArticle.css.map",
       "size": 1056,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -526,7 +564,7 @@
       "name": "hero-TitleHeader.css",
       "size": 605,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -537,7 +575,7 @@
       "name": "hero-TitleHeader.css.map",
       "size": 978,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -548,7 +586,7 @@
       "name": "hero-VideoComponent.css",
       "size": 329,
       "chunks": [
-        14
+        15
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -559,7 +597,7 @@
       "name": "hero-VideoComponent.css.map",
       "size": 620,
       "chunks": [
-        14
+        15
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -574,10 +612,10 @@
       "emitted": false
     },
     {
-      "name": "main.615f5a266a3b755853e3.js",
-      "size": 12609,
+      "name": "main.cf4a37db028cc9af4219.js",
+      "size": 12643,
       "chunks": [
-        15
+        16
       ],
       "chunkNames": [
         "main"
@@ -588,7 +626,7 @@
       "name": "main.css",
       "size": 1135,
       "chunks": [
-        15
+        16
       ],
       "chunkNames": [
         "main"
@@ -599,7 +637,7 @@
       "name": "main.css.map",
       "size": 1634,
       "chunks": [
-        15
+        16
       ],
       "chunkNames": [
         "main"
@@ -612,12 +650,12 @@
     "main": {
       "chunks": [
         0,
-        15
+        16
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
+        "0.cf4a37db028cc9af4219.js",
         "main.css",
-        "main.615f5a266a3b755853e3.js",
+        "main.cf4a37db028cc9af4219.js",
         "main.css.map"
       ],
       "children": {},
@@ -628,12 +666,12 @@
     "main": {
       "chunks": [
         0,
-        15
+        16
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
+        "0.cf4a37db028cc9af4219.js",
         "main.css",
-        "main.615f5a266a3b755853e3.js",
+        "main.cf4a37db028cc9af4219.js",
         "main.css.map"
       ],
       "children": {},
@@ -642,12 +680,12 @@
     "components-main-nav-MainNav": {
       "chunks": [
         0,
-        9
+        10
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
+        "0.cf4a37db028cc9af4219.js",
         "components-main-nav-MainNav.css",
-        "9.615f5a266a3b755853e3.js",
+        "10.cf4a37db028cc9af4219.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -656,12 +694,12 @@
     "components-main-secondary-nav-MainSecondaryNav": {
       "chunks": [
         0,
-        10
+        11
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
+        "0.cf4a37db028cc9af4219.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "10.615f5a266a3b755853e3.js",
+        "11.cf4a37db028cc9af4219.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -670,22 +708,22 @@
     "containers-Home": {
       "chunks": [
         0,
-        11
+        12
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
-        "11.615f5a266a3b755853e3.js"
+        "0.cf4a37db028cc9af4219.js",
+        "12.cf4a37db028cc9af4219.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        6
+        7
       ],
       "assets": [
         "components-Foo.css",
-        "6.615f5a266a3b755853e3.js",
+        "7.cf4a37db028cc9af4219.js",
         "components-Foo.css.map"
       ],
       "children": {},
@@ -693,11 +731,11 @@
     },
     "components-Bar": {
       "chunks": [
-        5
+        6
       ],
       "assets": [
         "components-Bar.css",
-        "5.615f5a266a3b755853e3.js",
+        "6.cf4a37db028cc9af4219.js",
         "components-Bar.css.map"
       ],
       "children": {},
@@ -705,11 +743,11 @@
     },
     "assets-images-logo": {
       "chunks": [
-        3
+        4
       ],
       "assets": [
         "assets-images-logo.css",
-        "3.615f5a266a3b755853e3.js",
+        "4.cf4a37db028cc9af4219.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -717,11 +755,11 @@
     },
     "assets-images-secondary-menu-icon": {
       "chunks": [
-        4
+        5
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "4.615f5a266a3b755853e3.js",
+        "5.cf4a37db028cc9af4219.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -729,11 +767,11 @@
     },
     "components-content-Hero": {
       "chunks": [
-        7
+        8
       ],
       "assets": [
         "components-content-Hero.css",
-        "7.615f5a266a3b755853e3.js",
+        "8.cf4a37db028cc9af4219.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -742,12 +780,12 @@
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
         0,
-        8
+        9
       ],
       "assets": [
-        "0.615f5a266a3b755853e3.js",
+        "0.cf4a37db028cc9af4219.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "8.615f5a266a3b755853e3.js",
+        "9.cf4a37db028cc9af4219.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -755,11 +793,11 @@
     },
     "hero-TitleHeader": {
       "chunks": [
-        13
+        14
       ],
       "assets": [
         "hero-TitleHeader.css",
-        "13.615f5a266a3b755853e3.js",
+        "14.cf4a37db028cc9af4219.js",
         "hero-TitleHeader.css.map"
       ],
       "children": {},
@@ -771,7 +809,7 @@
       ],
       "assets": [
         "Stats.css",
-        "1.615f5a266a3b755853e3.js",
+        "1.cf4a37db028cc9af4219.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -779,11 +817,11 @@
     },
     "hero-TextArticle": {
       "chunks": [
-        12
+        13
       ],
       "assets": [
         "hero-TextArticle.css",
-        "12.615f5a266a3b755853e3.js",
+        "13.cf4a37db028cc9af4219.js",
         "hero-TextArticle.css.map"
       ],
       "children": {},
@@ -791,11 +829,11 @@
     },
     "hero-VideoComponent": {
       "chunks": [
-        14
+        15
       ],
       "assets": [
         "hero-VideoComponent.css",
-        "14.615f5a266a3b755853e3.js",
+        "15.cf4a37db028cc9af4219.js",
         "hero-VideoComponent.css.map"
       ],
       "children": {},
@@ -807,7 +845,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "2.615f5a266a3b755853e3.js",
+        "2.cf4a37db028cc9af4219.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -819,8 +857,22 @@
       ],
       "assets": [
         "Stats.css",
-        "1.615f5a266a3b755853e3.js",
+        "1.cf4a37db028cc9af4219.js",
         "Stats.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-PlusIcon": {
+      "chunks": [
+        0,
+        3
+      ],
+      "assets": [
+        "0.cf4a37db028cc9af4219.js",
+        "assets-images-PlusIcon.css",
+        "3.cf4a37db028cc9af4219.js",
+        "assets-images-PlusIcon.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -905,7 +957,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/benefits-article.css"
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/call-to-action.css"
     },
     {
       "errors": [],
@@ -940,7 +992,112 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/call-to-action.css"
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-horizontal-three-quarter-media-quarter-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-horizontal-whole-component.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-quarter-article-three-quarter-media.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-three-quarter-media-quarter-article.css"
     },
     {
       "errors": [],
@@ -1010,41 +1167,6 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/intro-component.css"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "/assets/web/",
-      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "mini-css-extract-plugin": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "*"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "namedChunkGroups": {
-        "mini-css-extract-plugin": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "*"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/more-content-arrow.css"
     },
     {
@@ -1080,7 +1202,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/stats.css"
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/plus-icon.css"
     },
     {
       "errors": [],
@@ -1115,7 +1237,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/tech-specs-article.css"
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/stats.css"
     },
     {
       "errors": [],
@@ -1186,41 +1308,6 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/title-header.css"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "/assets/web/",
-      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "mini-css-extract-plugin": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "*"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "namedChunkGroups": {
-        "mini-css-extract-plugin": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "*"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "children": [],
-      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/usecase-article.css"
     },
     {
       "errors": [],
