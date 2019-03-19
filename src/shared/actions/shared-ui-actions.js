@@ -6,6 +6,12 @@ export const SET_MAIN_NAV_COLOR_THEME_REQUESTED = 'SET_MAIN_NAV_COLOR_THEME_REQU
 export const SET_MAIN_NAV_COLOR_THEME_SUCCEEDED = 'SET_MAIN_NAV_COLOR_THEME_SUCCEEDED';
 export const SET_MAIN_NAV_COLOR_THEME_FAILED = 'SET_MAIN_NAV_COLOR_THEME_FAILED';
 
+export const SET_END_OF_PAGE_SCROLL_REQUESTED = 'SET_END_OF_PAGE_SCROLL_REQUESTED';
+export const SET_END_OF_PAGE_SCROLL_SUCCEEDED = 'SET_END_OF_PAGE_SCROLL_SUCCEEDED';
+export const SET_END_OF_PAGE_SCROLL_FAILED = 'SET_END_OF_PAGE_SCROLL_FAILED';
+
 export const setSecondaryNavState = (payload) => ({ type: SET_SECONDARY_NAV_STATE_REQUESTED, payload });
 
 export const setMainNavThemeColor = (payload) => ({ type: SET_MAIN_NAV_COLOR_THEME_REQUESTED, payload });
+
+export const setEndOfPageScroll = (payload) => ({ type: SET_END_OF_PAGE_SCROLL_REQUESTED, payload });

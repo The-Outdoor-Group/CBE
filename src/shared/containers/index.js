@@ -31,6 +31,7 @@ const registerSW = () => {
 
 const MainNav = loadable( () => import('./../components/main-nav/MainNav') );
 const MainSecondaryNav = loadable( () => import('../components/main-secondary-nav/MainSecondaryNav') );
+const MoreContentArrow = loadable( () => import('../components/content/assets/images/MoreContentArrow') );
 
 class App extends Component {
 
@@ -78,6 +79,7 @@ class App extends Component {
           </Switch>
         </main>
         <MainSecondaryNav />
+        <MoreContentArrow />
       </Fragment>
     );
   }

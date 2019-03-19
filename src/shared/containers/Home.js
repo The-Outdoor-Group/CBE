@@ -2,10 +2,10 @@ import React, { Component, Fragment } from 'react';
 import loadable from '@loadable/component';
 import _debounce from 'lodash/debounce';
 import { connect } from 'react-redux';
-import { setMainNavThemeColor } from '../actions/shared-ui-actions';
+import { setMainNavThemeColor, setEndOfPageScroll } from '../actions/shared-ui-actions';
+import { locateElAtTop, isInViewPort, isAtEndOfPage } from './assets/utilities/dom-element-location-tools';
 
 const Hero = loadable( () => import('./../components/content/Hero') );
-const MoreContentArrow = loadable( () => import('./../components/content/assets/images/MoreContentArrow') );
 
 const heroNodes = [
   {
@@ -87,13 +87,10 @@ class HomePage extends Component {
     this.mainNavHeight
 
     this.handleScroll = this.handleScroll.bind(this);
-    this.locateElAtTop = this.locateElAtTop.bind(this);
-    this.isInViewPort = this.isInViewPort.bind(this);
-    this.detectEndOfPage = this.detectEndOfPage.bind(this);
+  }
 
-    this.state = {
-      endOfPage: false
-    }
+  componentWillnmount() {
+    this.props.setEndOfPageScroll(false);
   }
 
   componentDidMount() {
@@ -103,13 +100,19 @@ class HomePage extends Component {
     this.mainNavHeight = 80;
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return false;
+  }
+
   componentWillUnmount() {
     window.removeEventListener('scroll', this.debouncedScroll );
   }
 
   handleScroll() {
-    let el = this.locateElAtTop();
-    this.detectEndOfPage();
+    let el = locateElAtTop('.hero-region')(this.mainNavHeight);
+    let result = !!isAtEndOfPage();
+
+    this.props.setEndOfPageScroll(result);
 
     if (el) {
       if ( el.classList.contains('light') ) {
@@ -121,56 +124,18 @@ class HomePage extends Component {
 
   }
 
-  locateElAtTop() {
-    return Array.from( document.querySelectorAll('.hero-region') ).filter( region => this.isInViewPort(region) )[0];
-  }
-
-  isInViewPort(el) {
-    let rect = el.getBoundingClientRect();
-
-    return (
-      rect.bottom <= ( window.innerHeight + (this.mainNavHeight / 2) || document.documentElement.clientHeight + (this.mainNavHeight / 2) ) &&
-      rect.bottom >= this.mainNavHeight
-    );
-  }
-
-  detectEndOfPage() {
-    if ( (window.innerHeight + Math.ceil(window.pageYOffset) ) >= document.body.offsetHeight ) {
-      this.setState({
-        endOfPage: true
-      })
-    } else {
-      this.setState({
-        endOfPage: false
-      })
-    }
-  }
-
   render() {
     const { mainNavThemeColor } = this.props.sharedUiState;
 
-    const createHeroNodes = () => {
-      // console.log('createHeroNodes run - prevent from re-running');
-      return heroNodes.map( (props, i) => <Hero props={props} />)
-    };
+    const createHeroNodes = () => heroNodes.map( (props, i) => <Hero props={props} /> );
 
     return (
       <Fragment>
         { createHeroNodes() }
-        <MoreContentArrow colorTheme={mainNavThemeColor} endOfPage={this.state.endOfPage} />
       </Fragment>
     );
   }
 }
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
-export default connect(mapStateToProps, { setMainNavThemeColor })(HomePage);
-
-
-// rect.top >= 0 &&
-// rect.left >= 0 &&
-// rect.bottom <= ( window.innerHeight || document.documentElement.clientHeight ) &&
-// rect.right <= ( window.innerWidth || document.documentElement.clientWidth )
-
-
-// class={hero.class} copy={hero.copy} stats={hero.stats} type={hero.type} heroRef={ (el) => this[`heroRegion${i}`] = el }
+export default connect(mapStateToProps, { setMainNavThemeColor, setEndOfPageScroll })(HomePage);

@@ -32,7 +32,14 @@ class CallToAction extends Component {
 
     return (
       <ul className="call-to-action">
-        <li onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} className="learn-more-wrapper"><PlusIcon colorTheme={colorTheme} changeDueToHover={this.state.hovering} /> <span>Learn More</span></li>
+        <li
+          onMouseEnter={this.handleMouseEnter}
+          onMouseLeave={this.handleMouseLeave}
+          className="learn-more-wrapper"
+        >
+          <PlusIcon colorTheme={colorTheme} changeDueToHover={this.state.hovering} />
+          <span>Learn More</span>
+        </li>
         <li><button>Order Now</button></li>
       </ul>
     );

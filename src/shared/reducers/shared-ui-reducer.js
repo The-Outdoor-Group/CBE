@@ -2,13 +2,15 @@ import { merge } from 'lodash/object';
 
 import {
   SET_SECONDARY_NAV_STATE_SUCCEEDED,
-  SET_MAIN_NAV_COLOR_THEME_SUCCEEDED
+  SET_MAIN_NAV_COLOR_THEME_SUCCEEDED,
+  SET_END_OF_PAGE_SCROLL_SUCCEEDED
 
 } from './../actions/shared-ui-actions';
 
 const initialState = {
   secondaryMenuVisible: false,
-  mainNavThemeColor: 'dark'
+  mainNavThemeColor: 'dark',
+  endOfPageScroll: false
 };
 
 const sharedUiReducer = ( state = initialState, { type, payload } ) => {
@@ -18,6 +20,9 @@ const sharedUiReducer = ( state = initialState, { type, payload } ) => {
 
     case SET_MAIN_NAV_COLOR_THEME_SUCCEEDED:
       return merge( {}, state, {mainNavThemeColor: payload} );
+
+    case SET_END_OF_PAGE_SCROLL_SUCCEEDED:
+      return merge( {}, state, {endOfPageScroll: payload} );
 
     default:
       return state;
