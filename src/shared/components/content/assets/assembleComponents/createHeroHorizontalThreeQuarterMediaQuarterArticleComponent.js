@@ -6,8 +6,9 @@ const TextArticle = loadable( () => import('./../../hero/TextArticle') );
 
 import './../css/hero-horizontal-three-quarter-media-quarter-article.css';
 
-const createHeroHorizontalThreeQuarterMediaQuarterArticleComponent = (props) => {
+const createHeroHorizontalThreeQuarterMediaQuarterArticleComponent = (props, showInfo) => {
   const { cssClass, stats, textArticle } = props;
+  const showMoreInfo = showInfo;
 
   return (
     <article className="hero-horizontal-three-quarter-media-quarter-article">
@@ -16,7 +17,7 @@ const createHeroHorizontalThreeQuarterMediaQuarterArticleComponent = (props) => 
         <Stats stats={stats} />
       </div>
 
-      <TextArticle copy={textArticle} colorTheme={cssClass} />
+      <TextArticle showMoreInfo={showMoreInfo} copy={textArticle} colorTheme={cssClass} />
 
     </article>
   );

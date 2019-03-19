@@ -4,7 +4,7 @@ import createHeroVerticalQuarterArticleThreeQuarterMediaComponent from './create
 import createHeroHorizontalThreeQuarterMediaQuarterArticleComponent from './createHeroHorizontalThreeQuarterMediaQuarterArticleComponent';
 import createHeroVerticalThreeQuarterMediaQuarterArticleComponent from './createheroVerticalThreeQuarterMediaQuarterArticleComponent';
 
-const assembleComponent = (props) => {
+const assembleComponent = (props, showInfo) => {
 
   const { type } = props;
 
@@ -14,13 +14,13 @@ const assembleComponent = (props) => {
      return createHeroHorizontalWholeComponent(props);
 
     case 'heroVerticalQuarterArticleThreeQuarterMedia':
-      return createHeroVerticalQuarterArticleThreeQuarterMediaComponent(props);
+      return createHeroVerticalQuarterArticleThreeQuarterMediaComponent(props, showInfo);
 
     case 'heroHorizontalThreeQuarterMediaQuarterArticle':
-      return createHeroHorizontalThreeQuarterMediaQuarterArticleComponent(props);
+      return createHeroHorizontalThreeQuarterMediaQuarterArticleComponent(props, showInfo);
 
     case 'heroVerticalThreeQuarterMediaQuarterArticle':
-      return createHeroVerticalThreeQuarterMediaQuarterArticleComponent(props);
+      return createHeroVerticalThreeQuarterMediaQuarterArticleComponent(props, showInfo);
 
     default:
       return null;

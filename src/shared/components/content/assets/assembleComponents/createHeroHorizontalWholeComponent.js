@@ -8,6 +8,7 @@ import './../css/hero-horizontal-whole-component.css';
 
 export const createHeroHorizontalWholeComponent = (props) => {
   const { stats, title } = props;
+
   return (
       <article className="hero-horizontal-whole-component">
         <TitleHeader title={title} />

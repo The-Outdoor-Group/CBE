@@ -12,10 +12,12 @@ class CallToAction extends Component {
 
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave =  this.handleMouseLeave.bind(this);
+    this.handleClick = this.handleClick.bind(this);
 
     this.state = {
-      hovering: false
-    }
+      hovering: false,
+      showMoreInfo: false
+    };
 
   }
 
@@ -27,12 +29,24 @@ class CallToAction extends Component {
     this.setState({ hovering: false });
   }
 
+  handleClick() {
+    this.setState({
+      showMoreInfo: !this.state.showMoreInfo
+    },
+      () => {
+        const { showMoreInfo } = this.state;
+        this.props.showMoreInfo(showMoreInfo);
+      }
+    );
+  }
+
   render() {
     const { colorTheme } = this.props;
 
     return (
       <ul className="call-to-action">
         <li
+          onClick={ this.handleClick }
           onMouseEnter={this.handleMouseEnter}
           onMouseLeave={this.handleMouseLeave}
           className="learn-more-wrapper"

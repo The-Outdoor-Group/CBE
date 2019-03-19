@@ -9,20 +9,20 @@ const CallToAction = loadable( () => import('./CallToAction') );
 const TextArticle = (props) => {
 
   const { h2, h1, cssClassName, p } = props.copy;
-  const { colorTheme } = props;
+  const { colorTheme, showMoreInfo } = props;
 
   return (
     <div className={`${cssClassName}-text-content`}>
       <header>
         <h2>{h2}</h2>
         <h1>{h1}</h1>
-        { cssClassName === 'horizontal' ? <CallToAction colorTheme={colorTheme} /> : null }
+        { cssClassName === 'horizontal' ? <CallToAction colorTheme={colorTheme} showMoreInfo={showMoreInfo} /> : null }
       </header>
       <p>{p}</p>
       {/* do a check of what the asset is, or even exists; can be video or image */}
       { cssClassName === 'vertical' ? <img src="https://via.placeholder.com/325x300" /> : null }
 
-      { cssClassName === 'vertical' ? <CallToAction colorTheme={colorTheme} /> : null }
+      { cssClassName === 'vertical' ? <CallToAction colorTheme={colorTheme} showMoreInfo={showMoreInfo} /> : null }
     </div>
   );
 };

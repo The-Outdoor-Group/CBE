@@ -6,13 +6,14 @@ const VideoComponent = loadable( () => import('./../../hero/VideoComponent') );
 
 import './../css/hero-vertical-three-quarter-media-quarter-article.css';
 
-const createHeroVerticalThreeQuarterMediaQuarterArticleComponent = (props) => {
+const createHeroVerticalThreeQuarterMediaQuarterArticleComponent = (props, showInfo) => {
   const { cssClass, textArticle, video, stats  } = props;
+  const showMoreInfo = showInfo;
 
   return (
     <article className="hero-vertical-three-quarter-media-quarter-article">
       <VideoComponent video={video} stats={stats} />
-      <TextArticle copy={textArticle} colorTheme={cssClass}  />
+      <TextArticle showMoreInfo={showMoreInfo} copy={textArticle} colorTheme={cssClass}  />
     </article>
   );
 }
