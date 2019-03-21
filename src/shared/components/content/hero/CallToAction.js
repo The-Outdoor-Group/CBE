@@ -34,13 +34,15 @@ class CallToAction extends Component {
       showMoreInfo: !this.state.showMoreInfo
     },
       () => {
+        const { moreInfoHandle} = this.props;
         const { showMoreInfo } = this.state;
-        this.props.showMoreInfo(showMoreInfo);
+        this.props.showMoreInfo(showMoreInfo, moreInfoHandle);
       }
     );
   }
 
   render() {
+
     const { colorTheme } = this.props;
 
     return (

@@ -30,7 +30,8 @@ const heroNodes = [
       h2: "Accuracy",
       h1: "The Most Accurate",
       p: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
-    }
+    },
+    moreInfoHandle: "engage-hybrid-handling", // query arg that will get that particular doc to load info from moreInfoButton click
   },
   {
     type: "heroHorizontalThreeQuarterMediaQuarterArticle",
@@ -49,7 +50,8 @@ const heroNodes = [
       h2: "Benefits",
       h1: "Benefits Component",
       p: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
-    }
+    },
+    moreInfoHandle: "engage-hybrid-benefits", // query arg that will get that particular doc to load info from moreInfoButton click
   },
   {
     type: "heroVerticalThreeQuarterMediaQuarterArticle",
@@ -75,6 +77,7 @@ const heroNodes = [
       ],
       orderButton: false
     },
+    moreInfoHandle: "engage-hybrid-design", // query arg that will get that particular doc to load info from moreInfoButton click
   }
 ];
 

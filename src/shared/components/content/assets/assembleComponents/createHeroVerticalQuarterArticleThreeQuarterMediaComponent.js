@@ -1,21 +1,14 @@
 import React from 'react';
-
-import loadable from '@loadable/component'
-
-const TextArticle = loadable( () => import('./../../hero/TextArticle') );
-
+import loadable from '@loadable/component';
 import './../css/hero-vertical-quarter-article-three-quarter-media.css';
 
-const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showInfo) => {
-
-  const { cssClass, textArticle } = props;
-  const showMoreInfo = showInfo;
-
-  console.log('showMoreInfo CHVQ: ', showMoreInfo);
+const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showMoreInfo) => {
+  const TextArticle = loadable( () => import('./../../hero/TextArticle') );
+  const { cssClass, textArticle, moreInfoHandle } = props;
 
   return (
       <article className="hero-vertical-quarter-article-three-quarter-media">
-        <TextArticle showMoreInfo={showMoreInfo} copy={textArticle} colorTheme={cssClass} />
+        <TextArticle showMoreInfo={showMoreInfo} copy={textArticle} colorTheme={cssClass} moreInfoHandle={moreInfoHandle} />
 
         {/* will be another component; will be image or video */}
         <div>

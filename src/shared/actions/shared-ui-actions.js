@@ -10,8 +10,14 @@ export const SET_END_OF_PAGE_SCROLL_REQUESTED = 'SET_END_OF_PAGE_SCROLL_REQUESTE
 export const SET_END_OF_PAGE_SCROLL_SUCCEEDED = 'SET_END_OF_PAGE_SCROLL_SUCCEEDED';
 export const SET_END_OF_PAGE_SCROLL_FAILED = 'SET_END_OF_PAGE_SCROLL_FAILED';
 
+export const SET_MORE_INFO_PANEL_VISIBILITY_REQUESTED = 'SET_MORE_INFO_PANEL_VISIBILITY_REQUESTED';
+export const SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED = 'SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED';
+export const SET_MORE_INFO_PANEL_VISIBILITY_FAILED = 'SET_MORE_INFO_PANEL_VISIBILITY_FAILED';
+
 export const setSecondaryNavState = (payload) => ({ type: SET_SECONDARY_NAV_STATE_REQUESTED, payload });
 
 export const setMainNavThemeColor = (payload) => ({ type: SET_MAIN_NAV_COLOR_THEME_REQUESTED, payload });
 
 export const setEndOfPageScroll = (payload) => ({ type: SET_END_OF_PAGE_SCROLL_REQUESTED, payload });
+
+export const setMoreInfoPanelVisibility = (payload) => ({ type: SET_MORE_INFO_PANEL_VISIBILITY_REQUESTED, payload });

@@ -62,3 +62,11 @@ article.hero-vertical-three-quarter-media-quarter-article {
   position: relative;
 }
 
+.hero-region span:hover {
+   cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+

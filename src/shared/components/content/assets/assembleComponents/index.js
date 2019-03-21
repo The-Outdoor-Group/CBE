@@ -4,8 +4,9 @@ import createHeroVerticalQuarterArticleThreeQuarterMediaComponent from './create
 import createHeroHorizontalThreeQuarterMediaQuarterArticleComponent from './createHeroHorizontalThreeQuarterMediaQuarterArticleComponent';
 import createHeroVerticalThreeQuarterMediaQuarterArticleComponent from './createheroVerticalThreeQuarterMediaQuarterArticleComponent';
 
-const assembleComponent = (props, showInfo) => {
+const assembleComponent = (data) => {
 
+  const { props, showInfo } = data;
   const { type } = props;
 
   switch(type) {
