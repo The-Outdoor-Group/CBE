@@ -29,6 +29,10 @@
   flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
+  align-items: center;
+}
+#main-nav-container nav ul li {
+  text-transform: uppercase;
 }
 
 /* #main-nav-container nav ul li a {} */

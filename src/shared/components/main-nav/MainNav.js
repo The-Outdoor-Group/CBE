@@ -8,6 +8,8 @@ import './assets/css/main-nav.css';
 
 const Logo = loadable( () => import('./assets/images/logo') );
 const SecondaryMenuIcon = loadable( () => import('./assets/images/secondary-menu-icon') );
+const MainList = loadable( () => import('./MainList') );
+const InfoPanelOpenList = loadable( () => import('./InfoPanelOpenList') );
 
 /*
   just an idea - update the middle nav menu so that it shows pertinant navigation if customer
@@ -29,9 +31,6 @@ class MainNav extends Component {
     // just for dev; will make a connected prop
     let rect = this.nav.getBoundingClientRect();
     console.log('main nav height: ', rect.bottom - rect.top );
-
-    this.elArray = [this.shopLink];
-    Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
   }
 
   componentDidUpdate(prevProps, nextState) {
@@ -39,6 +38,9 @@ class MainNav extends Component {
     let currentColor = this.props.sharedUiState.mainNavThemeColor;
 
     if (prevColor !== currentColor) {
+      this.elArray = [this.shopLink];
+      Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
+
       tweenNavLinkColor(currentColor, this.elArray);
 
       this.setState({
@@ -48,20 +50,26 @@ class MainNav extends Component {
   }
 
   render() {
+
+    const showNavListNode = () => {
+      const { openMoreInfoPanel } = this.props.sharedUiState;
+      if (openMoreInfoPanel) {
+        return <InfoPanelOpenList colorTheme={this.state.colorTheme} />;
+      } else {
+        return <MainList colorTheme={this.state.colorTheme} />;
+      }
+    };
+
     return (
       <Fragment>
         <div ref={el => this.nav = el} id="main-nav-container">
           <Link id="home-link" to="/"><Logo colorTheme={this.state.colorTheme} /></Link>
           <nav>
             <ul ref={el => this.ul = el}>
-              <li><Link to="/foo">Sights</Link></li>
-              <li><Link to="/bar">Stabilizers</Link></li>
-              <li><Link to="/bar">Quivers</Link></li>
-              <li><Link to="/bar">Accessories</Link></li>
-              <li><Link to="/bar">Financing</Link></li>
+              { showNavListNode() }
             </ul>
           </nav>
-          <Link id="shop" to="/shop"><span ref={el => this.shopLink = el}>Shop</span></Link>
+          <Link id="shop" to="/cart"><span ref={el => this.shopLink = el}>Cart</span></Link>
         </div>
         <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={this.state.colorTheme} /></div>
       </Fragment>

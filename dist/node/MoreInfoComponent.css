@@ -1,0 +1,19 @@
+.more-info-panel {
+  min-height: 100vh;
+  height: auto;
+  padding-top: 80px; /* temp - will be dynamic height of main nav */
+  position: relative;
+}
+
+.more-info-panel article {
+  margin: 1rem auto;
+  width: 85%;
+}
+
+.more-info-close {
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -5%);
+}
+

@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "a31a2f35380faff3458d",
+  "hash": "8279c475d8133e4daac3",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -14,54 +14,60 @@
       "CallToAction.css",
       "1.server.js"
     ],
+    "InfoPanelOpenList": "2.server.js",
+    "MainList": "3.server.js",
+    "MoreInfoComponent": [
+      "MoreInfoComponent.css",
+      "4.server.js"
+    ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "2.server.js"
+      "5.server.js"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "3.server.js"
+      "6.server.js"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "4.server.js"
+      "7.server.js"
     ],
     "components-Bar": [
       "components-Bar.css",
-      "5.server.js"
+      "8.server.js"
     ],
     "components-Foo": [
       "components-Foo.css",
-      "6.server.js"
+      "9.server.js"
     ],
     "components-content-Hero": [
       "components-content-Hero.css",
-      "7.server.js"
+      "10.server.js"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "8.server.js"
+      "11.server.js"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "9.server.js"
+      "12.server.js"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "10.server.js"
+      "13.server.js"
     ],
-    "containers-Home": "11.server.js",
+    "containers-Home": "14.server.js",
     "hero-TextArticle": [
       "hero-TextArticle.css",
-      "12.server.js"
+      "15.server.js"
     ],
     "hero-TitleHeader": [
       "hero-TitleHeader.css",
-      "13.server.js"
+      "16.server.js"
     ],
     "hero-VideoComponent": [
       "hero-VideoComponent.css",
-      "14.server.js"
+      "17.server.js"
     ],
     "main": [
       "main.css",
@@ -93,9 +99,42 @@
     },
     {
       "name": "10.server.js",
-      "size": 1572,
+      "size": 5874,
       "chunks": [
         10
+      ],
+      "chunkNames": [
+        "components-content-Hero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "11.server.js",
+      "size": 2531,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "12.server.js",
+      "size": 4123,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "13.server.js",
+      "size": 1572,
+      "chunks": [
+        13
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -103,10 +142,10 @@
       "emitted": false
     },
     {
-      "name": "11.server.js",
-      "size": 4629,
+      "name": "14.server.js",
+      "size": 4630,
       "chunks": [
-        11
+        14
       ],
       "chunkNames": [
         "containers-Home"
@@ -114,10 +153,10 @@
       "emitted": false
     },
     {
-      "name": "12.server.js",
+      "name": "15.server.js",
       "size": 996,
       "chunks": [
-        12
+        15
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -125,10 +164,10 @@
       "emitted": false
     },
     {
-      "name": "13.server.js",
+      "name": "16.server.js",
       "size": 435,
       "chunks": [
-        13
+        16
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -136,10 +175,10 @@
       "emitted": false
     },
     {
-      "name": "14.server.js",
+      "name": "17.server.js",
       "size": 923,
       "chunks": [
-        14
+        17
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -148,12 +187,12 @@
     },
     {
       "name": "2.server.js",
-      "size": 2731,
+      "size": 457,
       "chunks": [
         2
       ],
       "chunkNames": [
-        "assets-images-PlusIcon"
+        "InfoPanelOpenList"
       ],
       "emitted": false
     },
@@ -173,23 +212,23 @@
     },
     {
       "name": "3.server.js",
-      "size": 3181,
+      "size": 790,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "assets-images-logo"
+        "MainList"
       ],
       "emitted": false
     },
     {
       "name": "4.server.js",
-      "size": 1822,
+      "size": 929,
       "chunks": [
         4
       ],
       "chunkNames": [
-        "assets-images-secondary-menu-icon"
+        "MoreInfoComponent"
       ],
       "emitted": false
     },
@@ -202,34 +241,34 @@
     },
     {
       "name": "5.server.js",
-      "size": 322,
+      "size": 2731,
       "chunks": [
         5
       ],
       "chunkNames": [
-        "components-Bar"
+        "assets-images-PlusIcon"
       ],
       "emitted": false
     },
     {
       "name": "6.server.js",
-      "size": 322,
+      "size": 3181,
       "chunks": [
         6
       ],
       "chunkNames": [
-        "components-Foo"
+        "assets-images-logo"
       ],
       "emitted": false
     },
     {
       "name": "7.server.js",
-      "size": 5640,
+      "size": 1822,
       "chunks": [
         7
       ],
       "chunkNames": [
-        "components-content-Hero"
+        "assets-images-secondary-menu-icon"
       ],
       "emitted": false
     },
@@ -242,23 +281,23 @@
     },
     {
       "name": "8.server.js",
-      "size": 2530,
+      "size": 322,
       "chunks": [
         8
       ],
       "chunkNames": [
-        "components-content-assets-images-MoreContentArrow"
+        "components-Bar"
       ],
       "emitted": false
     },
     {
       "name": "9.server.js",
-      "size": 3861,
+      "size": 322,
       "chunks": [
         9
       ],
       "chunkNames": [
-        "components-main-nav-MainNav"
+        "components-Foo"
       ],
       "emitted": false
     },
@@ -270,6 +309,17 @@
       ],
       "chunkNames": [
         "CallToAction"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "MoreInfoComponent.css",
+      "size": 318,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "MoreInfoComponent"
       ],
       "emitted": false
     },
@@ -295,7 +345,7 @@
       "name": "assets-images-PlusIcon.css",
       "size": 256,
       "chunks": [
-        2
+        5
       ],
       "chunkNames": [
         "assets-images-PlusIcon"
@@ -306,7 +356,7 @@
       "name": "assets-images-logo.css",
       "size": 567,
       "chunks": [
-        3
+        6
       ],
       "chunkNames": [
         "assets-images-logo"
@@ -317,7 +367,7 @@
       "name": "assets-images-secondary-menu-icon.css",
       "size": 278,
       "chunks": [
-        4
+        7
       ],
       "chunkNames": [
         "assets-images-secondary-menu-icon"
@@ -328,7 +378,7 @@
       "name": "components-Bar.css",
       "size": 23,
       "chunks": [
-        5
+        8
       ],
       "chunkNames": [
         "components-Bar"
@@ -339,7 +389,7 @@
       "name": "components-Foo.css",
       "size": 23,
       "chunks": [
-        6
+        9
       ],
       "chunkNames": [
         "components-Foo"
@@ -350,7 +400,7 @@
       "name": "components-content-Hero.css",
       "size": 1370,
       "chunks": [
-        7
+        10
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -361,7 +411,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 206,
       "chunks": [
-        8
+        11
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -370,9 +420,9 @@
     },
     {
       "name": "components-main-nav-MainNav.css",
-      "size": 808,
+      "size": 894,
       "chunks": [
-        9
+        12
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -383,7 +433,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css",
       "size": 536,
       "chunks": [
-        10
+        13
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -394,7 +444,7 @@
       "name": "hero-TextArticle.css",
       "size": 657,
       "chunks": [
-        12
+        15
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -405,7 +455,7 @@
       "name": "hero-TitleHeader.css",
       "size": 605,
       "chunks": [
-        13
+        16
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -416,7 +466,7 @@
       "name": "hero-VideoComponent.css",
       "size": 329,
       "chunks": [
-        14
+        17
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -425,9 +475,9 @@
     },
     {
       "name": "main.css",
-      "size": 1135,
+      "size": 1239,
       "chunks": [
-        15
+        18
       ],
       "chunkNames": [
         "main"
@@ -436,9 +486,9 @@
     },
     {
       "name": "server.js",
-      "size": 16272,
+      "size": 16341,
       "chunks": [
-        15
+        18
       ],
       "chunkNames": [
         "main"
@@ -450,7 +500,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        15
+        18
       ],
       "assets": [
         "main.css",
@@ -463,7 +513,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        15
+        18
       ],
       "assets": [
         "main.css",
@@ -474,109 +524,140 @@
     },
     "components-main-nav-MainNav": {
       "chunks": [
-        9
+        12
       ],
       "assets": [
         "components-main-nav-MainNav.css",
-        "9.server.js"
+        "12.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-main-secondary-nav-MainSecondaryNav": {
       "chunks": [
-        10
+        13
       ],
       "assets": [
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "10.server.js"
+        "13.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
-        8
+        11
       ],
       "assets": [
         "components-content-assets-images-MoreContentArrow.css",
-        "8.server.js"
+        "11.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Home": {
       "chunks": [
-        11
+        14
       ],
       "assets": [
-        "11.server.js"
+        "14.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Foo": {
       "chunks": [
-        6
+        9
       ],
       "assets": [
         "components-Foo.css",
-        "6.server.js"
+        "9.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-Bar": {
       "chunks": [
-        5
+        8
       ],
       "assets": [
         "components-Bar.css",
-        "5.server.js"
+        "8.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "assets-images-logo": {
       "chunks": [
-        3
+        6
       ],
       "assets": [
         "assets-images-logo.css",
-        "3.server.js"
+        "6.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "assets-images-secondary-menu-icon": {
       "chunks": [
-        4
+        7
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "4.server.js"
+        "7.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "MainList": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "3.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "InfoPanelOpenList": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "2.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-Hero": {
       "chunks": [
-        7
+        10
       ],
       "assets": [
         "components-content-Hero.css",
-        "7.server.js"
+        "10.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "MoreInfoComponent": {
+      "chunks": [
+        4
+      ],
+      "assets": [
+        "MoreInfoComponent.css",
+        "4.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-TitleHeader": {
       "chunks": [
-        13
+        16
       ],
       "assets": [
         "hero-TitleHeader.css",
-        "13.server.js"
+        "16.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -594,22 +675,22 @@
     },
     "hero-TextArticle": {
       "chunks": [
-        12
+        15
       ],
       "assets": [
         "hero-TextArticle.css",
-        "12.server.js"
+        "15.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-VideoComponent": {
       "chunks": [
-        14
+        17
       ],
       "assets": [
         "hero-VideoComponent.css",
-        "14.server.js"
+        "17.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -638,11 +719,11 @@
     },
     "assets-images-PlusIcon": {
       "chunks": [
-        2
+        5
       ],
       "assets": [
         "assets-images-PlusIcon.css",
-        "2.server.js"
+        "5.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -893,6 +974,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/more-content-arrow.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/moreInfoPanel/more-info-component.css"
     },
     {
       "errors": [],
