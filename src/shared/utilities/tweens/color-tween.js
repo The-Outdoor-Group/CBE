@@ -3,6 +3,7 @@ import { TimelineMax } from 'gsap';
 if (process.env.IS_BROWSER) {
   const TweenLite = require('gsap/TweenLite');
   const TweenMax = require('gsap/TweenMax');
+  require('gsap/ScrollToPlugin');
 }
 
 export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
@@ -31,6 +32,35 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
     );
 };
 
+// export const mainNavMoreInfoPanelTimeline = ( ul, nav, fn ) => {
+//   let tl = new TimelineMax({ paused: true });
+//
+//   return tl
+//     .to(
+//       ul,
+//       1,
+//       { y: '-100' }
+//     )
+//     .add( () => {
+//       console.log('fn: ', fn);
+//       fn
+//     } )
+//     .to(
+//       ul,
+//       1,
+//       { y: '0'}
+//     )
+//     .to(
+//       nav,
+//       1,
+//       { backgroundColor: '#fff' }
+//     )
+//     .to(
+//       window,
+//       1,
+//       { scrollTo: { y: window.innerHeight } } // will need fine-tuning ... want to record where it is when it starts and then go back vs all the way to top
+//     );
+// }
 
 export const moreContentArrowTimeline = ( el ) => {
 

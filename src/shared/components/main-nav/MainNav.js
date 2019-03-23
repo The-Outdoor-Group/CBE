@@ -2,7 +2,10 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 import { connect } from 'react-redux';
-import { tweenNavLinkColor } from '../../utilities/tweens/color-tween';
+
+import { TimelineMax } from 'gsap';
+
+import { tweenNavLinkColor, /* mainNavMoreInfoPanelTimeline */ } from '../../utilities/tweens/color-tween';
 
 import './assets/css/main-nav.css';
 
@@ -11,54 +14,75 @@ const SecondaryMenuIcon = loadable( () => import('./assets/images/secondary-menu
 const MainList = loadable( () => import('./MainList') );
 const InfoPanelOpenList = loadable( () => import('./InfoPanelOpenList') );
 
-/*
-  just an idea - update the middle nav menu so that it shows pertinant navigation if customer
-  is over a specific part of the page
-*/
-
 class MainNav extends Component {
   constructor() {
     super();
 
     this.elArray, this.nav, this.ul, this.shopLink;
 
+    this.tl = new TimelineMax();
+
+    this.changeNavColor = this.changeNavColor.bind(this);
+    this.changeMenuContents = this.changeMenuContents.bind(this);
+
     this.state = {
-      colorTheme: 'dark'
-    }
+      colorTheme: 'dark',
+      openMoreInfoPanel: false
+    };
   }
 
   componentDidMount() {
     // just for dev; will make a connected prop
     let rect = this.nav.getBoundingClientRect();
     console.log('main nav height: ', rect.bottom - rect.top );
+
+    require('gsap/ScrollToPlugin');
   }
 
-  componentDidUpdate(prevProps, nextState) {
-    let prevColor = prevProps.sharedUiState.mainNavThemeColor;
-    let currentColor = this.props.sharedUiState.mainNavThemeColor;
+  componentDidUpdate(prevProps, prevState) {
+    let prevColor = prevProps.mainNavThemeColor;
+    let currentColor = this.props.mainNavThemeColor;
 
-    if (prevColor !== currentColor) {
-      this.elArray = [this.shopLink];
-      Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
+    let prevMoreInfoPanelState = prevProps.openMoreInfoPanel;
+    let currentMoreInfoPanelState = this.props.openMoreInfoPanel;
 
-      tweenNavLinkColor(currentColor, this.elArray);
+    if (prevColor !== currentColor) this.changeNavColor( currentColor );
 
-      this.setState({
-        colorTheme: currentColor
-      });
+    if (prevMoreInfoPanelState !== currentMoreInfoPanelState) this.changeMenuContents( currentMoreInfoPanelState );
+
+  }
+
+
+  changeMenuContents( currentMoreInfoPanelOpen ) {
+    // b/c dom changes gsap loses context so code dup is necessary
+    if (currentMoreInfoPanelOpen) {
+      this.tl
+        .to( this.ul, 1, { y: '-100' } )
+        .add( () => this.setState({ openMoreInfoPanel: !this.state.openMoreInfoPanel }) )
+        .to( this.ul, 1, { y: '0'} )
+        .to( this.nav, 1, { backgroundColor: '#fff' } )
+        .to( window, 1, { scrollTo: { y: window.innerHeight } } ) // capture starting point
+    } else {
+      this.tl
+        .to( this.ul, 1, { y: '-100' } )
+        .add( () => this.setState({ openMoreInfoPanel: !this.state.openMoreInfoPanel }) )
+        .to( this.ul, 1, { y: '0'} )
+        .to( this.nav, 1, { backgroundColor: 'none' } )
+        .to( window, 1, { scrollTo: { y: -window.innerHeight } } ) // go back to captured starting point
     }
   }
 
-  render() {
+  changeNavColor( currentColor ) {
+    this.elArray = [this.shopLink];
+    Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
 
-    const showNavListNode = () => {
-      const { openMoreInfoPanel } = this.props.sharedUiState;
-      if (openMoreInfoPanel) {
-        return <InfoPanelOpenList colorTheme={this.state.colorTheme} />;
-      } else {
-        return <MainList colorTheme={this.state.colorTheme} />;
-      }
-    };
+    tweenNavLinkColor(currentColor, this.elArray);
+
+    this.setState({ colorTheme: currentColor });
+  }
+
+  render() {
+    const showNavListNode = () => (this.state.openMoreInfoPanel) ? <InfoPanelOpenList colorTheme={this.state.colorTheme} /> : <MainList colorTheme={this.state.colorTheme} />;
 
     return (
       <Fragment>
@@ -77,5 +101,8 @@ class MainNav extends Component {
   }
 }
 
-const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
+const mapStateToProps = ({ sharedUiState }) => {
+  const { mainNavThemeColor, openMoreInfoPanel } = sharedUiState;
+  return { mainNavThemeColor, openMoreInfoPanel };
+};
 export default connect(mapStateToProps)(MainNav);
