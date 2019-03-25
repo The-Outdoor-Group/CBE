@@ -1,20 +1,55 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import assembleComponent from './assets/assembleComponents';
+import loadable from '@loadable/component';
 import { setMoreInfoPanelVisibility } from './../../actions/shared-ui-actions';
+import assembleComponent from './more-info-components/assembleComponents';
+
+const MoreInfoArticle = loadable( () => import('./more-info-components/container/MoreInfoArticle') );
+
+// will be a result of calling a second doc in the db based on moreInfoHandle
+/* below is the floating close button <p>Animate and return data from a query; pass {handle}  */
+const moreInfoNodes = [
+  {
+    type: 'moreInfoHorizontalTopArticleThirdsBottomImage',
+    content: {
+      headerArticles: [
+        {
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ],
+      image: {
+        src: "https://placeholder.com/150",
+        alt: "This is a placeholder"
+      }
+    }
+  },
+  
+]
+
 
 import './assets/css/moreInfoPanel/more-info-component.css';
 
 class MoreInfoComponent extends Component {
   render() {
-    const { handle } = this.props;
-    {/* below is the floating close button <p>Animate and return data from a query; pass {handle}  */}
+    // console.log('this.props: ', this.props);
+
+    const createMoreInfoNodes = () => moreInfoNodes.map( (props, i) => <MoreInfoArticle key={i} data={props} /> );
+
+    const { handle, showInfo } = this.props;
+    const showHide = (showInfo) => showInfo ? "" : "hidden";
+
     return (
-      <section className="more-info-panel">
-        <article>
-          <header><h2>This is a more info title</h2></header>
-          <p>This is the copy of the more info article</p>
-        </article>
+      <section className={`more-info-panel ${showHide(showInfo)}`}>
+        { createMoreInfoNodes() }
         <span className="more-info-close" onClick={() => this.props.setMoreInfoPanelVisibility(false)}>x close</span>
       </section>
     );

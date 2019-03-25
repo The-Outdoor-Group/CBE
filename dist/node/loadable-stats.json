@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "21809eb4e1a5909bba31",
+  "hash": "57846dc93208329272e1",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -72,6 +72,11 @@
     "main": [
       "main.css",
       "server.js"
+    ],
+    "media-assets-Image": "19.server.js",
+    "more-info-components-container-MoreInfoArticle": [
+      "more-info-components-container-MoreInfoArticle.css",
+      "20.server.js"
     ]
   },
   "assets": [
@@ -99,7 +104,7 @@
     },
     {
       "name": "10.server.js",
-      "size": 5874,
+      "size": 5912,
       "chunks": [
         10
       ],
@@ -121,7 +126,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 5006,
+      "size": 5142,
       "chunks": [
         12
       ],
@@ -143,7 +148,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 4630,
+      "size": 4636,
       "chunks": [
         14
       ],
@@ -186,6 +191,17 @@
       "emitted": false
     },
     {
+      "name": "19.server.js",
+      "size": 261,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "media-assets-Image"
+      ],
+      "emitted": false
+    },
+    {
       "name": "2.server.js",
       "size": 457,
       "chunks": [
@@ -193,6 +209,17 @@
       ],
       "chunkNames": [
         "InfoPanelOpenList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "20.server.js",
+      "size": 301,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [
+        "more-info-components-container-MoreInfoArticle"
       ],
       "emitted": false
     },
@@ -223,7 +250,7 @@
     },
     {
       "name": "4.server.js",
-      "size": 929,
+      "size": 2591,
       "chunks": [
         4
       ],
@@ -485,8 +512,19 @@
       "emitted": false
     },
     {
+      "name": "more-info-components-container-MoreInfoArticle.css",
+      "size": 76,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [
+        "more-info-components-container-MoreInfoArticle"
+      ],
+      "emitted": false
+    },
+    {
       "name": "server.js",
-      "size": 16397,
+      "size": 17395,
       "chunks": [
         18
       ],
@@ -691,6 +729,27 @@
       "assets": [
         "hero-VideoComponent.css",
         "17.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "more-info-components-container-MoreInfoArticle": {
+      "chunks": [
+        20
+      ],
+      "assets": [
+        "more-info-components-container-MoreInfoArticle.css",
+        "20.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "media-assets-Image": {
+      "chunks": [
+        19
+      ],
+      "assets": [
+        "19.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1184,6 +1243,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/video-component.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/article.css"
     },
     {
       "errors": [],

@@ -1,0 +1,1 @@
+exports.ids=[19],exports.modules={62:function(t,e,r){"use strict";r.r(e),r.d(e,"Image",function(){return s});var a=r(0),n=r.n(a),s=function(t){var e=t.data,r=e.src,a=e.alt;return n.a.createElement("img",{className:"sixty-percent-h",src:r,alt:a})};e.default=s}};

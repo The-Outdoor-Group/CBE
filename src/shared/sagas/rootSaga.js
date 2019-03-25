@@ -5,6 +5,7 @@ import { setSecondaryNavStateSaga } from './secondaryMenuSaga';
 import { setMainNavThemeColorSaga } from './mainMenuThemeColorSaga';
 import { setEndOfPageScrollSaga } from './endOfPageScrollSaga';
 import { setMoreInfoPanelVisibilitySaga } from './moreInfoPanelVisibilitySaga';
+import { setIdMatchForParentContainerSaga } from './idMatchForParentContainerSaga';
 
 export default function* rootSaga() {
   yield all([
@@ -13,5 +14,6 @@ export default function* rootSaga() {
     fork(setMainNavThemeColorSaga),
     fork(setEndOfPageScrollSaga),
     fork(setMoreInfoPanelVisibilitySaga),
+    fork(setIdMatchForParentContainerSaga),
   ])
 };

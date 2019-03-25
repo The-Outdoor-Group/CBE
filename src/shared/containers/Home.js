@@ -130,7 +130,7 @@ class HomePage extends Component {
   render() {
     const { mainNavThemeColor } = this.props.sharedUiState;
 
-    const createHeroNodes = () => heroNodes.map( (props, i) => <Hero data={props} /> );
+    const createHeroNodes = () => heroNodes.map( (props, i) => <Hero key={i} data={props} /> );
 
     return (
       <Fragment>

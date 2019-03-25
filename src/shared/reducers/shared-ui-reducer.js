@@ -4,15 +4,16 @@ import {
   SET_SECONDARY_NAV_STATE_SUCCEEDED,
   SET_MAIN_NAV_COLOR_THEME_SUCCEEDED,
   SET_END_OF_PAGE_SCROLL_SUCCEEDED,
-  SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED
-
+  SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED,
+  SET_INFO_PANEL_ID_DOM_MATCH_SUCCEEDED,
 } from './../actions/shared-ui-actions';
 
 const initialState = {
   secondaryMenuVisible: false,
   mainNavThemeColor: 'dark',
   endOfPageScroll: false,
-  openMoreInfoPanel: false
+  openMoreInfoPanel: false,
+  elMatchForScrolling: null
 };
 
 const sharedUiReducer = ( state = initialState, { type, payload } ) => {
@@ -28,6 +29,11 @@ const sharedUiReducer = ( state = initialState, { type, payload } ) => {
 
     case SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED:
       return merge( {}, state, {openMoreInfoPanel: payload} );
+
+    case SET_INFO_PANEL_ID_DOM_MATCH_SUCCEEDED:
+      return merge( {}, state, { elMatchForScrolling: payload });
+
+      break;
 
     default:
       return state;

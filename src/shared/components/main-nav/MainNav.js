@@ -18,7 +18,8 @@ class MainNav extends Component {
   constructor() {
     super();
 
-    this.elArray, this.nav, this.ul, this.shopLink;
+    this.elArray, this.nav, this.ul, this.shopLink,
+    this.containerEl;
 
     this.tl = new TimelineMax();
 
@@ -40,6 +41,7 @@ class MainNav extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
+
     let prevColor = prevProps.mainNavThemeColor;
     let currentColor = this.props.mainNavThemeColor;
 
@@ -54,21 +56,26 @@ class MainNav extends Component {
 
 
   changeMenuContents( currentMoreInfoPanelOpen ) {
-    // b/c dom changes gsap loses context so code dup is necessary
+
+    // get the name of moreInfoHandle that was clicked
+    this.containerEl = document.getElementById(this.props.elMatchForScrolling);
+
+    // b/c dom changes, gsap loses context so code dup is necessary
     if (currentMoreInfoPanelOpen) {
       this.tl
+        .to( window, 1, { scrollTo: { y: this.containerEl.children[1] }})
         .to( this.ul, 1, { y: '-100' } )
         .add( () => this.setState({ openMoreInfoPanel: !this.state.openMoreInfoPanel }) )
         .to( this.ul, 1, { y: '0'} )
         .to( this.nav, 1, { backgroundColor: '#fff' } )
-        .to( window, 1, { scrollTo: { y: window.innerHeight } } ) // capture starting point
     } else {
       this.tl
+        .to( window, 1, { scrollTo: { y: this.containerEl } } )
         .to( this.ul, 1, { y: '-100' } )
         .add( () => this.setState({ openMoreInfoPanel: !this.state.openMoreInfoPanel }) )
         .to( this.ul, 1, { y: '0'} )
         .to( this.nav, 1, { backgroundColor: 'none' } )
-        .to( window, 1, { scrollTo: { y: -window.innerHeight } } ) // go back to captured starting point
+
     }
   }
 
@@ -102,7 +109,8 @@ class MainNav extends Component {
 }
 
 const mapStateToProps = ({ sharedUiState }) => {
-  const { mainNavThemeColor, openMoreInfoPanel } = sharedUiState;
-  return { mainNavThemeColor, openMoreInfoPanel };
+  const { mainNavThemeColor, openMoreInfoPanel, elMatchForScrolling } = sharedUiState;
+  return { mainNavThemeColor, openMoreInfoPanel, elMatchForScrolling };
 };
+
 export default connect(mapStateToProps)(MainNav);

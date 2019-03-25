@@ -32,7 +32,7 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
     );
 };
 
-// export const mainNavMoreInfoPanelTimeline = ( ul, nav, fn ) => {
+/* export const mainNavMoreInfoPanelTimeline = ( ul, nav, fn ) => {
 //   let tl = new TimelineMax({ paused: true });
 //
 //   return tl
@@ -60,7 +60,7 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
 //       1,
 //       { scrollTo: { y: window.innerHeight } } // will need fine-tuning ... want to record where it is when it starts and then go back vs all the way to top
 //     );
-// }
+ } */
 
 export const moreContentArrowTimeline = ( el ) => {
 

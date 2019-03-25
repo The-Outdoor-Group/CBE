@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import assembleComponent from './assets/assembleComponents';
 import loadable from '@loadable/component';
 import { connect } from 'react-redux';
-import { setMoreInfoPanelVisibility } from '../../actions/shared-ui-actions';
+import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from '../../actions/shared-ui-actions';
 import './assets/css/hero.css';
+
+const MoreInfoComponent = loadable( () => import('./MoreInfoComponent') );
 
 class Hero extends Component {
 
@@ -21,8 +23,8 @@ class Hero extends Component {
   }
 
   componentDidUpdate(prevProps, nextState) {
-    const prevInfoPanelState = prevProps.sharedUiState.openMoreInfoPanel;
-    const currentInfoPanelState = this.props.sharedUiState.openMoreInfoPanel;
+    const prevInfoPanelState = prevProps.openMoreInfoPanel;
+    const currentInfoPanelState = this.props.openMoreInfoPanel;
 
     if (prevInfoPanelState !== currentInfoPanelState) {
       this.handlePanelVisibility();
@@ -33,7 +35,7 @@ class Hero extends Component {
   handlePanelVisibility() {
     const { clickedMoreInfoHandle, showInfo, hidden } = this.state;
     const { moreInfoHandle } = this.props.data;
-    const { openMoreInfoPanel } = this.props.sharedUiState;
+    const { openMoreInfoPanel } = this.props;
 
     if (openMoreInfoPanel) {
       if (clickedMoreInfoHandle !== moreInfoHandle) { this.setState({ hidden: "hidden" }) }
@@ -45,6 +47,7 @@ class Hero extends Component {
 
   handleShowInfo(showMoreInfo, clickedMoreInfoHandle) {
     this.props.setMoreInfoPanelVisibility(showMoreInfo);
+    this.props.setIdMatchForParentContainer(clickedMoreInfoHandle); // for scrolling
     this.setState({
       showInfo: showMoreInfo,
       clickedMoreInfoHandle
@@ -55,19 +58,17 @@ class Hero extends Component {
     const { data } = this.props;
     const { cssClass, moreInfoHandle } = this.props.data;
 
-    const loadMoreInfoComponentNode = () => {
-      const MoreInfoComponent = loadable( () => import('./MoreInfoComponent') );
-      return <MoreInfoComponent handle={moreInfoHandle} />;
-    }
-
     return (
-      <section className={`hero-region ${cssClass} ${this.state.hidden !== null ? this.state.hidden : ""}`}>
+      <section id={moreInfoHandle ? moreInfoHandle : null} className={`hero-region ${cssClass} ${this.state.hidden !== null ? this.state.hidden : ""}`}>
         { assembleComponent( { props: data, showInfo: this.handleShowInfo } ) }
-        { this.state.showInfo ? loadMoreInfoComponentNode() : null }
+        <MoreInfoComponent showInfo={this.state.showInfo} handle={moreInfoHandle} />
       </section>
     );
   }
 }
 
-const mapStateToProps = ({sharedUiState }) => ({sharedUiState });
-export default connect(mapStateToProps, { setMoreInfoPanelVisibility })(Hero);
+const mapStateToProps = ({sharedUiState }) => {
+  const { openMoreInfoPanel } = sharedUiState;
+  return { openMoreInfoPanel };
+};
+export default connect(mapStateToProps, { setMoreInfoPanelVisibility, setIdMatchForParentContainer })(Hero);
