@@ -1,15 +1,21 @@
 import React from 'react';
-import createMoreInfoHorizontalTopArticleThirdsBottomImageComponent from './createMoreInfoHorizontalTopArticleThirdsBottomImageComponent'
+import createMoreInfoHorizontalTopArticleBottomMediaFooterArticleComponent from './createMoreInfoHorizontalTopArticleBottomMediaFooterArticleComponent';
+import createMoreInfoHorizontalLeftMediaRightArticleComponent from './createMoreInfoHorizontalLeftMediaRightArticleComponent';
+import createMoreInfoHorizontalImageSliderComponent from './createMoreInfoHorizontalImageSliderComponent';
 
 const assembleComponent = (data) => {
   const { props } = data;
   const { type, content } = props;
 
-  console.log('content: ', content);
-
   switch(type) {
-    case 'moreInfoHorizontalTopArticleThirdsBottomImage':
-      return createMoreInfoHorizontalTopArticleThirdsBottomImageComponent(content);
+    case 'moreInfoHorizontalTopArticleBottomMedia':
+      return createMoreInfoHorizontalTopArticleBottomMediaFooterArticleComponent(content);
+
+    case 'moreInfoHorizontalLeftMediaRightArticle':
+      return createMoreInfoHorizontalLeftMediaRightArticleComponent(content);
+
+    case 'moreInfoHorizontalImageSlider':
+      return createMoreInfoHorizontalImageSliderComponent(content);
 
     default:
       return null;
@@ -17,3 +23,8 @@ const assembleComponent = (data) => {
 }
 
 export default assembleComponent;
+
+// import('./createMoreInfoHorizontalTopArticleThirdsBottomMediaComponent')
+//   .then( module => module.createComponent(content) )
+//   .then( result => result );
+// break;

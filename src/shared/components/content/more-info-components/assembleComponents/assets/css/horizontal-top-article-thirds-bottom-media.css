@@ -1,0 +1,17 @@
+.horizontal-top-article-thirds-bottom-media {
+  display: grid;
+  grid-template-rows: 22vh 50vh 22vh;
+  width: 100% !important;
+}
+
+.horizontal-top-article-thirds-bottom-media div.header-wrapper {
+  display: flex;
+}
+
+.horizontal-top-article-thirds-bottom-media div.header-wrapper .header-article-node h3 {
+  font-size: 130%;
+}
+
+.horizontal-top-article-thirds-bottom-media div.header-wrapper .header-article-node p {
+  font-size: 100%;
+}

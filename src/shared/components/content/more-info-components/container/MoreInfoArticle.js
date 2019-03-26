@@ -4,7 +4,6 @@ import './assets/css/article.css';
 
 const MoreInfoArticle = (props) => {
   const { data } = props;
-  console.log('props in MoreInfoArticle: ', data);
 
   return (
     <article className="more-info-article">

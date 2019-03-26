@@ -10,7 +10,7 @@ const MoreInfoArticle = loadable( () => import('./more-info-components/container
 /* below is the floating close button <p>Animate and return data from a query; pass {handle}  */
 const moreInfoNodes = [
   {
-    type: 'moreInfoHorizontalTopArticleThirdsBottomImage',
+    type: 'moreInfoHorizontalTopArticleBottomMedia',
     content: {
       headerArticles: [
         {
@@ -18,21 +18,130 @@ const moreInfoNodes = [
           p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
         {
+          h3: "Header Article 2",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Header Article 3",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ],
+      image: {
+        src: "https://via.placeholder.com/150",
+        alt: "This is a placeholder"
+      }
+    }
+  },
+  {
+    type: 'moreInfoHorizontalTopArticleBottomMedia',
+    content: {
+      headerArticles: [
+        {
           h3: "Header Article 1",
           p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
+      ],
+      image: {
+        src: "https://via.placeholder.com/150",
+        alt: "This is a placeholder"
+      }
+    }
+  },
+  {
+    type: 'moreInfoHorizontalTopArticleBottomMedia',
+    content: {
+      headerArticles: [
         {
           h3: "Header Article 1",
           p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         }
       ],
       image: {
-        src: "https://placeholder.com/150",
+        src: "https://via.placeholder.com/150",
+        alt: "This is a placeholder"
+      },
+      footerArticles: [
+        {
+          h3: "Footer Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Footer Article 2",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Footer Article 3",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          h3: "Footer Article 4",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    }
+  },
+  {
+    type: 'moreInfoHorizontalLeftMediaRightArticle',
+    content: {
+      headerArticles: [
+        {
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ],
+      video: {
+        src: "https://via.placeholder.com/150",
         alt: "This is a placeholder"
       }
     }
   },
-  
+  {
+    type: 'moreInfoHorizontalImageSlider',
+    content: {
+      headerArticles: [
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 2",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 3",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 4",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 5",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+      ]
+    }
+  },
 ]
 
 
@@ -49,7 +158,7 @@ class MoreInfoComponent extends Component {
 
     return (
       <section className={`more-info-panel ${showHide(showInfo)}`}>
-        { createMoreInfoNodes() }
+        {showInfo ? createMoreInfoNodes() : null }
         <span className="more-info-close" onClick={() => this.props.setMoreInfoPanelVisibility(false)}>x close</span>
       </section>
     );

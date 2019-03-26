@@ -1,0 +1,12 @@
+.header-article-node {
+  padding: 1rem;
+}
+
+.header-article-node h3 {
+  font-weight: 600;
+}
+
+.header-article-node p {
+  line-height: 150%;
+  padding: 1rem 0;
+}

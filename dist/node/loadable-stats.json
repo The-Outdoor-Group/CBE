@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "57846dc93208329272e1",
+  "hash": "8b6bf6a5920c6fae9a40",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -56,27 +56,32 @@
       "components-main-secondary-nav-MainSecondaryNav.css",
       "13.server.js"
     ],
-    "containers-Home": "14.server.js",
+    "container-HorizontalImageSlider": "14.server.js",
+    "containers-Home": "15.server.js",
     "hero-TextArticle": [
       "hero-TextArticle.css",
-      "15.server.js"
+      "16.server.js"
     ],
     "hero-TitleHeader": [
       "hero-TitleHeader.css",
-      "16.server.js"
+      "17.server.js"
     ],
     "hero-VideoComponent": [
       "hero-VideoComponent.css",
-      "17.server.js"
+      "18.server.js"
     ],
     "main": [
       "main.css",
       "server.js"
     ],
-    "media-assets-Image": "19.server.js",
+    "media-assets-Image": "20.server.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "20.server.js"
+      "21.server.js"
+    ],
+    "text-Header": [
+      "text-Header.css",
+      "22.server.js"
     ]
   },
   "assets": [
@@ -148,9 +153,20 @@
     },
     {
       "name": "14.server.js",
-      "size": 4636,
+      "size": 2006,
       "chunks": [
         14
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "15.server.js",
+      "size": 4636,
+      "chunks": [
+        15
       ],
       "chunkNames": [
         "containers-Home"
@@ -158,10 +174,10 @@
       "emitted": false
     },
     {
-      "name": "15.server.js",
+      "name": "16.server.js",
       "size": 996,
       "chunks": [
-        15
+        16
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -169,10 +185,10 @@
       "emitted": false
     },
     {
-      "name": "16.server.js",
+      "name": "17.server.js",
       "size": 435,
       "chunks": [
-        16
+        17
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -180,24 +196,13 @@
       "emitted": false
     },
     {
-      "name": "17.server.js",
+      "name": "18.server.js",
       "size": 923,
       "chunks": [
-        17
+        18
       ],
       "chunkNames": [
         "hero-VideoComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "19.server.js",
-      "size": 261,
-      "chunks": [
-        19
-      ],
-      "chunkNames": [
-        "media-assets-Image"
       ],
       "emitted": false
     },
@@ -214,12 +219,34 @@
     },
     {
       "name": "20.server.js",
-      "size": 301,
+      "size": 297,
       "chunks": [
         20
       ],
       "chunkNames": [
+        "media-assets-Image"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.server.js",
+      "size": 257,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "22.server.js",
+      "size": 315,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "text-Header"
       ],
       "emitted": false
     },
@@ -250,7 +277,7 @@
     },
     {
       "name": "4.server.js",
-      "size": 2591,
+      "size": 6415,
       "chunks": [
         4
       ],
@@ -341,7 +368,7 @@
     },
     {
       "name": "MoreInfoComponent.css",
-      "size": 318,
+      "size": 851,
       "chunks": [
         4
       ],
@@ -471,7 +498,7 @@
       "name": "hero-TextArticle.css",
       "size": 657,
       "chunks": [
-        15
+        16
       ],
       "chunkNames": [
         "hero-TextArticle"
@@ -482,7 +509,7 @@
       "name": "hero-TitleHeader.css",
       "size": 605,
       "chunks": [
-        16
+        17
       ],
       "chunkNames": [
         "hero-TitleHeader"
@@ -493,7 +520,7 @@
       "name": "hero-VideoComponent.css",
       "size": 329,
       "chunks": [
-        17
+        18
       ],
       "chunkNames": [
         "hero-VideoComponent"
@@ -504,7 +531,7 @@
       "name": "main.css",
       "size": 1239,
       "chunks": [
-        18
+        19
       ],
       "chunkNames": [
         "main"
@@ -515,7 +542,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 76,
       "chunks": [
-        20
+        21
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -524,12 +551,23 @@
     },
     {
       "name": "server.js",
-      "size": 17395,
+      "size": 17454,
       "chunks": [
-        18
+        19
       ],
       "chunkNames": [
         "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "text-Header.css",
+      "size": 160,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "text-Header"
       ],
       "emitted": false
     }
@@ -538,7 +576,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        18
+        19
       ],
       "assets": [
         "main.css",
@@ -551,7 +589,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        18
+        19
       ],
       "assets": [
         "main.css",
@@ -595,10 +633,10 @@
     },
     "containers-Home": {
       "chunks": [
-        14
+        15
       ],
       "assets": [
-        "14.server.js"
+        "15.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -691,11 +729,11 @@
     },
     "hero-TitleHeader": {
       "chunks": [
-        16
+        17
       ],
       "assets": [
         "hero-TitleHeader.css",
-        "16.server.js"
+        "17.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -713,43 +751,64 @@
     },
     "hero-TextArticle": {
       "chunks": [
-        15
+        16
       ],
       "assets": [
         "hero-TextArticle.css",
-        "15.server.js"
+        "16.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-VideoComponent": {
       "chunks": [
-        17
+        18
       ],
       "assets": [
         "hero-VideoComponent.css",
-        "17.server.js"
+        "18.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        20
+        21
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "20.server.js"
+        "21.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "media-assets-Image": {
       "chunks": [
-        19
+        20
       ],
       "assets": [
-        "19.server.js"
+        "20.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "text-Header": {
+      "chunks": [
+        22
+      ],
+      "assets": [
+        "text-Header.css",
+        "22.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "container-HorizontalImageSlider": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "14.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1277,7 +1336,112 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/horizontal-left-media-right-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/horizontal-top-article-thirds-bottom-media.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/text/assets/css/header.css"
     },
     {
       "errors": [],

@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[21],{354:function(e,n,o){"use strict";o.r(n);var r=o(2),t=o.n(r),a=o(351);o(380);n.default=function(e){var n=e.data;return console.log("props in MoreInfoArticle: ",n),t.a.createElement("article",{className:"more-info-article"},Object(a.a)({props:n}))}},380:function(e,n,o){}}]);
