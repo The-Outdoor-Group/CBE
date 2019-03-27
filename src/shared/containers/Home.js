@@ -115,6 +115,20 @@ const heroNodes = [
         }
       ]
     }
+  },
+  {
+    type: "heroHorizontalWhole",
+    cssClass: "light",
+    title: "Order Engage Hybrid",
+    stats: {
+      cssClass: "horizontal",
+      copy: [
+        "QuadTrack Design",
+        "2nd & 3rd axis adjustment",
+        "Rapid Drive"
+      ],
+      orderButton: false
+    },
   }
 ];
 

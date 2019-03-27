@@ -7,6 +7,7 @@ const Stats = loadable( () => import('./../../hero/Stats') );
 import './../css/hero-horizontal-whole-component.css';
 
 export const createHeroHorizontalWholeComponent = (props) => {
+  console.log('this.props test: ', props);
   const { stats, title } = props;
 
   return (

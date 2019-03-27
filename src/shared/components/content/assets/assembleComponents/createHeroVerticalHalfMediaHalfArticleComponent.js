@@ -7,7 +7,6 @@ const ListButton = loadable( () => import('./../../hero/ListButton') );
 const List = loadable( () => import('./../../hero/List') );
 
 const createHeroVerticalHalfMediaHalfArticleComponent = props => {
-  console.log('Specs props: ', props);
   const { image, content } = props;
   const { lists, navLinks, title } = content;
 
