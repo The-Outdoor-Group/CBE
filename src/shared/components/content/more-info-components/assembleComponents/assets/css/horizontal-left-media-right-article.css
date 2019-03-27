@@ -1,4 +1,5 @@
 .horizontal-half-media-half-text-article {
   display: grid;
   grid-template-columns: 50% 50%;
+  align-items: center;
 }

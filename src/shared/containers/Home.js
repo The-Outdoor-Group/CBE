@@ -78,6 +78,43 @@ const heroNodes = [
       orderButton: false
     },
     moreInfoHandle: "engage-hybrid-design", // query arg that will get that particular doc to load info from moreInfoButton click
+  },
+  {
+    type: "heroVerticalHalfMediaHalfArticle",
+    cssClass: "light",
+    image: {
+      src: "https://via.placeholder.com/150",
+      alt: "This is a placeholder"
+    },
+    content: {
+      title: "Engage Hybrid Specs",
+      navLinks: [
+        { name: "Link_1" },
+        { name: "Link_2" }
+      ],
+      lists: [
+        {
+          name: "Link_1",
+          content: [
+            { title: "1 Spec_1", text: "About this spec" },
+            { title: "1 Spec_2", text: "About this spec" },
+            { title: "1 Spec_3", text: "About this spec" },
+            { title: "1 Spec_4", text: "About this spec" },
+            { title: "1 Spec_5", text: "About this spec" }
+          ]
+        },
+        {
+          name: "Link_2",
+          content: [
+            { title: "2 Spec_1", text: "About this spec" },
+            { title: "2 Spec_2", text: "About this spec" },
+            { title: "2 Spec_3", text: "About this spec" },
+            { title: "2 Spec_4", text: "About this spec" },
+            { title: "2 Spec_5", text: "About this spec" }
+          ]
+        }
+      ]
+    }
   }
 ];
 

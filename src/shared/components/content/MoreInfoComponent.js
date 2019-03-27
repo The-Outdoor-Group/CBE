@@ -142,6 +142,37 @@ const moreInfoNodes = [
       ]
     }
   },
+  {
+    type: "moreInfoHorizontalAlternateMediaText",
+    content: {
+      headerArticles: [
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 1",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 2",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "This is a placeholder"
+          },
+          h3: "Header Article 3",
+          p: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    }
+  },
 ]
 
 

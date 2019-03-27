@@ -1,0 +1,26 @@
+.hero-vertical-half-media-half-article {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hero-vertical-half-media-half-article .list-wrapper {
+  padding: 6rem 2rem 0 2rem;
+}
+
+.list-wrapper h1 {
+  font-size: 200%;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.list-wrapper ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.list-wrapper .list-node-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
