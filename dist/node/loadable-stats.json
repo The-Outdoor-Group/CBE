@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "e571486d0d331ef34f4f",
+  "hash": "5fa7f273d297203b69e7",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -448,7 +448,7 @@
     },
     {
       "name": "components-content-Hero.css",
-      "size": 1845,
+      "size": 2419,
       "chunks": [
         11
       ],
@@ -492,7 +492,7 @@
     },
     {
       "name": "hero-TextArticle.css",
-      "size": 657,
+      "size": 877,
       "chunks": [
         19
       ],

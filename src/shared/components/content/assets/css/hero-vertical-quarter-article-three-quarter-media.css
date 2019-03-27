@@ -2,3 +2,15 @@ article.hero-vertical-quarter-article-three-quarter-media {
   display: grid;
   grid-template-columns: 30% 70%;
 }
+
+@media screen and (max-width: 1200px) {
+  article.hero-vertical-quarter-article-three-quarter-media {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  article.hero-vertical-quarter-article-three-quarter-media {
+    grid-template-columns: 100%;
+  }
+}

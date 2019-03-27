@@ -40,3 +40,15 @@
   margin: 1rem auto;
 }
 
+@media screen and (max-width: 1350px) {
+  .horizontal-text-content {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .horizontal-text-content {
+    grid-template-columns: 100%;
+  }
+}
+
