@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[2],{340:function(t,e,n){"use strict";n.r(e),n.d(e,"Image",function(){return _});var r=n(2),a=n.n(r),_=function(t){var e=t.data,n=e.src,r=e.alt;return a.a.createElement("img",{className:"sixty-percent-h",style:{width:"100%",height:"30rem"},src:n,alt:r})};e.default=_}}]);

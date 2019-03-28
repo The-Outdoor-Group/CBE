@@ -96,6 +96,19 @@ article.hero-vertical-three-quarter-media-quarter-article {
   padding-top: 2rem;
 }
 
+
+@media screen and (max-width: 1200px) {
+  article.hero-vertical-half-media-half-article {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  article.hero-vertical-half-media-half-article {
+    grid-template-columns: 100%;
+  }
+}
+
 .light {
   background: #C7C7C7;
   color: #000;

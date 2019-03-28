@@ -118,7 +118,7 @@ const heroNodes = [
   },
   {
     type: "heroHorizontalWhole",
-    cssClass: "light",
+    cssClass: "dark",
     title: "Order Engage Hybrid",
     stats: {
       cssClass: "horizontal",

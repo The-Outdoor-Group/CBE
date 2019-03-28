@@ -33,3 +33,16 @@
   color: inherit;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .title-header-copy h3 {
+    font-size: 190%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-header-copy h3 {
+    font-size: 160%;
+  }
+}
+

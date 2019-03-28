@@ -2,104 +2,109 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "7d9fadd11c80c057b8c2",
+  "hash": "5b8971c57ef39b9a6722",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.7d9fadd11c80c057b8c2.js",
+    "vendor": "0.5b8971c57ef39b9a6722.js",
+    "Image": [
+      "Image.css",
+      "1.5b8971c57ef39b9a6722.js",
+      "Image.css.map"
+    ],
     "Stats": [
       "Stats.css",
-      "1.7d9fadd11c80c057b8c2.js",
+      "2.5b8971c57ef39b9a6722.js",
       "Stats.css.map"
     ],
-    "media-assets-Image": "2.7d9fadd11c80c057b8c2.js",
     "CallToAction": [
       "CallToAction.css",
-      "3.7d9fadd11c80c057b8c2.js",
+      "3.5b8971c57ef39b9a6722.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "4.7d9fadd11c80c057b8c2.js",
-    "MainList": "5.7d9fadd11c80c057b8c2.js",
+    "InfoPanelOpenList": "4.5b8971c57ef39b9a6722.js",
+    "MainList": "5.5b8971c57ef39b9a6722.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.7d9fadd11c80c057b8c2.js",
+      "6.5b8971c57ef39b9a6722.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "7.7d9fadd11c80c057b8c2.js",
+      "7.5b8971c57ef39b9a6722.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "8.7d9fadd11c80c057b8c2.js",
+      "8.5b8971c57ef39b9a6722.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "9.7d9fadd11c80c057b8c2.js",
+      "9.5b8971c57ef39b9a6722.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "components-Bar": "10.7d9fadd11c80c057b8c2.js",
-    "components-Foo": "11.7d9fadd11c80c057b8c2.js",
+    "components-Bar": "10.5b8971c57ef39b9a6722.js",
+    "components-Foo": "11.5b8971c57ef39b9a6722.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "12.7d9fadd11c80c057b8c2.js",
+      "12.5b8971c57ef39b9a6722.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "13.7d9fadd11c80c057b8c2.js",
+      "13.5b8971c57ef39b9a6722.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "14.7d9fadd11c80c057b8c2.js",
+      "14.5b8971c57ef39b9a6722.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "15.7d9fadd11c80c057b8c2.js",
+      "15.5b8971c57ef39b9a6722.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
-    "container-HorizontalImageSlider": "16.7d9fadd11c80c057b8c2.js",
-    "containers-Home": "17.7d9fadd11c80c057b8c2.js",
-    "hero-List": "18.7d9fadd11c80c057b8c2.js",
-    "hero-ListButton": "19.7d9fadd11c80c057b8c2.js",
+    "container-HorizontalImageSlider": "16.5b8971c57ef39b9a6722.js",
+    "containers-Home": "17.5b8971c57ef39b9a6722.js",
+    "hero-List": "18.5b8971c57ef39b9a6722.js",
+    "hero-ListButton": "19.5b8971c57ef39b9a6722.js",
     "hero-TextArticle": [
       "hero-TextArticle.css",
-      "20.7d9fadd11c80c057b8c2.js",
+      "20.5b8971c57ef39b9a6722.js",
       "hero-TextArticle.css.map"
     ],
     "hero-TitleHeader": [
       "hero-TitleHeader.css",
-      "21.7d9fadd11c80c057b8c2.js",
+      "21.5b8971c57ef39b9a6722.js",
       "hero-TitleHeader.css.map"
     ],
     "hero-VideoComponent": [
       "hero-VideoComponent.css",
-      "22.7d9fadd11c80c057b8c2.js",
+      "22.5b8971c57ef39b9a6722.js",
       "hero-VideoComponent.css.map"
     ],
     "main": [
       "main.css",
-      "main.7d9fadd11c80c057b8c2.js",
+      "main.5b8971c57ef39b9a6722.js",
       "main.css.map"
     ],
+    "media-assets-Image": "24.5b8971c57ef39b9a6722.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "24.7d9fadd11c80c057b8c2.js",
+      "25.5b8971c57ef39b9a6722.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "25.7d9fadd11c80c057b8c2.js",
+      "26.5b8971c57ef39b9a6722.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.7d9fadd11c80c057b8c2.js",
+      "name": "0.5b8971c57ef39b9a6722.js",
       "size": 401124,
       "chunks": [
         0
@@ -110,18 +115,18 @@
       "emitted": false
     },
     {
-      "name": "1.7d9fadd11c80c057b8c2.js",
-      "size": 566,
+      "name": "1.5b8971c57ef39b9a6722.js",
+      "size": 301,
       "chunks": [
         1
       ],
       "chunkNames": [
-        "Stats"
+        "Image"
       ],
       "emitted": false
     },
     {
-      "name": "10.7d9fadd11c80c057b8c2.js",
+      "name": "10.5b8971c57ef39b9a6722.js",
       "size": 353,
       "chunks": [
         10
@@ -132,7 +137,7 @@
       "emitted": false
     },
     {
-      "name": "11.7d9fadd11c80c057b8c2.js",
+      "name": "11.5b8971c57ef39b9a6722.js",
       "size": 353,
       "chunks": [
         11
@@ -143,8 +148,8 @@
       "emitted": false
     },
     {
-      "name": "12.7d9fadd11c80c057b8c2.js",
-      "size": 7785,
+      "name": "12.5b8971c57ef39b9a6722.js",
+      "size": 8114,
       "chunks": [
         12
       ],
@@ -154,7 +159,7 @@
       "emitted": false
     },
     {
-      "name": "13.7d9fadd11c80c057b8c2.js",
+      "name": "13.5b8971c57ef39b9a6722.js",
       "size": 2547,
       "chunks": [
         13
@@ -165,7 +170,7 @@
       "emitted": false
     },
     {
-      "name": "14.7d9fadd11c80c057b8c2.js",
+      "name": "14.5b8971c57ef39b9a6722.js",
       "size": 5173,
       "chunks": [
         14
@@ -176,7 +181,7 @@
       "emitted": false
     },
     {
-      "name": "15.7d9fadd11c80c057b8c2.js",
+      "name": "15.5b8971c57ef39b9a6722.js",
       "size": 1600,
       "chunks": [
         15
@@ -187,8 +192,8 @@
       "emitted": false
     },
     {
-      "name": "16.7d9fadd11c80c057b8c2.js",
-      "size": 1952,
+      "name": "16.5b8971c57ef39b9a6722.js",
+      "size": 1953,
       "chunks": [
         16
       ],
@@ -198,8 +203,8 @@
       "emitted": false
     },
     {
-      "name": "17.7d9fadd11c80c057b8c2.js",
-      "size": 5593,
+      "name": "17.5b8971c57ef39b9a6722.js",
+      "size": 5592,
       "chunks": [
         17
       ],
@@ -209,7 +214,7 @@
       "emitted": false
     },
     {
-      "name": "18.7d9fadd11c80c057b8c2.js",
+      "name": "18.5b8971c57ef39b9a6722.js",
       "size": 381,
       "chunks": [
         18
@@ -220,7 +225,7 @@
       "emitted": false
     },
     {
-      "name": "19.7d9fadd11c80c057b8c2.js",
+      "name": "19.5b8971c57ef39b9a6722.js",
       "size": 228,
       "chunks": [
         19
@@ -231,19 +236,19 @@
       "emitted": false
     },
     {
-      "name": "2.7d9fadd11c80c057b8c2.js",
-      "size": 351,
+      "name": "2.5b8971c57ef39b9a6722.js",
+      "size": 566,
       "chunks": [
         2
       ],
       "chunkNames": [
-        "media-assets-Image"
+        "Stats"
       ],
       "emitted": false
     },
     {
-      "name": "20.7d9fadd11c80c057b8c2.js",
-      "size": 1083,
+      "name": "20.5b8971c57ef39b9a6722.js",
+      "size": 1383,
       "chunks": [
         20
       ],
@@ -253,7 +258,7 @@
       "emitted": false
     },
     {
-      "name": "21.7d9fadd11c80c057b8c2.js",
+      "name": "21.5b8971c57ef39b9a6722.js",
       "size": 459,
       "chunks": [
         21
@@ -264,7 +269,7 @@
       "emitted": false
     },
     {
-      "name": "22.7d9fadd11c80c057b8c2.js",
+      "name": "22.5b8971c57ef39b9a6722.js",
       "size": 1010,
       "chunks": [
         22
@@ -275,10 +280,21 @@
       "emitted": false
     },
     {
-      "name": "24.7d9fadd11c80c057b8c2.js",
-      "size": 315,
+      "name": "24.5b8971c57ef39b9a6722.js",
+      "size": 352,
       "chunks": [
         24
+      ],
+      "chunkNames": [
+        "media-assets-Image"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "25.5b8971c57ef39b9a6722.js",
+      "size": 315,
+      "chunks": [
+        25
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -286,10 +302,10 @@
       "emitted": false
     },
     {
-      "name": "25.7d9fadd11c80c057b8c2.js",
+      "name": "26.5b8971c57ef39b9a6722.js",
       "size": 372,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "text-Header"
@@ -311,7 +327,7 @@
       "emitted": false
     },
     {
-      "name": "3.7d9fadd11c80c057b8c2.js",
+      "name": "3.5b8971c57ef39b9a6722.js",
       "size": 1745,
       "chunks": [
         3
@@ -322,7 +338,7 @@
       "emitted": false
     },
     {
-      "name": "4.7d9fadd11c80c057b8c2.js",
+      "name": "4.5b8971c57ef39b9a6722.js",
       "size": 507,
       "chunks": [
         4
@@ -340,7 +356,7 @@
       "emitted": false
     },
     {
-      "name": "5.7d9fadd11c80c057b8c2.js",
+      "name": "5.5b8971c57ef39b9a6722.js",
       "size": 834,
       "chunks": [
         5
@@ -351,8 +367,8 @@
       "emitted": false
     },
     {
-      "name": "6.7d9fadd11c80c057b8c2.js",
-      "size": 8386,
+      "name": "6.5b8971c57ef39b9a6722.js",
+      "size": 8389,
       "chunks": [
         6
       ],
@@ -362,7 +378,7 @@
       "emitted": false
     },
     {
-      "name": "7.7d9fadd11c80c057b8c2.js",
+      "name": "7.5b8971c57ef39b9a6722.js",
       "size": 2752,
       "chunks": [
         7
@@ -380,7 +396,7 @@
       "emitted": false
     },
     {
-      "name": "8.7d9fadd11c80c057b8c2.js",
+      "name": "8.5b8971c57ef39b9a6722.js",
       "size": 3240,
       "chunks": [
         8
@@ -391,7 +407,7 @@
       "emitted": false
     },
     {
-      "name": "9.7d9fadd11c80c057b8c2.js",
+      "name": "9.5b8971c57ef39b9a6722.js",
       "size": 1877,
       "chunks": [
         9
@@ -424,6 +440,28 @@
       "emitted": false
     },
     {
+      "name": "Image.css",
+      "size": 150,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Image"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "Image.css.map",
+      "size": 379,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Image"
+      ],
+      "emitted": false
+    },
+    {
       "name": "MoreInfoComponent.css",
       "size": 995,
       "chunks": [
@@ -449,7 +487,7 @@
       "name": "Stats.css",
       "size": 1048,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "Stats"
@@ -460,7 +498,7 @@
       "name": "Stats.css.map",
       "size": 1595,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "Stats"
@@ -542,7 +580,7 @@
     },
     {
       "name": "components-content-Hero.css",
-      "size": 2419,
+      "size": 2682,
       "chunks": [
         12
       ],
@@ -553,7 +591,7 @@
     },
     {
       "name": "components-content-Hero.css.map",
-      "size": 3765,
+      "size": 4094,
       "chunks": [
         12
       ],
@@ -652,7 +690,7 @@
     },
     {
       "name": "hero-TitleHeader.css",
-      "size": 605,
+      "size": 793,
       "chunks": [
         21
       ],
@@ -663,7 +701,7 @@
     },
     {
       "name": "hero-TitleHeader.css.map",
-      "size": 978,
+      "size": 1232,
       "chunks": [
         21
       ],
@@ -702,8 +740,8 @@
       "emitted": false
     },
     {
-      "name": "main.7d9fadd11c80c057b8c2.js",
-      "size": 15877,
+      "name": "main.5b8971c57ef39b9a6722.js",
+      "size": 15892,
       "chunks": [
         23
       ],
@@ -738,7 +776,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 76,
       "chunks": [
-        24
+        25
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -749,7 +787,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css.map",
       "size": 347,
       "chunks": [
-        24
+        25
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -760,7 +798,7 @@
       "name": "text-Header.css",
       "size": 160,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "text-Header"
@@ -771,7 +809,7 @@
       "name": "text-Header.css.map",
       "size": 424,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "text-Header"
@@ -787,9 +825,9 @@
         23
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "main.css",
-        "main.7d9fadd11c80c057b8c2.js",
+        "main.5b8971c57ef39b9a6722.js",
         "main.css.map"
       ],
       "children": {},
@@ -803,9 +841,9 @@
         23
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "main.css",
-        "main.7d9fadd11c80c057b8c2.js",
+        "main.5b8971c57ef39b9a6722.js",
         "main.css.map"
       ],
       "children": {},
@@ -817,9 +855,9 @@
         14
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "components-main-nav-MainNav.css",
-        "14.7d9fadd11c80c057b8c2.js",
+        "14.5b8971c57ef39b9a6722.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -831,9 +869,9 @@
         15
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "15.7d9fadd11c80c057b8c2.js",
+        "15.5b8971c57ef39b9a6722.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -845,9 +883,9 @@
         13
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "13.7d9fadd11c80c057b8c2.js",
+        "13.5b8971c57ef39b9a6722.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -859,8 +897,8 @@
         17
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
-        "17.7d9fadd11c80c057b8c2.js"
+        "0.5b8971c57ef39b9a6722.js",
+        "17.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -870,7 +908,7 @@
         11
       ],
       "assets": [
-        "11.7d9fadd11c80c057b8c2.js"
+        "11.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -880,7 +918,7 @@
         10
       ],
       "assets": [
-        "10.7d9fadd11c80c057b8c2.js"
+        "10.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -891,7 +929,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "8.7d9fadd11c80c057b8c2.js",
+        "8.5b8971c57ef39b9a6722.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -903,7 +941,7 @@
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "9.7d9fadd11c80c057b8c2.js",
+        "9.5b8971c57ef39b9a6722.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -914,7 +952,7 @@
         5
       ],
       "assets": [
-        "5.7d9fadd11c80c057b8c2.js"
+        "5.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -924,7 +962,7 @@
         4
       ],
       "assets": [
-        "4.7d9fadd11c80c057b8c2.js"
+        "4.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -935,7 +973,7 @@
       ],
       "assets": [
         "components-content-Hero.css",
-        "12.7d9fadd11c80c057b8c2.js",
+        "12.5b8971c57ef39b9a6722.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -947,7 +985,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.7d9fadd11c80c057b8c2.js",
+        "6.5b8971c57ef39b9a6722.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -959,7 +997,7 @@
       ],
       "assets": [
         "hero-TitleHeader.css",
-        "21.7d9fadd11c80c057b8c2.js",
+        "21.5b8971c57ef39b9a6722.js",
         "hero-TitleHeader.css.map"
       ],
       "children": {},
@@ -967,11 +1005,11 @@
     },
     "hero-Stats": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
         "Stats.css",
-        "1.7d9fadd11c80c057b8c2.js",
+        "2.5b8971c57ef39b9a6722.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -983,8 +1021,20 @@
       ],
       "assets": [
         "hero-TextArticle.css",
-        "20.7d9fadd11c80c057b8c2.js",
+        "20.5b8971c57ef39b9a6722.js",
         "hero-TextArticle.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-Image": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "Image.css",
+        "1.5b8971c57ef39b9a6722.js",
+        "Image.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -995,18 +1045,8 @@
       ],
       "assets": [
         "hero-VideoComponent.css",
-        "22.7d9fadd11c80c057b8c2.js",
+        "22.5b8971c57ef39b9a6722.js",
         "hero-VideoComponent.css.map"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "more-info-components-media-assets-Image": {
-      "chunks": [
-        2
-      ],
-      "assets": [
-        "2.7d9fadd11c80c057b8c2.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1016,7 +1056,7 @@
         19
       ],
       "assets": [
-        "19.7d9fadd11c80c057b8c2.js"
+        "19.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1026,18 +1066,18 @@
         18
       ],
       "assets": [
-        "18.7d9fadd11c80c057b8c2.js"
+        "18.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        24
+        25
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "24.7d9fadd11c80c057b8c2.js",
+        "25.5b8971c57ef39b9a6722.js",
         "more-info-components-container-MoreInfoArticle.css.map"
       ],
       "children": {},
@@ -1045,21 +1085,21 @@
     },
     "media-assets-Image": {
       "chunks": [
-        2
+        24
       ],
       "assets": [
-        "2.7d9fadd11c80c057b8c2.js"
+        "24.5b8971c57ef39b9a6722.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "text-Header": {
       "chunks": [
-        25
+        26
       ],
       "assets": [
         "text-Header.css",
-        "25.7d9fadd11c80c057b8c2.js",
+        "26.5b8971c57ef39b9a6722.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1070,7 +1110,19 @@
         16
       ],
       "assets": [
-        "16.7d9fadd11c80c057b8c2.js"
+        "16.5b8971c57ef39b9a6722.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Image": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "Image.css",
+        "1.5b8971c57ef39b9a6722.js",
+        "Image.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1081,7 +1133,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "3.7d9fadd11c80c057b8c2.js",
+        "3.5b8971c57ef39b9a6722.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1089,11 +1141,11 @@
     },
     "Stats": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
         "Stats.css",
-        "1.7d9fadd11c80c057b8c2.js",
+        "2.5b8971c57ef39b9a6722.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1105,9 +1157,9 @@
         7
       ],
       "assets": [
-        "0.7d9fadd11c80c057b8c2.js",
+        "0.5b8971c57ef39b9a6722.js",
         "assets-images-PlusIcon.css",
-        "7.7d9fadd11c80c057b8c2.js",
+        "7.5b8971c57ef39b9a6722.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},
@@ -1404,6 +1456,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/image.css"
     },
     {
       "errors": [],

@@ -2,7 +2,7 @@ import React from 'react';
 import loadable from '@loadable/component';
 import './../css/hero-vertical-half-media-half-article.css'
 
-const Image = loadable( () => import('./../../more-info-components/media-assets/Image') );
+const Image = loadable( () => import('./../../hero/Image') );
 const ListButton = loadable( () => import('./../../hero/ListButton') );
 const List = loadable( () => import('./../../hero/List') );
 
@@ -15,7 +15,7 @@ const createHeroVerticalHalfMediaHalfArticleComponent = props => {
 
   return (
     <article className="hero-vertical-half-media-half-article">
-      <Image data={image} />
+      <Image data={ {src: "https://via.placeholder.com/325x300", alt:"placeholder", cssClass: "vertical"} } />
       <div className="list-wrapper">
         <header>
           <h1>{ title }</h1>

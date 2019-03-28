@@ -1,9 +1,12 @@
 import React from 'react';
 import loadable from '@loadable/component';
+
 import './../css/hero-vertical-quarter-article-three-quarter-media.css';
 
+const TextArticle = loadable( () => import('./../../hero/TextArticle') );
+const Image = loadable( () => import('./../../hero/Image') );
+
 const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showMoreInfo) => {
-  const TextArticle = loadable( () => import('./../../hero/TextArticle') );
   const { cssClass, textArticle, moreInfoHandle } = props;
 
   return (
@@ -12,7 +15,7 @@ const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showM
 
         {/* will be another component; will be image or video */}
         <div>
-          <img style={{width: '100%'}} src="https://via.placeholder.com/975x800" />
+          <Image data={ {src: "https://via.placeholder.com/975x800", alt:"placeholder", cssClass: "vertical"} } />
         </div>
       </article>
   );

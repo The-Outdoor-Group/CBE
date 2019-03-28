@@ -3,6 +3,7 @@ import loadable from '@loadable/component'
 
 import './../assets/css/text-content.css';
 
+const Image = loadable( () => import('./Image') );
 const CallToAction = loadable( () => import('./CallToAction') );
 
 
@@ -20,7 +21,7 @@ const TextArticle = (props) => {
       </header>
       <p>{p}</p>
       {/* do a check of what the asset is, or even exists; can be video or image */}
-      { cssClassName === 'vertical' ? <img src="https://via.placeholder.com/325x300" /> : null }
+      { cssClassName === 'vertical' ? <Image data={ {src: "https://via.placeholder.com/325x300", alt:"placeholder", cssClass: "horizontal"} } /> : null }
 
       { cssClassName === 'vertical' ? <CallToAction colorTheme={colorTheme} showMoreInfo={showMoreInfo}  moreInfoHandle={moreInfoHandle} /> : null }
     </div>
