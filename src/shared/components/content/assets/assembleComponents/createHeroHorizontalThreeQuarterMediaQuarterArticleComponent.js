@@ -2,15 +2,17 @@ import React from 'react';
 import loadable from '@loadable/component';
 import './../css/hero-horizontal-three-quarter-media-quarter-article.css';
 
+const Stats = loadable( () => import('./../../hero/Stats') );
+const TextArticle = loadable( () => import('./../../hero/TextArticle') );
+const Image = loadable( () => import('./../../hero/Image') );
+
 const createHeroHorizontalThreeQuarterMediaQuarterArticleComponent = (props, showMoreInfo) => {
   const { cssClass, stats, textArticle, moreInfoHandle } = props;
-  const Stats = loadable( () => import('./../../hero/Stats') );
-  const TextArticle = loadable( () => import('./../../hero/TextArticle') );
 
   return (
     <article className="hero-horizontal-three-quarter-media-quarter-article">
-      <div className="image-full-width">
-        <img src="https://via.placeholder.com/1380x600" />
+      <div className="full-image-height">
+        <Image data={ {src: "https://via.placeholder.com/1380x600", alt: "placeholder", cssClass: "horizontal"} } />
         <Stats stats={stats} />
       </div>
 

@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "6f10aa3ac4a3249cd799",
+  "hash": "bc16d1fdeef13b8b14c3",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -120,7 +120,7 @@
     },
     {
       "name": "11.server.js",
-      "size": 7797,
+      "size": 8091,
       "chunks": [
         11
       ],
@@ -423,7 +423,7 @@
     },
     {
       "name": "Stats.css",
-      "size": 1598,
+      "size": 1547,
       "chunks": [
         1
       ],
@@ -474,7 +474,7 @@
     },
     {
       "name": "components-content-Hero.css",
-      "size": 2682,
+      "size": 2649,
       "chunks": [
         11
       ],
