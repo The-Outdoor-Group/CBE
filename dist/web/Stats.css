@@ -31,9 +31,11 @@ div.stats.vertical {
 }
 
 .stats ul.horizontal {
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .stats ul.vertical {
@@ -69,5 +71,46 @@ div.stats.vertical {
   display: block;
   margin: 0 auto;
   padding: 1rem 0;
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+
+} */
+
+@media screen and (max-width: 1200px) {
+
+  .stats ul li {
+    font-size: 100%;
+    width: 30%;
+  }
+
+  .stats ul li img {
+   width: 80%;
+  }
+
+  .stats ul li button {
+    font-size: 140%;
+  }
+
+  .stats ul.horizontal {
+    align-items: baseline;
+    width: 100%;
+  }
+
+
+  .stats ul.horizontal li {
+    padding: 0 0.25rem;
+  }
+
+  .stats ul.horizontal li:nth-of-type(3) {
+    border-right: none;
+  }
+
+  .stats.horizontal ul li:last-child {
+    padding-top: 3rem;
+  }
+
 }
 
