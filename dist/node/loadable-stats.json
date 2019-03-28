@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "bc16d1fdeef13b8b14c3",
+  "hash": "7b2475671dbc3bffe8e1",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -540,7 +540,7 @@
     },
     {
       "name": "hero-VideoComponent.css",
-      "size": 329,
+      "size": 332,
       "chunks": [
         21
       ],
