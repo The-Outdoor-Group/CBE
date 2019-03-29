@@ -1,10 +1,10 @@
 import React from 'react';
 import loadable from '@loadable/component';
-import './../css/hero-vertical-half-media-half-article.css'
+import './../../css/hero-vertical-half-media-half-article.css'
 
-const Image = loadable( () => import('./../../hero/Image') );
-const ListButton = loadable( () => import('./../../hero/ListButton') );
-const List = loadable( () => import('./../../hero/List') );
+const Image = loadable( () => import('./../../../hero-components/Image') );
+const ListButton = loadable( () => import('./../../../hero-components/ListButton') );
+const List = loadable( () => import('./../../../hero-components/List') );
 
 const createHeroVerticalHalfMediaHalfArticleComponent = props => {
   const { image, content } = props;

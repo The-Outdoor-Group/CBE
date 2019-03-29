@@ -1,8 +1,9 @@
 .title-header-copy {
   position: absolute;
   top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(0, -20%);
+  text-align: center;
+  width: 100%;
 }
 
 .title-header-copy h3 {

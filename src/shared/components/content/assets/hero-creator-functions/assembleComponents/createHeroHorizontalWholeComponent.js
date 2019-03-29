@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import loadable from '@loadable/component'
 
-const TitleHeader = loadable( () => import('./../../hero/TitleHeader') );
-const Stats = loadable( () => import('./../../hero/Stats') );
+const TitleHeader = loadable( () => import('./../../../hero-components/TitleHeader') );
+const Stats = loadable( () => import('./../../../hero-components/Stats') );
 
-import './../css/hero-horizontal-whole-component.css';
+import './../../css/hero-horizontal-whole-component.css';
 
 export const createHeroHorizontalWholeComponent = (props) => {
   console.log('this.props test: ', props);

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import assembleComponent from './assets/assembleComponents';
+import assembleComponent from './assets/hero-creator-functions/assembleComponents';
 import loadable from '@loadable/component';
 import { connect } from 'react-redux';
 import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from '../../actions/shared-ui-actions';

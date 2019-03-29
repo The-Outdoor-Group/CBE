@@ -1,10 +1,10 @@
 import React from 'react';
 import loadable from '@loadable/component';
 
-import './../css/hero-vertical-quarter-article-three-quarter-media.css';
+import './../../css/hero-vertical-quarter-article-three-quarter-media.css';
 
-const TextArticle = loadable( () => import('./../../hero/TextArticle') );
-const Image = loadable( () => import('./../../hero/Image') );
+const TextArticle = loadable( () => import('./../../../hero-components/TextArticle') );
+const Image = loadable( () => import('./../../../hero-components/Image') );
 
 const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showMoreInfo) => {
   const { cssClass, textArticle, moreInfoHandle } = props;

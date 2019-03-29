@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "7b2475671dbc3bffe8e1",
+  "hash": "75fc77454d53504e2b78",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -56,18 +56,18 @@
     ],
     "container-HorizontalImageSlider": "15.server.js",
     "containers-Home": "16.server.js",
-    "hero-List": "17.server.js",
-    "hero-ListButton": "18.server.js",
-    "hero-TextArticle": [
-      "hero-TextArticle.css",
+    "hero-components-List": "17.server.js",
+    "hero-components-ListButton": "18.server.js",
+    "hero-components-TextArticle": [
+      "hero-components-TextArticle.css",
       "19.server.js"
     ],
-    "hero-TitleHeader": [
-      "hero-TitleHeader.css",
+    "hero-components-TitleHeader": [
+      "hero-components-TitleHeader.css",
       "20.server.js"
     ],
-    "hero-VideoComponent": [
-      "hero-VideoComponent.css",
+    "hero-components-VideoComponent": [
+      "hero-components-VideoComponent.css",
       "21.server.js"
     ],
     "main": [
@@ -120,7 +120,7 @@
     },
     {
       "name": "11.server.js",
-      "size": 8091,
+      "size": 8223,
       "chunks": [
         11
       ],
@@ -191,7 +191,7 @@
         17
       ],
       "chunkNames": [
-        "hero-List"
+        "hero-components-List"
       ],
       "emitted": false
     },
@@ -202,7 +202,7 @@
         18
       ],
       "chunkNames": [
-        "hero-ListButton"
+        "hero-components-ListButton"
       ],
       "emitted": false
     },
@@ -213,7 +213,7 @@
         19
       ],
       "chunkNames": [
-        "hero-TextArticle"
+        "hero-components-TextArticle"
       ],
       "emitted": false
     },
@@ -235,7 +235,7 @@
         20
       ],
       "chunkNames": [
-        "hero-TitleHeader"
+        "hero-components-TitleHeader"
       ],
       "emitted": false
     },
@@ -246,7 +246,7 @@
         21
       ],
       "chunkNames": [
-        "hero-VideoComponent"
+        "hero-components-VideoComponent"
       ],
       "emitted": false
     },
@@ -517,35 +517,35 @@
       "emitted": false
     },
     {
-      "name": "hero-TextArticle.css",
+      "name": "hero-components-TextArticle.css",
       "size": 877,
       "chunks": [
         19
       ],
       "chunkNames": [
-        "hero-TextArticle"
+        "hero-components-TextArticle"
       ],
       "emitted": false
     },
     {
-      "name": "hero-TitleHeader.css",
-      "size": 793,
+      "name": "hero-components-TitleHeader.css",
+      "size": 814,
       "chunks": [
         20
       ],
       "chunkNames": [
-        "hero-TitleHeader"
+        "hero-components-TitleHeader"
       ],
       "emitted": false
     },
     {
-      "name": "hero-VideoComponent.css",
+      "name": "hero-components-VideoComponent.css",
       "size": 332,
       "chunks": [
         21
       ],
       "chunkNames": [
-        "hero-VideoComponent"
+        "hero-components-VideoComponent"
       ],
       "emitted": false
     },
@@ -573,7 +573,7 @@
     },
     {
       "name": "server.js",
-      "size": 17498,
+      "size": 17553,
       "chunks": [
         22
       ],
@@ -747,18 +747,18 @@
       "children": {},
       "childAssets": {}
     },
-    "hero-TitleHeader": {
+    "hero-components-TitleHeader": {
       "chunks": [
         20
       ],
       "assets": [
-        "hero-TitleHeader.css",
+        "hero-components-TitleHeader.css",
         "20.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "hero-Stats": {
+    "hero-components-Stats": {
       "chunks": [
         1
       ],
@@ -769,18 +769,18 @@
       "children": {},
       "childAssets": {}
     },
-    "hero-TextArticle": {
+    "hero-components-TextArticle": {
       "chunks": [
         19
       ],
       "assets": [
-        "hero-TextArticle.css",
+        "hero-components-TextArticle.css",
         "19.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "hero-Image": {
+    "hero-components-Image": {
       "chunks": [
         0
       ],
@@ -791,18 +791,18 @@
       "children": {},
       "childAssets": {}
     },
-    "hero-VideoComponent": {
+    "hero-components-VideoComponent": {
       "chunks": [
         21
       ],
       "assets": [
-        "hero-VideoComponent.css",
+        "hero-components-VideoComponent.css",
         "21.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "hero-ListButton": {
+    "hero-components-ListButton": {
       "chunks": [
         18
       ],
@@ -812,7 +812,7 @@
       "children": {},
       "childAssets": {}
     },
-    "hero-List": {
+    "hero-components-List": {
       "chunks": [
         17
       ],
