@@ -2,109 +2,109 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "37677983bf1e07e6654c",
+  "hash": "daf9c4251142e2df99e4",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.37677983bf1e07e6654c.js",
+    "vendor": "0.daf9c4251142e2df99e4.js",
     "Image": [
       "Image.css",
-      "1.37677983bf1e07e6654c.js",
+      "1.daf9c4251142e2df99e4.js",
       "Image.css.map"
     ],
-    "MainList": "2.37677983bf1e07e6654c.js",
+    "MainList": "2.daf9c4251142e2df99e4.js",
     "Stats": [
       "Stats.css",
-      "3.37677983bf1e07e6654c.js",
+      "3.daf9c4251142e2df99e4.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "4.37677983bf1e07e6654c.js",
+      "4.daf9c4251142e2df99e4.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "5.37677983bf1e07e6654c.js",
+    "InfoPanelOpenList": "5.daf9c4251142e2df99e4.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.37677983bf1e07e6654c.js",
+      "6.daf9c4251142e2df99e4.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "7.37677983bf1e07e6654c.js",
+      "7.daf9c4251142e2df99e4.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "8.37677983bf1e07e6654c.js",
+      "8.daf9c4251142e2df99e4.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "9.37677983bf1e07e6654c.js",
+      "9.daf9c4251142e2df99e4.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "components-Bar": "10.37677983bf1e07e6654c.js",
-    "components-Foo": "11.37677983bf1e07e6654c.js",
+    "components-Bar": "10.daf9c4251142e2df99e4.js",
+    "components-Foo": "11.daf9c4251142e2df99e4.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "12.37677983bf1e07e6654c.js",
+      "12.daf9c4251142e2df99e4.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "13.37677983bf1e07e6654c.js",
+      "13.daf9c4251142e2df99e4.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "14.37677983bf1e07e6654c.js",
+      "14.daf9c4251142e2df99e4.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "15.37677983bf1e07e6654c.js",
+      "15.daf9c4251142e2df99e4.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
-    "container-HorizontalImageSlider": "16.37677983bf1e07e6654c.js",
-    "containers-Home": "17.37677983bf1e07e6654c.js",
-    "hero-components-List": "18.37677983bf1e07e6654c.js",
-    "hero-components-ListButton": "19.37677983bf1e07e6654c.js",
+    "container-HorizontalImageSlider": "16.daf9c4251142e2df99e4.js",
+    "containers-Home": "17.daf9c4251142e2df99e4.js",
+    "hero-components-List": "18.daf9c4251142e2df99e4.js",
+    "hero-components-ListButton": "19.daf9c4251142e2df99e4.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "20.37677983bf1e07e6654c.js",
+      "20.daf9c4251142e2df99e4.js",
       "hero-components-TextArticle.css.map"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "21.37677983bf1e07e6654c.js",
+      "21.daf9c4251142e2df99e4.js",
       "hero-components-TitleHeader.css.map"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "22.37677983bf1e07e6654c.js",
+      "22.daf9c4251142e2df99e4.js",
       "hero-components-VideoComponent.css.map"
     ],
     "main": [
       "main.css",
-      "main.37677983bf1e07e6654c.js",
+      "main.daf9c4251142e2df99e4.js",
       "main.css.map"
     ],
-    "media-assets-Image": "24.37677983bf1e07e6654c.js",
+    "media-assets-Image": "24.daf9c4251142e2df99e4.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "25.37677983bf1e07e6654c.js",
+      "25.daf9c4251142e2df99e4.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "26.37677983bf1e07e6654c.js",
+      "26.daf9c4251142e2df99e4.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.37677983bf1e07e6654c.js",
+      "name": "0.daf9c4251142e2df99e4.js",
       "size": 401124,
       "chunks": [
         0
@@ -115,7 +115,7 @@
       "emitted": false
     },
     {
-      "name": "1.37677983bf1e07e6654c.js",
+      "name": "1.daf9c4251142e2df99e4.js",
       "size": 301,
       "chunks": [
         1
@@ -126,7 +126,7 @@
       "emitted": false
     },
     {
-      "name": "10.37677983bf1e07e6654c.js",
+      "name": "10.daf9c4251142e2df99e4.js",
       "size": 353,
       "chunks": [
         10
@@ -137,7 +137,7 @@
       "emitted": false
     },
     {
-      "name": "11.37677983bf1e07e6654c.js",
+      "name": "11.daf9c4251142e2df99e4.js",
       "size": 353,
       "chunks": [
         11
@@ -148,7 +148,7 @@
       "emitted": false
     },
     {
-      "name": "12.37677983bf1e07e6654c.js",
+      "name": "12.daf9c4251142e2df99e4.js",
       "size": 8550,
       "chunks": [
         12
@@ -159,7 +159,7 @@
       "emitted": false
     },
     {
-      "name": "13.37677983bf1e07e6654c.js",
+      "name": "13.daf9c4251142e2df99e4.js",
       "size": 2651,
       "chunks": [
         13
@@ -170,7 +170,7 @@
       "emitted": false
     },
     {
-      "name": "14.37677983bf1e07e6654c.js",
+      "name": "14.daf9c4251142e2df99e4.js",
       "size": 5939,
       "chunks": [
         14
@@ -181,7 +181,7 @@
       "emitted": false
     },
     {
-      "name": "15.37677983bf1e07e6654c.js",
+      "name": "15.daf9c4251142e2df99e4.js",
       "size": 3871,
       "chunks": [
         15
@@ -192,7 +192,7 @@
       "emitted": false
     },
     {
-      "name": "16.37677983bf1e07e6654c.js",
+      "name": "16.daf9c4251142e2df99e4.js",
       "size": 1953,
       "chunks": [
         16
@@ -203,7 +203,7 @@
       "emitted": false
     },
     {
-      "name": "17.37677983bf1e07e6654c.js",
+      "name": "17.daf9c4251142e2df99e4.js",
       "size": 5592,
       "chunks": [
         17
@@ -214,7 +214,7 @@
       "emitted": false
     },
     {
-      "name": "18.37677983bf1e07e6654c.js",
+      "name": "18.daf9c4251142e2df99e4.js",
       "size": 381,
       "chunks": [
         18
@@ -225,7 +225,7 @@
       "emitted": false
     },
     {
-      "name": "19.37677983bf1e07e6654c.js",
+      "name": "19.daf9c4251142e2df99e4.js",
       "size": 228,
       "chunks": [
         19
@@ -236,7 +236,7 @@
       "emitted": false
     },
     {
-      "name": "2.37677983bf1e07e6654c.js",
+      "name": "2.daf9c4251142e2df99e4.js",
       "size": 834,
       "chunks": [
         2
@@ -247,7 +247,7 @@
       "emitted": false
     },
     {
-      "name": "20.37677983bf1e07e6654c.js",
+      "name": "20.daf9c4251142e2df99e4.js",
       "size": 1383,
       "chunks": [
         20
@@ -258,7 +258,7 @@
       "emitted": false
     },
     {
-      "name": "21.37677983bf1e07e6654c.js",
+      "name": "21.daf9c4251142e2df99e4.js",
       "size": 459,
       "chunks": [
         21
@@ -269,7 +269,7 @@
       "emitted": false
     },
     {
-      "name": "22.37677983bf1e07e6654c.js",
+      "name": "22.daf9c4251142e2df99e4.js",
       "size": 1010,
       "chunks": [
         22
@@ -280,7 +280,7 @@
       "emitted": false
     },
     {
-      "name": "24.37677983bf1e07e6654c.js",
+      "name": "24.daf9c4251142e2df99e4.js",
       "size": 352,
       "chunks": [
         24
@@ -291,7 +291,7 @@
       "emitted": false
     },
     {
-      "name": "25.37677983bf1e07e6654c.js",
+      "name": "25.daf9c4251142e2df99e4.js",
       "size": 315,
       "chunks": [
         25
@@ -302,7 +302,7 @@
       "emitted": false
     },
     {
-      "name": "26.37677983bf1e07e6654c.js",
+      "name": "26.daf9c4251142e2df99e4.js",
       "size": 372,
       "chunks": [
         26
@@ -327,7 +327,7 @@
       "emitted": false
     },
     {
-      "name": "3.37677983bf1e07e6654c.js",
+      "name": "3.daf9c4251142e2df99e4.js",
       "size": 566,
       "chunks": [
         3
@@ -338,7 +338,7 @@
       "emitted": false
     },
     {
-      "name": "4.37677983bf1e07e6654c.js",
+      "name": "4.daf9c4251142e2df99e4.js",
       "size": 2361,
       "chunks": [
         4
@@ -356,7 +356,7 @@
       "emitted": false
     },
     {
-      "name": "5.37677983bf1e07e6654c.js",
+      "name": "5.daf9c4251142e2df99e4.js",
       "size": 507,
       "chunks": [
         5
@@ -367,7 +367,7 @@
       "emitted": false
     },
     {
-      "name": "6.37677983bf1e07e6654c.js",
+      "name": "6.daf9c4251142e2df99e4.js",
       "size": 8389,
       "chunks": [
         6
@@ -378,7 +378,7 @@
       "emitted": false
     },
     {
-      "name": "7.37677983bf1e07e6654c.js",
+      "name": "7.daf9c4251142e2df99e4.js",
       "size": 2856,
       "chunks": [
         7
@@ -396,7 +396,7 @@
       "emitted": false
     },
     {
-      "name": "8.37677983bf1e07e6654c.js",
+      "name": "8.daf9c4251142e2df99e4.js",
       "size": 3240,
       "chunks": [
         8
@@ -407,7 +407,7 @@
       "emitted": false
     },
     {
-      "name": "9.37677983bf1e07e6654c.js",
+      "name": "9.daf9c4251142e2df99e4.js",
       "size": 1757,
       "chunks": [
         9
@@ -624,7 +624,7 @@
     },
     {
       "name": "components-main-nav-MainNav.css",
-      "size": 894,
+      "size": 1056,
       "chunks": [
         14
       ],
@@ -635,7 +635,7 @@
     },
     {
       "name": "components-main-nav-MainNav.css.map",
-      "size": 1391,
+      "size": 1621,
       "chunks": [
         14
       ],
@@ -740,17 +740,6 @@
       "emitted": false
     },
     {
-      "name": "main.37677983bf1e07e6654c.js",
-      "size": 15947,
-      "chunks": [
-        23
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
       "name": "main.css",
       "size": 1551,
       "chunks": [
@@ -764,6 +753,17 @@
     {
       "name": "main.css.map",
       "size": 2222,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.daf9c4251142e2df99e4.js",
+      "size": 15947,
       "chunks": [
         23
       ],
@@ -825,9 +825,9 @@
         23
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "main.css",
-        "main.37677983bf1e07e6654c.js",
+        "main.daf9c4251142e2df99e4.js",
         "main.css.map"
       ],
       "children": {},
@@ -841,9 +841,9 @@
         23
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "main.css",
-        "main.37677983bf1e07e6654c.js",
+        "main.daf9c4251142e2df99e4.js",
         "main.css.map"
       ],
       "children": {},
@@ -855,9 +855,9 @@
         14
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "components-main-nav-MainNav.css",
-        "14.37677983bf1e07e6654c.js",
+        "14.daf9c4251142e2df99e4.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -869,9 +869,9 @@
         15
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "15.37677983bf1e07e6654c.js",
+        "15.daf9c4251142e2df99e4.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -883,9 +883,9 @@
         13
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "13.37677983bf1e07e6654c.js",
+        "13.daf9c4251142e2df99e4.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -897,8 +897,8 @@
         17
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
-        "17.37677983bf1e07e6654c.js"
+        "0.daf9c4251142e2df99e4.js",
+        "17.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -908,7 +908,7 @@
         11
       ],
       "assets": [
-        "11.37677983bf1e07e6654c.js"
+        "11.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -918,7 +918,7 @@
         10
       ],
       "assets": [
-        "10.37677983bf1e07e6654c.js"
+        "10.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -929,7 +929,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "8.37677983bf1e07e6654c.js",
+        "8.daf9c4251142e2df99e4.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -941,7 +941,7 @@
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "9.37677983bf1e07e6654c.js",
+        "9.daf9c4251142e2df99e4.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -952,7 +952,7 @@
         2
       ],
       "assets": [
-        "2.37677983bf1e07e6654c.js"
+        "2.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -962,7 +962,7 @@
         5
       ],
       "assets": [
-        "5.37677983bf1e07e6654c.js"
+        "5.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -972,7 +972,7 @@
         2
       ],
       "assets": [
-        "2.37677983bf1e07e6654c.js"
+        "2.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -983,7 +983,7 @@
       ],
       "assets": [
         "components-content-Hero.css",
-        "12.37677983bf1e07e6654c.js",
+        "12.daf9c4251142e2df99e4.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -995,7 +995,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.37677983bf1e07e6654c.js",
+        "6.daf9c4251142e2df99e4.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -1007,7 +1007,7 @@
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "21.37677983bf1e07e6654c.js",
+        "21.daf9c4251142e2df99e4.js",
         "hero-components-TitleHeader.css.map"
       ],
       "children": {},
@@ -1019,7 +1019,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.37677983bf1e07e6654c.js",
+        "3.daf9c4251142e2df99e4.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1031,7 +1031,7 @@
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "20.37677983bf1e07e6654c.js",
+        "20.daf9c4251142e2df99e4.js",
         "hero-components-TextArticle.css.map"
       ],
       "children": {},
@@ -1043,7 +1043,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.37677983bf1e07e6654c.js",
+        "1.daf9c4251142e2df99e4.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1055,7 +1055,7 @@
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "22.37677983bf1e07e6654c.js",
+        "22.daf9c4251142e2df99e4.js",
         "hero-components-VideoComponent.css.map"
       ],
       "children": {},
@@ -1066,7 +1066,7 @@
         19
       ],
       "assets": [
-        "19.37677983bf1e07e6654c.js"
+        "19.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1076,7 +1076,7 @@
         18
       ],
       "assets": [
-        "18.37677983bf1e07e6654c.js"
+        "18.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1087,7 +1087,7 @@
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "25.37677983bf1e07e6654c.js",
+        "25.daf9c4251142e2df99e4.js",
         "more-info-components-container-MoreInfoArticle.css.map"
       ],
       "children": {},
@@ -1098,7 +1098,7 @@
         24
       ],
       "assets": [
-        "24.37677983bf1e07e6654c.js"
+        "24.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1109,7 +1109,7 @@
       ],
       "assets": [
         "text-Header.css",
-        "26.37677983bf1e07e6654c.js",
+        "26.daf9c4251142e2df99e4.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1120,7 +1120,7 @@
         16
       ],
       "assets": [
-        "16.37677983bf1e07e6654c.js"
+        "16.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1131,7 +1131,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.37677983bf1e07e6654c.js",
+        "1.daf9c4251142e2df99e4.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1143,7 +1143,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "4.37677983bf1e07e6654c.js",
+        "4.daf9c4251142e2df99e4.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1155,7 +1155,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.37677983bf1e07e6654c.js",
+        "3.daf9c4251142e2df99e4.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1167,9 +1167,9 @@
         7
       ],
       "assets": [
-        "0.37677983bf1e07e6654c.js",
+        "0.daf9c4251142e2df99e4.js",
         "assets-images-PlusIcon.css",
-        "7.37677983bf1e07e6654c.js",
+        "7.daf9c4251142e2df99e4.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},

@@ -52,3 +52,12 @@
   right: 2rem;
   z-index: 2;
 }
+
+
+@media screen and (max-width: 1200px) {
+  #main-nav-container { width: 96%; }
+}
+
+@media screen and (max-width: 768px) {
+  #main-nav-container { width: 90%; }
+}
