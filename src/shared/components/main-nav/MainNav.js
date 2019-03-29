@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 import { connect } from 'react-redux';
+import _debounce from 'lodash/debounce';
+import isWindowSizeMobile from '../../utilities/isWindowSizeMobile';
 
 import { TimelineMax } from 'gsap';
 
@@ -21,14 +23,18 @@ class MainNav extends Component {
     this.elArray, this.nav, this.ul, this.shopLink,
     this.containerEl;
 
+    this.debouncedResize;
+
     this.tl = new TimelineMax();
 
     this.changeNavColor = this.changeNavColor.bind(this);
     this.changeMenuContents = this.changeMenuContents.bind(this);
+    this.handleResize = this.handleResize.bind(this);
 
     this.state = {
       colorTheme: 'dark',
-      openMoreInfoPanel: false
+      openMoreInfoPanel: false,
+      showMainNav: false
     };
   }
 
@@ -38,22 +44,34 @@ class MainNav extends Component {
     console.log('main nav height: ', rect.bottom - rect.top );
 
     require('gsap/ScrollToPlugin');
+
+    this.debouncedResize = _debounce(this.handleResize, 500);
+    this.handleResize(); // to set initial state
+    window.addEventListener('resize', this.debouncedResize);
   }
 
   componentDidUpdate(prevProps, prevState) {
 
     let prevColor = prevProps.mainNavThemeColor;
     let currentColor = this.props.mainNavThemeColor;
+    let { showMainNav } = this.state;
 
     let prevMoreInfoPanelState = prevProps.openMoreInfoPanel;
     let currentMoreInfoPanelState = this.props.openMoreInfoPanel;
 
     if (prevColor !== currentColor) this.changeNavColor( currentColor );
 
-    if (prevMoreInfoPanelState !== currentMoreInfoPanelState) this.changeMenuContents( currentMoreInfoPanelState );
+    if (prevMoreInfoPanelState !== currentMoreInfoPanelState && showMainNav) this.changeMenuContents( currentMoreInfoPanelState );
 
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.debouncedResize);
+  }
+
+  handleResize() {
+    !isWindowSizeMobile() ? this.setState({ showMainNav: true }) : this.setState({ showMainNav: false });
+  }
 
   changeMenuContents( currentMoreInfoPanelOpen ) {
 
@@ -80,8 +98,9 @@ class MainNav extends Component {
   }
 
   changeNavColor( currentColor ) {
+    let { showMainNav } = this.state;
     this.elArray = [this.shopLink];
-    Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
+     if (showMainNav) Array.from(this.ul.children).forEach( el => this.elArray.push( el.children[0] ) );
 
     tweenNavLinkColor(currentColor, this.elArray);
 
@@ -89,17 +108,25 @@ class MainNav extends Component {
   }
 
   render() {
-    const showNavListNode = () => (this.state.openMoreInfoPanel) ? <InfoPanelOpenList colorTheme={this.state.colorTheme} /> : <MainList colorTheme={this.state.colorTheme} />;
+    let { openMoreInfoPanel, showMainNav, colorTheme } = this.state;
+
+    console.log('showMainNav: ', showMainNav);
+
+    const showNavListNode = () => (openMoreInfoPanel && showMainNav) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={colorTheme} />;
+    const showMainNavNodes = () => showMainNav ? showNavListContainer() : null;
+    const showNavListContainer = () => (
+      <nav>
+        <ul ref={el => this.ul = el}>
+          { showNavListNode() }
+        </ul>
+      </nav>
+    );
 
     return (
       <Fragment>
         <div ref={el => this.nav = el} id="main-nav-container">
           <Link id="home-link" to="/"><Logo colorTheme={this.state.colorTheme} /></Link>
-          <nav>
-            <ul ref={el => this.ul = el}>
-              { showNavListNode() }
-            </ul>
-          </nav>
+            { showMainNavNodes() }
           <Link id="shop" to="/cart"><span ref={el => this.shopLink = el}>Cart</span></Link>
         </div>
         <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={this.state.colorTheme} /></div>

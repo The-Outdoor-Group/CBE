@@ -45,6 +45,18 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
     );
 };
 
+export const sideMenuTimeline = (el) => {
+  let tl = new TimelineMax({ paused: true });
+
+  return tl
+    .fromTo(
+      el,
+      1,
+      { right: "-100%" },
+      { right: "0%" }
+    );
+}
+
 export const moreContentArrowTimeline = ( el ) => {
 
   TweenMax.fromTo(

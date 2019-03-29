@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "8479b032e735e2b3bae9",
+  "hash": "c283bd857a214f5c99b7",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -10,16 +10,16 @@
       "Image.css",
       "0.server.js"
     ],
+    "MainList": "1.server.js",
     "Stats": [
       "Stats.css",
-      "1.server.js"
+      "2.server.js"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "2.server.js"
+      "3.server.js"
     ],
-    "InfoPanelOpenList": "3.server.js",
-    "MainList": "4.server.js",
+    "InfoPanelOpenList": "4.server.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
       "5.server.js"
@@ -98,12 +98,12 @@
     },
     {
       "name": "1.server.js",
-      "size": 509,
+      "size": 790,
       "chunks": [
         1
       ],
       "chunkNames": [
-        "Stats"
+        "MainList"
       ],
       "emitted": false
     },
@@ -131,7 +131,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 2526,
+      "size": 2652,
       "chunks": [
         12
       ],
@@ -142,7 +142,7 @@
     },
     {
       "name": "13.server.js",
-      "size": 5130,
+      "size": 5915,
       "chunks": [
         13
       ],
@@ -153,7 +153,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 1572,
+      "size": 3872,
       "chunks": [
         14
       ],
@@ -219,12 +219,12 @@
     },
     {
       "name": "2.server.js",
-      "size": 1636,
+      "size": 509,
       "chunks": [
         2
       ],
       "chunkNames": [
-        "CallToAction"
+        "Stats"
       ],
       "emitted": false
     },
@@ -241,7 +241,7 @@
     },
     {
       "name": "21.server.js",
-      "size": 923,
+      "size": 925,
       "chunks": [
         21
       ],
@@ -299,23 +299,23 @@
     },
     {
       "name": "3.server.js",
-      "size": 457,
+      "size": 2249,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "InfoPanelOpenList"
+        "CallToAction"
       ],
       "emitted": false
     },
     {
       "name": "4.server.js",
-      "size": 790,
+      "size": 457,
       "chunks": [
         4
       ],
       "chunkNames": [
-        "MainList"
+        "InfoPanelOpenList"
       ],
       "emitted": false
     },
@@ -339,7 +339,7 @@
     },
     {
       "name": "6.server.js",
-      "size": 2728,
+      "size": 2854,
       "chunks": [
         6
       ],
@@ -392,7 +392,7 @@
       "name": "CallToAction.css",
       "size": 433,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "CallToAction"
@@ -425,7 +425,7 @@
       "name": "Stats.css",
       "size": 1547,
       "chunks": [
-        1
+        2
       ],
       "chunkNames": [
         "Stats"
@@ -707,6 +707,16 @@
     },
     "MainList": {
       "chunks": [
+        1
+      ],
+      "assets": [
+        "1.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "InfoPanelOpenList": {
+      "chunks": [
         4
       ],
       "assets": [
@@ -715,12 +725,12 @@
       "children": {},
       "childAssets": {}
     },
-    "InfoPanelOpenList": {
+    "main-nav-MainList": {
       "chunks": [
-        3
+        1
       ],
       "assets": [
-        "3.server.js"
+        "1.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -760,11 +770,11 @@
     },
     "hero-components-Stats": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
         "Stats.css",
-        "1.server.js"
+        "2.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -877,22 +887,22 @@
     },
     "CallToAction": {
       "chunks": [
-        2
+        3
       ],
       "assets": [
         "CallToAction.css",
-        "2.server.js"
+        "3.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Stats": {
       "chunks": [
-        1
+        2
       ],
       "assets": [
         "Stats.css",
-        "1.server.js"
+        "2.server.js"
       ],
       "children": {},
       "childAssets": {}
