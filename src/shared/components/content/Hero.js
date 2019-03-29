@@ -42,7 +42,6 @@ class Hero extends Component {
     } else {
       this.setState({ hidden: null, clickedMoreInfoHandle: null, showInfo: false });
     }
-
   }
 
   handleShowInfo(showMoreInfo, clickedMoreInfoHandle) {

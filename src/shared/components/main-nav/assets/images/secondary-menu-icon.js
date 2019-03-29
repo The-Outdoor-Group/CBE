@@ -44,14 +44,12 @@ class SecondaryMenuIcon extends Component {
   }
 
   render() {
-    // console.log('this.props sec menu icon: ', this.props);
 
     return (
-        <svg onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="57" height="38" viewBox="0 0 57 38">
-        <title>secondary-menu-icon</title>
-        <line ref={(el) => this.topLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="5" x2="57" y2="5" />
-        <line ref={(el) => this.middleLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="19" x2="57" y2="19" />
-        <line ref={(el) => this.bottomLine = el} className="f9e01109-13bb-4aba-8a9d-a559ca668c4d" y1="33" x2="57" y2="33" />
+        <svg onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+        <line ref={(el) => this.topLine = el} className="hamburger-line" y1="5" x2="28" y2="5" />
+        <line ref={(el) => this.middleLine = el} className="hamburger-line" y1="12" x2="28" y2="12" />
+        <line ref={(el) => this.bottomLine = el} className="hamburger-line" y1="19" x2="28" y2="19" />
       </svg>
     );
   }

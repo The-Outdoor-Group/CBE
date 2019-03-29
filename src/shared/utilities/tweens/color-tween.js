@@ -13,54 +13,37 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
     .fromTo(
       topLine,
       0.5,
-      { rotation: 0, x: "0px", y: "0px" },
-      { rotation: 45, x: "-12px", y: "8px" }
-    )
-    .fromTo(
-      middleLine,
-      0.5,
-      { rotation: 0, x: "0px", y: "0px" },
-      { rotation: -45, x: "12px", y: "-6px" },
-      "-=0.5"
+      {  x: 0, y: 0 },
+      {  x: 0, y: 7 }
     )
     .fromTo(
       bottomLine,
       0.5,
-      { autoAlpha: 1, y: "0px" },
-      { autoAlpha: 0, y: "-5px" },
-      "-=0.6"
+      { x: 0, y: 0 },
+      { x: 0, y: -7},
+      "-=0.5"
+    )
+    .fromTo(
+      topLine,
+      0.5,
+      { rotation: 0 },
+      { rotation: 45 }
+    )
+    .fromTo(
+      bottomLine,
+      0.5,
+      { rotation: 0 },
+      { rotation: -45 },
+      "-=0.5"
+    )
+    .fromTo(
+      middleLine,
+      0.5,
+      { autoAlpha: 1 },
+      { autoAlpha: 0 },
+      "-=1"
     );
 };
-
-/* export const mainNavMoreInfoPanelTimeline = ( ul, nav, fn ) => {
-//   let tl = new TimelineMax({ paused: true });
-//
-//   return tl
-//     .to(
-//       ul,
-//       1,
-//       { y: '-100' }
-//     )
-//     .add( () => {
-//       console.log('fn: ', fn);
-//       fn
-//     } )
-//     .to(
-//       ul,
-//       1,
-//       { y: '0'}
-//     )
-//     .to(
-//       nav,
-//       1,
-//       { backgroundColor: '#fff' }
-//     )
-//     .to(
-//       window,
-//       1,
-//       { scrollTo: { y: window.innerHeight } } // will need fine-tuning ... want to record where it is when it starts and then go back vs all the way to top
-//     );
- } */
 
 export const moreContentArrowTimeline = ( el ) => {
 
