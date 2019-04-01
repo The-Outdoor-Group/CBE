@@ -3,7 +3,7 @@ import loadable from '@loadable/component';
 
 import './assets/css/alternate-text-media.css';
 
-const Image = loadable( () => import('./../media-assets/Image') );
+const Image = loadable( () => import('../../hero-components/Image') );
 const Header = loadable( () => import('./../text/Header') );
 
 const createMoreInfoHorizontalAlternateMediaText = (props) => {

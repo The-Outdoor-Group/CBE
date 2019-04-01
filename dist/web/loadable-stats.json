@@ -2,109 +2,117 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "daf9c4251142e2df99e4",
+  "hash": "e3ae29af5ad5a5e941c4",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.daf9c4251142e2df99e4.js",
+    "vendor": "0.e3ae29af5ad5a5e941c4.js",
     "Image": [
       "Image.css",
-      "1.daf9c4251142e2df99e4.js",
+      "1.e3ae29af5ad5a5e941c4.js",
       "Image.css.map"
     ],
-    "MainList": "2.daf9c4251142e2df99e4.js",
+    "MainList": "2.e3ae29af5ad5a5e941c4.js",
     "Stats": [
       "Stats.css",
-      "3.daf9c4251142e2df99e4.js",
+      "3.e3ae29af5ad5a5e941c4.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "4.daf9c4251142e2df99e4.js",
+      "4.e3ae29af5ad5a5e941c4.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "5.daf9c4251142e2df99e4.js",
+    "InfoPanelOpenList": "5.e3ae29af5ad5a5e941c4.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.daf9c4251142e2df99e4.js",
+      "6.e3ae29af5ad5a5e941c4.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "7.daf9c4251142e2df99e4.js",
+      "7.e3ae29af5ad5a5e941c4.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "8.daf9c4251142e2df99e4.js",
+      "8.e3ae29af5ad5a5e941c4.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "9.daf9c4251142e2df99e4.js",
+      "9.e3ae29af5ad5a5e941c4.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "components-Bar": "10.daf9c4251142e2df99e4.js",
-    "components-Foo": "11.daf9c4251142e2df99e4.js",
+    "components-Bar": "10.e3ae29af5ad5a5e941c4.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "12.daf9c4251142e2df99e4.js",
+      "11.e3ae29af5ad5a5e941c4.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "13.daf9c4251142e2df99e4.js",
+      "12.e3ae29af5ad5a5e941c4.js",
       "components-content-assets-images-MoreContentArrow.css.map"
+    ],
+    "components-content-store-components-ShopHero": [
+      "components-content-store-components-ShopHero.css",
+      "13.e3ae29af5ad5a5e941c4.js",
+      "components-content-store-components-ShopHero.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "14.daf9c4251142e2df99e4.js",
+      "14.e3ae29af5ad5a5e941c4.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "15.daf9c4251142e2df99e4.js",
+      "15.e3ae29af5ad5a5e941c4.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
-    "container-HorizontalImageSlider": "16.daf9c4251142e2df99e4.js",
-    "containers-Home": "17.daf9c4251142e2df99e4.js",
-    "hero-components-List": "18.daf9c4251142e2df99e4.js",
-    "hero-components-ListButton": "19.daf9c4251142e2df99e4.js",
+    "container-HorizontalImageSlider": [
+      "container-HorizontalImageSlider.css",
+      "16.e3ae29af5ad5a5e941c4.js",
+      "container-HorizontalImageSlider.css.map"
+    ],
+    "containers-Home": "17.e3ae29af5ad5a5e941c4.js",
+    "containers-Shop": "18.e3ae29af5ad5a5e941c4.js",
+    "hero-components-List": "19.e3ae29af5ad5a5e941c4.js",
+    "hero-components-ListButton": "20.e3ae29af5ad5a5e941c4.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "20.daf9c4251142e2df99e4.js",
+      "21.e3ae29af5ad5a5e941c4.js",
       "hero-components-TextArticle.css.map"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "21.daf9c4251142e2df99e4.js",
+      "22.e3ae29af5ad5a5e941c4.js",
       "hero-components-TitleHeader.css.map"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "22.daf9c4251142e2df99e4.js",
+      "23.e3ae29af5ad5a5e941c4.js",
       "hero-components-VideoComponent.css.map"
     ],
     "main": [
       "main.css",
-      "main.daf9c4251142e2df99e4.js",
+      "main.e3ae29af5ad5a5e941c4.js",
       "main.css.map"
     ],
-    "media-assets-Image": "24.daf9c4251142e2df99e4.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "25.daf9c4251142e2df99e4.js",
+      "25.e3ae29af5ad5a5e941c4.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "26.daf9c4251142e2df99e4.js",
+      "26.e3ae29af5ad5a5e941c4.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.daf9c4251142e2df99e4.js",
+      "name": "0.e3ae29af5ad5a5e941c4.js",
       "size": 401124,
       "chunks": [
         0
@@ -115,7 +123,7 @@
       "emitted": false
     },
     {
-      "name": "1.daf9c4251142e2df99e4.js",
+      "name": "1.e3ae29af5ad5a5e941c4.js",
       "size": 301,
       "chunks": [
         1
@@ -126,7 +134,7 @@
       "emitted": false
     },
     {
-      "name": "10.daf9c4251142e2df99e4.js",
+      "name": "10.e3ae29af5ad5a5e941c4.js",
       "size": 353,
       "chunks": [
         10
@@ -137,21 +145,10 @@
       "emitted": false
     },
     {
-      "name": "11.daf9c4251142e2df99e4.js",
-      "size": 353,
-      "chunks": [
-        11
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "12.daf9c4251142e2df99e4.js",
+      "name": "11.e3ae29af5ad5a5e941c4.js",
       "size": 8550,
       "chunks": [
-        12
+        11
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -159,10 +156,10 @@
       "emitted": false
     },
     {
-      "name": "13.daf9c4251142e2df99e4.js",
+      "name": "12.e3ae29af5ad5a5e941c4.js",
       "size": 2651,
       "chunks": [
-        13
+        12
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -170,7 +167,18 @@
       "emitted": false
     },
     {
-      "name": "14.daf9c4251142e2df99e4.js",
+      "name": "13.e3ae29af5ad5a5e941c4.js",
+      "size": 1230,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "14.e3ae29af5ad5a5e941c4.js",
       "size": 5939,
       "chunks": [
         14
@@ -181,7 +189,7 @@
       "emitted": false
     },
     {
-      "name": "15.daf9c4251142e2df99e4.js",
+      "name": "15.e3ae29af5ad5a5e941c4.js",
       "size": 3871,
       "chunks": [
         15
@@ -192,8 +200,8 @@
       "emitted": false
     },
     {
-      "name": "16.daf9c4251142e2df99e4.js",
-      "size": 1953,
+      "name": "16.e3ae29af5ad5a5e941c4.js",
+      "size": 1995,
       "chunks": [
         16
       ],
@@ -203,7 +211,7 @@
       "emitted": false
     },
     {
-      "name": "17.daf9c4251142e2df99e4.js",
+      "name": "17.e3ae29af5ad5a5e941c4.js",
       "size": 5592,
       "chunks": [
         17
@@ -214,10 +222,21 @@
       "emitted": false
     },
     {
-      "name": "18.daf9c4251142e2df99e4.js",
-      "size": 381,
+      "name": "18.e3ae29af5ad5a5e941c4.js",
+      "size": 1276,
       "chunks": [
         18
+      ],
+      "chunkNames": [
+        "containers-Shop"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "19.e3ae29af5ad5a5e941c4.js",
+      "size": 381,
+      "chunks": [
+        19
       ],
       "chunkNames": [
         "hero-components-List"
@@ -225,18 +244,7 @@
       "emitted": false
     },
     {
-      "name": "19.daf9c4251142e2df99e4.js",
-      "size": 228,
-      "chunks": [
-        19
-      ],
-      "chunkNames": [
-        "hero-components-ListButton"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.daf9c4251142e2df99e4.js",
+      "name": "2.e3ae29af5ad5a5e941c4.js",
       "size": 834,
       "chunks": [
         2
@@ -247,10 +255,21 @@
       "emitted": false
     },
     {
-      "name": "20.daf9c4251142e2df99e4.js",
-      "size": 1383,
+      "name": "20.e3ae29af5ad5a5e941c4.js",
+      "size": 228,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "hero-components-ListButton"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.e3ae29af5ad5a5e941c4.js",
+      "size": 1383,
+      "chunks": [
+        21
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -258,10 +277,10 @@
       "emitted": false
     },
     {
-      "name": "21.daf9c4251142e2df99e4.js",
+      "name": "22.e3ae29af5ad5a5e941c4.js",
       "size": 459,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -269,10 +288,10 @@
       "emitted": false
     },
     {
-      "name": "22.daf9c4251142e2df99e4.js",
+      "name": "23.e3ae29af5ad5a5e941c4.js",
       "size": 1010,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -280,18 +299,7 @@
       "emitted": false
     },
     {
-      "name": "24.daf9c4251142e2df99e4.js",
-      "size": 352,
-      "chunks": [
-        24
-      ],
-      "chunkNames": [
-        "media-assets-Image"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "25.daf9c4251142e2df99e4.js",
+      "name": "25.e3ae29af5ad5a5e941c4.js",
       "size": 315,
       "chunks": [
         25
@@ -302,7 +310,7 @@
       "emitted": false
     },
     {
-      "name": "26.daf9c4251142e2df99e4.js",
+      "name": "26.e3ae29af5ad5a5e941c4.js",
       "size": 372,
       "chunks": [
         26
@@ -327,7 +335,7 @@
       "emitted": false
     },
     {
-      "name": "3.daf9c4251142e2df99e4.js",
+      "name": "3.e3ae29af5ad5a5e941c4.js",
       "size": 566,
       "chunks": [
         3
@@ -338,7 +346,7 @@
       "emitted": false
     },
     {
-      "name": "4.daf9c4251142e2df99e4.js",
+      "name": "4.e3ae29af5ad5a5e941c4.js",
       "size": 2361,
       "chunks": [
         4
@@ -356,7 +364,7 @@
       "emitted": false
     },
     {
-      "name": "5.daf9c4251142e2df99e4.js",
+      "name": "5.e3ae29af5ad5a5e941c4.js",
       "size": 507,
       "chunks": [
         5
@@ -367,8 +375,8 @@
       "emitted": false
     },
     {
-      "name": "6.daf9c4251142e2df99e4.js",
-      "size": 8389,
+      "name": "6.e3ae29af5ad5a5e941c4.js",
+      "size": 8395,
       "chunks": [
         6
       ],
@@ -378,7 +386,7 @@
       "emitted": false
     },
     {
-      "name": "7.daf9c4251142e2df99e4.js",
+      "name": "7.e3ae29af5ad5a5e941c4.js",
       "size": 2856,
       "chunks": [
         7
@@ -396,7 +404,7 @@
       "emitted": false
     },
     {
-      "name": "8.daf9c4251142e2df99e4.js",
+      "name": "8.e3ae29af5ad5a5e941c4.js",
       "size": 3240,
       "chunks": [
         8
@@ -407,7 +415,7 @@
       "emitted": false
     },
     {
-      "name": "9.daf9c4251142e2df99e4.js",
+      "name": "9.e3ae29af5ad5a5e941c4.js",
       "size": 1757,
       "chunks": [
         9
@@ -463,7 +471,7 @@
     },
     {
       "name": "MoreInfoComponent.css",
-      "size": 995,
+      "size": 1316,
       "chunks": [
         6
       ],
@@ -474,7 +482,7 @@
     },
     {
       "name": "MoreInfoComponent.css.map",
-      "size": 1858,
+      "size": 2275,
       "chunks": [
         6
       ],
@@ -582,7 +590,7 @@
       "name": "components-content-Hero.css",
       "size": 2649,
       "chunks": [
-        12
+        11
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -593,7 +601,7 @@
       "name": "components-content-Hero.css.map",
       "size": 4051,
       "chunks": [
-        12
+        11
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -604,7 +612,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 206,
       "chunks": [
-        13
+        12
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -615,10 +623,32 @@
       "name": "components-content-assets-images-MoreContentArrow.css.map",
       "size": 510,
       "chunks": [
-        13
+        12
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-ShopHero.css",
+      "size": 60,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-ShopHero.css.map",
+      "size": 311,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
       ],
       "emitted": false
     },
@@ -667,10 +697,32 @@
       "emitted": false
     },
     {
+      "name": "container-HorizontalImageSlider.css",
+      "size": 86,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "container-HorizontalImageSlider.css.map",
+      "size": 358,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
       "name": "hero-components-TextArticle.css",
       "size": 877,
       "chunks": [
-        20
+        21
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -681,7 +733,7 @@
       "name": "hero-components-TextArticle.css.map",
       "size": 1351,
       "chunks": [
-        20
+        21
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -692,7 +744,7 @@
       "name": "hero-components-TitleHeader.css",
       "size": 814,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -703,7 +755,7 @@
       "name": "hero-components-TitleHeader.css.map",
       "size": 1270,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -714,7 +766,7 @@
       "name": "hero-components-VideoComponent.css",
       "size": 332,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -725,7 +777,7 @@
       "name": "hero-components-VideoComponent.css.map",
       "size": 634,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -743,7 +795,7 @@
       "name": "main.css",
       "size": 1551,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "main"
@@ -754,7 +806,7 @@
       "name": "main.css.map",
       "size": 2222,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "main"
@@ -762,10 +814,10 @@
       "emitted": false
     },
     {
-      "name": "main.daf9c4251142e2df99e4.js",
-      "size": 15947,
+      "name": "main.e3ae29af5ad5a5e941c4.js",
+      "size": 15986,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "main"
@@ -822,12 +874,12 @@
     "main": {
       "chunks": [
         0,
-        23
+        24
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "main.css",
-        "main.daf9c4251142e2df99e4.js",
+        "main.e3ae29af5ad5a5e941c4.js",
         "main.css.map"
       ],
       "children": {},
@@ -838,12 +890,12 @@
     "main": {
       "chunks": [
         0,
-        23
+        24
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "main.css",
-        "main.daf9c4251142e2df99e4.js",
+        "main.e3ae29af5ad5a5e941c4.js",
         "main.css.map"
       ],
       "children": {},
@@ -855,9 +907,9 @@
         14
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "components-main-nav-MainNav.css",
-        "14.daf9c4251142e2df99e4.js",
+        "14.e3ae29af5ad5a5e941c4.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -869,9 +921,9 @@
         15
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "15.daf9c4251142e2df99e4.js",
+        "15.e3ae29af5ad5a5e941c4.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -880,12 +932,12 @@
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
         0,
-        13
+        12
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "13.daf9c4251142e2df99e4.js",
+        "12.e3ae29af5ad5a5e941c4.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -897,18 +949,18 @@
         17
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
-        "17.daf9c4251142e2df99e4.js"
+        "0.e3ae29af5ad5a5e941c4.js",
+        "17.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "components-Foo": {
+    "containers-Shop": {
       "chunks": [
-        11
+        18
       ],
       "assets": [
-        "11.daf9c4251142e2df99e4.js"
+        "18.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -918,7 +970,7 @@
         10
       ],
       "assets": [
-        "10.daf9c4251142e2df99e4.js"
+        "10.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -929,7 +981,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "8.daf9c4251142e2df99e4.js",
+        "8.e3ae29af5ad5a5e941c4.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -941,7 +993,7 @@
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "9.daf9c4251142e2df99e4.js",
+        "9.e3ae29af5ad5a5e941c4.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -952,7 +1004,7 @@
         2
       ],
       "assets": [
-        "2.daf9c4251142e2df99e4.js"
+        "2.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -962,7 +1014,7 @@
         5
       ],
       "assets": [
-        "5.daf9c4251142e2df99e4.js"
+        "5.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -972,19 +1024,31 @@
         2
       ],
       "assets": [
-        "2.daf9c4251142e2df99e4.js"
+        "2.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-Hero": {
       "chunks": [
-        12
+        11
       ],
       "assets": [
         "components-content-Hero.css",
-        "12.daf9c4251142e2df99e4.js",
+        "11.e3ae29af5ad5a5e941c4.js",
         "components-content-Hero.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-store-components-ShopHero": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "components-content-store-components-ShopHero.css",
+        "13.e3ae29af5ad5a5e941c4.js",
+        "components-content-store-components-ShopHero.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -995,7 +1059,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.daf9c4251142e2df99e4.js",
+        "6.e3ae29af5ad5a5e941c4.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -1003,11 +1067,11 @@
     },
     "hero-components-TitleHeader": {
       "chunks": [
-        21
+        22
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "21.daf9c4251142e2df99e4.js",
+        "22.e3ae29af5ad5a5e941c4.js",
         "hero-components-TitleHeader.css.map"
       ],
       "children": {},
@@ -1019,7 +1083,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.daf9c4251142e2df99e4.js",
+        "3.e3ae29af5ad5a5e941c4.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1027,11 +1091,11 @@
     },
     "hero-components-TextArticle": {
       "chunks": [
-        20
+        21
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "20.daf9c4251142e2df99e4.js",
+        "21.e3ae29af5ad5a5e941c4.js",
         "hero-components-TextArticle.css.map"
       ],
       "children": {},
@@ -1043,7 +1107,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.daf9c4251142e2df99e4.js",
+        "1.e3ae29af5ad5a5e941c4.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1051,11 +1115,11 @@
     },
     "hero-components-VideoComponent": {
       "chunks": [
-        22
+        23
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "22.daf9c4251142e2df99e4.js",
+        "23.e3ae29af5ad5a5e941c4.js",
         "hero-components-VideoComponent.css.map"
       ],
       "children": {},
@@ -1063,20 +1127,20 @@
     },
     "hero-components-ListButton": {
       "chunks": [
-        19
+        20
       ],
       "assets": [
-        "19.daf9c4251142e2df99e4.js"
+        "20.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        18
+        19
       ],
       "assets": [
-        "18.daf9c4251142e2df99e4.js"
+        "19.e3ae29af5ad5a5e941c4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1087,18 +1151,8 @@
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "25.daf9c4251142e2df99e4.js",
+        "25.e3ae29af5ad5a5e941c4.js",
         "more-info-components-container-MoreInfoArticle.css.map"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "media-assets-Image": {
-      "chunks": [
-        24
-      ],
-      "assets": [
-        "24.daf9c4251142e2df99e4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1109,7 +1163,7 @@
       ],
       "assets": [
         "text-Header.css",
-        "26.daf9c4251142e2df99e4.js",
+        "26.e3ae29af5ad5a5e941c4.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1120,7 +1174,9 @@
         16
       ],
       "assets": [
-        "16.daf9c4251142e2df99e4.js"
+        "container-HorizontalImageSlider.css",
+        "16.e3ae29af5ad5a5e941c4.js",
+        "container-HorizontalImageSlider.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1131,7 +1187,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.daf9c4251142e2df99e4.js",
+        "1.e3ae29af5ad5a5e941c4.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1143,7 +1199,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "4.daf9c4251142e2df99e4.js",
+        "4.e3ae29af5ad5a5e941c4.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1155,7 +1211,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.daf9c4251142e2df99e4.js",
+        "3.e3ae29af5ad5a5e941c4.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1167,9 +1223,9 @@
         7
       ],
       "assets": [
-        "0.daf9c4251142e2df99e4.js",
+        "0.e3ae29af5ad5a5e941c4.js",
         "assets-images-PlusIcon.css",
-        "7.daf9c4251142e2df99e4.js",
+        "7.e3ae29af5ad5a5e941c4.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},
@@ -1920,7 +1976,77 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/horizontal-image-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/text/assets/css/header.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/shop-hero.css"
     },
     {
       "errors": [],

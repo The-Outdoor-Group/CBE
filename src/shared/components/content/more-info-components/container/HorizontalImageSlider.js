@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import loadable from '@loadable/component';
 
-const Image = loadable( () => import('./../media-assets/Image') );
+import './assets/css/horizontal-image-slider.css';
+
+const Image = loadable( () => import('../../hero-components/Image') );
 const Header = loadable( () => import('./../text/Header') );
 
 class HorizontalImageSlider extends Component {

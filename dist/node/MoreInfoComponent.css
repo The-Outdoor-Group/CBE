@@ -16,16 +16,34 @@
   font-size: 100%;
 }
 
+.horizontal-top-article-thirds-bottom-media img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}
+
 .horizontal-half-media-half-text-article {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
 }
 
+.horizontal-half-media-half-text-article img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
 .alternate-text-media-wrapper div.alt-media-text-wrapper {
   display: flex;
   padding: 1rem 0;
   align-items: center;
+}
+
+.alternate-text-media-wrapper .alt-media-text-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .more-info-panel {

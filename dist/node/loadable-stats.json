@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "894c9a75e8d187b01ca0",
+  "hash": "93f5e81ccd25551a0768",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -37,13 +37,16 @@
       "8.server.js"
     ],
     "components-Bar": "9.server.js",
-    "components-Foo": "10.server.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "11.server.js"
+      "10.server.js"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
+      "11.server.js"
+    ],
+    "components-content-store-components-ShopHero": [
+      "components-content-store-components-ShopHero.css",
       "12.server.js"
     ],
     "components-main-nav-MainNav": [
@@ -54,27 +57,30 @@
       "components-main-secondary-nav-MainSecondaryNav.css",
       "14.server.js"
     ],
-    "container-HorizontalImageSlider": "15.server.js",
+    "container-HorizontalImageSlider": [
+      "container-HorizontalImageSlider.css",
+      "15.server.js"
+    ],
     "containers-Home": "16.server.js",
-    "hero-components-List": "17.server.js",
-    "hero-components-ListButton": "18.server.js",
+    "containers-Shop": "17.server.js",
+    "hero-components-List": "18.server.js",
+    "hero-components-ListButton": "19.server.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "19.server.js"
+      "20.server.js"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "20.server.js"
+      "21.server.js"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "21.server.js"
+      "22.server.js"
     ],
     "main": [
       "main.css",
       "server.js"
     ],
-    "media-assets-Image": "23.server.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
       "24.server.js"
@@ -87,7 +93,7 @@
   "assets": [
     {
       "name": "0.server.js",
-      "size": 244,
+      "size": 246,
       "chunks": [
         0
       ],
@@ -109,20 +115,9 @@
     },
     {
       "name": "10.server.js",
-      "size": 296,
-      "chunks": [
-        10
-      ],
-      "chunkNames": [
-        "components-Foo"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "11.server.js",
       "size": 8223,
       "chunks": [
-        11
+        10
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -130,13 +125,24 @@
       "emitted": false
     },
     {
-      "name": "12.server.js",
+      "name": "11.server.js",
       "size": 2652,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "12.server.js",
+      "size": 1173,
       "chunks": [
         12
       ],
       "chunkNames": [
-        "components-content-assets-images-MoreContentArrow"
+        "components-content-store-components-ShopHero"
       ],
       "emitted": false
     },
@@ -164,7 +170,7 @@
     },
     {
       "name": "15.server.js",
-      "size": 1856,
+      "size": 1898,
       "chunks": [
         15
       ],
@@ -186,9 +192,20 @@
     },
     {
       "name": "17.server.js",
-      "size": 326,
+      "size": 1190,
       "chunks": [
         17
+      ],
+      "chunkNames": [
+        "containers-Shop"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "18.server.js",
+      "size": 326,
+      "chunks": [
+        18
       ],
       "chunkNames": [
         "hero-components-List"
@@ -196,24 +213,13 @@
       "emitted": false
     },
     {
-      "name": "18.server.js",
-      "size": 173,
-      "chunks": [
-        18
-      ],
-      "chunkNames": [
-        "hero-components-ListButton"
-      ],
-      "emitted": false
-    },
-    {
       "name": "19.server.js",
-      "size": 1286,
+      "size": 173,
       "chunks": [
         19
       ],
       "chunkNames": [
-        "hero-components-TextArticle"
+        "hero-components-ListButton"
       ],
       "emitted": false
     },
@@ -230,9 +236,20 @@
     },
     {
       "name": "20.server.js",
-      "size": 402,
+      "size": 1286,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "hero-components-TextArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.server.js",
+      "size": 402,
+      "chunks": [
+        21
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -240,24 +257,13 @@
       "emitted": false
     },
     {
-      "name": "21.server.js",
+      "name": "22.server.js",
       "size": 925,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "23.server.js",
-      "size": 297,
-      "chunks": [
-        23
-      ],
-      "chunkNames": [
-        "media-assets-Image"
       ],
       "emitted": false
     },
@@ -328,7 +334,7 @@
     },
     {
       "name": "5.server.js",
-      "size": 8156,
+      "size": 8162,
       "chunks": [
         5
       ],
@@ -412,7 +418,7 @@
     },
     {
       "name": "MoreInfoComponent.css",
-      "size": 995,
+      "size": 1316,
       "chunks": [
         5
       ],
@@ -476,7 +482,7 @@
       "name": "components-content-Hero.css",
       "size": 2649,
       "chunks": [
-        11
+        10
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -487,10 +493,21 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 206,
       "chunks": [
-        12
+        11
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-ShopHero.css",
+      "size": 60,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
       ],
       "emitted": false
     },
@@ -517,10 +534,21 @@
       "emitted": false
     },
     {
+      "name": "container-HorizontalImageSlider.css",
+      "size": 86,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
       "name": "hero-components-TextArticle.css",
       "size": 877,
       "chunks": [
-        19
+        20
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -531,7 +559,7 @@
       "name": "hero-components-TitleHeader.css",
       "size": 814,
       "chunks": [
-        20
+        21
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -542,7 +570,7 @@
       "name": "hero-components-VideoComponent.css",
       "size": 332,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -553,7 +581,7 @@
       "name": "main.css",
       "size": 1551,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "main"
@@ -573,9 +601,9 @@
     },
     {
       "name": "server.js",
-      "size": 17553,
+      "size": 17592,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "main"
@@ -598,7 +626,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        22
+        23
       ],
       "assets": [
         "main.css",
@@ -611,7 +639,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        22
+        23
       ],
       "assets": [
         "main.css",
@@ -644,11 +672,11 @@
     },
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
-        12
+        11
       ],
       "assets": [
         "components-content-assets-images-MoreContentArrow.css",
-        "12.server.js"
+        "11.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -663,12 +691,12 @@
       "children": {},
       "childAssets": {}
     },
-    "components-Foo": {
+    "containers-Shop": {
       "chunks": [
-        10
+        17
       ],
       "assets": [
-        "10.server.js"
+        "17.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -737,11 +765,22 @@
     },
     "components-content-Hero": {
       "chunks": [
-        11
+        10
       ],
       "assets": [
         "components-content-Hero.css",
-        "11.server.js"
+        "10.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-store-components-ShopHero": {
+      "chunks": [
+        12
+      ],
+      "assets": [
+        "components-content-store-components-ShopHero.css",
+        "12.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -759,11 +798,11 @@
     },
     "hero-components-TitleHeader": {
       "chunks": [
-        20
+        21
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "20.server.js"
+        "21.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -781,11 +820,11 @@
     },
     "hero-components-TextArticle": {
       "chunks": [
-        19
+        20
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "19.server.js"
+        "20.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -803,31 +842,31 @@
     },
     "hero-components-VideoComponent": {
       "chunks": [
-        21
+        22
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "21.server.js"
+        "22.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-ListButton": {
       "chunks": [
-        18
+        19
       ],
       "assets": [
-        "18.server.js"
+        "19.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        17
+        18
       ],
       "assets": [
-        "17.server.js"
+        "18.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -839,16 +878,6 @@
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
         "24.server.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "media-assets-Image": {
-      "chunks": [
-        23
-      ],
-      "assets": [
-        "23.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -869,6 +898,7 @@
         15
       ],
       "assets": [
+        "container-HorizontalImageSlider.css",
         "15.server.js"
       ],
       "children": {},
@@ -1618,7 +1648,77 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/horizontal-image-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/text/assets/css/header.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/shop-hero.css"
     },
     {
       "errors": [],

@@ -2,7 +2,7 @@ import React from 'react';
 import loadable from '@loadable/component';
 import './assets/css/horizontal-left-media-right-article.css';
 
-const Image = loadable( () => import('../media-assets/Image') );
+const Image = loadable( () => import('../../hero-components/Image') );
 const Header = loadable( () => import('../text/Header') );
 
 export const createMoreInfoHorizontalLeftMediaRightArticleComponent = (props) => {

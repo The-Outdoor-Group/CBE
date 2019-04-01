@@ -74,7 +74,7 @@ class App extends Component {
         <main id="main-content">
           <Switch>
             <Route exact path='/' component={() => <Routes.HomePage />} />
-            <Route path='/foo' component={() => <Routes.FooPage /> } />
+            <Route path='/shop' component={() => <Routes.ShopPage /> } />
             <Route path='/bar' component={() => <Routes.BarPage />} />
           </Switch>
         </main>
