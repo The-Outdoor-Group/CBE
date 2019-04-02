@@ -1,0 +1,22 @@
+.hero-horizontal-image-header-spread-tile .image-tile {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  background: #E7E7E9;
+  padding: 1rem 0;
+}
+
+.hero-horizontal-image-header-spread-tile .image-tile img {
+  object-fit: cover;
+  width: 50%;
+  height: 50vh;
+}
+
+.hero-horizontal-image-header-spread-tile .image-tile header {
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
+}

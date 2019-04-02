@@ -1,4 +1,9 @@
 .shop-hero-region {
-  min-height: 100vh;
   height: auto;
+}
+
+.shop-hero-region h1 {
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: uppercase;
 }

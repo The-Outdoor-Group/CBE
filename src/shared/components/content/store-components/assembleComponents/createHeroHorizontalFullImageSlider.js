@@ -1,12 +1,18 @@
 import React from 'react';
+import loadable from '@loadable/component';
+import '../assets/css/hero-horizontal-full-image-slider.css';
+
+const ImageTile = loadable( () => import('../image-tiles/ImageTile') );
 
 const createHeroHorizontalFullImageSlider = props => {
-  const { title } = props;
+  const { tiles } = props;
+  const tile = tiles[0];
+  const image = tile.image;
+  const title = tile.title;
+
   return (
     <article className="hero-horizontal-full-image-slider">
-      <header>
-        <h1>{ title }</h1>
-      </header>
+      <ImageTile data={{ title, image }} />
     </article>
   );
 };

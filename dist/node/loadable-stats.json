@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "93f5e81ccd25551a0768",
+  "hash": "ab8e63fa721f167a4d8b",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -77,17 +77,21 @@
       "hero-components-VideoComponent.css",
       "22.server.js"
     ],
+    "image-tiles-ImageTile": [
+      "image-tiles-ImageTile.css",
+      "23.server.js"
+    ],
     "main": [
       "main.css",
       "server.js"
     ],
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "24.server.js"
+      "25.server.js"
     ],
     "text-Header": [
       "text-Header.css",
-      "25.server.js"
+      "26.server.js"
     ]
   },
   "assets": [
@@ -137,7 +141,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 1173,
+      "size": 4065,
       "chunks": [
         12
       ],
@@ -192,7 +196,7 @@
     },
     {
       "name": "17.server.js",
-      "size": 1190,
+      "size": 2376,
       "chunks": [
         17
       ],
@@ -225,7 +229,7 @@
     },
     {
       "name": "2.server.js",
-      "size": 509,
+      "size": 511,
       "chunks": [
         2
       ],
@@ -236,7 +240,7 @@
     },
     {
       "name": "20.server.js",
-      "size": 1286,
+      "size": 1288,
       "chunks": [
         20
       ],
@@ -247,7 +251,7 @@
     },
     {
       "name": "21.server.js",
-      "size": 402,
+      "size": 404,
       "chunks": [
         21
       ],
@@ -268,10 +272,21 @@
       "emitted": false
     },
     {
-      "name": "24.server.js",
+      "name": "23.server.js",
+      "size": 624,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "25.server.js",
       "size": 259,
       "chunks": [
-        24
+        25
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -279,10 +294,10 @@
       "emitted": false
     },
     {
-      "name": "25.server.js",
+      "name": "26.server.js",
       "size": 317,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "text-Header"
@@ -334,7 +349,7 @@
     },
     {
       "name": "5.server.js",
-      "size": 8162,
+      "size": 8178,
       "chunks": [
         5
       ],
@@ -502,7 +517,7 @@
     },
     {
       "name": "components-content-store-components-ShopHero.css",
-      "size": 60,
+      "size": 4594,
       "chunks": [
         12
       ],
@@ -578,10 +593,21 @@
       "emitted": false
     },
     {
+      "name": "image-tiles-ImageTile.css",
+      "size": 394,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
       "name": "main.css",
       "size": 1551,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "main"
@@ -592,7 +618,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 76,
       "chunks": [
-        24
+        25
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -601,9 +627,9 @@
     },
     {
       "name": "server.js",
-      "size": 17592,
+      "size": 17624,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "main"
@@ -614,7 +640,7 @@
       "name": "text-Header.css",
       "size": 160,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "text-Header"
@@ -626,7 +652,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        23
+        24
       ],
       "assets": [
         "main.css",
@@ -639,7 +665,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        23
+        24
       ],
       "assets": [
         "main.css",
@@ -871,24 +897,35 @@
       "children": {},
       "childAssets": {}
     },
+    "image-tiles-ImageTile": {
+      "chunks": [
+        23
+      ],
+      "assets": [
+        "image-tiles-ImageTile.css",
+        "23.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        24
+        25
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "24.server.js"
+        "25.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "text-Header": {
       "chunks": [
-        25
+        26
       ],
       "assets": [
         "text-Header.css",
-        "25.server.js"
+        "26.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1718,7 +1755,217 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-full-image-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-image-header-spread-tile.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-two-tiles.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-image-tile-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-vertical-tiles-one-left-two-right.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/shop-hero.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/image-tiles/assets/css/image-tile.css"
     },
     {
       "errors": [],

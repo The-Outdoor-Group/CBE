@@ -2,6 +2,7 @@ import React from 'react';
 import createHeroHorizontalFullImageSlider from './createHeroHorizontalFullImageSlider';
 import createHeroImageTileSlider from './createHeroImageTileSlider';
 import createHeroHorizontalTwoTiles from './createHeroHorizontalTwoTiles';
+import createHeroHorizontalImageAndHeaderSpreadTile from './createHeroHorizontalImageAndHeaderSpreadTile';
 import createHeroVerticalTilesOneLeftTwoRight from './createHeroVerticalTilesOneLeftTwoRight';
 
 const assembleComponent = props => {
@@ -16,6 +17,9 @@ const assembleComponent = props => {
 
     case 'heroHorizontalTwoTiles':
       return createHeroHorizontalTwoTiles(content);
+
+    case 'heroHorizontalImageAndHeaderSpreadTile':
+      return createHeroHorizontalImageAndHeaderSpreadTile(content);
 
     case 'heroVerticalTilesOneLeftTwoRight':
       return createHeroVerticalTilesOneLeftTwoRight(content);

@@ -1,5 +1,223 @@
+.hero-horizontal-full-image-slider {
+  position: relative;
+  height: 100%;
+}
+
+.hero-horizontal-full-image-slider header {
+  color: #fff;
+  font-size: 310%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+}
+
+.hero-horizontal-full-image-slider img {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.hero-image-tile-slider {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.hero-image-tile-slider button {
+  position: absolute;
+  z-index: 1;
+  height: 92.25%;
+  min-width: 8rem;
+  border-radius: 0;
+  border: none;
+  background: aliceblue;
+}
+
+.hero-image-tile-slider button:nth-of-type(1) {
+  bottom: 0;
+  left: 0;
+}
+
+.hero-image-tile-slider button:nth-of-type(2) {
+  bottom: 0;
+  right: 0;
+}
+
+.hero-image-tile-slider ul {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+  width: 2000px; /* will need to figure out the width by measuring how many children there are */
+}
+
+.hero-image-tile-slider ul li {
+  float: left;
+  width: 30vw;
+  height: 100%;
+  margin: 0 1rem;
+
+}
+
+.hero-image-tile-slider ul li img {
+  object-fit: contain;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.hero-image-tile-slider ul li .image-tile {
+  background: #E7E7E9;
+  padding: 1rem 0;
+}
+
+.hero-image-tile-slider ul li .image-tile header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 85%;
+  transform: translateY(-5%);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-horizontal-two-tiles ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+
+.hero-horizontal-two-tiles ul li {
+  width: 50%;
+}
+
+.hero-horizontal-two-tiles ul li:nth-of-type(1) {
+  padding-right: 0.5rem;
+}
+
+.hero-horizontal-two-tiles ul li:nth-of-type(2) {
+  padding-left: 0.5rem;
+}
+
+.hero-horizontal-two-tiles ul li .image-tile header {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.hero-horizontal-two-tiles ul li .image-tile img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-horizontal-image-header-spread-tile .image-tile {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  background: #E7E7E9;
+  padding: 1rem 0;
+}
+
+.hero-horizontal-image-header-spread-tile .image-tile img {
+  object-fit: cover;
+  width: 50%;
+  height: 50vh;
+}
+
+.hero-horizontal-image-header-spread-tile .image-tile header {
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper {
+  display: grid;
+  grid-template-rows: 50vh 50vh;
+  grid-template-columns: 49% 49%;
+  grid-gap: 2%;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(1) {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile header {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(1) header {
+  grid-column: 1;
+  grid-row: 1;
+  order: 1;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(1) img {
+  grid-column: 1;
+  grid-row: 2;
+  order: 2;
+  object-fit: contain;
+  height: 75%;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(2) img,
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(3) img {
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(2) header,
+.hero-vertical-tiles-one-left-two-right .image-tile-nodes-wrapper div.image-tile:nth-of-type(3) header {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
 .shop-hero-region {
-  min-height: 100vh;
   height: auto;
+}
+
+.shop-hero-region h1 {
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: uppercase;
 }
 

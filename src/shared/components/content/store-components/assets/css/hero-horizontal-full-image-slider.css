@@ -1,0 +1,21 @@
+.hero-horizontal-full-image-slider {
+  position: relative;
+  height: 100%;
+}
+
+.hero-horizontal-full-image-slider header {
+  color: #fff;
+  font-size: 310%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+}
+
+.hero-horizontal-full-image-slider img {
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+}

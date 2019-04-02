@@ -9,31 +9,131 @@ const heroNodes = [
   {
     type: "heroHorizontalFullImageSlider",
     content: {
-      title: "70vh image Slider",
+      tiles: [
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "placeholder",
+          },
+          title: "70vh image Slider 1",
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "placeholder",
+          },
+          title: "70vh image Slider 2",
+        },
+        {
+          image: {
+            src: "https://via.placeholder.com/150",
+            alt: "placeholder",
+          },
+          title: "70vh image Slider 3",
+        }
+      ],
     }
   },
   {
     type: "heroImageTileSlider",
     content: {
       title: "The Best Sellers slider",
+      tiles: [
+        {
+          title: "product 1",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 2",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 3",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 4",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+      ]
     }
   },
   {
     type: "heroHorizontalTwoTiles",
     content: {
       title: "Two main category images",
+      tiles: [
+        {
+          title: "product 1",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 2",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+      ]
     }
   },
   {
-    type: "heroHorizontalTwoTiles",
+    type: "heroHorizontalImageAndHeaderSpreadTile",
     content: {
-      title: "Two more main category images",
+      title: "One main category split",
+      tiles: [
+        {
+          title: "product 3",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        }
+      ]
     }
   },
   {
     type: "heroVerticalTilesOneLeftTwoRight",
     content: {
       title: "Left column image and two on right side each 1/2 height of left",
+      tiles: [
+        {
+          title: "product 4",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 5",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+        {
+          title: "product 6",
+          image: {
+            src: "https://via.placeholder.com/250x350",
+            alt: "placeholder",
+          }
+        },
+      ]
     }
   }
 ];
