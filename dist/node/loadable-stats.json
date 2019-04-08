@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "8fdee4073aa7bf88667a",
+  "hash": "fadacfdaea88de10e393",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -168,7 +168,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 2210,
+      "size": 2271,
       "chunks": [
         14
       ],
@@ -427,7 +427,7 @@
     },
     {
       "name": "9.server.js",
-      "size": 671,
+      "size": 1045,
       "chunks": [
         9
       ],
@@ -555,7 +555,7 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "size": 1071,
+      "size": 1284,
       "chunks": [
         14
       ],

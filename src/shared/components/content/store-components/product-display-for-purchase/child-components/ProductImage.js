@@ -9,10 +9,23 @@ import loadable from '@loadable/component';
 
 const Image = loadable( () => import('../../../hero-components/Image') );
 
-class Productimage extends Component {
+class ProductImage extends Component {
+  constructor() {
+    super();
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    console.log(`pass the src to parent, and the parent should load a modal with the same img but higher res`);
+    this.props.showHiRes({src: "https://via.placeholder.com/250x350" }); // will be the src prop passed in.
+  }
+
   render() {
-    return <h1>HOC</h1>;
+    return (
+      <li onClick={this.handleClick}><Image data={{ src: "https://via.placeholder.com/250x350", alt: "placeholder" }} /></li>
+    );
   }
 }
 
-export default Productimage;
+export default ProductImage;

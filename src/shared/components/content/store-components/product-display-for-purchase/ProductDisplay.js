@@ -7,6 +7,16 @@ const VariantSelector = loadable( () => import('./child-components/VariantSelect
 const ProductImage = loadable( () => import('./child-components/ProductImage') );
 
 class ProductDisplay extends Component {
+  constructor() {
+    super();
+
+    this.handleShowHiRes = this.handleShowHiRes.bind(this);
+  }
+
+  handleShowHiRes(img) {
+    console.log(`In Parent, activate the modal with the high res img: ${img.src}`);
+  }
+
   render() {
     return (
       <article className="product-display">
@@ -35,12 +45,12 @@ class ProductDisplay extends Component {
         </div>
 
 
-        <div className="product-gallery-wrapper"> {/* left column of pics; will need ability to view larger image onclick */}
-          <ProductImage />
-          <img src="https://via.placeholder.com/250x350" alt="placeholder" />
-          <img src="https://via.placeholder.com/250x350" alt="placeholder" />
-          <img src="https://via.placeholder.com/250x350" alt="placeholder" />
-        </div>
+        {/* left column of pics; will need ability to view larger image onclick */}
+        <ul className="product-gallery-wrapper">
+          <ProductImage showHiRes={this.handleShowHiRes} />
+          <ProductImage showHiRes={this.handleShowHiRes} />
+          <ProductImage showHiRes={this.handleShowHiRes} />
+        </ul>
 
       </article>
     );
