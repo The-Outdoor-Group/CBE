@@ -1,1 +1,0 @@
-exports.ids=[26],exports.modules={115:function(e,t,n){},50:function(e,t,n){"use strict";n.r(t);var r=n(0),a=n.n(r);n(115);t.default=function(e){return e.articles.map(function(e,t){return a.a.createElement("div",{className:"header-article-node"},a.a.createElement("h3",null,e.h3),a.a.createElement("p",null,e.p))})}}};

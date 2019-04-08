@@ -1,0 +1,1 @@
+exports.ids=[27],exports.modules={117:function(e,t,r){},68:function(e,t,r){"use strict";r.r(t);var a=r(0),n=r.n(a),c=r(63);r(117);t.default=function(e){var t=e.data;return n.a.createElement("article",{className:"more-info-article"},Object(c.a)({props:t}))}}};

@@ -2,122 +2,128 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "0c27d3a1fff324b16663",
+  "hash": "d3b8f3746824bd9a9508",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.0c27d3a1fff324b16663.js",
+    "vendor": "0.d3b8f3746824bd9a9508.js",
     "Image": [
       "Image.css",
-      "1.0c27d3a1fff324b16663.js",
+      "1.d3b8f3746824bd9a9508.js",
       "Image.css.map"
     ],
-    "MainList": "2.0c27d3a1fff324b16663.js",
+    "MainList": "2.d3b8f3746824bd9a9508.js",
     "Stats": [
       "Stats.css",
-      "3.0c27d3a1fff324b16663.js",
+      "3.d3b8f3746824bd9a9508.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "4.0c27d3a1fff324b16663.js",
+      "4.d3b8f3746824bd9a9508.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "5.0c27d3a1fff324b16663.js",
+    "InfoPanelOpenList": "5.d3b8f3746824bd9a9508.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.0c27d3a1fff324b16663.js",
+      "6.d3b8f3746824bd9a9508.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "7.0c27d3a1fff324b16663.js",
+      "7.d3b8f3746824bd9a9508.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "8.0c27d3a1fff324b16663.js",
+      "8.d3b8f3746824bd9a9508.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "9.0c27d3a1fff324b16663.js",
+      "9.d3b8f3746824bd9a9508.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "components-Bar": "10.0c27d3a1fff324b16663.js",
+    "child-components-ProductImage": "10.d3b8f3746824bd9a9508.js",
+    "child-components-VariantSelector": "11.d3b8f3746824bd9a9508.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "11.0c27d3a1fff324b16663.js",
+      "12.d3b8f3746824bd9a9508.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "12.0c27d3a1fff324b16663.js",
+      "13.d3b8f3746824bd9a9508.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-content-store-components-ShopHero": [
       "components-content-store-components-ShopHero.css",
-      "13.0c27d3a1fff324b16663.js",
+      "14.d3b8f3746824bd9a9508.js",
       "components-content-store-components-ShopHero.css.map"
+    ],
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": [
+      "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+      "15.d3b8f3746824bd9a9508.js",
+      "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "14.0c27d3a1fff324b16663.js",
+      "16.d3b8f3746824bd9a9508.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "15.0c27d3a1fff324b16663.js",
+      "17.d3b8f3746824bd9a9508.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
     "container-HorizontalImageSlider": [
       "container-HorizontalImageSlider.css",
-      "16.0c27d3a1fff324b16663.js",
+      "18.d3b8f3746824bd9a9508.js",
       "container-HorizontalImageSlider.css.map"
     ],
-    "containers-Home": "17.0c27d3a1fff324b16663.js",
-    "containers-Shop": "18.0c27d3a1fff324b16663.js",
-    "hero-components-List": "19.0c27d3a1fff324b16663.js",
-    "hero-components-ListButton": "20.0c27d3a1fff324b16663.js",
+    "containers-Home": "19.d3b8f3746824bd9a9508.js",
+    "containers-Shop": "20.d3b8f3746824bd9a9508.js",
+    "hero-components-List": "21.d3b8f3746824bd9a9508.js",
+    "hero-components-ListButton": "22.d3b8f3746824bd9a9508.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "21.0c27d3a1fff324b16663.js",
+      "23.d3b8f3746824bd9a9508.js",
       "hero-components-TextArticle.css.map"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "22.0c27d3a1fff324b16663.js",
+      "24.d3b8f3746824bd9a9508.js",
       "hero-components-TitleHeader.css.map"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "23.0c27d3a1fff324b16663.js",
+      "25.d3b8f3746824bd9a9508.js",
       "hero-components-VideoComponent.css.map"
     ],
     "image-tiles-ImageTile": [
       "image-tiles-ImageTile.css",
-      "24.0c27d3a1fff324b16663.js",
+      "26.d3b8f3746824bd9a9508.js",
       "image-tiles-ImageTile.css.map"
     ],
     "main": [
       "main.css",
-      "main.0c27d3a1fff324b16663.js",
+      "main.d3b8f3746824bd9a9508.js",
       "main.css.map"
     ],
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "26.0c27d3a1fff324b16663.js",
+      "28.d3b8f3746824bd9a9508.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "27.0c27d3a1fff324b16663.js",
+      "29.d3b8f3746824bd9a9508.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.0c27d3a1fff324b16663.js",
+      "name": "0.d3b8f3746824bd9a9508.js",
       "size": 401124,
       "chunks": [
         0
@@ -128,7 +134,7 @@
       "emitted": false
     },
     {
-      "name": "1.0c27d3a1fff324b16663.js",
+      "name": "1.d3b8f3746824bd9a9508.js",
       "size": 301,
       "chunks": [
         1
@@ -139,21 +145,32 @@
       "emitted": false
     },
     {
-      "name": "10.0c27d3a1fff324b16663.js",
-      "size": 353,
+      "name": "10.d3b8f3746824bd9a9508.js",
+      "size": 758,
       "chunks": [
         10
       ],
       "chunkNames": [
-        "components-Bar"
+        "child-components-ProductImage"
       ],
       "emitted": false
     },
     {
-      "name": "11.0c27d3a1fff324b16663.js",
-      "size": 8550,
+      "name": "11.d3b8f3746824bd9a9508.js",
+      "size": 585,
       "chunks": [
         11
+      ],
+      "chunkNames": [
+        "child-components-VariantSelector"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "12.d3b8f3746824bd9a9508.js",
+      "size": 8550,
+      "chunks": [
+        12
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -161,10 +178,10 @@
       "emitted": false
     },
     {
-      "name": "12.0c27d3a1fff324b16663.js",
+      "name": "13.d3b8f3746824bd9a9508.js",
       "size": 2651,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -172,10 +189,10 @@
       "emitted": false
     },
     {
-      "name": "13.0c27d3a1fff324b16663.js",
+      "name": "14.d3b8f3746824bd9a9508.js",
       "size": 4302,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -183,10 +200,21 @@
       "emitted": false
     },
     {
-      "name": "14.0c27d3a1fff324b16663.js",
+      "name": "15.d3b8f3746824bd9a9508.js",
+      "size": 2309,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "16.d3b8f3746824bd9a9508.js",
       "size": 5939,
       "chunks": [
-        14
+        16
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -194,10 +222,10 @@
       "emitted": false
     },
     {
-      "name": "15.0c27d3a1fff324b16663.js",
+      "name": "17.d3b8f3746824bd9a9508.js",
       "size": 3871,
       "chunks": [
-        15
+        17
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -205,10 +233,10 @@
       "emitted": false
     },
     {
-      "name": "16.0c27d3a1fff324b16663.js",
+      "name": "18.d3b8f3746824bd9a9508.js",
       "size": 1995,
       "chunks": [
-        16
+        18
       ],
       "chunkNames": [
         "container-HorizontalImageSlider"
@@ -216,10 +244,10 @@
       "emitted": false
     },
     {
-      "name": "17.0c27d3a1fff324b16663.js",
+      "name": "19.d3b8f3746824bd9a9508.js",
       "size": 5592,
       "chunks": [
-        17
+        19
       ],
       "chunkNames": [
         "containers-Home"
@@ -227,30 +255,8 @@
       "emitted": false
     },
     {
-      "name": "18.0c27d3a1fff324b16663.js",
-      "size": 2462,
-      "chunks": [
-        18
-      ],
-      "chunkNames": [
-        "containers-Shop"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "19.0c27d3a1fff324b16663.js",
-      "size": 381,
-      "chunks": [
-        19
-      ],
-      "chunkNames": [
-        "hero-components-List"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.0c27d3a1fff324b16663.js",
-      "size": 834,
+      "name": "2.d3b8f3746824bd9a9508.js",
+      "size": 936,
       "chunks": [
         2
       ],
@@ -260,10 +266,32 @@
       "emitted": false
     },
     {
-      "name": "20.0c27d3a1fff324b16663.js",
-      "size": 228,
+      "name": "20.d3b8f3746824bd9a9508.js",
+      "size": 2462,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "containers-Shop"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.d3b8f3746824bd9a9508.js",
+      "size": 381,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "hero-components-List"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "22.d3b8f3746824bd9a9508.js",
+      "size": 228,
+      "chunks": [
+        22
       ],
       "chunkNames": [
         "hero-components-ListButton"
@@ -271,10 +299,10 @@
       "emitted": false
     },
     {
-      "name": "21.0c27d3a1fff324b16663.js",
+      "name": "23.d3b8f3746824bd9a9508.js",
       "size": 1383,
       "chunks": [
-        21
+        23
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -282,10 +310,10 @@
       "emitted": false
     },
     {
-      "name": "22.0c27d3a1fff324b16663.js",
+      "name": "24.d3b8f3746824bd9a9508.js",
       "size": 459,
       "chunks": [
-        22
+        24
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -293,10 +321,10 @@
       "emitted": false
     },
     {
-      "name": "23.0c27d3a1fff324b16663.js",
+      "name": "25.d3b8f3746824bd9a9508.js",
       "size": 1010,
       "chunks": [
-        23
+        25
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -304,10 +332,10 @@
       "emitted": false
     },
     {
-      "name": "24.0c27d3a1fff324b16663.js",
+      "name": "26.d3b8f3746824bd9a9508.js",
       "size": 709,
       "chunks": [
-        24
+        26
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -315,10 +343,10 @@
       "emitted": false
     },
     {
-      "name": "26.0c27d3a1fff324b16663.js",
+      "name": "28.d3b8f3746824bd9a9508.js",
       "size": 315,
       "chunks": [
-        26
+        28
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -326,10 +354,10 @@
       "emitted": false
     },
     {
-      "name": "27.0c27d3a1fff324b16663.js",
+      "name": "29.d3b8f3746824bd9a9508.js",
       "size": 372,
       "chunks": [
-        27
+        29
       ],
       "chunkNames": [
         "text-Header"
@@ -351,7 +379,7 @@
       "emitted": false
     },
     {
-      "name": "3.0c27d3a1fff324b16663.js",
+      "name": "3.d3b8f3746824bd9a9508.js",
       "size": 566,
       "chunks": [
         3
@@ -362,7 +390,7 @@
       "emitted": false
     },
     {
-      "name": "4.0c27d3a1fff324b16663.js",
+      "name": "4.d3b8f3746824bd9a9508.js",
       "size": 2361,
       "chunks": [
         4
@@ -380,7 +408,7 @@
       "emitted": false
     },
     {
-      "name": "5.0c27d3a1fff324b16663.js",
+      "name": "5.d3b8f3746824bd9a9508.js",
       "size": 507,
       "chunks": [
         5
@@ -391,7 +419,7 @@
       "emitted": false
     },
     {
-      "name": "6.0c27d3a1fff324b16663.js",
+      "name": "6.d3b8f3746824bd9a9508.js",
       "size": 8395,
       "chunks": [
         6
@@ -402,7 +430,7 @@
       "emitted": false
     },
     {
-      "name": "7.0c27d3a1fff324b16663.js",
+      "name": "7.d3b8f3746824bd9a9508.js",
       "size": 2856,
       "chunks": [
         7
@@ -420,7 +448,7 @@
       "emitted": false
     },
     {
-      "name": "8.0c27d3a1fff324b16663.js",
+      "name": "8.d3b8f3746824bd9a9508.js",
       "size": 3240,
       "chunks": [
         8
@@ -431,7 +459,7 @@
       "emitted": false
     },
     {
-      "name": "9.0c27d3a1fff324b16663.js",
+      "name": "9.d3b8f3746824bd9a9508.js",
       "size": 1757,
       "chunks": [
         9
@@ -606,7 +634,7 @@
       "name": "components-content-Hero.css",
       "size": 2649,
       "chunks": [
-        11
+        12
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -617,7 +645,7 @@
       "name": "components-content-Hero.css.map",
       "size": 4051,
       "chunks": [
-        11
+        12
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -628,7 +656,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 206,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -639,7 +667,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css.map",
       "size": 510,
       "chunks": [
-        12
+        13
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -650,7 +678,7 @@
       "name": "components-content-store-components-ShopHero.css",
       "size": 4594,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -661,7 +689,7 @@
       "name": "components-content-store-components-ShopHero.css.map",
       "size": 6563,
       "chunks": [
-        13
+        14
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -669,10 +697,32 @@
       "emitted": false
     },
     {
+      "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+      "size": 1071,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map",
+      "size": 1718,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay"
+      ],
+      "emitted": false
+    },
+    {
       "name": "components-main-nav-MainNav.css",
       "size": 1056,
       "chunks": [
-        14
+        16
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -683,7 +733,7 @@
       "name": "components-main-nav-MainNav.css.map",
       "size": 1621,
       "chunks": [
-        14
+        16
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -694,7 +744,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css",
       "size": 536,
       "chunks": [
-        15
+        17
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -705,7 +755,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css.map",
       "size": 944,
       "chunks": [
-        15
+        17
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -716,7 +766,7 @@
       "name": "container-HorizontalImageSlider.css",
       "size": 86,
       "chunks": [
-        16
+        18
       ],
       "chunkNames": [
         "container-HorizontalImageSlider"
@@ -727,7 +777,7 @@
       "name": "container-HorizontalImageSlider.css.map",
       "size": 358,
       "chunks": [
-        16
+        18
       ],
       "chunkNames": [
         "container-HorizontalImageSlider"
@@ -738,7 +788,7 @@
       "name": "hero-components-TextArticle.css",
       "size": 877,
       "chunks": [
-        21
+        23
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -749,7 +799,7 @@
       "name": "hero-components-TextArticle.css.map",
       "size": 1351,
       "chunks": [
-        21
+        23
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -760,7 +810,7 @@
       "name": "hero-components-TitleHeader.css",
       "size": 814,
       "chunks": [
-        22
+        24
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -771,7 +821,7 @@
       "name": "hero-components-TitleHeader.css.map",
       "size": 1270,
       "chunks": [
-        22
+        24
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -782,7 +832,7 @@
       "name": "hero-components-VideoComponent.css",
       "size": 332,
       "chunks": [
-        23
+        25
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -793,7 +843,7 @@
       "name": "hero-components-VideoComponent.css.map",
       "size": 634,
       "chunks": [
-        23
+        25
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -804,7 +854,7 @@
       "name": "image-tiles-ImageTile.css",
       "size": 394,
       "chunks": [
-        24
+        26
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -815,7 +865,7 @@
       "name": "image-tiles-ImageTile.css.map",
       "size": 771,
       "chunks": [
-        24
+        26
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -830,21 +880,10 @@
       "emitted": false
     },
     {
-      "name": "main.0c27d3a1fff324b16663.js",
-      "size": 16018,
-      "chunks": [
-        25
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
       "name": "main.css",
       "size": 1551,
       "chunks": [
-        25
+        27
       ],
       "chunkNames": [
         "main"
@@ -855,7 +894,18 @@
       "name": "main.css.map",
       "size": 2222,
       "chunks": [
-        25
+        27
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.d3b8f3746824bd9a9508.js",
+      "size": 16230,
+      "chunks": [
+        27
       ],
       "chunkNames": [
         "main"
@@ -866,7 +916,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 76,
       "chunks": [
-        26
+        28
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -877,7 +927,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css.map",
       "size": 347,
       "chunks": [
-        26
+        28
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -888,7 +938,7 @@
       "name": "text-Header.css",
       "size": 160,
       "chunks": [
-        27
+        29
       ],
       "chunkNames": [
         "text-Header"
@@ -899,7 +949,7 @@
       "name": "text-Header.css.map",
       "size": 424,
       "chunks": [
-        27
+        29
       ],
       "chunkNames": [
         "text-Header"
@@ -912,12 +962,12 @@
     "main": {
       "chunks": [
         0,
-        25
+        27
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "main.css",
-        "main.0c27d3a1fff324b16663.js",
+        "main.d3b8f3746824bd9a9508.js",
         "main.css.map"
       ],
       "children": {},
@@ -928,12 +978,12 @@
     "main": {
       "chunks": [
         0,
-        25
+        27
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "main.css",
-        "main.0c27d3a1fff324b16663.js",
+        "main.d3b8f3746824bd9a9508.js",
         "main.css.map"
       ],
       "children": {},
@@ -942,12 +992,12 @@
     "components-main-nav-MainNav": {
       "chunks": [
         0,
-        14
+        16
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "components-main-nav-MainNav.css",
-        "14.0c27d3a1fff324b16663.js",
+        "16.d3b8f3746824bd9a9508.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -956,12 +1006,12 @@
     "components-main-secondary-nav-MainSecondaryNav": {
       "chunks": [
         0,
-        15
+        17
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "15.0c27d3a1fff324b16663.js",
+        "17.d3b8f3746824bd9a9508.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -970,12 +1020,12 @@
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
         0,
-        12
+        13
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "12.0c27d3a1fff324b16663.js",
+        "13.d3b8f3746824bd9a9508.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -984,31 +1034,33 @@
     "containers-Home": {
       "chunks": [
         0,
-        17
+        19
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
-        "17.0c27d3a1fff324b16663.js"
+        "0.d3b8f3746824bd9a9508.js",
+        "19.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Shop": {
       "chunks": [
-        18
+        20
       ],
       "assets": [
-        "18.0c27d3a1fff324b16663.js"
+        "20.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "components-Bar": {
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": {
       "chunks": [
-        10
+        15
       ],
       "assets": [
-        "10.0c27d3a1fff324b16663.js"
+        "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+        "15.d3b8f3746824bd9a9508.js",
+        "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1019,7 +1071,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "8.0c27d3a1fff324b16663.js",
+        "8.d3b8f3746824bd9a9508.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -1031,7 +1083,7 @@
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "9.0c27d3a1fff324b16663.js",
+        "9.d3b8f3746824bd9a9508.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -1042,7 +1094,7 @@
         2
       ],
       "assets": [
-        "2.0c27d3a1fff324b16663.js"
+        "2.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1052,7 +1104,7 @@
         5
       ],
       "assets": [
-        "5.0c27d3a1fff324b16663.js"
+        "5.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1062,18 +1114,18 @@
         2
       ],
       "assets": [
-        "2.0c27d3a1fff324b16663.js"
+        "2.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-Hero": {
       "chunks": [
-        11
+        12
       ],
       "assets": [
         "components-content-Hero.css",
-        "11.0c27d3a1fff324b16663.js",
+        "12.d3b8f3746824bd9a9508.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -1081,12 +1133,32 @@
     },
     "components-content-store-components-ShopHero": {
       "chunks": [
-        13
+        14
       ],
       "assets": [
         "components-content-store-components-ShopHero.css",
-        "13.0c27d3a1fff324b16663.js",
+        "14.d3b8f3746824bd9a9508.js",
         "components-content-store-components-ShopHero.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-VariantSelector": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "11.d3b8f3746824bd9a9508.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductImage": {
+      "chunks": [
+        10
+      ],
+      "assets": [
+        "10.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1097,7 +1169,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.0c27d3a1fff324b16663.js",
+        "6.d3b8f3746824bd9a9508.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -1105,11 +1177,11 @@
     },
     "hero-components-TitleHeader": {
       "chunks": [
-        22
+        24
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "22.0c27d3a1fff324b16663.js",
+        "24.d3b8f3746824bd9a9508.js",
         "hero-components-TitleHeader.css.map"
       ],
       "children": {},
@@ -1121,7 +1193,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.0c27d3a1fff324b16663.js",
+        "3.d3b8f3746824bd9a9508.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1129,11 +1201,11 @@
     },
     "hero-components-TextArticle": {
       "chunks": [
-        21
+        23
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "21.0c27d3a1fff324b16663.js",
+        "23.d3b8f3746824bd9a9508.js",
         "hero-components-TextArticle.css.map"
       ],
       "children": {},
@@ -1145,7 +1217,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.0c27d3a1fff324b16663.js",
+        "1.d3b8f3746824bd9a9508.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1153,11 +1225,11 @@
     },
     "hero-components-VideoComponent": {
       "chunks": [
-        23
+        25
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "23.0c27d3a1fff324b16663.js",
+        "25.d3b8f3746824bd9a9508.js",
         "hero-components-VideoComponent.css.map"
       ],
       "children": {},
@@ -1165,31 +1237,31 @@
     },
     "hero-components-ListButton": {
       "chunks": [
-        20
+        22
       ],
       "assets": [
-        "20.0c27d3a1fff324b16663.js"
+        "22.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        19
+        21
       ],
       "assets": [
-        "19.0c27d3a1fff324b16663.js"
+        "21.d3b8f3746824bd9a9508.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "image-tiles-ImageTile": {
       "chunks": [
-        24
+        26
       ],
       "assets": [
         "image-tiles-ImageTile.css",
-        "24.0c27d3a1fff324b16663.js",
+        "26.d3b8f3746824bd9a9508.js",
         "image-tiles-ImageTile.css.map"
       ],
       "children": {},
@@ -1197,11 +1269,11 @@
     },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        26
+        28
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "26.0c27d3a1fff324b16663.js",
+        "28.d3b8f3746824bd9a9508.js",
         "more-info-components-container-MoreInfoArticle.css.map"
       ],
       "children": {},
@@ -1209,11 +1281,11 @@
     },
     "text-Header": {
       "chunks": [
-        27
+        29
       ],
       "assets": [
         "text-Header.css",
-        "27.0c27d3a1fff324b16663.js",
+        "29.d3b8f3746824bd9a9508.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1221,11 +1293,11 @@
     },
     "container-HorizontalImageSlider": {
       "chunks": [
-        16
+        18
       ],
       "assets": [
         "container-HorizontalImageSlider.css",
-        "16.0c27d3a1fff324b16663.js",
+        "18.d3b8f3746824bd9a9508.js",
         "container-HorizontalImageSlider.css.map"
       ],
       "children": {},
@@ -1237,7 +1309,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.0c27d3a1fff324b16663.js",
+        "1.d3b8f3746824bd9a9508.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1249,7 +1321,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "4.0c27d3a1fff324b16663.js",
+        "4.d3b8f3746824bd9a9508.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1261,7 +1333,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.0c27d3a1fff324b16663.js",
+        "3.d3b8f3746824bd9a9508.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1273,9 +1345,9 @@
         7
       ],
       "assets": [
-        "0.0c27d3a1fff324b16663.js",
+        "0.d3b8f3746824bd9a9508.js",
         "assets-images-PlusIcon.css",
-        "7.0c27d3a1fff324b16663.js",
+        "7.d3b8f3746824bd9a9508.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},
@@ -2307,6 +2379,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/image-tiles/assets/css/image-tile.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
     },
     {
       "errors": [],

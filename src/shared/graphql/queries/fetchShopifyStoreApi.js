@@ -2,14 +2,18 @@
 // reusable function for all store fetches to backend api
 import fetch from 'isomorphic-fetch';
 
-const url = 'https://store.custombowequipment.com/api/graphql';
+const stageUrl = 'https://custom-bow-equipment-stage.myshopify.com/api/graphql';
+const stageAccToken = '2dc49f399cc81d84ebcef185bfc2cffd';
+
+// const prodUrl = 'https://store.custombowequipment.com/api/graphql';
+// const prodAccToken = '37cbbe2c70e4c47dba93e9aa3f28bffc';
 
 const fetchShopifyStoreApi = (query, arg) => fetch(
-  url,
+  stageUrl,
   {
     method: 'post',
     headers: {
-      'X-Shopify-Storefront-Access-Token':'37cbbe2c70e4c47dba93e9aa3f28bffc',
+      'X-Shopify-Storefront-Access-Token': stageAccToken,
       'Content-Type':'application/json',
     },
     body: JSON.stringify({ query: query(arg) })

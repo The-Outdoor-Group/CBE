@@ -75,7 +75,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={() => <Routes.HomePage />} />
             <Route path='/shop' component={() => <Routes.ShopPage /> } />
-            <Route path='/bar' component={() => <Routes.BarPage />} />
+            <Route path='/product' component={() => <Routes.ProductPage />} />
           </Switch>
         </main>
         <MainSecondaryNav />
