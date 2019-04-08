@@ -9,22 +9,24 @@
 
 import React from 'react';
 
-const VariantSelector = props => {
-  return (
-    <article>
+const optionValueNodes = (option) => option.values.map( (value, i) => <li key={i}>{ value }</li> );
+
+const optionNodes = (options) => options.map( (option, i) => (
+    <article key={i}>
       <header>
-        <h4>Variant Title (size)</h4>
+        <h4>{option.name}</h4>
       </header>
       <ul className="variant-selections">
-        <li>S</li> // based on clicking on the options, find the matching node
-        <li>M</li>
-        <li>L</li>
-        <li>XL</li>
-        <li>XXL</li>
+        { optionValueNodes(option) }
       </ul>
-      <p className="guide-link">Size Guide</p>
     </article>
-  );
+  )
+);
+
+const VariantSelector = props => {
+  const { options } = props;
+
+  return optionNodes(options);
 };
 
 export default VariantSelector;

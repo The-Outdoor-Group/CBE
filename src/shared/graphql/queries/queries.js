@@ -5,6 +5,7 @@ Queries a specific product by handle:
 {
   productByHandle(handle: "engage-hybrid") {
     id
+    title
     productType
     descriptionHtml
     tags

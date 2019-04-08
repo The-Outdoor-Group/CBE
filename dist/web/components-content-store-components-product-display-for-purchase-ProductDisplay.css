@@ -13,6 +13,10 @@
   font-size: 225%;
 }
 
+.product-display .product-purchase-wrapper article {
+  padding: 1rem 0;
+}
+
 .product-display p.price,
 .product-display h4 {
   font-size: 120%;
@@ -60,6 +64,10 @@
 
 .product-display .product-description p {
   line-height: 180%;
+}
+
+.product-display .product-description ul li {
+  padding: 1rem 0;
 }
 
 .product-display .product-gallery-wrapper {
