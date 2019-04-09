@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import loadable from '@loadable/component';
+import _filter from 'lodash/filter';
+import _find from 'lodash/find';
+import _isEqual from 'lodash/isEqual';
+import _findIndex from 'lodash/findIndex';
+import _cloneDeep from 'lodash/cloneDeep';
 
 import './assets/css/product-display.css';
 
@@ -415,10 +420,55 @@ class ProductDisplay extends Component {
     super();
 
     this.handleShowHiRes = this.handleShowHiRes.bind(this);
+    this.handleValueClick = this.handleValueClick.bind(this);
+    this.locateMatchingVariant = this.locateMatchingVariant.bind(this);
+
+    this.state = {
+      // should grab to the selectedOptions of the first node in the variants
+      selectedOptions: [
+        {
+          name: "Pin Count",
+          value: "1"
+        },
+        {
+          name: "Hand",
+          value: "Right"
+        },
+        {
+          name: "Pin Size",
+          value: "0.01"
+        }
+      ]
+    }
   }
 
   handleShowHiRes(img) {
     console.log(`In Parent, activate the modal with the high res img: ${img.src}`);
+  }
+
+  handleValueClick(option) {
+    const { name } = option;
+    const selectedOptionsCopy = _cloneDeep(this.state.selectedOptions);
+    const index = _findIndex( selectedOptionsCopy, (option) => option.name === name );
+
+    selectedOptionsCopy.splice(index, 1, option);
+
+    this.setState({ selectedOptions: selectedOptionsCopy }, () => this.locateMatchingVariant() )
+    //, () => console.log('this.state.selectedOptions after setting: ', this.state.selectedOptions)
+  }
+
+  locateMatchingVariant() {
+    console.log('locateMatchingVariant this.state: ', this.state.selectedOptions);
+    console.log(product.data.productByHandle.variants.edges);
+
+    const match = _find(product.data.productByHandle.variants.edges, (edge) => _isEqual(edge.node.selectedOptions, this.state.selectedOptions) ? edge.node.selectedOptions : null );
+    // {
+    //   if ( _isEqual(edge.node.selectedOptions, this.state.selectedOptions) ) {
+    //     return edge.node.selectedOptions;
+    //   };
+    // });
+
+    console.log('matching variant: ', match);
   }
 
   render() {
@@ -440,7 +490,7 @@ class ProductDisplay extends Component {
 
             <p className="price">$100</p> {/* will need to be a value from a function of choices from options */}
 
-            <VariantSelector options={options} />
+            <VariantSelector options={options} valueClick={this.handleValueClick} />
 
             <button>Add To Cart</button>
           </div>

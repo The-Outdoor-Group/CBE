@@ -1,1 +1,1 @@
-exports.ids=[21],exports.modules={66:function(t,e,n){"use strict";n.r(e);var r=n(0),u=n.n(r);e.default=function(t){var e=t.name;return u.a.createElement("button",null,e)}}};
+exports.ids=[21],exports.modules={71:function(t,e,n){"use strict";n.r(e);var r=n(0),u=n.n(r);e.default=function(t){var e=t.name;return u.a.createElement("button",null,e)}}};

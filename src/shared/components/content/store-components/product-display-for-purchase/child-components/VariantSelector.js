@@ -9,24 +9,27 @@
 
 import React from 'react';
 
-const optionValueNodes = (option) => option.values.map( (value, i) => <li key={i}>{ value }</li> );
+const optionValueNodes = ({ option, valueClick }) => option.values.map( (value, i) => {
+  const name = option.name;
+  return <li onClick={ () => valueClick({ name, value }) } key={i}>{ value }</li>;
+});
 
-const optionNodes = (options) => options.map( (option, i) => (
-    <article key={i}>
-      <header>
-        <h4>{option.name}</h4>
-      </header>
-      <ul className="variant-selections">
-        { optionValueNodes(option) }
-      </ul>
-    </article>
+const optionNodes = (props) => {
+    const { options, valueClick } = props;
+
+    return options.map( (option, i) => (
+      <article key={i}>
+        <header>
+          <h4>{ option.name }</h4>
+        </header>
+        <ul className="variant-selections">
+          { optionValueNodes({ option, valueClick }) }
+        </ul>
+      </article>
+    )
   )
-);
-
-const VariantSelector = props => {
-  const { options } = props;
-
-  return optionNodes(options);
 };
+
+const VariantSelector = props => optionNodes( props );
 
 export default VariantSelector;
