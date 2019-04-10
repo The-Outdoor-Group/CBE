@@ -18,12 +18,22 @@ class ProductImage extends Component {
 
   handleClick() {
     console.log(`pass the src to parent, and the parent should load a modal with the same img but higher res`);
-    this.props.showHiRes({src: "https://via.placeholder.com/250x350" }); // will be the src prop passed in.
+    this.props.showHiRes({src: this.props.src }); // will be the src prop passed in.
   }
 
   render() {
+    const productDetailNodes = () => this.props.productDetail.map( (detail, i) => <li>{detail.name} - {detail.value}</li>);
+
     return (
-      <li onClick={this.handleClick}><Image data={{ src: "https://via.placeholder.com/250x350", alt: "placeholder" }} /></li>
+      <li onClick={this.handleClick}>
+        <div>
+          <h4>The CBE {this.props.title}</h4>
+          <ul className="product-image-details">
+            { productDetailNodes() }
+          </ul>
+        </div>
+        <Image data={{ src: this.props.src, alt: `The CBE ${this.props.title}` }} />
+      </li>
     );
   }
 }

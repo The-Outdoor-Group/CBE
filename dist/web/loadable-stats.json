@@ -2,128 +2,128 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "e6bfeae5d722a65a348b",
+  "hash": "a54c34d3de477890be72",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.e6bfeae5d722a65a348b.js",
+    "vendor": "0.a54c34d3de477890be72.js",
     "Image": [
       "Image.css",
-      "1.e6bfeae5d722a65a348b.js",
+      "1.a54c34d3de477890be72.js",
       "Image.css.map"
     ],
-    "MainList": "2.e6bfeae5d722a65a348b.js",
+    "MainList": "2.a54c34d3de477890be72.js",
     "Stats": [
       "Stats.css",
-      "3.e6bfeae5d722a65a348b.js",
+      "3.a54c34d3de477890be72.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "4.e6bfeae5d722a65a348b.js",
+      "4.a54c34d3de477890be72.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "5.e6bfeae5d722a65a348b.js",
+    "InfoPanelOpenList": "5.a54c34d3de477890be72.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.e6bfeae5d722a65a348b.js",
+      "6.a54c34d3de477890be72.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "7.e6bfeae5d722a65a348b.js",
+      "7.a54c34d3de477890be72.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "8.e6bfeae5d722a65a348b.js",
+      "8.a54c34d3de477890be72.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "9.e6bfeae5d722a65a348b.js",
+      "9.a54c34d3de477890be72.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "child-components-ProductImage": "10.e6bfeae5d722a65a348b.js",
-    "child-components-VariantSelector": "11.e6bfeae5d722a65a348b.js",
+    "child-components-ProductImage": "10.a54c34d3de477890be72.js",
+    "child-components-VariantSelector": "11.a54c34d3de477890be72.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "12.e6bfeae5d722a65a348b.js",
+      "12.a54c34d3de477890be72.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "13.e6bfeae5d722a65a348b.js",
+      "13.a54c34d3de477890be72.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-content-store-components-ShopHero": [
       "components-content-store-components-ShopHero.css",
-      "14.e6bfeae5d722a65a348b.js",
+      "14.a54c34d3de477890be72.js",
       "components-content-store-components-ShopHero.css.map"
     ],
     "components-content-store-components-product-display-for-purchase-ProductDisplay": [
       "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "15.e6bfeae5d722a65a348b.js",
+      "15.a54c34d3de477890be72.js",
       "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "16.e6bfeae5d722a65a348b.js",
+      "16.a54c34d3de477890be72.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "17.e6bfeae5d722a65a348b.js",
+      "17.a54c34d3de477890be72.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
     "container-HorizontalImageSlider": [
       "container-HorizontalImageSlider.css",
-      "18.e6bfeae5d722a65a348b.js",
+      "18.a54c34d3de477890be72.js",
       "container-HorizontalImageSlider.css.map"
     ],
-    "containers-Home": "19.e6bfeae5d722a65a348b.js",
-    "containers-Shop": "20.e6bfeae5d722a65a348b.js",
-    "hero-components-List": "21.e6bfeae5d722a65a348b.js",
-    "hero-components-ListButton": "22.e6bfeae5d722a65a348b.js",
+    "containers-Home": "19.a54c34d3de477890be72.js",
+    "containers-Shop": "20.a54c34d3de477890be72.js",
+    "hero-components-List": "21.a54c34d3de477890be72.js",
+    "hero-components-ListButton": "22.a54c34d3de477890be72.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "23.e6bfeae5d722a65a348b.js",
+      "23.a54c34d3de477890be72.js",
       "hero-components-TextArticle.css.map"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "24.e6bfeae5d722a65a348b.js",
+      "24.a54c34d3de477890be72.js",
       "hero-components-TitleHeader.css.map"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "25.e6bfeae5d722a65a348b.js",
+      "25.a54c34d3de477890be72.js",
       "hero-components-VideoComponent.css.map"
     ],
     "image-tiles-ImageTile": [
       "image-tiles-ImageTile.css",
-      "26.e6bfeae5d722a65a348b.js",
+      "26.a54c34d3de477890be72.js",
       "image-tiles-ImageTile.css.map"
     ],
     "main": [
       "main.css",
-      "main.e6bfeae5d722a65a348b.js",
+      "main.a54c34d3de477890be72.js",
       "main.css.map"
     ],
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "28.e6bfeae5d722a65a348b.js",
+      "28.a54c34d3de477890be72.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "29.e6bfeae5d722a65a348b.js",
+      "29.a54c34d3de477890be72.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.e6bfeae5d722a65a348b.js",
+      "name": "0.a54c34d3de477890be72.js",
       "size": 402536,
       "chunks": [
         0
@@ -134,7 +134,7 @@
       "emitted": false
     },
     {
-      "name": "1.e6bfeae5d722a65a348b.js",
+      "name": "1.a54c34d3de477890be72.js",
       "size": 301,
       "chunks": [
         1
@@ -145,8 +145,8 @@
       "emitted": false
     },
     {
-      "name": "10.e6bfeae5d722a65a348b.js",
-      "size": 1135,
+      "name": "10.a54c34d3de477890be72.js",
+      "size": 1368,
       "chunks": [
         10
       ],
@@ -156,7 +156,7 @@
       "emitted": false
     },
     {
-      "name": "11.e6bfeae5d722a65a348b.js",
+      "name": "11.a54c34d3de477890be72.js",
       "size": 624,
       "chunks": [
         11
@@ -167,7 +167,7 @@
       "emitted": false
     },
     {
-      "name": "12.e6bfeae5d722a65a348b.js",
+      "name": "12.a54c34d3de477890be72.js",
       "size": 8552,
       "chunks": [
         12
@@ -178,7 +178,7 @@
       "emitted": false
     },
     {
-      "name": "13.e6bfeae5d722a65a348b.js",
+      "name": "13.a54c34d3de477890be72.js",
       "size": 2653,
       "chunks": [
         13
@@ -189,7 +189,7 @@
       "emitted": false
     },
     {
-      "name": "14.e6bfeae5d722a65a348b.js",
+      "name": "14.a54c34d3de477890be72.js",
       "size": 4302,
       "chunks": [
         14
@@ -200,8 +200,8 @@
       "emitted": false
     },
     {
-      "name": "15.e6bfeae5d722a65a348b.js",
-      "size": 9612,
+      "name": "15.a54c34d3de477890be72.js",
+      "size": 9628,
       "chunks": [
         15
       ],
@@ -211,7 +211,7 @@
       "emitted": false
     },
     {
-      "name": "16.e6bfeae5d722a65a348b.js",
+      "name": "16.a54c34d3de477890be72.js",
       "size": 5941,
       "chunks": [
         16
@@ -222,7 +222,7 @@
       "emitted": false
     },
     {
-      "name": "17.e6bfeae5d722a65a348b.js",
+      "name": "17.a54c34d3de477890be72.js",
       "size": 3873,
       "chunks": [
         17
@@ -233,7 +233,7 @@
       "emitted": false
     },
     {
-      "name": "18.e6bfeae5d722a65a348b.js",
+      "name": "18.a54c34d3de477890be72.js",
       "size": 1997,
       "chunks": [
         18
@@ -244,7 +244,7 @@
       "emitted": false
     },
     {
-      "name": "19.e6bfeae5d722a65a348b.js",
+      "name": "19.a54c34d3de477890be72.js",
       "size": 5594,
       "chunks": [
         19
@@ -255,7 +255,7 @@
       "emitted": false
     },
     {
-      "name": "2.e6bfeae5d722a65a348b.js",
+      "name": "2.a54c34d3de477890be72.js",
       "size": 936,
       "chunks": [
         2
@@ -266,7 +266,7 @@
       "emitted": false
     },
     {
-      "name": "20.e6bfeae5d722a65a348b.js",
+      "name": "20.a54c34d3de477890be72.js",
       "size": 2464,
       "chunks": [
         20
@@ -277,7 +277,7 @@
       "emitted": false
     },
     {
-      "name": "21.e6bfeae5d722a65a348b.js",
+      "name": "21.a54c34d3de477890be72.js",
       "size": 381,
       "chunks": [
         21
@@ -288,7 +288,7 @@
       "emitted": false
     },
     {
-      "name": "22.e6bfeae5d722a65a348b.js",
+      "name": "22.a54c34d3de477890be72.js",
       "size": 228,
       "chunks": [
         22
@@ -299,7 +299,7 @@
       "emitted": false
     },
     {
-      "name": "23.e6bfeae5d722a65a348b.js",
+      "name": "23.a54c34d3de477890be72.js",
       "size": 1383,
       "chunks": [
         23
@@ -310,7 +310,7 @@
       "emitted": false
     },
     {
-      "name": "24.e6bfeae5d722a65a348b.js",
+      "name": "24.a54c34d3de477890be72.js",
       "size": 459,
       "chunks": [
         24
@@ -321,7 +321,7 @@
       "emitted": false
     },
     {
-      "name": "25.e6bfeae5d722a65a348b.js",
+      "name": "25.a54c34d3de477890be72.js",
       "size": 1010,
       "chunks": [
         25
@@ -332,7 +332,7 @@
       "emitted": false
     },
     {
-      "name": "26.e6bfeae5d722a65a348b.js",
+      "name": "26.a54c34d3de477890be72.js",
       "size": 709,
       "chunks": [
         26
@@ -343,7 +343,7 @@
       "emitted": false
     },
     {
-      "name": "28.e6bfeae5d722a65a348b.js",
+      "name": "28.a54c34d3de477890be72.js",
       "size": 315,
       "chunks": [
         28
@@ -354,7 +354,7 @@
       "emitted": false
     },
     {
-      "name": "29.e6bfeae5d722a65a348b.js",
+      "name": "29.a54c34d3de477890be72.js",
       "size": 372,
       "chunks": [
         29
@@ -379,7 +379,7 @@
       "emitted": false
     },
     {
-      "name": "3.e6bfeae5d722a65a348b.js",
+      "name": "3.a54c34d3de477890be72.js",
       "size": 566,
       "chunks": [
         3
@@ -390,7 +390,7 @@
       "emitted": false
     },
     {
-      "name": "4.e6bfeae5d722a65a348b.js",
+      "name": "4.a54c34d3de477890be72.js",
       "size": 2363,
       "chunks": [
         4
@@ -408,7 +408,7 @@
       "emitted": false
     },
     {
-      "name": "5.e6bfeae5d722a65a348b.js",
+      "name": "5.a54c34d3de477890be72.js",
       "size": 507,
       "chunks": [
         5
@@ -419,7 +419,7 @@
       "emitted": false
     },
     {
-      "name": "6.e6bfeae5d722a65a348b.js",
+      "name": "6.a54c34d3de477890be72.js",
       "size": 8397,
       "chunks": [
         6
@@ -430,7 +430,7 @@
       "emitted": false
     },
     {
-      "name": "7.e6bfeae5d722a65a348b.js",
+      "name": "7.a54c34d3de477890be72.js",
       "size": 2858,
       "chunks": [
         7
@@ -448,7 +448,7 @@
       "emitted": false
     },
     {
-      "name": "8.e6bfeae5d722a65a348b.js",
+      "name": "8.a54c34d3de477890be72.js",
       "size": 3242,
       "chunks": [
         8
@@ -459,7 +459,7 @@
       "emitted": false
     },
     {
-      "name": "9.e6bfeae5d722a65a348b.js",
+      "name": "9.a54c34d3de477890be72.js",
       "size": 1759,
       "chunks": [
         9
@@ -698,7 +698,7 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "size": 1427,
+      "size": 1981,
       "chunks": [
         15
       ],
@@ -709,7 +709,7 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map",
-      "size": 2178,
+      "size": 2900,
       "chunks": [
         15
       ],
@@ -880,6 +880,17 @@
       "emitted": false
     },
     {
+      "name": "main.a54c34d3de477890be72.js",
+      "size": 16254,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
       "name": "main.css",
       "size": 1551,
       "chunks": [
@@ -893,17 +904,6 @@
     {
       "name": "main.css.map",
       "size": 2222,
-      "chunks": [
-        27
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "main.e6bfeae5d722a65a348b.js",
-      "size": 16254,
       "chunks": [
         27
       ],
@@ -965,9 +965,9 @@
         27
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "main.css",
-        "main.e6bfeae5d722a65a348b.js",
+        "main.a54c34d3de477890be72.js",
         "main.css.map"
       ],
       "children": {},
@@ -981,9 +981,9 @@
         27
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "main.css",
-        "main.e6bfeae5d722a65a348b.js",
+        "main.a54c34d3de477890be72.js",
         "main.css.map"
       ],
       "children": {},
@@ -995,9 +995,9 @@
         16
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "components-main-nav-MainNav.css",
-        "16.e6bfeae5d722a65a348b.js",
+        "16.a54c34d3de477890be72.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -1009,9 +1009,9 @@
         17
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "17.e6bfeae5d722a65a348b.js",
+        "17.a54c34d3de477890be72.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -1023,9 +1023,9 @@
         13
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "13.e6bfeae5d722a65a348b.js",
+        "13.a54c34d3de477890be72.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -1037,8 +1037,8 @@
         19
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
-        "19.e6bfeae5d722a65a348b.js"
+        "0.a54c34d3de477890be72.js",
+        "19.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1048,7 +1048,7 @@
         20
       ],
       "assets": [
-        "20.e6bfeae5d722a65a348b.js"
+        "20.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1059,9 +1059,9 @@
         15
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-        "15.e6bfeae5d722a65a348b.js",
+        "15.a54c34d3de477890be72.js",
         "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
       ],
       "children": {},
@@ -1073,7 +1073,7 @@
       ],
       "assets": [
         "assets-images-logo.css",
-        "8.e6bfeae5d722a65a348b.js",
+        "8.a54c34d3de477890be72.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -1085,7 +1085,7 @@
       ],
       "assets": [
         "assets-images-secondary-menu-icon.css",
-        "9.e6bfeae5d722a65a348b.js",
+        "9.a54c34d3de477890be72.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -1096,7 +1096,7 @@
         2
       ],
       "assets": [
-        "2.e6bfeae5d722a65a348b.js"
+        "2.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1106,7 +1106,7 @@
         5
       ],
       "assets": [
-        "5.e6bfeae5d722a65a348b.js"
+        "5.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1116,7 +1116,7 @@
         2
       ],
       "assets": [
-        "2.e6bfeae5d722a65a348b.js"
+        "2.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1127,7 +1127,7 @@
       ],
       "assets": [
         "components-content-Hero.css",
-        "12.e6bfeae5d722a65a348b.js",
+        "12.a54c34d3de477890be72.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -1139,7 +1139,7 @@
       ],
       "assets": [
         "components-content-store-components-ShopHero.css",
-        "14.e6bfeae5d722a65a348b.js",
+        "14.a54c34d3de477890be72.js",
         "components-content-store-components-ShopHero.css.map"
       ],
       "children": {},
@@ -1150,7 +1150,7 @@
         11
       ],
       "assets": [
-        "11.e6bfeae5d722a65a348b.js"
+        "11.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1160,7 +1160,7 @@
         10
       ],
       "assets": [
-        "10.e6bfeae5d722a65a348b.js"
+        "10.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1171,7 +1171,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.e6bfeae5d722a65a348b.js",
+        "6.a54c34d3de477890be72.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -1183,7 +1183,7 @@
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "24.e6bfeae5d722a65a348b.js",
+        "24.a54c34d3de477890be72.js",
         "hero-components-TitleHeader.css.map"
       ],
       "children": {},
@@ -1195,7 +1195,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.e6bfeae5d722a65a348b.js",
+        "3.a54c34d3de477890be72.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1207,7 +1207,7 @@
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "23.e6bfeae5d722a65a348b.js",
+        "23.a54c34d3de477890be72.js",
         "hero-components-TextArticle.css.map"
       ],
       "children": {},
@@ -1219,7 +1219,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.e6bfeae5d722a65a348b.js",
+        "1.a54c34d3de477890be72.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1231,7 +1231,7 @@
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "25.e6bfeae5d722a65a348b.js",
+        "25.a54c34d3de477890be72.js",
         "hero-components-VideoComponent.css.map"
       ],
       "children": {},
@@ -1242,7 +1242,7 @@
         22
       ],
       "assets": [
-        "22.e6bfeae5d722a65a348b.js"
+        "22.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1252,7 +1252,7 @@
         21
       ],
       "assets": [
-        "21.e6bfeae5d722a65a348b.js"
+        "21.a54c34d3de477890be72.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1263,7 +1263,7 @@
       ],
       "assets": [
         "image-tiles-ImageTile.css",
-        "26.e6bfeae5d722a65a348b.js",
+        "26.a54c34d3de477890be72.js",
         "image-tiles-ImageTile.css.map"
       ],
       "children": {},
@@ -1275,7 +1275,7 @@
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "28.e6bfeae5d722a65a348b.js",
+        "28.a54c34d3de477890be72.js",
         "more-info-components-container-MoreInfoArticle.css.map"
       ],
       "children": {},
@@ -1287,7 +1287,7 @@
       ],
       "assets": [
         "text-Header.css",
-        "29.e6bfeae5d722a65a348b.js",
+        "29.a54c34d3de477890be72.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1299,7 +1299,7 @@
       ],
       "assets": [
         "container-HorizontalImageSlider.css",
-        "18.e6bfeae5d722a65a348b.js",
+        "18.a54c34d3de477890be72.js",
         "container-HorizontalImageSlider.css.map"
       ],
       "children": {},
@@ -1311,7 +1311,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.e6bfeae5d722a65a348b.js",
+        "1.a54c34d3de477890be72.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1323,7 +1323,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "4.e6bfeae5d722a65a348b.js",
+        "4.a54c34d3de477890be72.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1335,7 +1335,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.e6bfeae5d722a65a348b.js",
+        "3.a54c34d3de477890be72.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1347,9 +1347,9 @@
         7
       ],
       "assets": [
-        "0.e6bfeae5d722a65a348b.js",
+        "0.a54c34d3de477890be72.js",
         "assets-images-PlusIcon.css",
-        "7.e6bfeae5d722a65a348b.js",
+        "7.a54c34d3de477890be72.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},

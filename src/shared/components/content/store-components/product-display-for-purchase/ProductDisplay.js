@@ -438,7 +438,8 @@ class ProductDisplay extends Component {
           name: "Pin Size",
           value: "0.01"
         }
-      ]
+      ],
+      selectedVariant: product.data.productByHandle.variants.edges[0] // first variant of product; need to handle if availableForSale: false
     }
   }
 
@@ -453,26 +454,24 @@ class ProductDisplay extends Component {
 
     selectedOptionsCopy.splice(index, 1, option);
 
-    this.setState({ selectedOptions: selectedOptionsCopy }, () => this.locateMatchingVariant() )
-    //, () => console.log('this.state.selectedOptions after setting: ', this.state.selectedOptions)
+    this.setState({ selectedOptions: selectedOptionsCopy }, () => this.locateMatchingVariant() ) //, () => console.log('this.state.selectedOptions after setting: ', this.state.selectedOptions)
+
   }
 
   locateMatchingVariant() {
-    console.log('locateMatchingVariant this.state: ', this.state.selectedOptions);
-    console.log(product.data.productByHandle.variants.edges);
-
-    const match = _find(product.data.productByHandle.variants.edges, (edge) => _isEqual(edge.node.selectedOptions, this.state.selectedOptions) ? edge.node.selectedOptions : null );
-    // {
-    //   if ( _isEqual(edge.node.selectedOptions, this.state.selectedOptions) ) {
-    //     return edge.node.selectedOptions;
-    //   };
-    // });
-
-    console.log('matching variant: ', match);
+    const selectedVariant = _find(product.data.productByHandle.variants.edges, (edge) => _isEqual(edge.node.selectedOptions, this.state.selectedOptions) ? edge.node.selectedOptions : null );
+    // console.log('matching variant: ', selectedVariant);
+    this.setState({ selectedVariant });
   }
 
   render() {
+
+    // console.log('this.state: ', this.state);
+
     const { title, descriptionHtml, options, } = product.data.productByHandle;
+    const { edges } = product.data.productByHandle.variants;
+
+    const productImageNodes = () => edges.map( (edge, i) => <ProductImage key={i} src={edge.node.image.transformedSrc} productDetail={edge.node.selectedOptions} title={title} showHiRes={this.handleShowHiRes} />)
 
     const descriptionNode = () => {
       return {__html: descriptionHtml }
@@ -488,7 +487,7 @@ class ProductDisplay extends Component {
               <h1>{ title }</h1>
             </header>
 
-            <p className="price">$100</p> {/* will need to be a value from a function of choices from options */}
+            <p className="price">${this.state.selectedVariant.node.priceV2.amount}</p> {/* will need to be a value from a function of choices from options */}
 
             <VariantSelector options={options} valueClick={this.handleValueClick} />
 
@@ -510,9 +509,7 @@ class ProductDisplay extends Component {
           - should bring up a slider modal with prev and next
         */}
         <ul className="product-gallery-wrapper">
-          <ProductImage showHiRes={this.handleShowHiRes} />
-          <ProductImage showHiRes={this.handleShowHiRes} />
-          <ProductImage showHiRes={this.handleShowHiRes} />
+          { productImageNodes() }
         </ul>
 
       </article>
