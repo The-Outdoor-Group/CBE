@@ -5,6 +5,7 @@ import './assets/css/horizontal-image-slider.css';
 
 const Image = loadable( () => import('../../hero-components/Image') );
 const Header = loadable( () => import('./../text/Header') );
+const NavigationArrow = loadable( () => import('./assets/images/NavigationArrow')  );
 
 class HorizontalImageSlider extends Component {
   constructor() {
@@ -39,9 +40,9 @@ class HorizontalImageSlider extends Component {
     return (
       <article className="horizontal-image-slider">
         <div>
-          <span onClick={this.handlePreviousClick}> previous </span>
+          <span onClick={this.handlePreviousClick}><NavigationArrow /></span>
           <Image data={this.props.articles[currentArticleIndex].image} />
-          <span onClick={this.handleNextClick}> next </span>
+          <span onClick={this.handleNextClick}><NavigationArrow /></span>
         </div>
         <Header articles={article} />
       </article>
@@ -50,3 +51,11 @@ class HorizontalImageSlider extends Component {
 }
 
 export default HorizontalImageSlider;
+
+
+/*
+  One slider to rule them all
+
+  - have a simple fade animation. old school and clean.
+
+*/
