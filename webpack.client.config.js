@@ -4,7 +4,7 @@ const LoadablePlugin = require('@loadable/webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
@@ -106,7 +106,7 @@ module.exports = {
         }
       }
     },
-    minimizer: [new UglifyJsPlugin()]
+    minimizer: [new TerserPlugin()]
   },
   plugins,
   devtool: 'hidden-source-map'

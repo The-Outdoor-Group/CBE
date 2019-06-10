@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { setMainNavThemeColor, setEndOfPageScroll } from '../actions/shared-ui-actions';
 import { locateElAtTop, isInViewPort, isAtEndOfPage } from './assets/utilities/dom-element-location-tools';
 
+import { HooksExample } from './HooksExample';
+
 const Hero = loadable( () => import('./../components/content/Hero') );
 
 const heroNodes = [
@@ -186,6 +188,7 @@ class HomePage extends Component {
     return (
       <Fragment>
         { createHeroNodes() }
+        <HooksExample />
       </Fragment>
     );
   }
