@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { useEffect } from 'react';
+
 import loadable from '@loadable/component';
 import _debounce from 'lodash/debounce';
+
 import { connect } from 'react-redux';
 import { setMainNavThemeColor, setEndOfPageScroll } from '../actions/shared-ui-actions';
 import { locateElAtTop, isInViewPort, isAtEndOfPage } from './assets/utilities/dom-element-location-tools';
-
-import { HooksExample } from './HooksExample';
 
 const Hero = loadable( () => import('./../components/content/Hero') );
 
@@ -134,65 +134,33 @@ const heroNodes = [
   }
 ];
 
-class HomePage extends Component {
+const HomePage = (props) => {
 
-  constructor() {
-    super();
+  useEffect(() => {
+    const mainNavHeight = 80;
 
-    this.debouncedScroll;
-    this.mainNavHeight
+    const handleScroll = () => {
+      let el = locateElAtTop('.hero-region')(mainNavHeight);
+      let result = !!isAtEndOfPage();
 
-    this.handleScroll = this.handleScroll.bind(this);
-  }
+      props.setEndOfPageScroll(result);
 
-  componentWillnmount() {
-    this.props.setEndOfPageScroll(false);
-  }
+      if (el) el.classList.contains('light') ? props.setMainNavThemeColor( 'dark' ) : props.setMainNavThemeColor( 'light' );
+    };
 
-  componentDidMount() {
-    this.debouncedScroll = _debounce(this.handleScroll, 750);
-    window.addEventListener( 'scroll', this.debouncedScroll );
+    const debouncedScroll = _debounce(handleScroll, 750);
+    window.addEventListener( 'scroll', debouncedScroll );
 
-    this.mainNavHeight = 80;
-  }
-
-  shouldComponentUpdate(nextProps, nextState) {
-    return false;
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.debouncedScroll );
-  }
-
-  handleScroll() {
-    let el = locateElAtTop('.hero-region')(this.mainNavHeight);
-    let result = !!isAtEndOfPage();
-
-    this.props.setEndOfPageScroll(result);
-
-    if (el) {
-      if ( el.classList.contains('light') ) {
-        this.props.setMainNavThemeColor( 'dark' );
-      } else {
-        this.props.setMainNavThemeColor( 'light' );
-      }
+    return () => {
+      window.removeEventListener('scroll', debouncedScroll );
     }
+  });
 
-  }
+  const { mainNavThemeColor } = props.sharedUiState;
+  const createHeroNodes = () => heroNodes.map( (props, i) => <Hero key={i} data={props} /> );
 
-  render() {
-    const { mainNavThemeColor } = this.props.sharedUiState;
-
-    const createHeroNodes = () => heroNodes.map( (props, i) => <Hero key={i} data={props} /> );
-
-    return (
-      <Fragment>
-        { createHeroNodes() }
-        <HooksExample />
-      </Fragment>
-    );
-  }
-}
+  return createHeroNodes();
+};
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
 export default connect(mapStateToProps, { setMainNavThemeColor, setEndOfPageScroll })(HomePage);

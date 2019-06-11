@@ -84,7 +84,7 @@ app.get( '*', (req, res) => {
     .then( () => res.status(200).send( sendContent(req) ) )
     .catch( e => res.status(500).send(e.message) );
 
-    sendContent(req);
+    // sendContent(req);
 
     store.close();
 
