@@ -32,50 +32,40 @@ const MainNav = (props) => {
 
   useEffect(() => {
     require('gsap/ScrollToPlugin');
-    console.log('effect launched');
 
-    // const changeMenuContents = ( currentMoreInfoPanelOpen ) => {
-    //   console.log('changeMenuContents activated currentMoreInfoPanelOpen:', currentMoreInfoPanelOpen);
-    //   const tl = new TimelineMax();
-    //   console.log('tl: ', tl);
-    //
-    //   // get the name of moreInfoHandle that was clicked
-    //   const containerElRef = document.getElementById(props.elMatchForScrolling);
-    //
-    //   // b/c dom changes, gsap loses context so code dup is necessary
-    //   if (containerElRef !== null) {
-    //     if ( currentMoreInfoPanelOpen ) {
-    //       tl
-    //         .to( window, 1, { scrollTo: { y: containerElRef.children[1] }})
-    //         .to( ulRef.current, 1, { y: '-100' } )
-    //         .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
-    //         .to( ulRef.current, 1, { y: '0'} )
-    //         .to( navRef.current, 1, { backgroundColor: '#fff' } )
-    //     } else {
-    //       tl
-    //         .to( window, 1, { scrollTo: { y: containerElRef } } )
-    //         .to( ulRef.current, 1, { y: '-100' } )
-    //         .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
-    //         .to( ulRef.current, 1, { y: '0'} )
-    //         .to( navRef.current, 1, { backgroundColor: 'none' } )
-    //         .add( () => props.setIdMatchForParentContainer(null) )
-    //     }
-    //   }
-    // }
     const openMoreInfo = () => {
-      console.log('openMoreInfo');
+      const containerElRef = document.getElementById(props.elMatchForScrolling);
+      if (containerElRef && containerElRef !== null) {
+      let tl = new TimelineMax();
+      tl
+        .to( window, 1, { scrollTo: { y: containerElRef.children[1] }})
+        .to( ulRef.current, 1, { y: '-100' } )
+        .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
+        .to( ulRef.current, 1, { y: '0'} )
+        .to( navRef.current, 1, { backgroundColor: '#fff' } )
+        .add( () => tl = undefined );
+      }
     };
 
     const closeMoreInfo = () => {
-      console.log('closeMoreInfo')
-      props.setIdMatchForParentContainer(null)
-    }
+      const containerElRef = document.getElementById(props.elMatchForScrolling);
+      if (containerElRef && containerElRef !== null) {
+        let tl = new TimelineMax();
+        tl
+          .to( window, 1, { scrollTo: { y: containerElRef } } )
+          .to( ulRef.current, 1, { y: '-100' } )
+          .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
+          .to( ulRef.current, 1, { y: '0'} )
+          .to( navRef.current, 1, { backgroundColor: 'none' } )
+          .add( () => props.setIdMatchForParentContainer(null) )
+          .add( () => tl = undefined );
+      }
+    };
 
-    // always launching ...
     if (props.openMoreInfoPanel) {
       openMoreInfo( props.openMoreInfoPanel );
     } else {
-      closeMoreInfo()
+      closeMoreInfo();
     }
   }, [props.elMatchForScrolling, props.openMoreInfoPanel]);
 
