@@ -17,15 +17,17 @@ const TextArticle = (props) => {
       <header>
         <h2>{h2}</h2>
         <h1>{h1}</h1>
-        { cssClassName === 'horizontal' ? <CallToAction colorTheme={colorTheme} showMoreInfo={showMoreInfo} moreInfoHandle={moreInfoHandle}/> : null }
+        { cssClassName === 'horizontal' ? <CallToAction colorTheme={colorTheme} moreInfoHandle={moreInfoHandle}/> : null }
       </header>
       <p>{p}</p>
       {/* do a check of what the asset is, or even exists; can be video or image */}
       { cssClassName === 'vertical' ? <Image data={ {src: "https://via.placeholder.com/325x300", alt:"placeholder", cssClass: "horizontal"} } /> : null }
 
-      { cssClassName === 'vertical' ? <CallToAction colorTheme={colorTheme} showMoreInfo={showMoreInfo}  moreInfoHandle={moreInfoHandle} /> : null }
+      { cssClassName === 'vertical' ? <CallToAction colorTheme={colorTheme} moreInfoHandle={moreInfoHandle} /> : null }
     </div>
   );
 };
 
 export default TextArticle;
+
+//showMoreInfo={showMoreInfo}

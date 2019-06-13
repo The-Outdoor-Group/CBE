@@ -154,7 +154,7 @@ const HomePage = (props) => {
     return () => {
       window.removeEventListener('scroll', debouncedScroll );
     }
-  });
+  }, [props.sharedUiState]);
 
   const { mainNavThemeColor } = props.sharedUiState;
   const createHeroNodes = () => heroNodes.map( (props, i) => <Hero key={i} data={props} /> );

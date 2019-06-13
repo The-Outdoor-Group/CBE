@@ -45,6 +45,7 @@ export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
     );
 };
 
+
 export const sideMenuTimeline = (el) => {
   let tl = new TimelineMax({ paused: true });
 

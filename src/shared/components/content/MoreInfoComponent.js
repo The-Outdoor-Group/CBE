@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import loadable from '@loadable/component';
 import { setMoreInfoPanelVisibility } from './../../actions/shared-ui-actions';
@@ -178,22 +178,23 @@ const moreInfoNodes = [
 
 import './assets/css/moreInfoPanel/more-info-component.css';
 
-class MoreInfoComponent extends Component {
-  render() {
-    // console.log('this.props: ', this.props);
+const MoreInfoComponent = (props) => {
+
+    useEffect(() => {
+      console.log('MoreInfoComponent init props: ', props);
+    }, [props.handle, props.showInfo, props.sharedUiState.elMatchForScrolling, props.sharedUiState.endOfPageScroll, props.sharedUiState.mainNavThemeColor, props.sharedUiState.openMoreInfoPanel, props.sharedUiState.secondaryMenuVisible]);
 
     const createMoreInfoNodes = () => moreInfoNodes.map( (props, i) => <MoreInfoArticle key={i} data={props} /> );
 
-    const { handle, showInfo } = this.props;
+    const { handle, showInfo } = props;
     const showHide = (showInfo) => showInfo ? "" : "hidden";
 
     return (
       <section className={`more-info-panel ${showHide(showInfo)}`}>
         {showInfo ? createMoreInfoNodes() : null }
-        <span className="more-info-close" onClick={() => this.props.setMoreInfoPanelVisibility(false)}>x close</span>
+        <span className="more-info-close" onClick={ () => props.setMoreInfoPanelVisibility(false) }>X CLOSE</span>
       </section>
     );
-  }
 }
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });

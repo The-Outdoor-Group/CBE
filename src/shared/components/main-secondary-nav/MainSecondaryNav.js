@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { createRef, useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component';
@@ -13,68 +13,45 @@ import './assets/css/main-secondary-nav.css';
 
 const MainList = loadable( () => import('./../main-nav/MainList') );
 
-class MainSecondaryNav extends Component {
+const MainSecondaryNav = (props) => {
 
-  constructor() {
-    super();
+  const [showMainNav, setShowMainNav] = useState(false);
+  const divRef = createRef();
 
-    this.handleResize = this.handleResize.bind(this);
-    this.debouncedResize;
-    this.timeline, this.div;
+  useEffect(() => {
+    const timeline = sideMenuTimeline(divRef.current);
+    props.sharedUiState.secondaryMenuVisible ? timeline.play() : timeline.reverse();
+  }, [props.sharedUiState.secondaryMenuVisible]);
 
-    this.state = {
-      showMainNav: false
-    }
-  }
+  useEffect(() => {
+    const handleResize = () => isWindowSizeMobile() ? setShowMainNav(true) : setShowMainNav(false);
+    const debouncedResize = _debounce(handleResize, 500);
+    window.addEventListener('resize', debouncedResize);
 
-  componentDidMount() {
-    this.timeline = sideMenuTimeline( this.div );
-    this.debouncedResize = _debounce(this.handleResize, 500);
-    window.addEventListener('resize', this.debouncedResize)
-  }
+    return () => window.removeEventListener('resize', debouncedResize)
+  });
 
-  componentDidUpdate(prevProps, nextState) {
-    if (prevProps.sharedUiState.secondaryMenuVisible !== this.props.sharedUiState.secondaryMenuVisible) {
-      this.props.sharedUiState.secondaryMenuVisible ? this.timeline.play() : this.timeline.reverse();
-    }
-  }
+  const showMainNavNodes = () => showMainNav ? <MainList colorTheme={'dark'} /> : null;
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.debouncedResize);
-  }
+  const navNodes = () => (
+      <div ref={divRef} id="main-secondary-menu">
+        <nav>
+          <ul>
+            { showMainNavNodes() }
+            <li><Link to="/contact-cbe">Contact CBE</Link></li>
+            <li><Link to="/shop/apparel">Apparel</Link></li>
+            <li><Link to="/dealers">Locate Dealers</Link></li>
+            <li><Link to="/contingency">Contingency</Link></li>
+            <li><Link to="/videos">Videos</Link></li>
+            <li><Link to="/news">News</Link></li>
+          </ul>
+        </nav>
+      </div>
+  );
 
-  handleResize() {
-    isWindowSizeMobile() ? this.setState({ showMainNav: true }) : this.setState({ showMainNav: false })
-  }
+  const { secondaryMenuVisible } = props.sharedUiState;
 
-  render() {
-    const showMainNavNodes = () => {
-      const { showMainNav } = this.state;
-      return showMainNav ? <MainList colorTheme={'dark'} /> : null;
-    }
-
-    const navNodes = (isVisible) => {
-        return (
-          <div ref={(el) => this.div = el} id="main-secondary-menu">
-            <nav>
-              <ul>
-                { showMainNavNodes() }
-                <li><Link to="/contact-cbe">Contact CBE</Link></li>
-                <li><Link to="/shop/apparel">Apparel</Link></li>
-                <li><Link to="/dealers">Locate Dealers</Link></li>
-                <li><Link to="/contingency">Contingency</Link></li>
-                <li><Link to="/videos">Videos</Link></li>
-                <li><Link to="/news">News</Link></li>
-              </ul>
-            </nav>
-          </div>
-        );
-    };
-
-    const { secondaryMenuVisible } = this.props.sharedUiState;
-
-    return navNodes(secondaryMenuVisible);
-  }
+  return navNodes(secondaryMenuVisible);
 };
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });

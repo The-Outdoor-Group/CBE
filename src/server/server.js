@@ -14,7 +14,7 @@ import App from '../shared/containers';
 
 
 const app = new Express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use( '/assets/node', Express.static('dist/node') );
 app.use( '/assets/web', Express.static('dist/web') );
@@ -91,10 +91,10 @@ app.get( '*', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || port, (error) => {
+app.listen(port, (error) => {
   if (error) {
     console.error('error occurred: ', error);
   } else {
-    console.info(`SERVER HAS STARTED.`)
+    console.info(`SERVER HAS STARTED on ${port}.`)
   }
 });

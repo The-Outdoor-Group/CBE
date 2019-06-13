@@ -1,93 +1,73 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import { connect } from 'react-redux';
 import loadable from '@loadable/component';
 import _debounce from 'lodash/debounce';
 import isWindowSizeMobile from '../../../utilities/isWindowSizeMobile';
 
+import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from '../../../actions/shared-ui-actions';
 import './../assets/css/call-to-action.css';
 
 const PlusIcon = loadable( () => import('./../assets/images/PlusIcon') );
+import TestHook from '../../../containers/testHook';
 
-class CallToAction extends Component {
+const CallToAction = (props) => {
 
-  constructor() {
-    super();
+  const [hovering, setHovering] = useState(false);
+  const [toShowMoreInfo, setToShowMoreInfo] = useState(false);
+  const [showLearnMore, setShowLearnMore] = useState(false);
 
-    this.debouncedResize;
+  useEffect(() => {
+    const handleResize = () => !isWindowSizeMobile() ? setShowLearnMore(true) : setShowLearnMore(false);
+    const debouncedResize = _debounce(handleResize, 500);
 
-    this.handleMouseEnter = this.handleMouseEnter.bind(this);
-    this.handleMouseLeave =  this.handleMouseLeave.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-    this.handleResize = this.handleResize.bind(this);
+    handleResize();
+    window.addEventListener('resize', debouncedResize);
 
-    this.state = {
-      hovering: false,
-      showMoreInfo: false,
-      showLearnMore: false
-    };
+    () => window.removeEventListener('resize', debouncedResize);
+  });
 
+  const handleClick = () => {
+    console.log('props: ', props);
+    console.log('toShowMoreInfo in CallToAction component: ', toShowMoreInfo);
+
+    const { moreInfoHandle} = props;
+    console.log('moreInfoHandle: ', moreInfoHandle);
+    // this will need to be a redux prop
+
+    console.log('toShowMoreInfo in CallToAction, after set to opposite and about to pass into redux: ', !(setToShowMoreInfo(toShowMoreInfo)) );
+    props.setMoreInfoPanelVisibility( !(setToShowMoreInfo(toShowMoreInfo)) );
+    props.setIdMatchForParentContainer(moreInfoHandle);
   }
 
-  componentDidMount() {
-    this.debouncedResize = _debounce(this.handleResize, 500);
-    this.handleResize();
-    window.addEventListener('resize', this.debouncedResize);
-  }
+  const { colorTheme } = props;
+  const learnMoreNode = (
+    <li
+      onClick={ () => handleClick() }
+      onMouseEnter={ () => setHovering(true)}
+      onMouseLeave={ () => setHovering(false) }
+      className="learn-more-wrapper"
+    >
+      <PlusIcon colorTheme={colorTheme} changeDueToHover={hovering} />
+      <span>Learn More</span>
+    </li>
+  );
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.debouncedResize);
-  }
+  const showLearnMoreNode = () => showLearnMore ? learnMoreNode : null;
 
-  handleResize() {
-    !isWindowSizeMobile() ? this.setState({ showLearnMore: true }) : this.setState({ showLearnMore: false });
-  }
-
-  handleMouseEnter() {
-    this.setState({ hovering: true });
-  }
-
-  handleMouseLeave() {
-    this.setState({ hovering: false });
-  }
-
-  handleClick() {
-    this.setState({
-      showMoreInfo: !this.state.showMoreInfo
-    },
-      () => {
-        const { moreInfoHandle} = this.props;
-        const { showMoreInfo } = this.state;
-        this.props.showMoreInfo(showMoreInfo, moreInfoHandle);
-      }
-    );
-  }
-
-  render() {
-
-    const { colorTheme } = this.props;
-    let { showLearnMore } = this.state;
-
-    const learnMoreNode = (
-      <li
-        onClick={ this.handleClick }
-        onMouseEnter={this.handleMouseEnter}
-        onMouseLeave={this.handleMouseLeave}
-        className="learn-more-wrapper"
-      >
-        <PlusIcon colorTheme={colorTheme} changeDueToHover={this.state.hovering} />
-        <span>Learn More</span>
-      </li>
-    );
-
-    const showLearnMoreNode = () => showLearnMore ? learnMoreNode : null;
-
-    return (
-      <ul className="call-to-action">
-        { showLearnMoreNode() }
-        <li><button>Order Now</button></li>
-      </ul>
-    );
-  }
+  return (
+    <ul className="call-to-action">
+      { showLearnMoreNode() }
+      <li><button>Order Now</button></li>
+      <TestHook />
+    </ul>
+  )
 
 }
 
-export default CallToAction;
+// export default CallToAction;
+const mapStateToProps = ({ sharedUiState }) => {
+  const { openMoreInfoPanel } = sharedUiState;
+  return { openMoreInfoPanel };
+};
+
+export default connect(mapStateToProps, { setMoreInfoPanelVisibility, setIdMatchForParentContainer })(CallToAction);

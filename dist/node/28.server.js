@@ -1,1 +1,1 @@
-exports.ids=[28],exports.modules={123:function(e,t,r){},73:function(e,t,r){"use strict";r.r(t);var a=r(0),n=r.n(a),c=r(68);r(123);t.default=function(e){var t=e.data;return n.a.createElement("article",{className:"more-info-article"},Object(c.a)({props:t}))}}};
+exports.ids=[28],exports.modules={125:function(e,r,t){},75:function(e,r,t){"use strict";t.r(r);var o=t(0),n=t.n(o),a=t(70);t(125);r.default=function(e){console.log("props in MoreInfoArticle: ",e);var r=e.data;return n.a.createElement("article",{className:"more-info-article"},Object(a.a)({props:r}))}}};

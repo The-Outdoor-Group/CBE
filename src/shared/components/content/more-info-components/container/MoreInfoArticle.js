@@ -3,6 +3,7 @@ import assembleComponent from '../assembleComponents';
 import './assets/css/article.css';
 
 const MoreInfoArticle = (props) => {
+  console.log('props in MoreInfoArticle: ', props);
   const { data } = props;
 
   return (

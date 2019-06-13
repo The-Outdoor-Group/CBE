@@ -24,6 +24,12 @@ export const setMainNavThemeColor = (payload) => ({ type: SET_MAIN_NAV_COLOR_THE
 
 export const setEndOfPageScroll = (payload) => ({ type: SET_END_OF_PAGE_SCROLL_REQUESTED, payload });
 
-export const setMoreInfoPanelVisibility = (payload) => ({ type: SET_MORE_INFO_PANEL_VISIBILITY_REQUESTED, payload });
+export const setMoreInfoPanelVisibility = (payload) => {
+  console.log('setMoreInfoPanelVisibility payload in action: ', payload);
+  return { type: SET_MORE_INFO_PANEL_VISIBILITY_REQUESTED, payload };
+};
 
-export const setIdMatchForParentContainer = (payload) => ({ type: SET_INFO_PANEL_ID_DOM_MATCH_REQUESTED, payload });
+export const setIdMatchForParentContainer = (payload) => {
+  console.log('payload setIdMatchForParentContainer in action: ', payload);
+  return { type: SET_INFO_PANEL_ID_DOM_MATCH_REQUESTED, payload };
+}

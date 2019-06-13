@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import loadable from '@loadable/component'
@@ -13,37 +13,35 @@ import favIconSafari from './assets/images/safari-pinned-tab.svg';
 
 import './assets/css/global.css';
 
-
-const registerSW = () => {
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker
-        .register('assets/web/service-worker.js')
-        .then(registration => {
-          console.log('SW registered: ', registration);
-        })
-        .catch(registrationError => {
-          console.log('SW registration failed: ', registrationError);
-        });
-    });
-  }
-};
-
 const MainNav = loadable( () => import('./../components/main-nav/MainNav') );
 const MainSecondaryNav = loadable( () => import('../components/main-secondary-nav/MainSecondaryNav') );
 const MoreContentArrow = loadable( () => import('../components/content/assets/images/MoreContentArrow') );
 
-class App extends Component {
+const App = () => {
 
-  componentDidMount() {
-    if (process.env.IS_BROWSER) registerSW();
-  }
+  useEffect(() => {
+    if (process.env.IS_BROWSER) {
+      const registerSW = () => {
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker
+              .register('assets/web/service-worker.js')
+              .then(registration => {
+                console.log('SW registered: ', registration);
+              })
+              .catch(registrationError => {
+                console.log('SW registration failed: ', registrationError);
+              });
+          });
+        }
+      };
 
-  render() {
+      registerSW();
+    }
+  });
 
     return (
-      <Fragment>
-
+      <>
         <Helmet>
           <title>Custom Bow Equipment</title>
           <link rel="stylesheet" type="text/css" href="assets/web/main.css" />
@@ -80,9 +78,8 @@ class App extends Component {
         </main>
         <MainSecondaryNav />
         <MoreContentArrow />
-      </Fragment>
+      </>
     );
-  }
 };
 
 export default App

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import loadable from '@loadable/component';
 
 const ShopHero = loadable( () => import('./../components/content/store-components/ShopHero') );
@@ -138,17 +138,9 @@ const heroNodes = [
   }
 ];
 
-class Shop extends Component {
-  render() {
-
+const Shop = () => {
     const createHeroNodes = () => heroNodes.map( (props, i) => <ShopHero key={i} data={props} /> );
-
-    return (
-      <Fragment>
-        { createHeroNodes() }
-      </Fragment>
-    );
-  }
+    return createHeroNodes();
 }
 
 export default Shop;

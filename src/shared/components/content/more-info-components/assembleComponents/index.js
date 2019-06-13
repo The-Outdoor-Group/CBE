@@ -5,6 +5,7 @@ import createMoreInfoHorizontalImageSliderComponent from './createMoreInfoHorizo
 import createMoreInfoHorizontalAlternateMediaArticleComponent from './createMoreInfoHorizontalAlternateMediaArticleComponent';
 
 const assembleComponent = (data) => {
+  console.log('ASSEMBLE COMPONENTS FOR MORE INFO INIT data: ', data);
   const { props } = data;
   const { type, content } = props;
 
@@ -27,8 +28,3 @@ const assembleComponent = (data) => {
 }
 
 export default assembleComponent;
-
-// import('./createMoreInfoHorizontalTopArticleThirdsBottomMediaComponent')
-//   .then( module => module.createComponent(content) )
-//   .then( result => result );
-// break;
