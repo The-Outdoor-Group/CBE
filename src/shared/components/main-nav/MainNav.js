@@ -82,7 +82,7 @@ const MainNav = (props) => {
     handleResize(); // to set initial state
     window.addEventListener('resize', debouncedResize);
 
-    () => window.removeEventListener('resize', debouncedResize);
+    return () => window.removeEventListener('resize', debouncedResize);
   });
 
   useEffect(() => {

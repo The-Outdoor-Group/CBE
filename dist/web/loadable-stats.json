@@ -2,133 +2,133 @@
   "errors": [],
   "warnings": [],
   "version": "4.29.6",
-  "hash": "8c2c75dac66500c7425b",
+  "hash": "7d0923e58aeb09fab31c",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
-    "vendor": "0.8c2c75dac66500c7425b.js",
+    "vendor": "0.7d0923e58aeb09fab31c.js",
     "Image": [
       "Image.css",
-      "1.8c2c75dac66500c7425b.js",
+      "1.7d0923e58aeb09fab31c.js",
       "Image.css.map"
     ],
-    "MainList": "2.8c2c75dac66500c7425b.js",
+    "MainList": "2.7d0923e58aeb09fab31c.js",
     "Stats": [
       "Stats.css",
-      "3.8c2c75dac66500c7425b.js",
+      "3.7d0923e58aeb09fab31c.js",
       "Stats.css.map"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "4.8c2c75dac66500c7425b.js",
+      "4.7d0923e58aeb09fab31c.js",
       "CallToAction.css.map"
     ],
-    "InfoPanelOpenList": "5.8c2c75dac66500c7425b.js",
+    "InfoPanelOpenList": "5.7d0923e58aeb09fab31c.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
-      "6.8c2c75dac66500c7425b.js",
+      "6.7d0923e58aeb09fab31c.js",
       "MoreInfoComponent.css.map"
     ],
     "assets-images-NavigationArrow": [
       "assets-images-NavigationArrow.css",
-      "7.8c2c75dac66500c7425b.js",
+      "7.7d0923e58aeb09fab31c.js",
       "assets-images-NavigationArrow.css.map"
     ],
     "assets-images-PlusIcon": [
       "assets-images-PlusIcon.css",
-      "8.8c2c75dac66500c7425b.js",
+      "8.7d0923e58aeb09fab31c.js",
       "assets-images-PlusIcon.css.map"
     ],
     "assets-images-logo": [
       "assets-images-logo.css",
-      "9.8c2c75dac66500c7425b.js",
+      "9.7d0923e58aeb09fab31c.js",
       "assets-images-logo.css.map"
     ],
     "assets-images-secondary-menu-icon": [
       "assets-images-secondary-menu-icon.css",
-      "10.8c2c75dac66500c7425b.js",
+      "10.7d0923e58aeb09fab31c.js",
       "assets-images-secondary-menu-icon.css.map"
     ],
-    "child-components-ProductImage": "11.8c2c75dac66500c7425b.js",
-    "child-components-VariantSelector": "12.8c2c75dac66500c7425b.js",
+    "child-components-ProductImage": "11.7d0923e58aeb09fab31c.js",
+    "child-components-VariantSelector": "12.7d0923e58aeb09fab31c.js",
     "components-content-Hero": [
       "components-content-Hero.css",
-      "13.8c2c75dac66500c7425b.js",
+      "13.7d0923e58aeb09fab31c.js",
       "components-content-Hero.css.map"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "14.8c2c75dac66500c7425b.js",
+      "14.7d0923e58aeb09fab31c.js",
       "components-content-assets-images-MoreContentArrow.css.map"
     ],
     "components-content-store-components-ShopHero": [
       "components-content-store-components-ShopHero.css",
-      "15.8c2c75dac66500c7425b.js",
+      "15.7d0923e58aeb09fab31c.js",
       "components-content-store-components-ShopHero.css.map"
     ],
     "components-content-store-components-product-display-for-purchase-ProductDisplay": [
       "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "16.8c2c75dac66500c7425b.js",
+      "16.7d0923e58aeb09fab31c.js",
       "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "17.8c2c75dac66500c7425b.js",
+      "17.7d0923e58aeb09fab31c.js",
       "components-main-nav-MainNav.css.map"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "18.8c2c75dac66500c7425b.js",
+      "18.7d0923e58aeb09fab31c.js",
       "components-main-secondary-nav-MainSecondaryNav.css.map"
     ],
     "container-HorizontalImageSlider": [
       "container-HorizontalImageSlider.css",
-      "19.8c2c75dac66500c7425b.js",
+      "19.7d0923e58aeb09fab31c.js",
       "container-HorizontalImageSlider.css.map"
     ],
-    "containers-Home": "20.8c2c75dac66500c7425b.js",
-    "containers-Shop": "21.8c2c75dac66500c7425b.js",
-    "hero-components-List": "22.8c2c75dac66500c7425b.js",
-    "hero-components-ListButton": "23.8c2c75dac66500c7425b.js",
+    "containers-Home": "20.7d0923e58aeb09fab31c.js",
+    "containers-Shop": "21.7d0923e58aeb09fab31c.js",
+    "hero-components-List": "22.7d0923e58aeb09fab31c.js",
+    "hero-components-ListButton": "23.7d0923e58aeb09fab31c.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "24.8c2c75dac66500c7425b.js",
+      "24.7d0923e58aeb09fab31c.js",
       "hero-components-TextArticle.css.map"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "25.8c2c75dac66500c7425b.js",
+      "25.7d0923e58aeb09fab31c.js",
       "hero-components-TitleHeader.css.map"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "26.8c2c75dac66500c7425b.js",
+      "26.7d0923e58aeb09fab31c.js",
       "hero-components-VideoComponent.css.map"
     ],
     "image-tiles-ImageTile": [
       "image-tiles-ImageTile.css",
-      "27.8c2c75dac66500c7425b.js",
+      "27.7d0923e58aeb09fab31c.js",
       "image-tiles-ImageTile.css.map"
     ],
     "main": [
       "main.css",
-      "main.8c2c75dac66500c7425b.js",
+      "main.7d0923e58aeb09fab31c.js",
       "main.css.map"
     ],
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "29.8c2c75dac66500c7425b.js",
+      "29.7d0923e58aeb09fab31c.js",
       "more-info-components-container-MoreInfoArticle.css.map"
     ],
     "text-Header": [
       "text-Header.css",
-      "30.8c2c75dac66500c7425b.js",
+      "30.7d0923e58aeb09fab31c.js",
       "text-Header.css.map"
     ]
   },
   "assets": [
     {
-      "name": "0.8c2c75dac66500c7425b.js",
+      "name": "0.7d0923e58aeb09fab31c.js",
       "size": 406234,
       "chunks": [
         0
@@ -139,7 +139,7 @@
       "emitted": false
     },
     {
-      "name": "1.8c2c75dac66500c7425b.js",
+      "name": "1.7d0923e58aeb09fab31c.js",
       "size": 301,
       "chunks": [
         1
@@ -150,8 +150,8 @@
       "emitted": false
     },
     {
-      "name": "10.8c2c75dac66500c7425b.js",
-      "size": 1761,
+      "name": "10.7d0923e58aeb09fab31c.js",
+      "size": 1244,
       "chunks": [
         10
       ],
@@ -161,7 +161,7 @@
       "emitted": false
     },
     {
-      "name": "11.8c2c75dac66500c7425b.js",
+      "name": "11.7d0923e58aeb09fab31c.js",
       "size": 1370,
       "chunks": [
         11
@@ -172,7 +172,7 @@
       "emitted": false
     },
     {
-      "name": "12.8c2c75dac66500c7425b.js",
+      "name": "12.7d0923e58aeb09fab31c.js",
       "size": 635,
       "chunks": [
         12
@@ -183,7 +183,7 @@
       "emitted": false
     },
     {
-      "name": "13.8c2c75dac66500c7425b.js",
+      "name": "13.7d0923e58aeb09fab31c.js",
       "size": 7949,
       "chunks": [
         13
@@ -194,8 +194,8 @@
       "emitted": false
     },
     {
-      "name": "14.8c2c75dac66500c7425b.js",
-      "size": 2654,
+      "name": "14.7d0923e58aeb09fab31c.js",
+      "size": 2780,
       "chunks": [
         14
       ],
@@ -205,7 +205,7 @@
       "emitted": false
     },
     {
-      "name": "15.8c2c75dac66500c7425b.js",
+      "name": "15.7d0923e58aeb09fab31c.js",
       "size": 4302,
       "chunks": [
         15
@@ -216,7 +216,7 @@
       "emitted": false
     },
     {
-      "name": "16.8c2c75dac66500c7425b.js",
+      "name": "16.7d0923e58aeb09fab31c.js",
       "size": 9630,
       "chunks": [
         16
@@ -227,8 +227,8 @@
       "emitted": false
     },
     {
-      "name": "17.8c2c75dac66500c7425b.js",
-      "size": 5389,
+      "name": "17.7d0923e58aeb09fab31c.js",
+      "size": 5558,
       "chunks": [
         17
       ],
@@ -238,8 +238,8 @@
       "emitted": false
     },
     {
-      "name": "18.8c2c75dac66500c7425b.js",
-      "size": 3273,
+      "name": "18.7d0923e58aeb09fab31c.js",
+      "size": 3399,
       "chunks": [
         18
       ],
@@ -249,7 +249,7 @@
       "emitted": false
     },
     {
-      "name": "19.8c2c75dac66500c7425b.js",
+      "name": "19.7d0923e58aeb09fab31c.js",
       "size": 2310,
       "chunks": [
         19
@@ -260,7 +260,7 @@
       "emitted": false
     },
     {
-      "name": "2.8c2c75dac66500c7425b.js",
+      "name": "2.7d0923e58aeb09fab31c.js",
       "size": 978,
       "chunks": [
         2
@@ -271,7 +271,7 @@
       "emitted": false
     },
     {
-      "name": "20.8c2c75dac66500c7425b.js",
+      "name": "20.7d0923e58aeb09fab31c.js",
       "size": 4939,
       "chunks": [
         20
@@ -282,7 +282,7 @@
       "emitted": false
     },
     {
-      "name": "21.8c2c75dac66500c7425b.js",
+      "name": "21.7d0923e58aeb09fab31c.js",
       "size": 2196,
       "chunks": [
         21
@@ -293,7 +293,7 @@
       "emitted": false
     },
     {
-      "name": "22.8c2c75dac66500c7425b.js",
+      "name": "22.7d0923e58aeb09fab31c.js",
       "size": 381,
       "chunks": [
         22
@@ -304,7 +304,7 @@
       "emitted": false
     },
     {
-      "name": "23.8c2c75dac66500c7425b.js",
+      "name": "23.7d0923e58aeb09fab31c.js",
       "size": 228,
       "chunks": [
         23
@@ -315,7 +315,7 @@
       "emitted": false
     },
     {
-      "name": "24.8c2c75dac66500c7425b.js",
+      "name": "24.7d0923e58aeb09fab31c.js",
       "size": 1353,
       "chunks": [
         24
@@ -326,7 +326,7 @@
       "emitted": false
     },
     {
-      "name": "25.8c2c75dac66500c7425b.js",
+      "name": "25.7d0923e58aeb09fab31c.js",
       "size": 459,
       "chunks": [
         25
@@ -337,7 +337,7 @@
       "emitted": false
     },
     {
-      "name": "26.8c2c75dac66500c7425b.js",
+      "name": "26.7d0923e58aeb09fab31c.js",
       "size": 1010,
       "chunks": [
         26
@@ -348,7 +348,7 @@
       "emitted": false
     },
     {
-      "name": "27.8c2c75dac66500c7425b.js",
+      "name": "27.7d0923e58aeb09fab31c.js",
       "size": 709,
       "chunks": [
         27
@@ -359,7 +359,7 @@
       "emitted": false
     },
     {
-      "name": "29.8c2c75dac66500c7425b.js",
+      "name": "29.7d0923e58aeb09fab31c.js",
       "size": 315,
       "chunks": [
         29
@@ -384,7 +384,7 @@
       "emitted": false
     },
     {
-      "name": "3.8c2c75dac66500c7425b.js",
+      "name": "3.7d0923e58aeb09fab31c.js",
       "size": 566,
       "chunks": [
         3
@@ -395,7 +395,7 @@
       "emitted": false
     },
     {
-      "name": "30.8c2c75dac66500c7425b.js",
+      "name": "30.7d0923e58aeb09fab31c.js",
       "size": 372,
       "chunks": [
         30
@@ -406,8 +406,8 @@
       "emitted": false
     },
     {
-      "name": "4.8c2c75dac66500c7425b.js",
-      "size": 2191,
+      "name": "4.7d0923e58aeb09fab31c.js",
+      "size": 2058,
       "chunks": [
         4
       ],
@@ -424,7 +424,7 @@
       "emitted": false
     },
     {
-      "name": "5.8c2c75dac66500c7425b.js",
+      "name": "5.7d0923e58aeb09fab31c.js",
       "size": 507,
       "chunks": [
         5
@@ -435,7 +435,7 @@
       "emitted": false
     },
     {
-      "name": "6.8c2c75dac66500c7425b.js",
+      "name": "6.7d0923e58aeb09fab31c.js",
       "size": 8248,
       "chunks": [
         6
@@ -446,7 +446,7 @@
       "emitted": false
     },
     {
-      "name": "7.8c2c75dac66500c7425b.js",
+      "name": "7.7d0923e58aeb09fab31c.js",
       "size": 407,
       "chunks": [
         7
@@ -464,8 +464,8 @@
       "emitted": false
     },
     {
-      "name": "8.8c2c75dac66500c7425b.js",
-      "size": 2860,
+      "name": "8.7d0923e58aeb09fab31c.js",
+      "size": 2986,
       "chunks": [
         8
       ],
@@ -475,7 +475,7 @@
       "emitted": false
     },
     {
-      "name": "9.8c2c75dac66500c7425b.js",
+      "name": "9.7d0923e58aeb09fab31c.js",
       "size": 3244,
       "chunks": [
         9
@@ -648,7 +648,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css",
-      "size": 416,
+      "size": 451,
       "chunks": [
         10
       ],
@@ -659,7 +659,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css.map",
-      "size": 767,
+      "size": 818,
       "chunks": [
         10
       ],
@@ -918,7 +918,7 @@
       "emitted": false
     },
     {
-      "name": "main.8c2c75dac66500c7425b.js",
+      "name": "main.7d0923e58aeb09fab31c.js",
       "size": 16188,
       "chunks": [
         28
@@ -1003,9 +1003,9 @@
         28
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "main.css",
-        "main.8c2c75dac66500c7425b.js",
+        "main.7d0923e58aeb09fab31c.js",
         "main.css.map"
       ],
       "children": {},
@@ -1019,9 +1019,9 @@
         28
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "main.css",
-        "main.8c2c75dac66500c7425b.js",
+        "main.7d0923e58aeb09fab31c.js",
         "main.css.map"
       ],
       "children": {},
@@ -1033,9 +1033,9 @@
         17
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "components-main-nav-MainNav.css",
-        "17.8c2c75dac66500c7425b.js",
+        "17.7d0923e58aeb09fab31c.js",
         "components-main-nav-MainNav.css.map"
       ],
       "children": {},
@@ -1047,9 +1047,9 @@
         18
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "18.8c2c75dac66500c7425b.js",
+        "18.7d0923e58aeb09fab31c.js",
         "components-main-secondary-nav-MainSecondaryNav.css.map"
       ],
       "children": {},
@@ -1061,9 +1061,9 @@
         14
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "components-content-assets-images-MoreContentArrow.css",
-        "14.8c2c75dac66500c7425b.js",
+        "14.7d0923e58aeb09fab31c.js",
         "components-content-assets-images-MoreContentArrow.css.map"
       ],
       "children": {},
@@ -1075,8 +1075,8 @@
         20
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
-        "20.8c2c75dac66500c7425b.js"
+        "0.7d0923e58aeb09fab31c.js",
+        "20.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1086,7 +1086,7 @@
         21
       ],
       "assets": [
-        "21.8c2c75dac66500c7425b.js"
+        "21.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1097,9 +1097,9 @@
         16
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-        "16.8c2c75dac66500c7425b.js",
+        "16.7d0923e58aeb09fab31c.js",
         "components-content-store-components-product-display-for-purchase-ProductDisplay.css.map"
       ],
       "children": {},
@@ -1111,9 +1111,9 @@
         9
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "assets-images-logo.css",
-        "9.8c2c75dac66500c7425b.js",
+        "9.7d0923e58aeb09fab31c.js",
         "assets-images-logo.css.map"
       ],
       "children": {},
@@ -1121,13 +1121,11 @@
     },
     "assets-images-secondary-menu-icon": {
       "chunks": [
-        0,
         10
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
         "assets-images-secondary-menu-icon.css",
-        "10.8c2c75dac66500c7425b.js",
+        "10.7d0923e58aeb09fab31c.js",
         "assets-images-secondary-menu-icon.css.map"
       ],
       "children": {},
@@ -1138,7 +1136,7 @@
         2
       ],
       "assets": [
-        "2.8c2c75dac66500c7425b.js"
+        "2.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1148,7 +1146,7 @@
         5
       ],
       "assets": [
-        "5.8c2c75dac66500c7425b.js"
+        "5.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1158,7 +1156,7 @@
         2
       ],
       "assets": [
-        "2.8c2c75dac66500c7425b.js"
+        "2.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1169,9 +1167,9 @@
         13
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "components-content-Hero.css",
-        "13.8c2c75dac66500c7425b.js",
+        "13.7d0923e58aeb09fab31c.js",
         "components-content-Hero.css.map"
       ],
       "children": {},
@@ -1183,7 +1181,7 @@
       ],
       "assets": [
         "components-content-store-components-ShopHero.css",
-        "15.8c2c75dac66500c7425b.js",
+        "15.7d0923e58aeb09fab31c.js",
         "components-content-store-components-ShopHero.css.map"
       ],
       "children": {},
@@ -1194,7 +1192,7 @@
         12
       ],
       "assets": [
-        "12.8c2c75dac66500c7425b.js"
+        "12.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1204,7 +1202,7 @@
         11
       ],
       "assets": [
-        "11.8c2c75dac66500c7425b.js"
+        "11.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1215,7 +1213,7 @@
       ],
       "assets": [
         "MoreInfoComponent.css",
-        "6.8c2c75dac66500c7425b.js",
+        "6.7d0923e58aeb09fab31c.js",
         "MoreInfoComponent.css.map"
       ],
       "children": {},
@@ -1227,7 +1225,7 @@
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "25.8c2c75dac66500c7425b.js",
+        "25.7d0923e58aeb09fab31c.js",
         "hero-components-TitleHeader.css.map"
       ],
       "children": {},
@@ -1239,7 +1237,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.8c2c75dac66500c7425b.js",
+        "3.7d0923e58aeb09fab31c.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1251,7 +1249,7 @@
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "24.8c2c75dac66500c7425b.js",
+        "24.7d0923e58aeb09fab31c.js",
         "hero-components-TextArticle.css.map"
       ],
       "children": {},
@@ -1263,7 +1261,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.8c2c75dac66500c7425b.js",
+        "1.7d0923e58aeb09fab31c.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1275,7 +1273,7 @@
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "26.8c2c75dac66500c7425b.js",
+        "26.7d0923e58aeb09fab31c.js",
         "hero-components-VideoComponent.css.map"
       ],
       "children": {},
@@ -1286,7 +1284,7 @@
         23
       ],
       "assets": [
-        "23.8c2c75dac66500c7425b.js"
+        "23.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1296,7 +1294,7 @@
         22
       ],
       "assets": [
-        "22.8c2c75dac66500c7425b.js"
+        "22.7d0923e58aeb09fab31c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1307,7 +1305,7 @@
       ],
       "assets": [
         "image-tiles-ImageTile.css",
-        "27.8c2c75dac66500c7425b.js",
+        "27.7d0923e58aeb09fab31c.js",
         "image-tiles-ImageTile.css.map"
       ],
       "children": {},
@@ -1319,7 +1317,7 @@
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "29.8c2c75dac66500c7425b.js",
+        "29.7d0923e58aeb09fab31c.js",
         "more-info-components-container-MoreInfoArticle.css.map"
       ],
       "children": {},
@@ -1331,7 +1329,7 @@
       ],
       "assets": [
         "text-Header.css",
-        "30.8c2c75dac66500c7425b.js",
+        "30.7d0923e58aeb09fab31c.js",
         "text-Header.css.map"
       ],
       "children": {},
@@ -1343,9 +1341,9 @@
         19
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "container-HorizontalImageSlider.css",
-        "19.8c2c75dac66500c7425b.js",
+        "19.7d0923e58aeb09fab31c.js",
         "container-HorizontalImageSlider.css.map"
       ],
       "children": {},
@@ -1357,7 +1355,7 @@
       ],
       "assets": [
         "Image.css",
-        "1.8c2c75dac66500c7425b.js",
+        "1.7d0923e58aeb09fab31c.js",
         "Image.css.map"
       ],
       "children": {},
@@ -1369,7 +1367,7 @@
       ],
       "assets": [
         "CallToAction.css",
-        "4.8c2c75dac66500c7425b.js",
+        "4.7d0923e58aeb09fab31c.js",
         "CallToAction.css.map"
       ],
       "children": {},
@@ -1381,7 +1379,7 @@
       ],
       "assets": [
         "Stats.css",
-        "3.8c2c75dac66500c7425b.js",
+        "3.7d0923e58aeb09fab31c.js",
         "Stats.css.map"
       ],
       "children": {},
@@ -1393,7 +1391,7 @@
       ],
       "assets": [
         "assets-images-NavigationArrow.css",
-        "7.8c2c75dac66500c7425b.js",
+        "7.7d0923e58aeb09fab31c.js",
         "assets-images-NavigationArrow.css.map"
       ],
       "children": {},
@@ -1405,9 +1403,9 @@
         8
       ],
       "assets": [
-        "0.8c2c75dac66500c7425b.js",
+        "0.7d0923e58aeb09fab31c.js",
         "assets-images-PlusIcon.css",
-        "8.8c2c75dac66500c7425b.js",
+        "8.7d0923e58aeb09fab31c.js",
         "assets-images-PlusIcon.css.map"
       ],
       "children": {},

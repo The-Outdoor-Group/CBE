@@ -191,7 +191,7 @@ const MoreInfoComponent = (props) => {
 
     const closePanel = () => {
       props.setIdMatchForParentContainer(null);
-      props.setMoreInfoPanelVisibility(false)
+      props.setMoreInfoPanelVisibility(false);
     }
     return (
       <section className={`more-info-panel ${showHide(showInfo)}`}>

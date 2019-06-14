@@ -23,18 +23,15 @@ const CallToAction = (props) => {
     handleResize();
     window.addEventListener('resize', debouncedResize);
 
-    () => window.removeEventListener('resize', debouncedResize);
+    return () => window.removeEventListener('resize', debouncedResize);
   });
 
   const handleClick = () => {
-    console.log('props: ', props);
-    console.log('toShowMoreInfo in CallToAction component: ', toShowMoreInfo);
 
     const { moreInfoHandle} = props;
     console.log('moreInfoHandle: ', moreInfoHandle);
     // this will need to be a redux prop
 
-    console.log('toShowMoreInfo in CallToAction, after set to opposite and about to pass into redux: ', !(setToShowMoreInfo(toShowMoreInfo)) );
     props.setMoreInfoPanelVisibility( !(setToShowMoreInfo(toShowMoreInfo)) );
     props.setIdMatchForParentContainer(moreInfoHandle);
   }

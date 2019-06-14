@@ -6,41 +6,70 @@ if (process.env.IS_BROWSER) {
   require('gsap/ScrollToPlugin');
 }
 
-export const hamburgerIconTimeline = ( topLine, middleLine, bottomLine ) => {
+export const hamburgerIconTimelineFwd = ( topLine, middleLine, bottomLine ) => {
   let tl = new TimelineMax({ paused: true });
 
   return tl
-    .fromTo(
+    .to(
       topLine,
       0.5,
-      {  x: 0, y: 0 },
-      {  x: 0, y: 7 }
+      { x: 0, y: 7 }
     )
-    .fromTo(
+    .to(
       bottomLine,
       0.5,
-      { x: 0, y: 0 },
       { x: 0, y: -7},
       "-=0.5"
     )
-    .fromTo(
+    .to(
       topLine,
       0.5,
-      { rotation: 0 },
       { rotation: 45 }
     )
-    .fromTo(
+    .to(
       bottomLine,
       0.5,
-      { rotation: 0 },
       { rotation: -45 },
       "-=0.5"
     )
-    .fromTo(
+    .to(
+      middleLine,
+      0.5,
+      { autoAlpha: 0 },
+      "-=1"
+    );
+};
+
+export const hamburgerIconTimelineRev = ( topLine, middleLine, bottomLine ) => {
+  let tl = new TimelineMax({ paused: true });
+
+  return tl
+    .to(
+      topLine,
+      0.5,
+      { rotation: 0 },
+    )
+    .to(
+      bottomLine,
+      0.5,
+      { rotation: 0 },
+      "-=0.5"
+    )
+    .to(
+      topLine,
+      0.5,
+      { x: 0, y: 0 },
+    )
+    .to(
+      bottomLine,
+      0.5,
+      { x: 0, y: 0 },
+      "-=0.5"
+    )
+    .to(
       middleLine,
       0.5,
       { autoAlpha: 1 },
-      { autoAlpha: 0 },
       "-=1"
     );
 };

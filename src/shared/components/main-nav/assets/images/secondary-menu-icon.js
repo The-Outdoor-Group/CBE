@@ -1,58 +1,47 @@
-import React, { Component } from 'react';
+import React, { createRef, useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { setSecondaryNavState } from './../../../../actions/shared-ui-actions';
-import { hamburgerIconTimeline, tweenStrokeColor } from '../../../../utilities/tweens/color-tween';
+import { hamburgerIconTimelineFwd, hamburgerIconTimelineRev, tweenStrokeColor } from '../../../../utilities/tweens/color-tween';
 
 import './../css/secondary-menu-icon.css';
 
-class SecondaryMenuIcon extends Component {
+const SecondaryMenuIcon = (props) => {
 
-  constructor() {
-    super();
+  const topLineRef = createRef();
+  const middleLineRef = createRef();
+  const bottomLineRef = createRef();
 
-    this.topLine, this.middleLine, this.bottomLine;
-    this.timeline;
+  const [showSecondaryMenu, setShowSecondaryMenu] = useState(false);
 
-    this.handleClick = this.handleClick.bind(this);
+  useEffect(() => {
+    tweenStrokeColor( props.colorTheme, [topLineRef.current, middleLineRef.current, bottomLineRef.current] );
+  }, [props.colorTheme]);
 
-    this.state = {
-      showSecondaryMenu: false
+  useEffect(() => {
+    const playAnimationFwd = () => {
+      const tlFwd = hamburgerIconTimelineFwd(topLineRef.current, middleLineRef.current, bottomLineRef.current);
+      tlFwd.play();
     };
-  }
 
-  componentDidMount() {
-    this.timeline = hamburgerIconTimeline(this.topLine, this.middleLine, this.bottomLine);
-  }
+    const playAnimationRev = () => {
+      const tlRev = hamburgerIconTimelineRev(topLineRef.current, middleLineRef.current, bottomLineRef.current);
+      tlRev.play();
+    };
 
-  componentDidUpdate(prevProps, nextState) {
-    let prevColor = prevProps.colorTheme;
-    let currentColor = this.props.colorTheme;
+    showSecondaryMenu ? playAnimationFwd() : playAnimationRev();
+    props.setSecondaryNavState(showSecondaryMenu);
 
-    if (prevColor !== currentColor) {
-      tweenStrokeColor( currentColor, [this.topLine, this.middleLine, this.bottomLine] );
-    }
-  }
+  }, [showSecondaryMenu, props.sharedUiState.secondaryMenuVisible]);
 
-  handleClick() {
-    this.setState(
-      { showSecondaryMenu: !this.state.showSecondaryMenu },
-      () => {
-        this.props.setSecondaryNavState(this.state.showSecondaryMenu);
-        this.state.showSecondaryMenu ? this.timeline.play() : this.timeline.reverse()
-      }
-    );
-  }
+  const handleClick = () => setShowSecondaryMenu(!showSecondaryMenu);
 
-  render() {
-
-    return (
-        <svg onClick={this.handleClick} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-        <line ref={(el) => this.topLine = el} className="hamburger-line" y1="5" x2="28" y2="5" />
-        <line ref={(el) => this.middleLine = el} className="hamburger-line" y1="12" x2="28" y2="12" />
-        <line ref={(el) => this.bottomLine = el} className="hamburger-line" y1="19" x2="28" y2="19" />
-      </svg>
-    );
-  }
+  return (
+      <svg onClick={() => handleClick()} id="secondary-menu-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+      <line ref={ topLineRef } className="hamburger-line" y1="5" x2="28" y2="5" />
+      <line ref={ middleLineRef } className="hamburger-line" y1="12" x2="28" y2="12" />
+      <line ref={ bottomLineRef } className="hamburger-line" y1="19" x2="28" y2="19" />
+    </svg>
+  );
 }
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
