@@ -74,7 +74,7 @@ export const tweenNavLinkColor = (currentColor, array) => {
     TweenLite.fromTo(
       array,
       1,
-      {color: '#000'}, {color: '#fff'}
+      {color: '#000'}, {color: '#FFF'}
     );
   } else {
     TweenLite.fromTo(

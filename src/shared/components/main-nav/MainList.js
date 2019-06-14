@@ -6,6 +6,7 @@ import colorStyle from './assets/utilities/font-color-style';
 
 const MainList = (props) => {
   const { colorTheme } = props;
+  console.log('colorTheme in MainList: ', colorTheme);
 
   return (
     <Fragment>

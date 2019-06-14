@@ -5,10 +5,9 @@ import { connect } from 'react-redux';
 import _debounce from 'lodash/debounce';
 import isWindowSizeMobile from '../../utilities/isWindowSizeMobile';
 
-import { setIdMatchForParentContainer } from '../../actions/shared-ui-actions';
+import { setIdMatchForParentContainer, setMoreInfoPanelVisibility } from '../../actions/shared-ui-actions';
 
 import { TimelineMax } from 'gsap';
-// require('gsap/ScrollToPlugin');
 
 import { tweenNavLinkColor } from '../../utilities/tweens/color-tween';
 
@@ -22,52 +21,56 @@ const InfoPanelOpenList = loadable( () => import('./InfoPanelOpenList') );
 const MainNav = (props) => {
 
   const [colorTheme, setColorTheme] = useState('dark');
-  const [openMoreInfoPanel, setOpenMoreInfoPanel] = useState(false);
+  const [oldElMatchForScrolling, setOldElMatchForScrolling] = useState(null);
   const [showMainNav, setShowMainNav] = useState(false);
 
-  const elArrayRef = createRef();
   const navRef = createRef();
   const ulRef = createRef();
-  const shopLinkRef = createRef();
 
   useEffect(() => {
     require('gsap/ScrollToPlugin');
 
-    const openMoreInfo = () => {
-      const containerElRef = document.getElementById(props.elMatchForScrolling);
-      if (containerElRef && containerElRef !== null) {
-      let tl = new TimelineMax();
-      tl
-        .to( window, 1, { scrollTo: { y: containerElRef.children[1] }})
-        .to( ulRef.current, 1, { y: '-100' } )
-        .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
-        .to( ulRef.current, 1, { y: '0'} )
-        .to( navRef.current, 1, { backgroundColor: '#fff' } )
-        .add( () => tl = undefined );
-      }
-    };
+    const openMoreInfo = (elMatchForScrolling) => {
 
-    const closeMoreInfo = () => {
-      const containerElRef = document.getElementById(props.elMatchForScrolling);
-      if (containerElRef && containerElRef !== null) {
+      setOldElMatchForScrolling( elMatchForScrolling );
+      console.log('openMoreInfo elMatchForScrolling after state: ', elMatchForScrolling);
+
+      const containerElRef = document.getElementById( elMatchForScrolling );
+
+      if (containerElRef !== null) {
         let tl = new TimelineMax();
         tl
-          .to( window, 1, { scrollTo: { y: containerElRef } } )
+          .to( window, 1, { scrollTo: { y: containerElRef.children[1] }})
           .to( ulRef.current, 1, { y: '-100' } )
-          .add( () => setOpenMoreInfoPanel(!openMoreInfoPanel) )
+          .add( () => props.setMoreInfoPanelVisibility(true) )
           .to( ulRef.current, 1, { y: '0'} )
-          .to( navRef.current, 1, { backgroundColor: 'none' } )
-          .add( () => props.setIdMatchForParentContainer(null) )
+          .to( navRef.current, 1, { backgroundColor: '#fff' } )
           .add( () => tl = undefined );
       }
     };
 
-    if (props.openMoreInfoPanel) {
-      openMoreInfo( props.openMoreInfoPanel );
-    } else {
-      closeMoreInfo();
-    }
-  }, [props.elMatchForScrolling, props.openMoreInfoPanel]);
+    const closeMoreInfo = () => {
+
+      console.log('oldElMatchForScrolling: ', oldElMatchForScrolling);
+      const containerElRef = document.getElementById( oldElMatchForScrolling );
+
+      if (containerElRef !== null) {
+        let tl = new TimelineMax();
+        tl
+          .to( window, 1, { scrollTo: { y: containerElRef } } )
+          .to( ulRef.current, 1, { y: '-100' } )
+          .to( ulRef.current, 1, { y: '0'} )
+          .to( navRef.current, 1, { backgroundColor: 'none' } )
+          .add( () => tl = undefined );
+          // .add( () => setOldElMatchForScrolling(null) ); // may not need to reset state
+      }
+    };
+
+    if ( props.openMoreInfoPanel === true && props.elMatchForScrolling !== null ) { openMoreInfo( props.elMatchForScrolling ) }
+     // resets back to proper state visibility for fast clicking between show and hide more info panel
+    else if ( props.openMoreInfoPanel === true && props.elMatchForScrolling === null ) { props.setMoreInfoPanelVisibility(false) }
+    else { closeMoreInfo() }
+  }, [props.elMatchForScrolling, props.openMoreInfoPanel, props.setIdMatchForParentContainer]);
 
   useEffect(() => {
     let rect = navRef.current.getBoundingClientRect();
@@ -83,19 +86,19 @@ const MainNav = (props) => {
   });
 
   useEffect(() => {
+    let elArrayRef = [];
+
     const changeNavColor = ( currentColor ) => {
-      elArrayRef = [shopLinkRef];
-       if (showMainNav) Array.from(ulRef.children).forEach( el => elArrayRef.push( el.children[0] ) );
-
-      tweenNavLinkColor(currentColor, elArrayRef.current);
-      setColorTheme(currentColor);
-
-      changeNavColor( currentColor );
+      if (showMainNav) Array.from( navRef.current.children ).forEach( el => elArrayRef.push( el.children[0] ) );
+      if (elArrayRef.length > 0) tweenNavLinkColor( currentColor, elArrayRef );
     }
+
+    changeNavColor( props.mainNavThemeColor );
+
   }, [props.mainNavThemeColor]);
 
 
-  const showNavListNode = () => (openMoreInfoPanel && showMainNav) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={colorTheme} />;
+  const showNavListNode = () => (props.openMoreInfoPanel && (props.elMatchForScrolling !== null) ) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={props.mainNavThemeColor} />;
   const showMainNavNodes = () => showMainNav ? showNavListContainer() : null;
   const showNavListContainer = () => (
     <nav>
@@ -108,11 +111,11 @@ const MainNav = (props) => {
   return (
     <>
       <div ref={navRef} id="main-nav-container">
-        <Link id="home-link" to="/"><Logo colorTheme={colorTheme} /></Link>
+        <Link id="home-link" to="/"><Logo colorTheme={props.mainNavThemeColor} /></Link>
           { showMainNavNodes() }
-        <Link id="shop" to="/cart"><span ref={shopLinkRef}>Cart</span></Link>
+        <Link id="shop" to="/cart"><span>Cart</span></Link>
       </div>
-      <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={colorTheme} /></div>
+      <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={props.mainNavThemeColor} /></div>
     </>
   );
 }
@@ -122,4 +125,4 @@ const mapStateToProps = ({ sharedUiState }) => {
   return { mainNavThemeColor, openMoreInfoPanel, elMatchForScrolling };
 };
 
-export default connect(mapStateToProps, { setIdMatchForParentContainer})(MainNav);
+export default connect(mapStateToProps, { setIdMatchForParentContainer, setMoreInfoPanelVisibility })(MainNav);

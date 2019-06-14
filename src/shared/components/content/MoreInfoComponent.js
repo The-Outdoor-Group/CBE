@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import loadable from '@loadable/component';
-import { setMoreInfoPanelVisibility } from './../../actions/shared-ui-actions';
+import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from './../../actions/shared-ui-actions';
 import assembleComponent from './more-info-components/assembleComponents';
 
 const MoreInfoArticle = loadable( () => import('./more-info-components/container/MoreInfoArticle') );
@@ -180,22 +180,26 @@ import './assets/css/moreInfoPanel/more-info-component.css';
 
 const MoreInfoComponent = (props) => {
 
-    useEffect(() => {
-      console.log('MoreInfoComponent init props: ', props);
-    }, [props.handle, props.showInfo, props.sharedUiState.elMatchForScrolling, props.sharedUiState.endOfPageScroll, props.sharedUiState.mainNavThemeColor, props.sharedUiState.openMoreInfoPanel, props.sharedUiState.secondaryMenuVisible]);
+    // useEffect(() => {
+    //   console.log('MoreInfoComponent init props: ', props);
+    // }, [props.handle, props.showInfo, props.sharedUiState.elMatchForScrolling, props.sharedUiState.endOfPageScroll, props.sharedUiState.mainNavThemeColor, props.sharedUiState.openMoreInfoPanel, props.sharedUiState.secondaryMenuVisible]);
 
     const createMoreInfoNodes = () => moreInfoNodes.map( (props, i) => <MoreInfoArticle key={i} data={props} /> );
 
     const { handle, showInfo } = props;
     const showHide = (showInfo) => showInfo ? "" : "hidden";
 
+    const closePanel = () => {
+      props.setIdMatchForParentContainer(null);
+      props.setMoreInfoPanelVisibility(false)
+    }
     return (
       <section className={`more-info-panel ${showHide(showInfo)}`}>
         {showInfo ? createMoreInfoNodes() : null }
-        <span className="more-info-close" onClick={ () => props.setMoreInfoPanelVisibility(false) }>X CLOSE</span>
+        <span className="more-info-close" onClick={ () => closePanel() }>X CLOSE</span>
       </section>
     );
 }
 
 const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
-export default connect(mapStateToProps, { setMoreInfoPanelVisibility })(MoreInfoComponent);
+export default connect(mapStateToProps, { setMoreInfoPanelVisibility, setIdMatchForParentContainer })(MoreInfoComponent);
