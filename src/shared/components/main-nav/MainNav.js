@@ -98,6 +98,10 @@ const MainNav = (props) => {
   }, [props.mainNavThemeColor]);
 
 
+  useEffect(() => {
+    console.log('navRef: ', navRef.current.clientHeight);
+  });
+
   const showNavListNode = () => (props.openMoreInfoPanel && (props.elMatchForScrolling !== null) ) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={props.mainNavThemeColor} />;
   const showMainNavNodes = () => showMainNav ? showNavListContainer() : null;
   const showNavListContainer = () => (

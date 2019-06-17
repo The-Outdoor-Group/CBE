@@ -8,7 +8,6 @@ import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from '../../
 import './../assets/css/call-to-action.css';
 
 const PlusIcon = loadable( () => import('./../assets/images/PlusIcon') );
-import TestHook from '../../../containers/testHook';
 
 const CallToAction = (props) => {
 
@@ -55,7 +54,6 @@ const CallToAction = (props) => {
     <ul className="call-to-action">
       { showLearnMoreNode() }
       <li><button>Order Now</button></li>
-      <TestHook />
     </ul>
   )
 

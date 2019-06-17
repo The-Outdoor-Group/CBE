@@ -5,7 +5,7 @@ import _debounce from 'lodash/debounce';
 
 import { connect } from 'react-redux';
 import { setMainNavThemeColor, setEndOfPageScroll } from '../actions/shared-ui-actions';
-import { locateElAtTop, isInViewPort, isAtEndOfPage } from './assets/utilities/dom-element-location-tools';
+import { locateElAtTop, isAtEndOfPage } from './assets/utilities/dom-element-location-tools';
 
 const Hero = loadable( () => import('./../components/content/Hero') );
 

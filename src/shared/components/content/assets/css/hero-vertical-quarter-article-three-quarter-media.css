@@ -3,6 +3,12 @@ article.hero-vertical-quarter-article-three-quarter-media {
   grid-template-columns: 30% 70%;
 }
 
+article.hero-vertical-quarter-article-three-quarter-media div.media-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
 @media screen and (max-width: 1200px) {
   article.hero-vertical-quarter-article-three-quarter-media {
     grid-template-columns: 50% 50%;

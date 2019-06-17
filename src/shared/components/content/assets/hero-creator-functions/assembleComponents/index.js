@@ -2,7 +2,7 @@ import React from 'react';
 import createHeroHorizontalWholeComponent from './createHeroHorizontalWholeComponent';
 import createHeroVerticalQuarterArticleThreeQuarterMediaComponent from './createHeroVerticalQuarterArticleThreeQuarterMediaComponent';
 import createHeroHorizontalThreeQuarterMediaQuarterArticleComponent from './createHeroHorizontalThreeQuarterMediaQuarterArticleComponent';
-import createHeroVerticalThreeQuarterMediaQuarterArticleComponent from './createheroVerticalThreeQuarterMediaQuarterArticleComponent';
+import createHeroVerticalThreeQuarterMediaQuarterArticleComponent from './createHeroVerticalThreeQuarterMediaQuarterArticleComponent';
 import createHeroVerticalHalfMediaHalfArticleComponent from './createHeroVerticalHalfMediaHalfArticleComponent';
 
 const assembleComponent = (data) => {

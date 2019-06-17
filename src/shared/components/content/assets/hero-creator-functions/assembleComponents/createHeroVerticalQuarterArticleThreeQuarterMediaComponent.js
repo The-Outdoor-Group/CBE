@@ -14,7 +14,7 @@ const createHeroVerticalQuarterArticleThreeQuarterMediaComponent = (props, showM
         <TextArticle showMoreInfo={showMoreInfo} copy={textArticle} colorTheme={cssClass} moreInfoHandle={moreInfoHandle} />
 
         {/* will be another component; will be image or video */}
-        <div>
+        <div className="media-wrapper">
           <Image data={ {src: "https://via.placeholder.com/975x800", alt:"placeholder", cssClass: "vertical"} } />
         </div>
       </article>
