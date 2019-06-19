@@ -1,8 +1,8 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.29.6",
-  "hash": "b75f56e7c6afefffc372",
+  "version": "4.34.0",
+  "hash": "0308cc81eaf19ea109b7",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -128,7 +128,7 @@
     },
     {
       "name": "10.server.js",
-      "size": 1279,
+      "size": 1281,
       "chunks": [
         10
       ],
@@ -150,7 +150,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 7634,
+      "size": 7673,
       "chunks": [
         12
       ],
@@ -172,7 +172,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 4085,
+      "size": 4095,
       "chunks": [
         14
       ],
@@ -183,7 +183,7 @@
     },
     {
       "name": "15.server.js",
-      "size": 9522,
+      "size": 9526,
       "chunks": [
         15
       ],
@@ -194,7 +194,7 @@
     },
     {
       "name": "16.server.js",
-      "size": 5684,
+      "size": 5692,
       "chunks": [
         16
       ],
@@ -205,7 +205,7 @@
     },
     {
       "name": "17.server.js",
-      "size": 3563,
+      "size": 3565,
       "chunks": [
         17
       ],
@@ -216,7 +216,7 @@
     },
     {
       "name": "18.server.js",
-      "size": 2199,
+      "size": 2205,
       "chunks": [
         18
       ],
@@ -227,7 +227,7 @@
     },
     {
       "name": "19.server.js",
-      "size": 6668,
+      "size": 6670,
       "chunks": [
         19
       ],
@@ -249,7 +249,7 @@
     },
     {
       "name": "20.server.js",
-      "size": 2111,
+      "size": 2113,
       "chunks": [
         20
       ],
@@ -282,7 +282,7 @@
     },
     {
       "name": "23.server.js",
-      "size": 1258,
+      "size": 1262,
       "chunks": [
         23
       ],
@@ -304,7 +304,7 @@
     },
     {
       "name": "25.server.js",
-      "size": 925,
+      "size": 927,
       "chunks": [
         25
       ],
@@ -315,7 +315,7 @@
     },
     {
       "name": "26.server.js",
-      "size": 624,
+      "size": 626,
       "chunks": [
         26
       ],
@@ -362,7 +362,7 @@
     },
     {
       "name": "3.server.js",
-      "size": 1662,
+      "size": 1664,
       "chunks": [
         3
       ],
@@ -391,7 +391,7 @@
     },
     {
       "name": "5.server.js",
-      "size": 7996,
+      "size": 8012,
       "chunks": [
         5
       ],
@@ -691,7 +691,7 @@
     },
     {
       "name": "server.js",
-      "size": 18101,
+      "size": 18113,
       "chunks": [
         27
       ],

@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[1],{356:function(a,t,_){"use strict";_.r(t);var n=_(2),s=_.n(n);_(424);t.default=function(a){var t=a.data,_=t.alt,n=t.cssClass,c=t.src;return s.a.createElement("img",{src:c,alt:_,className:n})}},424:function(a,t,_){}}]);
