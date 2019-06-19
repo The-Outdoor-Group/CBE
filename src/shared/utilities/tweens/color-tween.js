@@ -6,6 +6,20 @@ if (process.env.IS_BROWSER) {
   require('gsap/ScrollToPlugin');
 }
 
+export const scrollToTopOfSection = (el) => {
+  console.log('el in scrollToTopOfSection: ', el);
+  let tl = new TimelineMax();
+
+  return tl
+    .to(
+      window,
+      0.5,
+      { scrollTo: {
+        y: el
+      }}
+    );
+};
+
 export const hamburgerIconTimelineFwd = ( topLine, middleLine, bottomLine ) => {
   let tl = new TimelineMax({ paused: true });
 

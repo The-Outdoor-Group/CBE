@@ -14,6 +14,7 @@ const Hero = (props) => {
   const [hidden, setHidden] = useState(null);
 
   useEffect(() => {
+
     const handlePanelVisibility = () => {
       const { moreInfoHandle } = props.data;
       const { openMoreInfoPanel, elMatchForScrolling } = props;

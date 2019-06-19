@@ -23,6 +23,7 @@ const heroNodes = [
       ],
       orderButton: true
     },
+    moreInfoHandle: "engage-hybrid-info"
   },
   {
     type: "heroVerticalQuarterArticleThreeQuarterMedia",
@@ -116,7 +117,8 @@ const heroNodes = [
           ]
         }
       ]
-    }
+    },
+    moreInfoHandle: "engage-hybrid-specs"
   },
   {
     type: "heroHorizontalWhole",
@@ -131,6 +133,7 @@ const heroNodes = [
       ],
       orderButton: false
     },
+    moreInfoHandle: "engage-hybrid-footer"
   }
 ];
 
