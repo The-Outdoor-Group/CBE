@@ -14,7 +14,7 @@ import App from '../shared/containers';
 
 
 const app = new Express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;// || 3000;
 
 app.use( '/assets/node', Express.static('dist/node') );
 app.use( '/assets/web', Express.static('dist/web') );
