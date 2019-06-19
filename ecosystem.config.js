@@ -1,10 +1,9 @@
 module.exports = {
   apps : [{
     name: 'app',
-    script: './dist/node/server.js',
+    script: 'dist/node/server.js',
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
-    args: 'one two',
     instances: "max",
     autorestart: true,
     watch: false,

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./shared/components/content/more-info-components/container/assets/css/article.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"more-info-components-container-MoreInfoArticle.css","sourcesContent":[".more-info-article {\n  min-height: 100vh;\n  height: auto;\n  width: 100%;\n}\n"],"sourceRoot":""}
