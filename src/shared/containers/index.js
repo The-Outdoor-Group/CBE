@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import loadable from '@loadable/component'
@@ -17,7 +18,7 @@ const MainNav = loadable( () => import('./../components/main-nav/MainNav') );
 const MainSecondaryNav = loadable( () => import('../components/main-secondary-nav/MainSecondaryNav') );
 const MoreContentArrow = loadable( () => import('../components/content/assets/images/MoreContentArrow') );
 
-const App = () => {
+const App = (props) => {
 
   useEffect(() => {
     if (process.env.IS_BROWSER) {
@@ -69,7 +70,7 @@ const App = () => {
 
         <MainNav />
 
-        <main id="main-content">
+        <main id="main-content" className={props.secondaryMenuVisible ? 'fade' : null}>
           <Switch>
             <Route exact path='/' component={() => <Routes.HomePage />} />
             <Route path='/shop' component={() => <Routes.ShopPage /> } />
@@ -82,4 +83,9 @@ const App = () => {
     );
 };
 
-export default App
+const mapStateToProps = ({ sharedUiState }) => {
+  const { secondaryMenuVisible } = sharedUiState;
+  return { secondaryMenuVisible };
+};
+
+export default connect(mapStateToProps)(App);

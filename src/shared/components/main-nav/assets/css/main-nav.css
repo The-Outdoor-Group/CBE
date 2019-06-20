@@ -31,12 +31,14 @@
   justify-content: space-evenly;
   list-style-type: none;
   align-items: center;
-}
-#main-nav-container nav ul li {
-  text-transform: uppercase;
+  justify-content: space-between;
 }
 
-/* #main-nav-container nav ul li a {} */
+#main-nav-container nav ul li {
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: 900;
+}
 
 #main-nav-container a#shop {
   grid-column-start: 3;
@@ -52,16 +54,6 @@
   height: 100%;
   width: 100%;
 }
-
-/* #secondary-menu-icon-wrapper {
-  position: fixed;
-  height: 3rem;
-  width: 3.5rem;
-  top: 1rem;
-  right: 2rem;
-  z-index: 2;
-} */
-
 
 @media screen and (max-width: 1200px) {
   #main-nav-container { width: 96%; }

@@ -4,7 +4,7 @@ div#main-secondary-menu {
   background: #fff;
   border-left: 1px solid #ccc;
   right: -100%;
-  width: 25%;
+  width: 50%;
   top: 0;
   overflow-y: scroll;
   z-index: 1;
@@ -29,4 +29,12 @@ div#main-secondary-menu nav ul li {
   font-weight: 900;
   font-size: 125%;
   min-width: 93%;
+}
+
+@media screen and (max-width: 768px) {
+
+  div#main-secondary-menu nav ul li {
+    font-size: 100%;
+  }
+
 }
