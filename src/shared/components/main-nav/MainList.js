@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import colorStyle from './assets/utilities/font-color-style';
+import { setMainUrl } from '../../actions/shared-ui-actions';
 
 const MainList = (props) => {
   const { colorTheme, showAllLinks } = props;
@@ -18,6 +19,10 @@ const MainList = (props) => {
     }
   });
 
+  const handleClick = () => {
+
+  }
+
   return (
     <>
       {
@@ -28,8 +33,8 @@ const MainList = (props) => {
             <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Stabilizers</Link></li>
             <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Quivers</Link></li>
             <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Arrow Rest</Link></li>
-            <li className={opacityStyle()}><Link to="/product" style={colorStyle(colorTheme)}>Accessories</Link></li>
-            <li className={opacityStyle()}><Link to="/shop" style={colorStyle(colorTheme)}>Shop</Link></li>
+            <li className={opacityStyle()}><Link to="/product" onClick={() => props.setMainUrl('proudct')} style={colorStyle(colorTheme)}>Accessories</Link></li>
+            <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('shop')} style={colorStyle(colorTheme)}>Shop</Link></li>
           </>
         )
        : null
@@ -44,4 +49,4 @@ const mapStateToProps = ({ sharedUiState }) => {
   return { secondaryMenuVisible };
 };
 
-export default connect(mapStateToProps)(MainList);
+export default connect(mapStateToProps, { setMainUrl })(MainList);

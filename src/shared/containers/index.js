@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch, Redirect, Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 
 import * as Routes from './../routes/routes';
@@ -21,6 +21,7 @@ const MoreContentArrow = loadable( () => import('../components/content/assets/im
 const App = (props) => {
 
   useEffect(() => {
+    console.log('props: ', props);
     if (process.env.IS_BROWSER) {
       const registerSW = () => {
         if ('serviceWorker' in navigator) {
@@ -72,9 +73,9 @@ const App = (props) => {
 
         <main id="main-content" className={props.secondaryMenuVisible ? 'fade' : null}>
           <Switch>
-            <Route exact path='/' component={() => <Routes.HomePage />} />
-            <Route path='/shop' component={() => <Routes.ShopPage /> } />
-            <Route path='/product' component={() => <Routes.ProductPage />} />
+            <Route exact path="/" component={() => <Routes.HomePage />} />
+            <Route exact path="/shop" component={() => <Routes.ShopPage /> } />
+            <Route exact path="/product" component={() => <Routes.ProductPage />} />
           </Switch>
         </main>
         <MainSecondaryNav />

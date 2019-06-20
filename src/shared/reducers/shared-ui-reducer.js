@@ -6,6 +6,7 @@ import {
   SET_END_OF_PAGE_SCROLL_SUCCEEDED,
   SET_MORE_INFO_PANEL_VISIBILITY_SUCCEEDED,
   SET_INFO_PANEL_ID_DOM_MATCH_SUCCEEDED,
+  SET_MAIN_NAV_URL_SUCCEEDED
 } from './../actions/shared-ui-actions';
 
 const initialState = {
@@ -13,7 +14,8 @@ const initialState = {
   mainNavThemeColor: 'dark',
   endOfPageScroll: false,
   openMoreInfoPanel: false,
-  elMatchForScrolling: null
+  elMatchForScrolling: null,
+  mainUrl: null
 };
 
 const sharedUiReducer = ( state = initialState, { type, payload } ) => {
@@ -32,6 +34,9 @@ const sharedUiReducer = ( state = initialState, { type, payload } ) => {
 
     case SET_INFO_PANEL_ID_DOM_MATCH_SUCCEEDED:
       return merge( {}, state, { elMatchForScrolling: payload });
+
+      case SET_MAIN_NAV_URL_SUCCEEDED:
+        return merge( {}, state, { mainUrl: payload });
 
       break;
 

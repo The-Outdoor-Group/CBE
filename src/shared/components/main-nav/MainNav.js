@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import _debounce from 'lodash/debounce';
 import isWindowSizeMobile from '../../utilities/isWindowSizeMobile';
 
-import { setIdMatchForParentContainer, setMoreInfoPanelVisibility } from '../../actions/shared-ui-actions';
+import { setIdMatchForParentContainer, setMoreInfoPanelVisibility, setMainUrl } from '../../actions/shared-ui-actions';
 
 import { TimelineMax } from 'gsap';
 
@@ -33,7 +33,6 @@ const MainNav = (props) => {
     const openMoreInfo = (elMatchForScrolling) => {
 
       setOldElMatchForScrolling( elMatchForScrolling );
-      console.log('openMoreInfo elMatchForScrolling after state: ', elMatchForScrolling);
 
       const containerElRef = document.getElementById( elMatchForScrolling );
 
@@ -110,7 +109,7 @@ const MainNav = (props) => {
   return (
     <>
       <div ref={navRef} id="main-nav-container">
-        <Link id="home-link" to="/"><Logo colorTheme={props.mainNavThemeColor} /></Link>
+        <Link id="home-link" to='/' onClick={() => props.setMainUrl('/') }><Logo colorTheme={props.mainNavThemeColor} /></Link>
           { showNavListContainer() }
         <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={props.mainNavThemeColor} /></div>
       </div>
@@ -123,4 +122,4 @@ const mapStateToProps = ({ sharedUiState }) => {
   return { mainNavThemeColor, openMoreInfoPanel, elMatchForScrolling };
 };
 
-export default connect(mapStateToProps, { setIdMatchForParentContainer, setMoreInfoPanelVisibility })(MainNav);
+export default connect(mapStateToProps, { setIdMatchForParentContainer, setMoreInfoPanelVisibility, setMainUrl })(MainNav);
