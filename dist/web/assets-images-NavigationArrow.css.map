@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./shared/components/content/more-info-components/container/assets/css/navigation-arrow.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"assets-images-NavigationArrow.css","sourcesContent":[".arrow-line {\n  fill:none;\n  stroke:#000;\n  stroke-miterlimit:10;\n  stroke-width:4px;\n}\n"],"sourceRoot":""}

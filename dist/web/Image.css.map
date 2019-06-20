@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./shared/components/content/assets/css/image.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA","file":"Image.css","sourcesContent":["img.vertical {\n  object-fit: cover;\n  min-height: 100vh;\n  width: 100%;\n}\n\nimg.horizontal {\n  object-fit: cover;\n  min-width: 100%;\n  height: 40%;\n}\n"],"sourceRoot":""}

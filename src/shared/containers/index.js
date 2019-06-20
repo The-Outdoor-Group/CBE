@@ -45,7 +45,7 @@ const App = (props) => {
       <>
         <Helmet>
           <title>Custom Bow Equipment</title>
-          <link rel="stylesheet" type="text/css" href="assets/web/main.css" />
+          <link rel="stylesheet" type="text/css" href="assets/web/styles.css" />
           <link rel="shortcut icon" href={favIcon} />
           <link rel="apple-touch-icon" sizes="180x180" href={favIconApple} />
           <link rel="icon" type="image/png" sizes="32x32" href={favIcon32} />

@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
@@ -23,7 +24,9 @@ const plugins = [
   new webpack.DefinePlugin({
     'process.env.NODE_ENV': '"production"'
   }),
-  new MiniCssExtractPlugin(),
+  new MiniCssExtractPlugin({
+    filename: '[name].css'
+  }),
   new WorkboxPlugin.InjectManifest({
     swSrc: path.resolve(__dirname, 'src/shared/service-workers/sw.js'),
     swDest: `${distPath}/web/service-worker.js`,
@@ -65,12 +68,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-          },
-          'css-loader'
-        ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|gif|ico)$/,
@@ -91,6 +89,12 @@ module.exports = {
       automaticNameDelimiter: '~',
       name: false,
       cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.css$/,
+          chunks: 'all',
+          enforce: true
+        },
         vendors: {
           // test:  /[\\/]node_modules[\\/](helmet|react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|TimelineMax|TweenMax|@loadable|prop-types)[\\/]/,
           test: /[\\/]node_modules[\\/]/,
@@ -106,7 +110,7 @@ module.exports = {
         }
       }
     },
-    minimizer: [new TerserPlugin()]
+    minimizer: [new TerserPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
   plugins,
   devtool: 'hidden-source-map'

@@ -1,12 +1,1 @@
-img.vertical {
-  object-fit: cover;
-  min-height: 100vh;
-  width: 100%;
-}
-
-img.horizontal {
-  object-fit: cover;
-  min-width: 100%;
-  height: 40%;
-}
-
+img.vertical{object-fit:cover;min-height:100vh;width:100%}img.horizontal{object-fit:cover;min-width:100%;height:40%}

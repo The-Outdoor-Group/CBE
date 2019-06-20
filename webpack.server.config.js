@@ -1,13 +1,17 @@
 const nodeExternals = require('webpack-node-externals');
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const path = require('path');
 
 const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
 
 const plugins = [
-  new MiniCssExtractPlugin(),
+  new MiniCssExtractPlugin({
+    filename: '[name].css',
+  }),
   new LoadablePlugin()
 ];
 
@@ -35,12 +39,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-          },
-          'css-loader'
-        ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|gif|ico)$/,
@@ -52,7 +51,7 @@ module.exports = {
   },
   optimization: {
     splitChunks: {
-      chunks: 'async',
+      chunks: 'all',
       minSize: 30000,
       maxSize: 0,
       minChunks: 1,
@@ -61,8 +60,15 @@ module.exports = {
       automaticNameDelimiter: '~',
       name: false,
       cacheGroups: {
+        // styles: {
+        //   name: 'styles',
+        //   test: /\.css$/,
+        //   chunks: 'all',
+        //   enforce: true
+        // },
         vendors: {
-          test:  /[\\/](helmet|react|react-router-dom|redux-saga|redux|express|pm2|@loadable)[\\/]/,
+          // test:  /[\\/](helmet|react|react-router-dom|redux-saga|redux|express|pm2|@loadable)[\\/]/,
+          test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
           chunks: 'all',
           priority: -10
@@ -73,7 +79,8 @@ module.exports = {
           reuseExistingChunk: true
         }
       }
-    }
+    },
+    minimizer: [new TerserPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
   plugins,
   externals: nodeExternals()

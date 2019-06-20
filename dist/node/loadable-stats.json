@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.34.0",
-  "hash": "190df0c6e5b53ee0502f",
+  "hash": "2295f572de4ae752d9d6",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -453,7 +453,7 @@
     },
     {
       "name": "CallToAction.css",
-      "size": 433,
+      "size": 352,
       "chunks": [
         3
       ],
@@ -464,7 +464,7 @@
     },
     {
       "name": "Image.css",
-      "size": 150,
+      "size": 116,
       "chunks": [
         0
       ],
@@ -475,7 +475,7 @@
     },
     {
       "name": "MoreInfoComponent.css",
-      "size": 1316,
+      "size": 1083,
       "chunks": [
         5
       ],
@@ -486,7 +486,7 @@
     },
     {
       "name": "Stats.css",
-      "size": 1547,
+      "size": 1193,
       "chunks": [
         2
       ],
@@ -504,7 +504,7 @@
     },
     {
       "name": "assets-images-NavigationArrow.css",
-      "size": 89,
+      "size": 72,
       "chunks": [
         6
       ],
@@ -515,7 +515,7 @@
     },
     {
       "name": "assets-images-PlusIcon.css",
-      "size": 256,
+      "size": 199,
       "chunks": [
         7
       ],
@@ -526,7 +526,7 @@
     },
     {
       "name": "assets-images-logo.css",
-      "size": 567,
+      "size": 473,
       "chunks": [
         8
       ],
@@ -537,7 +537,7 @@
     },
     {
       "name": "assets-images-secondary-menu-icon.css",
-      "size": 234,
+      "size": 187,
       "chunks": [
         9
       ],
@@ -548,7 +548,7 @@
     },
     {
       "name": "components-content-Hero.css",
-      "size": 2789,
+      "size": 2375,
       "chunks": [
         12
       ],
@@ -559,7 +559,7 @@
     },
     {
       "name": "components-content-assets-images-MoreContentArrow.css",
-      "size": 206,
+      "size": 163,
       "chunks": [
         13
       ],
@@ -570,7 +570,7 @@
     },
     {
       "name": "components-content-store-components-ShopHero.css",
-      "size": 4594,
+      "size": 3848,
       "chunks": [
         14
       ],
@@ -581,7 +581,7 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "size": 1981,
+      "size": 1667,
       "chunks": [
         15
       ],
@@ -592,7 +592,7 @@
     },
     {
       "name": "components-main-nav-MainNav.css",
-      "size": 1345,
+      "size": 1083,
       "chunks": [
         16
       ],
@@ -603,7 +603,7 @@
     },
     {
       "name": "components-main-secondary-nav-MainSecondaryNav.css",
-      "size": 643,
+      "size": 521,
       "chunks": [
         17
       ],
@@ -614,7 +614,7 @@
     },
     {
       "name": "container-HorizontalImageSlider.css",
-      "size": 663,
+      "size": 563,
       "chunks": [
         18
       ],
@@ -625,7 +625,7 @@
     },
     {
       "name": "hero-components-TextArticle.css",
-      "size": 877,
+      "size": 734,
       "chunks": [
         23
       ],
@@ -636,7 +636,7 @@
     },
     {
       "name": "hero-components-TitleHeader.css",
-      "size": 814,
+      "size": 663,
       "chunks": [
         24
       ],
@@ -647,7 +647,7 @@
     },
     {
       "name": "hero-components-VideoComponent.css",
-      "size": 332,
+      "size": 273,
       "chunks": [
         25
       ],
@@ -658,7 +658,7 @@
     },
     {
       "name": "image-tiles-ImageTile.css",
-      "size": 394,
+      "size": 312,
       "chunks": [
         26
       ],
@@ -669,7 +669,7 @@
     },
     {
       "name": "main.css",
-      "size": 1617,
+      "size": 1237,
       "chunks": [
         27
       ],
@@ -680,7 +680,7 @@
     },
     {
       "name": "more-info-components-container-MoreInfoArticle.css",
-      "size": 76,
+      "size": 59,
       "chunks": [
         28
       ],
@@ -691,7 +691,7 @@
     },
     {
       "name": "server.js",
-      "size": 18278,
+      "size": 18280,
       "chunks": [
         27
       ],
@@ -702,7 +702,7 @@
     },
     {
       "name": "text-Header.css",
-      "size": 160,
+      "size": 129,
       "chunks": [
         29
       ],
