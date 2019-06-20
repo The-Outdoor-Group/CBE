@@ -98,8 +98,7 @@ const MainNav = (props) => {
   }, [props.mainNavThemeColor]);
 
 
-  const showNavListNode = () => (props.openMoreInfoPanel && (props.elMatchForScrolling !== null) ) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={props.mainNavThemeColor} />;
-  const showMainNavNodes = () => showMainNav ? showNavListContainer() : null;
+  const showNavListNode = () => (props.openMoreInfoPanel && (props.elMatchForScrolling !== null) ) ? <InfoPanelOpenList colorTheme={colorTheme} /> : <MainList colorTheme={props.mainNavThemeColor} showAllLinks={showMainNav} />;
   const showNavListContainer = () => (
     <nav>
       <ul ref={ulRef}>
@@ -112,10 +111,9 @@ const MainNav = (props) => {
     <>
       <div ref={navRef} id="main-nav-container">
         <Link id="home-link" to="/"><Logo colorTheme={props.mainNavThemeColor} /></Link>
-          { showMainNavNodes() }
-        <Link id="shop" to="/cart"><span>Cart</span></Link>
+          { showNavListContainer() }
+        <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={props.mainNavThemeColor} /></div>
       </div>
-      <div id="secondary-menu-icon-wrapper"><SecondaryMenuIcon colorTheme={props.mainNavThemeColor} /></div>
     </>
   );
 }
