@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import colorStyle from './assets/utilities/font-color-style';
@@ -7,6 +7,16 @@ const MainList = (props) => {
   const { colorTheme, showAllLinks } = props;
 
   const opacityStyle = () => props.secondaryMenuVisible ? 'fade' : null;
+
+  const [color, setColor] = useState('dark');
+
+  useEffect(() => {
+    if (props.secondaryMenuVisible) {
+        setColor('dark');
+    } else {
+      setColor(colorTheme);
+    }
+  });
 
   return (
     <>
@@ -24,7 +34,7 @@ const MainList = (props) => {
         )
        : null
       }
-      <li><Link id="shop" to="/cart" style={colorStyle(colorTheme)}>Cart</Link></li>
+      <li><Link id="shop" to="/cart" style={colorStyle(color)}>Cart</Link></li>
     </>
   );
 };

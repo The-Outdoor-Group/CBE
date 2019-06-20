@@ -12,10 +12,19 @@ const SecondaryMenuIcon = (props) => {
   const bottomLineRef = createRef();
 
   const [showSecondaryMenu, setShowSecondaryMenu] = useState(false);
+  const [color, setColor] = useState('dark');
 
   useEffect(() => {
-    tweenStrokeColor( props.colorTheme, [topLineRef.current, middleLineRef.current, bottomLineRef.current] );
-  }, [props.colorTheme]);
+    if (props.sharedUiState.secondaryMenuVisible) {
+      setColor('dark');
+    } else {
+      setColor(props.colorTheme);
+    }
+  });
+
+  useEffect(() => {
+    tweenStrokeColor( color, [topLineRef.current, middleLineRef.current, bottomLineRef.current] );
+  }, [color]); //[props.colorTheme]
 
   useEffect(() => {
     const playAnimationFwd = () => {

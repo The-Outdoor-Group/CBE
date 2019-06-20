@@ -84,6 +84,6 @@ dl dd:before {
 }
 
 .fade {
-	opacity: 0.15;
+	opacity: 0.1;
 	transition: opacity 0.25s ease-in-out;
 }
