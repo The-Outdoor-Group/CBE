@@ -1,5 +1,5 @@
 import React from 'react';
 
-const colorStyle = (colorTheme) => colorTheme === "dark" ? ({ color: "#000" }) : ({ color: "#FFF" });
+export const colorStyle = (colorTheme) => colorTheme === "dark" ? "#000" : "#FFF";
 
-export default colorStyle;
+export const borderBottomStyle = (link, mainUrl) => link === mainUrl ? ["1px solid", "0.25rem"] : [];

@@ -21,7 +21,6 @@ const MoreContentArrow = loadable( () => import('../components/content/assets/im
 const App = (props) => {
 
   useEffect(() => {
-    console.log('props: ', props);
     if (process.env.IS_BROWSER) {
       const registerSW = () => {
         if ('serviceWorker' in navigator) {

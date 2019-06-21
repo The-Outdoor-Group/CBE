@@ -1,27 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import colorStyle from './assets/utilities/font-color-style';
+import {colorStyle, borderBottomStyle } from './assets/utilities/font-color-style';
 import { setMainUrl } from '../../actions/shared-ui-actions';
+import { createBrowserHistory } from 'history';
 
 const MainList = (props) => {
-  const { colorTheme, showAllLinks } = props;
 
-  const opacityStyle = () => props.secondaryMenuVisible ? 'fade' : null;
+  console.log('props in MainList: ', props);
+
+  const { colorTheme, showAllLinks, mainUrl, secondaryMenuVisible } = props;
+
+  const opacityStyle = () => secondaryMenuVisible ? 'fade' : null;
 
   const [color, setColor] = useState('dark');
 
   useEffect(() => {
-    if (props.secondaryMenuVisible) {
-        setColor('dark');
-    } else {
-      setColor(colorTheme);
-    }
+    secondaryMenuVisible ? setColor('dark') : setColor(colorTheme);
   });
 
-  const handleClick = () => {
 
-  }
+  useEffect(() => {
+    if (process.env.IS_BROWSER) {
+      const history = createBrowserHistory();
+      console.log('history.location.pathname: ', history.location.pathname);
+      props.setMainUrl(history.location.pathname);
+    }
+  }, [props.mainUrl]);
+
+  const getStyle = (args) => mainUrl !== null ?
+      {
+        color: colorStyle(args.colorTheme),
+        borderBottom: borderBottomStyle(args.link, args.mainUrl)[0],
+        paddingBottom: borderBottomStyle(args.link, args.mainUrl)[1]
+      }
+    :
+      {
+        color: colorStyle(args.colorTheme)
+      }
+    ;
 
   return (
     <>
@@ -29,24 +46,24 @@ const MainList = (props) => {
         showAllLinks ?
         (
           <>
-            <li className={opacityStyle()}><Link to="/foo" style={colorStyle(colorTheme)}>Sights</Link></li>
-            <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Stabilizers</Link></li>
-            <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Quivers</Link></li>
-            <li className={opacityStyle()}><Link to="/bar" style={colorStyle(colorTheme)}>Arrow Rest</Link></li>
-            <li className={opacityStyle()}><Link to="/product" onClick={() => props.setMainUrl('proudct')} style={colorStyle(colorTheme)}>Accessories</Link></li>
-            <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('shop')} style={colorStyle(colorTheme)}>Shop</Link></li>
+            <li className={opacityStyle()}><Link to="/arrow-rest" onClick={() => props.setMainUrl('/arrow-rest')} style={getStyle({colorTheme, link: '/arrow-rest', mainUrl})}>Arrow Rest</Link></li>
+            <li className={opacityStyle()}><Link to="/stabilizers" onClick={() => props.setMainUrl('/stabilizers')} style={getStyle({colorTheme, link: '/stabilizers', mainUrl})}>Stabilizers</Link></li>
+            <li className={opacityStyle()}><Link to="/quivers" onClick={() => props.setMainUrl('/quivers')} style={getStyle({colorTheme, link: '/quivers', mainUrl})}>Quivers</Link></li>
+            <li className={opacityStyle()}><Link to="/sights" onClick={() => props.setMainUrl('/sights')} style={getStyle({colorTheme, link: '/sights', mainUrl})}>Sights</Link></li>
+            <li className={opacityStyle()}><Link to="/product" onClick={() => props.setMainUrl('/product')} style={getStyle({colorTheme, link: '/product', mainUrl})}>Accessories</Link></li>
+            <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('/shop')} style={getStyle({colorTheme, link: '/shop', mainUrl})}>Shop</Link></li>
           </>
         )
        : null
       }
-      <li><Link id="shop" to="/cart" style={colorStyle(color)}>Cart</Link></li>
+      <li><Link id="shop" to="/cart" onClick={() => props.setMainUrl('/cart')} style={getStyle( {colorTheme: color, link: '/cart', mainUrl} )}>Cart</Link></li>
     </>
   );
 };
 
 const mapStateToProps = ({ sharedUiState }) => {
-  const { secondaryMenuVisible } = sharedUiState;
-  return { secondaryMenuVisible };
+  const { secondaryMenuVisible, mainUrl } = sharedUiState;
+  return { secondaryMenuVisible, mainUrl };
 };
 
 export default connect(mapStateToProps, { setMainUrl })(MainList);
