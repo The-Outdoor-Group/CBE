@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import loadable from '@loadable/component';
 import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from './../../actions/shared-ui-actions';
@@ -179,10 +179,6 @@ const moreInfoNodes = [
 import './assets/css/moreInfoPanel/more-info-component.css';
 
 const MoreInfoComponent = (props) => {
-
-    // useEffect(() => {
-    //   console.log('MoreInfoComponent init props: ', props);
-    // }, [props.handle, props.showInfo, props.sharedUiState.elMatchForScrolling, props.sharedUiState.endOfPageScroll, props.sharedUiState.mainNavThemeColor, props.sharedUiState.openMoreInfoPanel, props.sharedUiState.secondaryMenuVisible]);
 
     const createMoreInfoNodes = () => moreInfoNodes.map( (props, i) => <MoreInfoArticle key={i} data={props} /> );
 

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import colorStyle from './assets/utilities/font-color-style';
+import { getStyle } from './assets/utilities/font-color-style';
 
 // nav list when more info panel is open
 
@@ -9,8 +9,8 @@ const InfoPanelOpenList = (props) => {
 
   return (
     <Fragment>
-      <li style={colorStyle(colorTheme)}>Engage Hybrid Features</li>
-      <li style={colorStyle(colorTheme)}><button>Buy Now</button></li>
+      <li style={getStyle({colorTheme})}>Engage Hybrid Features</li>
+      <li style={getStyle({colorTheme})}><button>Buy Now</button></li>
     </Fragment>
   );
 }

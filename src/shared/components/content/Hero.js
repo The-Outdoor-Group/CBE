@@ -9,6 +9,8 @@ const MoreInfoComponent = loadable( () => import('./MoreInfoComponent') );
 
 const Hero = (props) => {
 
+  console.log('props Hero: ', props);
+
   const [showInfo, setShowInfo] = useState(false);
   const [clickedMoreInfoHandle, setClickedMoreInfoHandle] = useState(null);
   const [hidden, setHidden] = useState(null);
@@ -30,7 +32,7 @@ const Hero = (props) => {
     };
 
     handlePanelVisibility();
-  }, [props.openMoreInfoPanel]);
+  }, [props.openMoreInfoPanel, props.elMatchForScrolling]);
 
   const handleShowInfo = (showMoreInfo, clickedMoreInfoHandle) => {
     props.setMoreInfoPanelVisibility(showMoreInfo);

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import {colorStyle, borderBottomStyle } from './assets/utilities/font-color-style';
+import { getStyle } from './assets/utilities/font-color-style';
 import { setMainUrl } from '../../actions/shared-ui-actions';
 import { createBrowserHistory } from 'history';
 
 const MainList = (props) => {
 
-  console.log('props in MainList: ', props);
+  // console.log('props in MainList: ', props);
 
   const { colorTheme, showAllLinks, mainUrl, secondaryMenuVisible } = props;
 
@@ -23,22 +23,10 @@ const MainList = (props) => {
   useEffect(() => {
     if (process.env.IS_BROWSER) {
       const history = createBrowserHistory();
-      console.log('history.location.pathname: ', history.location.pathname);
+      // console.log('history.location.pathname: ', history.location.pathname);
       props.setMainUrl(history.location.pathname);
     }
   }, [props.mainUrl]);
-
-  const getStyle = (args) => mainUrl !== null ?
-      {
-        color: colorStyle(args.colorTheme),
-        borderBottom: borderBottomStyle(args.link, args.mainUrl)[0],
-        paddingBottom: borderBottomStyle(args.link, args.mainUrl)[1]
-      }
-    :
-      {
-        color: colorStyle(args.colorTheme)
-      }
-    ;
 
   return (
     <>

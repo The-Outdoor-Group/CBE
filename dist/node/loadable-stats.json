@@ -1,11 +1,8 @@
 {
   "errors": [],
-  "warnings": [
-    "./shared/components/main-nav/InfoPanelOpenList.js 8:11-21\n\"export 'default' (imported as 'colorStyle') was not found in './assets/utilities/font-color-style'\n @ ./shared/components/main-nav/MainNav.js\n @ ./shared/containers/index.js\n @ ./server/server.js\n @ ./server/index.js",
-    "./shared/components/main-nav/InfoPanelOpenList.js 10:11-21\n\"export 'default' (imported as 'colorStyle') was not found in './assets/utilities/font-color-style'\n @ ./shared/components/main-nav/MainNav.js\n @ ./shared/containers/index.js\n @ ./server/server.js\n @ ./server/index.js"
-  ],
+  "warnings": [],
   "version": "4.34.0",
-  "hash": "8ed8c0b66099489f274e",
+  "hash": "eb2ba9668aba0d09bed4",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -120,7 +117,7 @@
     },
     {
       "name": "1.server.js",
-      "size": 2622,
+      "size": 2543,
       "chunks": [
         1
       ],
@@ -153,7 +150,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 7672,
+      "size": 7724,
       "chunks": [
         12
       ],
@@ -365,7 +362,7 @@
     },
     {
       "name": "3.server.js",
-      "size": 1663,
+      "size": 1576,
       "chunks": [
         3
       ],
@@ -376,7 +373,7 @@
     },
     {
       "name": "4.server.js",
-      "size": 576,
+      "size": 737,
       "chunks": [
         4
       ],

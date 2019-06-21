@@ -12,7 +12,6 @@ const PlusIcon = loadable( () => import('./../assets/images/PlusIcon') );
 const CallToAction = (props) => {
 
   const [hovering, setHovering] = useState(false);
-  const [toShowMoreInfo, setToShowMoreInfo] = useState(false);
   const [showLearnMore, setShowLearnMore] = useState(false);
 
   useEffect(() => {
@@ -26,12 +25,9 @@ const CallToAction = (props) => {
   });
 
   const handleClick = () => {
-
     const { moreInfoHandle} = props;
-    console.log('moreInfoHandle: ', moreInfoHandle);
-    // this will need to be a redux prop
 
-    props.setMoreInfoPanelVisibility( !(setToShowMoreInfo(toShowMoreInfo)) );
+    props.setMoreInfoPanelVisibility(true);
     props.setIdMatchForParentContainer(moreInfoHandle);
   }
 
