@@ -2,49 +2,49 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "a91413f716a7b3943183",
+  "hash": "24121312f7bd37bc9967",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "styles": [
       "styles.css",
-      "0.a91413f716a7b3943183.js"
+      "0.24121312f7bd37bc9967.js"
     ],
-    "vendor": "1.a91413f716a7b3943183.js",
-    "Image": "2.a91413f716a7b3943183.js",
-    "MainList": "3.a91413f716a7b3943183.js",
-    "Stats": "4.a91413f716a7b3943183.js",
-    "CallToAction": "5.a91413f716a7b3943183.js",
-    "InfoPanelOpenList": "6.a91413f716a7b3943183.js",
-    "MoreInfoComponent": "7.a91413f716a7b3943183.js",
-    "assets-images-NavigationArrow": "8.a91413f716a7b3943183.js",
-    "assets-images-PlusIcon": "9.a91413f716a7b3943183.js",
-    "assets-images-logo": "10.a91413f716a7b3943183.js",
-    "assets-images-secondary-menu-icon": "11.a91413f716a7b3943183.js",
-    "child-components-ProductImage": "12.a91413f716a7b3943183.js",
-    "child-components-VariantSelector": "13.a91413f716a7b3943183.js",
-    "components-content-Hero": "14.a91413f716a7b3943183.js",
-    "components-content-assets-images-MoreContentArrow": "15.a91413f716a7b3943183.js",
-    "components-content-store-components-ShopHero": "16.a91413f716a7b3943183.js",
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": "17.a91413f716a7b3943183.js",
-    "components-main-nav-MainNav": "18.a91413f716a7b3943183.js",
-    "components-main-secondary-nav-MainSecondaryNav": "19.a91413f716a7b3943183.js",
-    "container-HorizontalImageSlider": "20.a91413f716a7b3943183.js",
-    "containers-Home": "21.a91413f716a7b3943183.js",
-    "containers-Shop": "22.a91413f716a7b3943183.js",
-    "hero-components-List": "23.a91413f716a7b3943183.js",
-    "hero-components-ListButton": "24.a91413f716a7b3943183.js",
-    "hero-components-TextArticle": "25.a91413f716a7b3943183.js",
-    "hero-components-TitleHeader": "26.a91413f716a7b3943183.js",
-    "hero-components-VideoComponent": "27.a91413f716a7b3943183.js",
-    "image-tiles-ImageTile": "28.a91413f716a7b3943183.js",
-    "main": "main.a91413f716a7b3943183.js",
-    "more-info-components-container-MoreInfoArticle": "30.a91413f716a7b3943183.js",
-    "text-Header": "31.a91413f716a7b3943183.js"
+    "vendor": "1.24121312f7bd37bc9967.js",
+    "Image": "2.24121312f7bd37bc9967.js",
+    "MainList": "3.24121312f7bd37bc9967.js",
+    "Stats": "4.24121312f7bd37bc9967.js",
+    "CallToAction": "5.24121312f7bd37bc9967.js",
+    "InfoPanelOpenList": "6.24121312f7bd37bc9967.js",
+    "MoreInfoComponent": "7.24121312f7bd37bc9967.js",
+    "assets-images-NavigationArrow": "8.24121312f7bd37bc9967.js",
+    "assets-images-PlusIcon": "9.24121312f7bd37bc9967.js",
+    "assets-images-logo": "10.24121312f7bd37bc9967.js",
+    "assets-images-secondary-menu-icon": "11.24121312f7bd37bc9967.js",
+    "child-components-ProductImage": "12.24121312f7bd37bc9967.js",
+    "child-components-VariantSelector": "13.24121312f7bd37bc9967.js",
+    "components-content-Hero": "14.24121312f7bd37bc9967.js",
+    "components-content-assets-images-MoreContentArrow": "15.24121312f7bd37bc9967.js",
+    "components-content-store-components-ShopHero": "16.24121312f7bd37bc9967.js",
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": "17.24121312f7bd37bc9967.js",
+    "components-main-nav-MainNav": "18.24121312f7bd37bc9967.js",
+    "components-main-secondary-nav-MainSecondaryNav": "19.24121312f7bd37bc9967.js",
+    "container-HorizontalImageSlider": "20.24121312f7bd37bc9967.js",
+    "containers-Home": "21.24121312f7bd37bc9967.js",
+    "containers-Shop": "22.24121312f7bd37bc9967.js",
+    "hero-components-List": "23.24121312f7bd37bc9967.js",
+    "hero-components-ListButton": "24.24121312f7bd37bc9967.js",
+    "hero-components-TextArticle": "25.24121312f7bd37bc9967.js",
+    "hero-components-TitleHeader": "26.24121312f7bd37bc9967.js",
+    "hero-components-VideoComponent": "27.24121312f7bd37bc9967.js",
+    "image-tiles-ImageTile": "28.24121312f7bd37bc9967.js",
+    "main": "main.24121312f7bd37bc9967.js",
+    "more-info-components-container-MoreInfoArticle": "30.24121312f7bd37bc9967.js",
+    "text-Header": "31.24121312f7bd37bc9967.js"
   },
   "assets": [
     {
-      "name": "0.a91413f716a7b3943183.js",
+      "name": "0.24121312f7bd37bc9967.js",
       "size": 858,
       "chunks": [
         0
@@ -55,8 +55,8 @@
       "emitted": false
     },
     {
-      "name": "1.a91413f716a7b3943183.js",
-      "size": 401918,
+      "name": "1.24121312f7bd37bc9967.js",
+      "size": 429481,
       "chunks": [
         1
       ],
@@ -66,7 +66,7 @@
       "emitted": false
     },
     {
-      "name": "10.a91413f716a7b3943183.js",
+      "name": "10.24121312f7bd37bc9967.js",
       "size": 3223,
       "chunks": [
         10
@@ -77,7 +77,7 @@
       "emitted": false
     },
     {
-      "name": "11.a91413f716a7b3943183.js",
+      "name": "11.24121312f7bd37bc9967.js",
       "size": 1321,
       "chunks": [
         11
@@ -88,7 +88,7 @@
       "emitted": false
     },
     {
-      "name": "12.a91413f716a7b3943183.js",
+      "name": "12.24121312f7bd37bc9967.js",
       "size": 1366,
       "chunks": [
         12
@@ -99,7 +99,7 @@
       "emitted": false
     },
     {
-      "name": "13.a91413f716a7b3943183.js",
+      "name": "13.24121312f7bd37bc9967.js",
       "size": 635,
       "chunks": [
         13
@@ -110,7 +110,7 @@
       "emitted": false
     },
     {
-      "name": "14.a91413f716a7b3943183.js",
+      "name": "14.24121312f7bd37bc9967.js",
       "size": 7982,
       "chunks": [
         14
@@ -121,7 +121,7 @@
       "emitted": false
     },
     {
-      "name": "15.a91413f716a7b3943183.js",
+      "name": "15.24121312f7bd37bc9967.js",
       "size": 2899,
       "chunks": [
         15
@@ -132,8 +132,8 @@
       "emitted": false
     },
     {
-      "name": "16.a91413f716a7b3943183.js",
-      "size": 4140,
+      "name": "16.24121312f7bd37bc9967.js",
+      "size": 4208,
       "chunks": [
         16
       ],
@@ -143,7 +143,7 @@
       "emitted": false
     },
     {
-      "name": "17.a91413f716a7b3943183.js",
+      "name": "17.24121312f7bd37bc9967.js",
       "size": 9584,
       "chunks": [
         17
@@ -154,7 +154,7 @@
       "emitted": false
     },
     {
-      "name": "18.a91413f716a7b3943183.js",
+      "name": "18.24121312f7bd37bc9967.js",
       "size": 5577,
       "chunks": [
         18
@@ -165,7 +165,7 @@
       "emitted": false
     },
     {
-      "name": "19.a91413f716a7b3943183.js",
+      "name": "19.24121312f7bd37bc9967.js",
       "size": 3491,
       "chunks": [
         19
@@ -176,7 +176,7 @@
       "emitted": false
     },
     {
-      "name": "2.a91413f716a7b3943183.js",
+      "name": "2.24121312f7bd37bc9967.js",
       "size": 279,
       "chunks": [
         2
@@ -187,7 +187,7 @@
       "emitted": false
     },
     {
-      "name": "20.a91413f716a7b3943183.js",
+      "name": "20.24121312f7bd37bc9967.js",
       "size": 2332,
       "chunks": [
         20
@@ -198,7 +198,7 @@
       "emitted": false
     },
     {
-      "name": "21.a91413f716a7b3943183.js",
+      "name": "21.24121312f7bd37bc9967.js",
       "size": 6670,
       "chunks": [
         21
@@ -209,8 +209,8 @@
       "emitted": false
     },
     {
-      "name": "22.a91413f716a7b3943183.js",
-      "size": 2192,
+      "name": "22.24121312f7bd37bc9967.js",
+      "size": 2199,
       "chunks": [
         22
       ],
@@ -220,7 +220,7 @@
       "emitted": false
     },
     {
-      "name": "23.a91413f716a7b3943183.js",
+      "name": "23.24121312f7bd37bc9967.js",
       "size": 381,
       "chunks": [
         23
@@ -231,7 +231,7 @@
       "emitted": false
     },
     {
-      "name": "24.a91413f716a7b3943183.js",
+      "name": "24.24121312f7bd37bc9967.js",
       "size": 228,
       "chunks": [
         24
@@ -242,7 +242,7 @@
       "emitted": false
     },
     {
-      "name": "25.a91413f716a7b3943183.js",
+      "name": "25.24121312f7bd37bc9967.js",
       "size": 1351,
       "chunks": [
         25
@@ -253,7 +253,7 @@
       "emitted": false
     },
     {
-      "name": "26.a91413f716a7b3943183.js",
+      "name": "26.24121312f7bd37bc9967.js",
       "size": 437,
       "chunks": [
         26
@@ -264,7 +264,7 @@
       "emitted": false
     },
     {
-      "name": "27.a91413f716a7b3943183.js",
+      "name": "27.24121312f7bd37bc9967.js",
       "size": 984,
       "chunks": [
         27
@@ -275,7 +275,7 @@
       "emitted": false
     },
     {
-      "name": "28.a91413f716a7b3943183.js",
+      "name": "28.24121312f7bd37bc9967.js",
       "size": 683,
       "chunks": [
         28
@@ -300,8 +300,8 @@
       "emitted": false
     },
     {
-      "name": "3.a91413f716a7b3943183.js",
-      "size": 2529,
+      "name": "3.24121312f7bd37bc9967.js",
+      "size": 2566,
       "chunks": [
         3
       ],
@@ -311,7 +311,7 @@
       "emitted": false
     },
     {
-      "name": "30.a91413f716a7b3943183.js",
+      "name": "30.24121312f7bd37bc9967.js",
       "size": 293,
       "chunks": [
         30
@@ -322,7 +322,7 @@
       "emitted": false
     },
     {
-      "name": "31.a91413f716a7b3943183.js",
+      "name": "31.24121312f7bd37bc9967.js",
       "size": 350,
       "chunks": [
         31
@@ -333,7 +333,7 @@
       "emitted": false
     },
     {
-      "name": "4.a91413f716a7b3943183.js",
+      "name": "4.24121312f7bd37bc9967.js",
       "size": 544,
       "chunks": [
         4
@@ -351,7 +351,7 @@
       "emitted": false
     },
     {
-      "name": "5.a91413f716a7b3943183.js",
+      "name": "5.24121312f7bd37bc9967.js",
       "size": 1630,
       "chunks": [
         5
@@ -362,7 +362,7 @@
       "emitted": false
     },
     {
-      "name": "6.a91413f716a7b3943183.js",
+      "name": "6.24121312f7bd37bc9967.js",
       "size": 787,
       "chunks": [
         6
@@ -373,7 +373,7 @@
       "emitted": false
     },
     {
-      "name": "7.a91413f716a7b3943183.js",
+      "name": "7.24121312f7bd37bc9967.js",
       "size": 8189,
       "chunks": [
         7
@@ -391,7 +391,7 @@
       "emitted": false
     },
     {
-      "name": "8.a91413f716a7b3943183.js",
+      "name": "8.24121312f7bd37bc9967.js",
       "size": 385,
       "chunks": [
         8
@@ -402,7 +402,7 @@
       "emitted": false
     },
     {
-      "name": "9.a91413f716a7b3943183.js",
+      "name": "9.24121312f7bd37bc9967.js",
       "size": 1440,
       "chunks": [
         9
@@ -427,8 +427,8 @@
       "emitted": false
     },
     {
-      "name": "main.a91413f716a7b3943183.js",
-      "size": 15194,
+      "name": "main.24121312f7bd37bc9967.js",
+      "size": 15193,
       "chunks": [
         29
       ],
@@ -439,7 +439,7 @@
     },
     {
       "name": "styles.css",
-      "size": 17302,
+      "size": 21760,
       "chunks": [
         0
       ],
@@ -459,9 +459,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "main.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "main.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -476,9 +476,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "main.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "main.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -491,9 +491,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "18.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "18.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -506,9 +506,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "19.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "19.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -521,9 +521,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "15.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "15.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -534,8 +534,8 @@
         21
       ],
       "assets": [
-        "1.a91413f716a7b3943183.js",
-        "21.a91413f716a7b3943183.js"
+        "1.24121312f7bd37bc9967.js",
+        "21.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -545,7 +545,7 @@
         22
       ],
       "assets": [
-        "22.a91413f716a7b3943183.js"
+        "22.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -558,9 +558,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "17.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "17.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -573,9 +573,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "10.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "10.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -587,8 +587,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "11.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "11.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -598,7 +598,7 @@
         3
       ],
       "assets": [
-        "3.a91413f716a7b3943183.js"
+        "3.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -608,7 +608,7 @@
         6
       ],
       "assets": [
-        "6.a91413f716a7b3943183.js"
+        "6.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -618,7 +618,7 @@
         3
       ],
       "assets": [
-        "3.a91413f716a7b3943183.js"
+        "3.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -631,9 +631,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "14.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "14.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -641,12 +641,14 @@
     "components-content-store-components-ShopHero": {
       "chunks": [
         0,
+        1,
         16
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "16.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "16.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -656,7 +658,7 @@
         13
       ],
       "assets": [
-        "13.a91413f716a7b3943183.js"
+        "13.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -666,7 +668,7 @@
         12
       ],
       "assets": [
-        "12.a91413f716a7b3943183.js"
+        "12.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -678,8 +680,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "7.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "7.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -691,8 +693,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "26.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "26.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -704,8 +706,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "4.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "4.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -717,8 +719,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "25.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "25.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -730,8 +732,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "2.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "2.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -743,8 +745,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "27.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "27.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -754,7 +756,7 @@
         24
       ],
       "assets": [
-        "24.a91413f716a7b3943183.js"
+        "24.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -764,7 +766,7 @@
         23
       ],
       "assets": [
-        "23.a91413f716a7b3943183.js"
+        "23.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -776,8 +778,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "28.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "28.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -789,8 +791,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "30.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "30.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -802,8 +804,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "31.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "31.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -816,9 +818,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "20.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "20.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -830,8 +832,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "2.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "2.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -843,8 +845,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "5.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "5.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -856,8 +858,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "4.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "4.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -869,8 +871,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "8.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "8.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}
@@ -883,9 +885,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.a91413f716a7b3943183.js",
-        "1.a91413f716a7b3943183.js",
-        "9.a91413f716a7b3943183.js"
+        "0.24121312f7bd37bc9967.js",
+        "1.24121312f7bd37bc9967.js",
+        "9.24121312f7bd37bc9967.js"
       ],
       "children": {},
       "childAssets": {}

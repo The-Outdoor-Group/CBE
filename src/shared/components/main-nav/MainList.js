@@ -7,7 +7,7 @@ import { createBrowserHistory } from 'history';
 
 const MainList = (props) => {
 
-  // console.log('props in MainList: ', props);
+  console.log('props in MainList: ', props);
 
   const { colorTheme, showAllLinks, mainUrl, secondaryMenuVisible } = props;
 
