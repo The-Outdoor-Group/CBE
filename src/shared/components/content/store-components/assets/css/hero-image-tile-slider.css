@@ -339,14 +339,13 @@ ul.slider .slide {
 }
 
 ul.slider .slide div .image-tile {
-  /* background: #f2f2f2; */
-  margin: 0 1rem;
-  padding: 1rem 0;
-  width: auto;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 100%;
 }
 
 ul.slider .slide div .image-tile img {
-  width: auto;
+  width: 100%;
 }
 
 ul.slider .slide div .image-tile header {
