@@ -342,11 +342,11 @@ ul.slider .slide div .image-tile {
   background: #f2f2f2;
   margin: 0 1rem;
   padding: 1rem 0;
-  width: 100%;
+  width: auto;
 }
 
 ul.slider .slide div .image-tile img {
-  width: 80%;
+  width: auto;
 }
 
 ul.slider .slide div .image-tile header {
