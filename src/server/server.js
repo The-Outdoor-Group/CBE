@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+// import '@babel/polyfill';
 import Express from 'express';
 import path from 'path';
 import React from 'react';

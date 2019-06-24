@@ -1,7 +1,5 @@
-importScripts("/assets/web/precache-manifest.400a217c00b761e452f5418fcd2cf379.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/assets/web/precache-manifest.e6b080fc0b0a949c4940c06df52ef161.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-workbox.skipWaiting();
-workbox.clientsClaim();
 // workbox.strategies.staleWhileRevalidate()
 
 self.addEventListener('install', event => {

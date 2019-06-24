@@ -1,5 +1,3 @@
-workbox.skipWaiting();
-workbox.clientsClaim();
 // workbox.strategies.staleWhileRevalidate()
 
 self.addEventListener('install', event => {

@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[31],{390:function(e,n,t){"use strict";t.r(n);var a=t(2),r=t.n(a);t(379);n.default=function(e){return e.articles.map(function(e,n){return r.a.createElement("div",{className:"header-article-node"},r.a.createElement("h3",null,e.h3),r.a.createElement("p",null,e.p))})}}}]);
