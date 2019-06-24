@@ -17,6 +17,7 @@ const createHeroImageTileSlider = props => {
         <h1>{ title }</h1>
       </header>
        <Carousel
+          autoPlay
           showArrows
           showThumbs={false}
           showStatus={false}
@@ -24,8 +25,10 @@ const createHeroImageTileSlider = props => {
           infiniteLoop
           stopOnHover
           swipeable
-          emulateTouch
           centerMode
+          interval={4000}
+          transitionTime={750}
+          centerSlidePercentage={75}
         >
         { imageTileNodes() }
        </Carousel>
@@ -34,5 +37,3 @@ const createHeroImageTileSlider = props => {
 };
 
 export default createHeroImageTileSlider;
-
-// autoPlay={true}
