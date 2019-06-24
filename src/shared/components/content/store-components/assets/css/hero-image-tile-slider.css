@@ -339,7 +339,7 @@ ul.slider .slide {
 }
 
 ul.slider .slide div .image-tile {
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
   margin: 0 1rem;
   padding: 1rem 0;
   width: auto;
@@ -368,4 +368,10 @@ ul.slider .slide div .image-tile header {
 
 .carousel .control-next.control-arrow:before {
   border-left: 8px solid #000;
+}
+
+.container {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin: 0 1rem;
 }

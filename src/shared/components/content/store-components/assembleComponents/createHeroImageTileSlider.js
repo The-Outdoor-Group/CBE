@@ -9,7 +9,7 @@ const ImageTile = loadable( () => import('../image-tiles/ImageTile') );
 const createHeroImageTileSlider = props => {
 
   const { tiles, title } = props;
-  const imageTileNodes = () => tiles.map( (tile, i) => <div key={i}><ImageTile data={tile} /></div> );
+  const imageTileNodes = () => tiles.map( (tile, i) => <div className="container" key={i}><ImageTile data={tile} /></div> );
 
   return (
     <article className="hero-image-tile-slider">
@@ -28,7 +28,6 @@ const createHeroImageTileSlider = props => {
           centerMode
           interval={4000}
           transitionTime={750}
-          centerSlidePercentage={75}
         >
         { imageTileNodes() }
        </Carousel>
@@ -37,3 +36,5 @@ const createHeroImageTileSlider = props => {
 };
 
 export default createHeroImageTileSlider;
+
+// background: #f2f2f2;

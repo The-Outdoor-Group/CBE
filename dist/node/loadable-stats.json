@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "2fa265d96fbb2fc973e8",
+  "hash": "353d2762e998500308f7",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -172,7 +172,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 4217,
+      "size": 4214,
       "chunks": [
         14
       ],
@@ -570,7 +570,7 @@
     },
     {
       "name": "components-content-store-components-ShopHero.css",
-      "size": 8307,
+      "size": 8345,
       "chunks": [
         14
       ],
