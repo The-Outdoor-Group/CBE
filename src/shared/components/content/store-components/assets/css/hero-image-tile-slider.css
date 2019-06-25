@@ -374,3 +374,25 @@ ul.slider .slide div .image-tile header {
   padding: 1rem;
   margin: 0 1rem;
 }
+
+
+@media screen and (min-width: 768px) {
+
+  .hero-image-tile-slider .tile-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    margin: 1rem;
+  }
+
+  .container .image-tile header {
+    font-weight: 900;
+    margin: 1rem auto;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+}
