@@ -2,9 +2,9 @@ import React, { createRef, useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component';
-import isWindowSizeMobile from '../../utilities/isWindowSizeMobile';
-import _debounce from 'lodash/debounce';
 import { sideMenuTimeline } from './../../utilities/tweens/color-tween';
+import { useResize } from '../../utilities/shared-hooks/useResize';
+
 import './assets/css/main-secondary-nav.css';
 
 /*
@@ -17,19 +17,22 @@ const MainSecondaryNav = (props) => {
 
   const [showMainNav, setShowMainNav] = useState(false);
   const divRef = createRef();
+  var doNotHide;
+
+  const getMobileSizeResult = () => useResize( window );
+
+  if (process.env.IS_BROWSER) {
+    doNotHide = getMobileSizeResult();
+  }
+
+  useEffect(() => {
+    if (doNotHide !== null) setShowMainNav(!doNotHide); // !doNotHide means show
+  });
 
   useEffect(() => {
     const timeline = sideMenuTimeline(divRef.current);
     props.sharedUiState.secondaryMenuVisible ? timeline.play() : timeline.reverse();
   }, [props.sharedUiState.secondaryMenuVisible]);
-
-  useEffect(() => {
-    const handleResize = () => isWindowSizeMobile() ? setShowMainNav(true) : setShowMainNav(false);
-    const debouncedResize = _debounce(handleResize, 500);
-    window.addEventListener('resize', debouncedResize);
-
-    return () => window.removeEventListener('resize', debouncedResize)
-  });
 
   const showMainNavNodes = () => showMainNav ? <MainList colorTheme={'dark'} /> : null;
 

@@ -2,8 +2,7 @@ import React, { createRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component'
 import { connect } from 'react-redux';
-import _debounce from 'lodash/debounce';
-import isWindowSizeMobile from '../../utilities/isWindowSizeMobile';
+import { useResize } from '../../utilities/shared-hooks/useResize';
 
 import { setIdMatchForParentContainer, setMoreInfoPanelVisibility, setMainUrl } from '../../actions/shared-ui-actions';
 
@@ -22,10 +21,22 @@ const MainNav = (props) => {
 
   const [colorTheme, setColorTheme] = useState('dark');
   const [oldElMatchForScrolling, setOldElMatchForScrolling] = useState(null);
-  const [showMainNav, setShowMainNav] = useState(false);
+  const [showMainNav, setShowMainNav] = useState(null);
 
   const navRef = createRef();
   const ulRef = createRef();
+  var doNotHide;
+
+
+  const getMobileSizeResult = () => useResize( window );
+
+  if (process.env.IS_BROWSER) {
+    doNotHide = getMobileSizeResult();
+  }
+
+  useEffect(() => {
+    if (doNotHide !== null) setShowMainNav(!doNotHide); // !doNotHide means show;
+  });
 
   useEffect(() => {
     require('gsap/ScrollToPlugin');
@@ -71,18 +82,6 @@ const MainNav = (props) => {
     else { closeMoreInfo() }
   }, [props.elMatchForScrolling, props.openMoreInfoPanel, props.setIdMatchForParentContainer]);
 
-  useEffect(() => {
-    let rect = navRef.current.getBoundingClientRect();
-    console.log('main nav height: ', rect.bottom - rect.top );
-
-    const handleResize = () => !isWindowSizeMobile() ? setShowMainNav(true) : setShowMainNav(false);
-
-    const debouncedResize = _debounce(handleResize, 500);
-    handleResize(); // to set initial state
-    window.addEventListener('resize', debouncedResize);
-
-    return () => window.removeEventListener('resize', debouncedResize);
-  });
 
   useEffect(() => {
     let elArrayRef = [];

@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import loadable from '@loadable/component';
-import _debounce from 'lodash/debounce';
-import isWindowSizeMobile from '../../../utilities/isWindowSizeMobile';
-
+import { useResize } from '../../../utilities/shared-hooks/useResize';
 import { setMoreInfoPanelVisibility, setIdMatchForParentContainer } from '../../../actions/shared-ui-actions';
 import './../assets/css/call-to-action.css';
 
@@ -14,14 +12,16 @@ const CallToAction = (props) => {
   const [hovering, setHovering] = useState(false);
   const [showLearnMore, setShowLearnMore] = useState(false);
 
+  var doNotHide;
+
+  const getMobileSizeResult = () => useResize( window );
+
+  if (process.env.IS_BROWSER) {
+    doNotHide = getMobileSizeResult();
+  }
+
   useEffect(() => {
-    const handleResize = () => !isWindowSizeMobile() ? setShowLearnMore(true) : setShowLearnMore(false);
-    const debouncedResize = _debounce(handleResize, 500);
-
-    handleResize();
-    window.addEventListener('resize', debouncedResize);
-
-    return () => window.removeEventListener('resize', debouncedResize);
+    if (doNotHide !== null) setShowLearnMore(!doNotHide); // !doNotHide means show
   });
 
   const handleClick = () => {

@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "b03bfac0d9d4af21cc1a",
+  "hash": "749c63c17aac10c76969",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -150,7 +150,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 7724,
+      "size": 7726,
       "chunks": [
         12
       ],
@@ -172,7 +172,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 4214,
+      "size": 4368,
       "chunks": [
         14
       ],
@@ -194,7 +194,7 @@
     },
     {
       "name": "16.server.js",
-      "size": 5579,
+      "size": 5899,
       "chunks": [
         16
       ],
@@ -205,7 +205,7 @@
     },
     {
       "name": "17.server.js",
-      "size": 3564,
+      "size": 3978,
       "chunks": [
         17
       ],
@@ -362,7 +362,7 @@
     },
     {
       "name": "3.server.js",
-      "size": 1576,
+      "size": 1982,
       "chunks": [
         3
       ],
@@ -570,7 +570,7 @@
     },
     {
       "name": "components-content-store-components-ShopHero.css",
-      "size": 8346,
+      "size": 8349,
       "chunks": [
         14
       ],
