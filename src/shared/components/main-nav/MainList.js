@@ -32,7 +32,7 @@ const MainList = (props) => {
       {
         showAllLinks ?
         (
-          <SharedMainList opacityStyle={opacityStyle} setMainUrl={props.setMainUrl} getStyle={getStyle} colorTheme={props.colorTheme} mainUrl={props.mainUrl} />
+          <SharedMainList opacityStyle={opacityStyle} setMainUrl={props.setMainUrl} getStyle={getStyle} colorTheme={props.colorTheme} mainUrl={props.mainUrl} mobileLayout={!showAllLinks} />
         )
        : null
       }

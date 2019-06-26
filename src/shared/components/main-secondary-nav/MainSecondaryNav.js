@@ -2,6 +2,7 @@ import React, { createRef, useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import loadable from '@loadable/component';
+import { getStyle } from '../main-nav/assets/utilities/font-color-style';
 import { sideMenuTimeline } from './../../utilities/tweens/color-tween';
 import { useResize } from '../../utilities/shared-hooks/useResize';
 import { setMainUrl } from '../../actions/shared-ui-actions';
@@ -35,7 +36,7 @@ const MainSecondaryNav = (props) => {
     props.secondaryMenuVisible ? timeline.play() : timeline.reverse();
   }, [props.secondaryMenuVisible]);
 
-  const showMainNavNodes = () => showMainNav ? null : <SharedMainList setMainUrl={props.setMainUrl} colorTheme={props.colorTheme} mainUrl={null} />;
+  const showMainNavNodes = () => showMainNav ? null : <SharedMainList getStyle={getStyle} setMainUrl={props.setMainUrl} colorTheme={props.colorTheme} mainUrl={props.mainUrl} mobileLayout={!showMainNav} />;
 
   const navNodes = () => (
       <div ref={divRef} id="main-secondary-menu">
