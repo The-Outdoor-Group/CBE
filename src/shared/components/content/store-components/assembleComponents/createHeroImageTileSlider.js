@@ -10,7 +10,7 @@ const ImageTile = loadable( () => import('../image-tiles/ImageTile') );
 
 const createHeroImageTileSlider = props => {
 
-  const [showDesktopSlider, setShowDesktopSlider] = useState(null);
+  const [desktopLayout, setDesktopLayout] = useState(null);
 
   var notMobile;
 
@@ -21,15 +21,15 @@ const createHeroImageTileSlider = props => {
   }
 
   useEffect(() => {
-    if (notMobile !== null) setShowDesktopSlider(!notMobile); // !notMobile means show;
-  });
+    setDesktopLayout(!notMobile); // !notMobile means show;
+  }); //, [desktopLayout]);
 
 
   const { tiles, title } = props;
   const imageTileNodes = () => tiles.map( (tile, i) => <div className="container" key={i}><ImageTile data={tile} /></div> );
 
   const showProperDisplay = () => {
-    if (showDesktopSlider) {
+    if (desktopLayout && desktopLayout !== null) {
       return imageTileNodes();
     } else {
       return (<Carousel

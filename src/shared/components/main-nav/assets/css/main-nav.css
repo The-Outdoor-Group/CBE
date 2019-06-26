@@ -71,6 +71,10 @@
   }
 
 
+  #main-nav-container nav ul li {
+    margin-right: 1rem;
+  }
+
   #main-nav-container a#home-link {
     width: 65%;
   }

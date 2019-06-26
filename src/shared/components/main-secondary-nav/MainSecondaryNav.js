@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import loadable from '@loadable/component';
 import { sideMenuTimeline } from './../../utilities/tweens/color-tween';
 import { useResize } from '../../utilities/shared-hooks/useResize';
+import { setMainUrl } from '../../actions/shared-ui-actions';
 
 import './assets/css/main-secondary-nav.css';
 
@@ -11,7 +12,7 @@ import './assets/css/main-secondary-nav.css';
  will need to be connected to redux store so that it can display the main nav items if the customer has scrolled down the page
 */
 
-const MainList = loadable( () => import('./../main-nav/MainList') );
+const SharedMainList = loadable( () => import('./../main-nav/SharedMainList') );
 
 const MainSecondaryNav = (props) => {
 
@@ -31,10 +32,11 @@ const MainSecondaryNav = (props) => {
 
   useEffect(() => {
     const timeline = sideMenuTimeline(divRef.current);
-    props.sharedUiState.secondaryMenuVisible ? timeline.play() : timeline.reverse();
-  }, [props.sharedUiState.secondaryMenuVisible]);
+    props.secondaryMenuVisible ? timeline.play() : timeline.reverse();
+  }, [props.secondaryMenuVisible]);
 
-  const showMainNavNodes = () => showMainNav ? <MainList colorTheme={'dark'} /> : null;
+  // const showMainNavNodes = () => showMainNav ? <SharedMainList colorTheme={'dark'} /> : null;
+  const showMainNavNodes = () => showMainNav ? null : <SharedMainList setMainUrl={props.setMainUrl} colorTheme={props.colorTheme} mainUrl={null} />;
 
   const navNodes = () => (
       <div ref={divRef} id="main-secondary-menu">
@@ -52,10 +54,13 @@ const MainSecondaryNav = (props) => {
       </div>
   );
 
-  const { secondaryMenuVisible } = props.sharedUiState;
+  const { secondaryMenuVisible } = props;
 
   return navNodes(secondaryMenuVisible);
 };
 
-const mapStateToProps = ({ sharedUiState }) => ({ sharedUiState });
-export default connect(mapStateToProps, null )(MainSecondaryNav);
+const mapStateToProps = ({ sharedUiState }) => {
+  const { mainUrl, secondaryMenuVisible } = sharedUiState;
+  return { mainUrl, secondaryMenuVisible };
+};
+export default connect(mapStateToProps, { setMainUrl })(MainSecondaryNav);

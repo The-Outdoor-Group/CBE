@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SharedMainList from './SharedMainList';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getStyle } from './assets/utilities/font-color-style';
@@ -6,8 +7,6 @@ import { setMainUrl } from '../../actions/shared-ui-actions';
 import { createBrowserHistory } from 'history';
 
 const MainList = (props) => {
-
-  console.log('props in MainList: ', props);
 
   const { colorTheme, showAllLinks, mainUrl, secondaryMenuVisible } = props;
 
@@ -33,17 +32,11 @@ const MainList = (props) => {
       {
         showAllLinks ?
         (
-          <>
-            <li className={opacityStyle()}><Link to="/arrow-rest" onClick={() => props.setMainUrl('/arrow-rest')} style={getStyle({colorTheme, link: '/arrow-rest', mainUrl})}>Arrow Rest</Link></li>
-            <li className={opacityStyle()}><Link to="/stabilizers" onClick={() => props.setMainUrl('/stabilizers')} style={getStyle({colorTheme, link: '/stabilizers', mainUrl})}>Stabilizers</Link></li>
-            <li className={opacityStyle()}><Link to="/quivers" onClick={() => props.setMainUrl('/quivers')} style={getStyle({colorTheme, link: '/quivers', mainUrl})}>Quivers</Link></li>
-            <li className={opacityStyle()}><Link to="/sights" onClick={() => props.setMainUrl('/sights')} style={getStyle({colorTheme, link: '/sights', mainUrl})}>Sights</Link></li>
-            <li className={opacityStyle()}><Link to="/product" onClick={() => props.setMainUrl('/product')} style={getStyle({colorTheme, link: '/product', mainUrl})}>Accessories</Link></li>
-            <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('/shop')} style={getStyle({colorTheme, link: '/shop', mainUrl})}>Shop</Link></li>
-          </>
+          <SharedMainList opacityStyle={opacityStyle} setMainUrl={props.setMainUrl} getStyle={getStyle} colorTheme={props.colorTheme} mainUrl={props.mainUrl} />
         )
        : null
       }
+      <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('/shop')} style={getStyle({colorTheme, link: '/shop', mainUrl})}>Shop</Link></li>
       <li><Link id="shop" to="/cart" onClick={() => props.setMainUrl('/cart')} style={getStyle( {colorTheme: color, link: '/cart', mainUrl} )}>Cart</Link></li>
     </>
   );

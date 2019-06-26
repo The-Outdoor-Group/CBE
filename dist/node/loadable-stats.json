@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "56f03bcb3d24851cf199",
+  "hash": "1e0b51b6593926f76caf",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -10,16 +10,16 @@
       "Image.css",
       "0.server.js"
     ],
-    "MainList": "1.server.js",
     "Stats": [
       "Stats.css",
-      "2.server.js"
+      "1.server.js"
     ],
     "CallToAction": [
       "CallToAction.css",
-      "3.server.js"
+      "2.server.js"
     ],
-    "InfoPanelOpenList": "4.server.js",
+    "InfoPanelOpenList": "3.server.js",
+    "MainList": "4.server.js",
     "MoreInfoComponent": [
       "MoreInfoComponent.css",
       "5.server.js"
@@ -94,13 +94,14 @@
       "main.css",
       "server.js"
     ],
+    "main-nav-SharedMainList": "28.server.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "28.server.js"
+      "29.server.js"
     ],
     "text-Header": [
       "text-Header.css",
-      "29.server.js"
+      "30.server.js"
     ]
   },
   "assets": [
@@ -117,12 +118,12 @@
     },
     {
       "name": "1.server.js",
-      "size": 2580,
+      "size": 511,
       "chunks": [
         1
       ],
       "chunkNames": [
-        "MainList"
+        "Stats"
       ],
       "emitted": false
     },
@@ -150,7 +151,7 @@
     },
     {
       "name": "12.server.js",
-      "size": 7724,
+      "size": 7726,
       "chunks": [
         12
       ],
@@ -205,7 +206,7 @@
     },
     {
       "name": "17.server.js",
-      "size": 3929,
+      "size": 4010,
       "chunks": [
         17
       ],
@@ -238,12 +239,12 @@
     },
     {
       "name": "2.server.js",
-      "size": 511,
+      "size": 1933,
       "chunks": [
         2
       ],
       "chunkNames": [
-        "Stats"
+        "CallToAction"
       ],
       "emitted": false
     },
@@ -326,23 +327,23 @@
     },
     {
       "name": "28.server.js",
-      "size": 259,
+      "size": 1498,
       "chunks": [
         28
       ],
       "chunkNames": [
-        "more-info-components-container-MoreInfoArticle"
+        "main-nav-SharedMainList"
       ],
       "emitted": false
     },
     {
       "name": "29.server.js",
-      "size": 317,
+      "size": 259,
       "chunks": [
         29
       ],
       "chunkNames": [
-        "text-Header"
+        "more-info-components-container-MoreInfoArticle"
       ],
       "emitted": false
     },
@@ -362,23 +363,35 @@
     },
     {
       "name": "3.server.js",
-      "size": 1933,
+      "size": 737,
       "chunks": [
         3
       ],
       "chunkNames": [
-        "CallToAction"
+        "InfoPanelOpenList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "30.server.js",
+      "size": 317,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [
+        "text-Header"
       ],
       "emitted": false
     },
     {
       "name": "4.server.js",
-      "size": 737,
+      "size": 3057,
       "chunks": [
-        4
+        4,
+        28
       ],
       "chunkNames": [
-        "InfoPanelOpenList"
+        "MainList"
       ],
       "emitted": false
     },
@@ -455,7 +468,7 @@
       "name": "CallToAction.css",
       "size": 352,
       "chunks": [
-        3
+        2
       ],
       "chunkNames": [
         "CallToAction"
@@ -488,7 +501,7 @@
       "name": "Stats.css",
       "size": 1193,
       "chunks": [
-        2
+        1
       ],
       "chunkNames": [
         "Stats"
@@ -592,7 +605,7 @@
     },
     {
       "name": "components-main-nav-MainNav.css",
-      "size": 1083,
+      "size": 1131,
       "chunks": [
         16
       ],
@@ -682,7 +695,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 59,
       "chunks": [
-        28
+        29
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -691,7 +704,7 @@
     },
     {
       "name": "server.js",
-      "size": 19036,
+      "size": 19065,
       "chunks": [
         27
       ],
@@ -704,7 +717,7 @@
       "name": "text-Header.css",
       "size": 129,
       "chunks": [
-        29
+        30
       ],
       "chunkNames": [
         "text-Header"
@@ -826,16 +839,6 @@
     },
     "MainList": {
       "chunks": [
-        1
-      ],
-      "assets": [
-        "1.server.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "InfoPanelOpenList": {
-      "chunks": [
         4
       ],
       "assets": [
@@ -844,12 +847,22 @@
       "children": {},
       "childAssets": {}
     },
-    "main-nav-MainList": {
+    "InfoPanelOpenList": {
       "chunks": [
-        1
+        3
       ],
       "assets": [
-        "1.server.js"
+        "3.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "main-nav-SharedMainList": {
+      "chunks": [
+        28
+      ],
+      "assets": [
+        "28.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -920,11 +933,11 @@
     },
     "hero-components-Stats": {
       "chunks": [
-        2
+        1
       ],
       "assets": [
         "Stats.css",
-        "2.server.js"
+        "1.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -995,22 +1008,22 @@
     },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        28
+        29
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "28.server.js"
+        "29.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "text-Header": {
       "chunks": [
-        29
+        30
       ],
       "assets": [
         "text-Header.css",
-        "29.server.js"
+        "30.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1039,22 +1052,22 @@
     },
     "CallToAction": {
       "chunks": [
-        3
+        2
       ],
       "assets": [
         "CallToAction.css",
-        "3.server.js"
+        "2.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Stats": {
       "chunks": [
-        2
+        1
       ],
       "assets": [
         "Stats.css",
-        "2.server.js"
+        "1.server.js"
       ],
       "children": {},
       "childAssets": {}
