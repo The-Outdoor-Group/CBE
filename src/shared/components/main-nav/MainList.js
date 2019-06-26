@@ -36,8 +36,8 @@ const MainList = (props) => {
         )
        : null
       }
-      <li className={opacityStyle()}><Link to="/shop" onClick={() => props.setMainUrl('/shop')} style={getStyle({colorTheme, link: '/shop', mainUrl})}>Shop</Link></li>
-      <li><Link id="shop" to="/cart" onClick={() => props.setMainUrl('/cart')} style={getStyle( {colorTheme: color, link: '/cart', mainUrl} )}>Cart</Link></li>
+      <li><Link to="/shop" onClick={() => props.setMainUrl('/shop')} style={getStyle({colorTheme, link: '/shop', mainUrl})}>Shop</Link></li>
+      <li><Link id="cart" to="/cart" onClick={() => props.setMainUrl('/cart')} style={getStyle( {colorTheme: color, link: '/cart', mainUrl} )}>Cart</Link></li>
     </>
   );
 };

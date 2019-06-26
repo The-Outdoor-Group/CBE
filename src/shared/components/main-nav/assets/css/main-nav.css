@@ -40,7 +40,7 @@
   font-weight: 900;
 }
 
-#main-nav-container a#shop {
+#main-nav-container a#cart {
   grid-column-start: 3;
   justify-self: end;
   font-weight: 900;
@@ -79,7 +79,7 @@
     width: 65%;
   }
 
-  #main-nav-container a#shop {
+  #main-nav-container a#cart {
     grid-column-start: 2;
   }
 

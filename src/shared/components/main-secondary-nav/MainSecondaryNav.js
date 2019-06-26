@@ -35,7 +35,6 @@ const MainSecondaryNav = (props) => {
     props.secondaryMenuVisible ? timeline.play() : timeline.reverse();
   }, [props.secondaryMenuVisible]);
 
-  // const showMainNavNodes = () => showMainNav ? <SharedMainList colorTheme={'dark'} /> : null;
   const showMainNavNodes = () => showMainNav ? null : <SharedMainList setMainUrl={props.setMainUrl} colorTheme={props.colorTheme} mainUrl={null} />;
 
   const navNodes = () => (
