@@ -1,0 +1,9 @@
+#cart article header h1 {
+  font-size: 170%;
+  font-weight: 500;
+  padding: 2rem 0 1rem 0;
+}
+
+#cart article p {
+  padding: 1rem 0;
+}

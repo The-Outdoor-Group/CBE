@@ -73,8 +73,9 @@ const App = (props) => {
         <main id="main-content" className={props.secondaryMenuVisible ? 'fade' : null}>
           <Switch>
             <Route exact path="/" component={() => <Routes.HomePage />} />
-            <Route exact path="/shop" component={() => <Routes.ShopPage /> } />
-            <Route exact path="/product" component={() => <Routes.ProductPage />} />
+            <Route path="/shop" component={() => <Routes.ShopPage /> } />
+            <Route path="/product" component={() => <Routes.ProductPage />} />
+            <Route path="/cart" component={() => <Routes.CartPage />} />
           </Switch>
         </main>
         <MainSecondaryNav />
