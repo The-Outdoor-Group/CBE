@@ -1,4 +1,5 @@
 import React from 'react';
+import jsesc from 'jsesc';
 import { hydrate } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
@@ -12,7 +13,7 @@ const preloadedState = window.__PRELOADED_STATE__;
 
 delete window.__PRELOADED_STATE__;
 
-const store = configureStore(preloadedState);
+const store = configureStore( jsesc(preloadedState) );
 
 store.runSaga(rootSaga);
 

@@ -1,4 +1,4 @@
-importScripts("/assets/web/precache-manifest.b31d4ca4ec9fa41108e5f0d7f2046276.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/assets/web/precache-manifest.fa1c7f026cb9a52c1e190a36ab3e095f.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 // workbox.strategies.staleWhileRevalidate()
 

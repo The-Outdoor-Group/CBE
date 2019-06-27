@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { ChunkExtractor } from '@loadable/server';
 import serialize from 'serialize-javascript';
+import jsesc from 'jsesc';
 import configureStore from '../shared/store/configureStore';
 import rootSaga from '../shared/sagas/rootSaga';
 import App from '../shared/containers';
@@ -36,11 +37,12 @@ const layout = (html, preloadedState, webExtractor) => {
         <body>
           <div id="app">${html}</div>
         </body>
-        <script>window.__PRELOADED_STATE__ = ${serialize(preloadedState).replace(/</g, '\\x3c')}</script>
+        <script>window.__PRELOADED_STATE__ = ${jsesc(preloadedState)}</script>
         ${webExtractor.getScriptTags()}
       </html>
   `
   );
+  // <script>window.__PRELOADED_STATE__ = ${serialize(preloadedState).replace(/</g, '\\x3c')}</script>
 };
 
 const getWebExtractor = () => {
