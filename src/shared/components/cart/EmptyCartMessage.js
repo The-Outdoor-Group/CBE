@@ -5,7 +5,7 @@ import './assets/css/empty-cart-message.css';
 
 const EmptyCartMessage = props => {
   return (
-    <article>
+    <article className="cart-message">
       <header>
         <h1>Your Shopping Cart is empty.</h1>
       </header>

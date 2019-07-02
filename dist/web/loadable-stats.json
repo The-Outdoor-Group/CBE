@@ -2,56 +2,59 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "55590704868dce2c22d1",
+  "hash": "8391bf33666138c44011",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "styles": [
       "styles.css",
-      "0.55590704868dce2c22d1.js"
+      "0.8391bf33666138c44011.js"
     ],
-    "vendor": "1.55590704868dce2c22d1.js",
-    "Image": "2.55590704868dce2c22d1.js",
-    "Stats": "3.55590704868dce2c22d1.js",
-    "CallToAction": "4.55590704868dce2c22d1.js",
-    "InfoPanelOpenList": "5.55590704868dce2c22d1.js",
-    "MainList": "6.55590704868dce2c22d1.js",
-    "MoreInfoComponent": "7.55590704868dce2c22d1.js",
-    "assets-images-NavigationArrow": "8.55590704868dce2c22d1.js",
-    "assets-images-PlusIcon": "9.55590704868dce2c22d1.js",
-    "assets-images-logo": "10.55590704868dce2c22d1.js",
-    "assets-images-secondary-menu-icon": "11.55590704868dce2c22d1.js",
-    "child-components-ProductImage": "12.55590704868dce2c22d1.js",
-    "child-components-VariantSelector": "13.55590704868dce2c22d1.js",
-    "components-cart-EmptyCartMessage": "14.55590704868dce2c22d1.js",
-    "components-cart-FinancingAd": "15.55590704868dce2c22d1.js",
-    "components-cart-RecommendedItems": "16.55590704868dce2c22d1.js",
-    "components-cart-SideBar": "17.55590704868dce2c22d1.js",
-    "components-content-Hero": "18.55590704868dce2c22d1.js",
-    "components-content-assets-images-MoreContentArrow": "19.55590704868dce2c22d1.js",
-    "components-content-store-components-ShopHero": "20.55590704868dce2c22d1.js",
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": "21.55590704868dce2c22d1.js",
-    "components-main-nav-MainNav": "22.55590704868dce2c22d1.js",
-    "components-main-secondary-nav-MainSecondaryNav": "23.55590704868dce2c22d1.js",
-    "container-HorizontalImageSlider": "24.55590704868dce2c22d1.js",
-    "containers-Cart": "25.55590704868dce2c22d1.js",
-    "containers-Home": "26.55590704868dce2c22d1.js",
-    "containers-Shop": "27.55590704868dce2c22d1.js",
-    "hero-components-List": "28.55590704868dce2c22d1.js",
-    "hero-components-ListButton": "29.55590704868dce2c22d1.js",
-    "hero-components-TextArticle": "30.55590704868dce2c22d1.js",
-    "hero-components-TitleHeader": "31.55590704868dce2c22d1.js",
-    "hero-components-VideoComponent": "32.55590704868dce2c22d1.js",
-    "image-tiles-ImageTile": "33.55590704868dce2c22d1.js",
-    "main": "main.55590704868dce2c22d1.js",
-    "main-nav-SharedMainList": "35.55590704868dce2c22d1.js",
-    "more-info-components-container-MoreInfoArticle": "36.55590704868dce2c22d1.js",
-    "text-Header": "37.55590704868dce2c22d1.js"
+    "vendor": "1.8391bf33666138c44011.js",
+    "Image": "2.8391bf33666138c44011.js",
+    "Stats": "3.8391bf33666138c44011.js",
+    "CallToAction": "4.8391bf33666138c44011.js",
+    "InfoPanelOpenList": "5.8391bf33666138c44011.js",
+    "MainList": "6.8391bf33666138c44011.js",
+    "MoreInfoComponent": "7.8391bf33666138c44011.js",
+    "assets-images-NavigationArrow": "8.8391bf33666138c44011.js",
+    "assets-images-PlusIcon": "9.8391bf33666138c44011.js",
+    "assets-images-logo": "10.8391bf33666138c44011.js",
+    "assets-images-secondary-menu-icon": "11.8391bf33666138c44011.js",
+    "child-components-ProductImage": "12.8391bf33666138c44011.js",
+    "child-components-VariantSelector": "13.8391bf33666138c44011.js",
+    "components-cart-EmptyCartMessage": "14.8391bf33666138c44011.js",
+    "components-cart-FilledCart": "15.8391bf33666138c44011.js",
+    "components-cart-FinancingAd": "16.8391bf33666138c44011.js",
+    "components-cart-RecommendedItems": "17.8391bf33666138c44011.js",
+    "components-cart-SideBar": "18.8391bf33666138c44011.js",
+    "components-content-Hero": "19.8391bf33666138c44011.js",
+    "components-content-assets-images-MoreContentArrow": "20.8391bf33666138c44011.js",
+    "components-content-store-components-ShopHero": "21.8391bf33666138c44011.js",
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": "22.8391bf33666138c44011.js",
+    "components-main-nav-MainNav": "23.8391bf33666138c44011.js",
+    "components-main-secondary-nav-MainSecondaryNav": "24.8391bf33666138c44011.js",
+    "container-HorizontalImageSlider": "25.8391bf33666138c44011.js",
+    "containers-Cart": "26.8391bf33666138c44011.js",
+    "containers-Home": "27.8391bf33666138c44011.js",
+    "containers-Shop": "28.8391bf33666138c44011.js",
+    "hero-components-List": "29.8391bf33666138c44011.js",
+    "hero-components-ListButton": "30.8391bf33666138c44011.js",
+    "hero-components-TextArticle": "31.8391bf33666138c44011.js",
+    "hero-components-TitleHeader": "32.8391bf33666138c44011.js",
+    "hero-components-VideoComponent": "33.8391bf33666138c44011.js",
+    "image-tiles-ImageTile": "34.8391bf33666138c44011.js",
+    "main": "main.8391bf33666138c44011.js",
+    "main-nav-SharedMainList": "36.8391bf33666138c44011.js",
+    "more-info-components-container-MoreInfoArticle": "37.8391bf33666138c44011.js",
+    "order-parts-LineItem": "38.8391bf33666138c44011.js",
+    "order-parts-OrderSummary": "39.8391bf33666138c44011.js",
+    "text-Header": "40.8391bf33666138c44011.js"
   },
   "assets": [
     {
-      "name": "0.55590704868dce2c22d1.js",
-      "size": 924,
+      "name": "0.8391bf33666138c44011.js",
+      "size": 1034,
       "chunks": [
         0
       ],
@@ -61,8 +64,8 @@
       "emitted": false
     },
     {
-      "name": "1.55590704868dce2c22d1.js",
-      "size": 454878,
+      "name": "1.8391bf33666138c44011.js",
+      "size": 454879,
       "chunks": [
         1
       ],
@@ -72,7 +75,7 @@
       "emitted": false
     },
     {
-      "name": "10.55590704868dce2c22d1.js",
+      "name": "10.8391bf33666138c44011.js",
       "size": 3223,
       "chunks": [
         10
@@ -83,7 +86,7 @@
       "emitted": false
     },
     {
-      "name": "11.55590704868dce2c22d1.js",
+      "name": "11.8391bf33666138c44011.js",
       "size": 1321,
       "chunks": [
         11
@@ -94,7 +97,7 @@
       "emitted": false
     },
     {
-      "name": "12.55590704868dce2c22d1.js",
+      "name": "12.8391bf33666138c44011.js",
       "size": 1366,
       "chunks": [
         12
@@ -105,7 +108,7 @@
       "emitted": false
     },
     {
-      "name": "13.55590704868dce2c22d1.js",
+      "name": "13.8391bf33666138c44011.js",
       "size": 635,
       "chunks": [
         13
@@ -116,8 +119,8 @@
       "emitted": false
     },
     {
-      "name": "14.55590704868dce2c22d1.js",
-      "size": 738,
+      "name": "14.8391bf33666138c44011.js",
+      "size": 760,
       "chunks": [
         14
       ],
@@ -127,10 +130,21 @@
       "emitted": false
     },
     {
-      "name": "15.55590704868dce2c22d1.js",
-      "size": 323,
+      "name": "15.8391bf33666138c44011.js",
+      "size": 982,
       "chunks": [
         15
+      ],
+      "chunkNames": [
+        "components-cart-FilledCart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "16.8391bf33666138c44011.js",
+      "size": 323,
+      "chunks": [
+        16
       ],
       "chunkNames": [
         "components-cart-FinancingAd"
@@ -138,10 +152,10 @@
       "emitted": false
     },
     {
-      "name": "16.55590704868dce2c22d1.js",
+      "name": "17.8391bf33666138c44011.js",
       "size": 1262,
       "chunks": [
-        16
+        17
       ],
       "chunkNames": [
         "components-cart-RecommendedItems"
@@ -149,10 +163,10 @@
       "emitted": false
     },
     {
-      "name": "17.55590704868dce2c22d1.js",
-      "size": 308,
+      "name": "18.8391bf33666138c44011.js",
+      "size": 584,
       "chunks": [
-        17
+        18
       ],
       "chunkNames": [
         "components-cart-SideBar"
@@ -160,10 +174,10 @@
       "emitted": false
     },
     {
-      "name": "18.55590704868dce2c22d1.js",
+      "name": "19.8391bf33666138c44011.js",
       "size": 7982,
       "chunks": [
-        18
+        19
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -171,18 +185,7 @@
       "emitted": false
     },
     {
-      "name": "19.55590704868dce2c22d1.js",
-      "size": 2899,
-      "chunks": [
-        19
-      ],
-      "chunkNames": [
-        "components-content-assets-images-MoreContentArrow"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.55590704868dce2c22d1.js",
+      "name": "2.8391bf33666138c44011.js",
       "size": 279,
       "chunks": [
         2
@@ -193,10 +196,21 @@
       "emitted": false
     },
     {
-      "name": "20.55590704868dce2c22d1.js",
-      "size": 5056,
+      "name": "20.8391bf33666138c44011.js",
+      "size": 2899,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.8391bf33666138c44011.js",
+      "size": 5056,
+      "chunks": [
+        21
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -204,10 +218,10 @@
       "emitted": false
     },
     {
-      "name": "21.55590704868dce2c22d1.js",
+      "name": "22.8391bf33666138c44011.js",
       "size": 9584,
       "chunks": [
-        21
+        22
       ],
       "chunkNames": [
         "components-content-store-components-product-display-for-purchase-ProductDisplay"
@@ -215,10 +229,10 @@
       "emitted": false
     },
     {
-      "name": "22.55590704868dce2c22d1.js",
+      "name": "23.8391bf33666138c44011.js",
       "size": 5823,
       "chunks": [
-        22
+        23
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -226,10 +240,10 @@
       "emitted": false
     },
     {
-      "name": "23.55590704868dce2c22d1.js",
+      "name": "24.8391bf33666138c44011.js",
       "size": 4449,
       "chunks": [
-        23
+        24
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -237,10 +251,10 @@
       "emitted": false
     },
     {
-      "name": "24.55590704868dce2c22d1.js",
+      "name": "25.8391bf33666138c44011.js",
       "size": 2332,
       "chunks": [
-        24
+        25
       ],
       "chunkNames": [
         "container-HorizontalImageSlider"
@@ -248,10 +262,10 @@
       "emitted": false
     },
     {
-      "name": "25.55590704868dce2c22d1.js",
-      "size": 1562,
+      "name": "26.8391bf33666138c44011.js",
+      "size": 1884,
       "chunks": [
-        25
+        26
       ],
       "chunkNames": [
         "containers-Cart"
@@ -259,10 +273,10 @@
       "emitted": false
     },
     {
-      "name": "26.55590704868dce2c22d1.js",
+      "name": "27.8391bf33666138c44011.js",
       "size": 6670,
       "chunks": [
-        26
+        27
       ],
       "chunkNames": [
         "containers-Home"
@@ -270,10 +284,10 @@
       "emitted": false
     },
     {
-      "name": "27.55590704868dce2c22d1.js",
+      "name": "28.8391bf33666138c44011.js",
       "size": 2199,
       "chunks": [
-        27
+        28
       ],
       "chunkNames": [
         "containers-Shop"
@@ -281,24 +295,13 @@
       "emitted": false
     },
     {
-      "name": "28.55590704868dce2c22d1.js",
+      "name": "29.8391bf33666138c44011.js",
       "size": 381,
-      "chunks": [
-        28
-      ],
-      "chunkNames": [
-        "hero-components-List"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "29.55590704868dce2c22d1.js",
-      "size": 228,
       "chunks": [
         29
       ],
       "chunkNames": [
-        "hero-components-ListButton"
+        "hero-components-List"
       ],
       "emitted": false
     },
@@ -317,7 +320,7 @@
       "emitted": false
     },
     {
-      "name": "3.55590704868dce2c22d1.js",
+      "name": "3.8391bf33666138c44011.js",
       "size": 544,
       "chunks": [
         3
@@ -328,10 +331,21 @@
       "emitted": false
     },
     {
-      "name": "30.55590704868dce2c22d1.js",
-      "size": 1351,
+      "name": "30.8391bf33666138c44011.js",
+      "size": 228,
       "chunks": [
         30
+      ],
+      "chunkNames": [
+        "hero-components-ListButton"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "31.8391bf33666138c44011.js",
+      "size": 1351,
+      "chunks": [
+        31
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -339,10 +353,10 @@
       "emitted": false
     },
     {
-      "name": "31.55590704868dce2c22d1.js",
+      "name": "32.8391bf33666138c44011.js",
       "size": 437,
       "chunks": [
-        31
+        32
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -350,10 +364,10 @@
       "emitted": false
     },
     {
-      "name": "32.55590704868dce2c22d1.js",
+      "name": "33.8391bf33666138c44011.js",
       "size": 984,
       "chunks": [
-        32
+        33
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -361,10 +375,10 @@
       "emitted": false
     },
     {
-      "name": "33.55590704868dce2c22d1.js",
+      "name": "34.8391bf33666138c44011.js",
       "size": 683,
       "chunks": [
-        33
+        34
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -372,10 +386,10 @@
       "emitted": false
     },
     {
-      "name": "35.55590704868dce2c22d1.js",
+      "name": "36.8391bf33666138c44011.js",
       "size": 1622,
       "chunks": [
-        35
+        36
       ],
       "chunkNames": [
         "main-nav-SharedMainList"
@@ -383,10 +397,10 @@
       "emitted": false
     },
     {
-      "name": "36.55590704868dce2c22d1.js",
+      "name": "37.8391bf33666138c44011.js",
       "size": 293,
       "chunks": [
-        36
+        37
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -394,24 +408,46 @@
       "emitted": false
     },
     {
-      "name": "37.55590704868dce2c22d1.js",
-      "size": 350,
+      "name": "38.8391bf33666138c44011.js",
+      "size": 496,
       "chunks": [
-        37
+        38
       ],
       "chunkNames": [
-        "text-Header"
+        "order-parts-LineItem"
       ],
       "emitted": false
     },
     {
-      "name": "4.55590704868dce2c22d1.js",
+      "name": "39.8391bf33666138c44011.js",
+      "size": 614,
+      "chunks": [
+        39
+      ],
+      "chunkNames": [
+        "order-parts-OrderSummary"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4.8391bf33666138c44011.js",
       "size": 1962,
       "chunks": [
         4
       ],
       "chunkNames": [
         "CallToAction"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "40.8391bf33666138c44011.js",
+      "size": 350,
+      "chunks": [
+        40
+      ],
+      "chunkNames": [
+        "text-Header"
       ],
       "emitted": false
     },
@@ -423,7 +459,7 @@
       "emitted": false
     },
     {
-      "name": "5.55590704868dce2c22d1.js",
+      "name": "5.8391bf33666138c44011.js",
       "size": 924,
       "chunks": [
         5
@@ -434,11 +470,11 @@
       "emitted": false
     },
     {
-      "name": "6.55590704868dce2c22d1.js",
+      "name": "6.8391bf33666138c44011.js",
       "size": 3267,
       "chunks": [
         6,
-        35
+        36
       ],
       "chunkNames": [
         "MainList"
@@ -446,7 +482,7 @@
       "emitted": false
     },
     {
-      "name": "7.55590704868dce2c22d1.js",
+      "name": "7.8391bf33666138c44011.js",
       "size": 8189,
       "chunks": [
         7
@@ -464,7 +500,7 @@
       "emitted": false
     },
     {
-      "name": "8.55590704868dce2c22d1.js",
+      "name": "8.8391bf33666138c44011.js",
       "size": 385,
       "chunks": [
         8
@@ -475,7 +511,7 @@
       "emitted": false
     },
     {
-      "name": "9.55590704868dce2c22d1.js",
+      "name": "9.8391bf33666138c44011.js",
       "size": 1440,
       "chunks": [
         9
@@ -500,10 +536,10 @@
       "emitted": false
     },
     {
-      "name": "main.55590704868dce2c22d1.js",
-      "size": 15598,
+      "name": "main.8391bf33666138c44011.js",
+      "size": 15620,
       "chunks": [
-        34
+        35
       ],
       "chunkNames": [
         "main"
@@ -512,7 +548,7 @@
     },
     {
       "name": "styles.css",
-      "size": 23850,
+      "size": 24512,
       "chunks": [
         0
       ],
@@ -528,13 +564,13 @@
       "chunks": [
         0,
         1,
-        34
+        35
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "main.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "main.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -545,13 +581,13 @@
       "chunks": [
         0,
         1,
-        34
+        35
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "main.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "main.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -560,13 +596,13 @@
       "chunks": [
         0,
         1,
-        22
+        23
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "22.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "23.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -575,13 +611,13 @@
       "chunks": [
         0,
         1,
-        23
+        24
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "23.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "24.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -590,13 +626,13 @@
       "chunks": [
         0,
         1,
-        19
+        20
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "19.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "20.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -604,21 +640,21 @@
     "containers-Home": {
       "chunks": [
         1,
-        26
+        27
       ],
       "assets": [
-        "1.55590704868dce2c22d1.js",
-        "26.55590704868dce2c22d1.js"
+        "1.8391bf33666138c44011.js",
+        "27.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Shop": {
       "chunks": [
-        27
+        28
       ],
       "assets": [
-        "27.55590704868dce2c22d1.js"
+        "28.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -627,23 +663,26 @@
       "chunks": [
         0,
         1,
-        21
+        22
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "21.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "22.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Cart": {
       "chunks": [
-        25
+        0,
+        26
       ],
       "assets": [
-        "25.55590704868dce2c22d1.js"
+        "styles.css",
+        "0.8391bf33666138c44011.js",
+        "26.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -656,9 +695,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "10.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "10.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -670,8 +709,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "11.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "11.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -681,7 +720,7 @@
         6
       ],
       "assets": [
-        "6.55590704868dce2c22d1.js"
+        "6.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -691,17 +730,17 @@
         5
       ],
       "assets": [
-        "5.55590704868dce2c22d1.js"
+        "5.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "main-nav-SharedMainList": {
       "chunks": [
-        35
+        36
       ],
       "assets": [
-        "35.55590704868dce2c22d1.js"
+        "36.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -710,13 +749,13 @@
       "chunks": [
         0,
         1,
-        18
+        19
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "18.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "19.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -725,13 +764,13 @@
       "chunks": [
         0,
         1,
-        20
+        21
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "20.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "21.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -741,7 +780,7 @@
         13
       ],
       "assets": [
-        "13.55590704868dce2c22d1.js"
+        "13.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -751,7 +790,7 @@
         12
       ],
       "assets": [
-        "12.55590704868dce2c22d1.js"
+        "12.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -759,12 +798,12 @@
     "components-cart-FinancingAd": {
       "chunks": [
         0,
-        15
+        16
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "15.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "16.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -776,18 +815,34 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "14.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "14.8391bf33666138c44011.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FilledCart": {
+      "chunks": [
+        0,
+        15
+      ],
+      "assets": [
+        "styles.css",
+        "0.8391bf33666138c44011.js",
+        "15.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-cart-SideBar": {
       "chunks": [
-        17
+        0,
+        18
       ],
       "assets": [
-        "17.55590704868dce2c22d1.js"
+        "styles.css",
+        "0.8391bf33666138c44011.js",
+        "18.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -795,12 +850,12 @@
     "components-cart-RecommendedItems": {
       "chunks": [
         0,
-        16
+        17
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "16.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "17.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -812,8 +867,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "7.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "7.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -821,12 +876,12 @@
     "hero-components-TitleHeader": {
       "chunks": [
         0,
-        31
+        32
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "31.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "32.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -838,8 +893,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "3.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "3.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -847,12 +902,12 @@
     "hero-components-TextArticle": {
       "chunks": [
         0,
-        30
+        31
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "30.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "31.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -864,8 +919,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "2.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "2.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -873,32 +928,32 @@
     "hero-components-VideoComponent": {
       "chunks": [
         0,
-        32
+        33
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "32.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "33.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-ListButton": {
       "chunks": [
-        29
+        30
       ],
       "assets": [
-        "29.55590704868dce2c22d1.js"
+        "30.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        28
+        29
       ],
       "assets": [
-        "28.55590704868dce2c22d1.js"
+        "29.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -906,12 +961,38 @@
     "image-tiles-ImageTile": {
       "chunks": [
         0,
-        33
+        34
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "33.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "34.8391bf33666138c44011.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "order-parts-LineItem": {
+      "chunks": [
+        0,
+        38
+      ],
+      "assets": [
+        "styles.css",
+        "0.8391bf33666138c44011.js",
+        "38.8391bf33666138c44011.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "order-parts-OrderSummary": {
+      "chunks": [
+        0,
+        39
+      ],
+      "assets": [
+        "styles.css",
+        "0.8391bf33666138c44011.js",
+        "39.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -919,12 +1000,12 @@
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
         0,
-        36
+        37
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "36.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "37.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -932,12 +1013,12 @@
     "text-Header": {
       "chunks": [
         0,
-        37
+        40
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "37.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "40.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -946,13 +1027,13 @@
       "chunks": [
         0,
         1,
-        24
+        25
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "24.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "25.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -964,8 +1045,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "2.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "2.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -977,8 +1058,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "4.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "4.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -990,8 +1071,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "3.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "3.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1003,8 +1084,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "8.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "8.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1017,9 +1098,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.55590704868dce2c22d1.js",
-        "1.55590704868dce2c22d1.js",
-        "9.55590704868dce2c22d1.js"
+        "0.8391bf33666138c44011.js",
+        "1.8391bf33666138c44011.js",
+        "9.8391bf33666138c44011.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1104,7 +1185,77 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/cart.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/empty-cart-message.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/filled-cart.css"
     },
     {
       "errors": [],
@@ -1174,7 +1325,112 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/line-item.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/order-summary.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/recommended-items.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/sidebar.css"
     },
     {
       "errors": [],

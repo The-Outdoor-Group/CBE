@@ -1,1 +1,1 @@
-#cart article header h1{font-size:170%;font-weight:500;padding:2rem 0 1rem}#cart article p{padding:1rem 0}
+#cart article.cart-message{float:left;margin:1rem;width:65%}#cart article header h1{font-size:170%;font-weight:500;padding:2rem 0 1rem}#cart article p{line-height:150%;padding:1rem 0}

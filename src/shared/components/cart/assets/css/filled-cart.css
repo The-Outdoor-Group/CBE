@@ -1,0 +1,17 @@
+.cart-message table {
+  text-align: center;
+  width: 100%;
+}
+
+
+.cart-message table thead {
+  border-bottom: 1px solid #f2f2f2;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.cart-message table td {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 1rem;
+  vertical-align: top;
+}
