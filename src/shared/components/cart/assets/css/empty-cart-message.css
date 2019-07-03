@@ -14,3 +14,9 @@
   line-height: 150%;
   padding: 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  #cart article.cart-message {
+    width: 95%;
+  }
+}

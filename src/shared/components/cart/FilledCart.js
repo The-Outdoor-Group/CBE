@@ -26,6 +26,14 @@ const FilledCart = props => {
           {/* this is where each LineItem would be created in a map */}
           { buildLineItems() }
         </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>Subtotal (X items):</td>
+            <td>$xx.xx</td>
+            <td><button>Proceed To Checkout</button></td>
+          </tr>
+        </tfoot>
       </table>
     </article>
   );

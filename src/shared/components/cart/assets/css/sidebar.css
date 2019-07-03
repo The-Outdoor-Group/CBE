@@ -5,3 +5,9 @@ div.sidebar {
   padding: 1rem;
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  div.sidebar {
+    width: 95%;
+  }
+}

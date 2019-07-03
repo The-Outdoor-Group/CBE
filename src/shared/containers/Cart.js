@@ -13,8 +13,8 @@ const Cart = props => {
   return (
     <section id="cart">
       <FinancingAd />
-      <FilledCart /> {/* will be conditional with EmptyCartMessage */}
       <SideBar />
+      <FilledCart /> {/* will be conditional with EmptyCartMessage */}
       <RecommendedItems />
     </section>
   );

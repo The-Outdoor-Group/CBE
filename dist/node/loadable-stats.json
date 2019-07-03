@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "2da9a1537d8c0433dbc8",
+  "hash": "5c5be5f6e55a5985c10f",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -194,7 +194,7 @@
     },
     {
       "name": "13.server.js",
-      "size": 925,
+      "size": 1188,
       "chunks": [
         13
       ],
@@ -472,7 +472,7 @@
     },
     {
       "name": "36.server.js",
-      "size": 463,
+      "size": 500,
       "chunks": [
         36
       ],
@@ -681,7 +681,7 @@
     },
     {
       "name": "components-cart-EmptyCartMessage.css",
-      "size": 183,
+      "size": 257,
       "chunks": [
         12
       ],
@@ -692,7 +692,7 @@
     },
     {
       "name": "components-cart-FilledCart.css",
-      "size": 225,
+      "size": 449,
       "chunks": [
         13
       ],
@@ -725,7 +725,7 @@
     },
     {
       "name": "components-cart-SideBar.css",
-      "size": 78,
+      "size": 137,
       "chunks": [
         16
       ],
