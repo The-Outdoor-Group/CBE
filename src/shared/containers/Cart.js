@@ -11,7 +11,7 @@ const RecommendedItems = loadable( () => import('./../components/cart/Recommende
 
 const Cart = props => {
   return (
-    <section id="cart">
+    <section id="cart" className="clear-main-nav">
       <FinancingAd />
       <SideBar />
       <FilledCart /> {/* will be conditional with EmptyCartMessage */}

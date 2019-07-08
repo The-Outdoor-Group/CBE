@@ -76,6 +76,7 @@ const App = (props) => {
             <Route path="/shop" component={() => <Routes.ShopPage /> } />
             <Route path="/product" component={() => <Routes.ProductPage />} />
             <Route path="/cart" component={() => <Routes.CartPage />} />
+            <Route path="/wishlist" component={() => <Routes.WishlistPage />} />
           </Switch>
         </main>
         <MainSecondaryNav />

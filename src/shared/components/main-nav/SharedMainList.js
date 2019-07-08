@@ -17,6 +17,7 @@ const SharedMainList = props => {
       <li className={needOpacityStyle() ? props.opacityStyle : null}><Link to="/quivers" onClick={() => props.setMainUrl('/quivers')} style={needStyle() ? props.getStyle({colorTheme, link: '/quivers', mainUrl, mobileLayout}) : null}>Quivers</Link></li>
       <li className={needOpacityStyle() ? props.opacityStyle : null}><Link to="/sights" onClick={() => props.setMainUrl('/sights')} style={needStyle() ? props.getStyle({colorTheme, link: '/sights', mainUrl, mobileLayout}) : null}>Sights</Link></li>
       <li className={needOpacityStyle() ? props.opacityStyle : null}><Link to="/product" onClick={() => props.setMainUrl('/product')} style={needStyle() ? props.getStyle({colorTheme, link: '/product', mainUrl, mobileLayout}) : null}>Accessories</Link></li>
+      <li className={needOpacityStyle() ? props.opacityStyle : null}><Link to="/wishlist" onClick={() => props.setMainUrl('/wishlist')} style={needStyle() ? props.getStyle({colorTheme, link: '/wishlist', mainUrl, mobileLayout}) : null}>Wishlist</Link></li>
     </>
   );
 };

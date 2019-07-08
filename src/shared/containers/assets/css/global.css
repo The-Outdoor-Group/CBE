@@ -87,3 +87,7 @@ dl dd:before {
 	opacity: 0.1;
 	transition: opacity 0.25s ease-in-out;
 }
+
+.clear-main-nav {
+	margin: 80px 1rem 0 1rem;
+}

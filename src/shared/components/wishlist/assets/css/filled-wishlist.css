@@ -1,0 +1,33 @@
+#wishlist table {
+  text-align: center;
+  width: 100%;
+}
+
+#wishlist table thead {
+  border-bottom: 1px solid #f2f2f2;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+#wishlist table thead tr th {
+  padding-bottom: 1rem;
+}
+
+#wishlist table td {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 1rem;
+  vertical-align: top;
+}
+
+#wishlist table td p {
+  font-size: 70%;
+}
+
+#wishlist table tfoot tr td {
+  border-bottom: none;
+  vertical-align: middle;
+}
+
+#wishlist table tfoot tr td button {
+  padding: 0.25rem 0.5rem;
+}
