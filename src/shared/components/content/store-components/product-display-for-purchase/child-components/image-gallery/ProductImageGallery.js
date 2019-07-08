@@ -6,7 +6,7 @@ const CurrentImage = loadable( () => import('./child-components/CurrentImage') )
 
 const ProductImageGallery = props => {
   return (
-    <div className="col-25-75">
+    <div className="col-25-75" style={{ backgroundColor: 'aliceblue', padding: '1rem' }}>
       <ThumbnailGallery />
       <CurrentImage />
     </div>
