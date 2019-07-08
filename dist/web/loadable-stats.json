@@ -2,64 +2,67 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "0f291565c7464444cf23",
+  "hash": "7147723701af0727e8e5",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "styles": [
       "styles.css",
-      "0.0f291565c7464444cf23.js"
+      "0.7147723701af0727e8e5.js"
     ],
-    "vendor": "1.0f291565c7464444cf23.js",
-    "Image": "2.0f291565c7464444cf23.js",
-    "Stats": "3.0f291565c7464444cf23.js",
-    "CallToAction": "4.0f291565c7464444cf23.js",
-    "InfoPanelOpenList": "5.0f291565c7464444cf23.js",
-    "MainList": "6.0f291565c7464444cf23.js",
-    "MoreInfoComponent": "7.0f291565c7464444cf23.js",
-    "WishlistLineItem": "8.0f291565c7464444cf23.js",
-    "assets-images-NavigationArrow": "9.0f291565c7464444cf23.js",
-    "assets-images-PlusIcon": "10.0f291565c7464444cf23.js",
-    "assets-images-logo": "11.0f291565c7464444cf23.js",
-    "assets-images-secondary-menu-icon": "12.0f291565c7464444cf23.js",
-    "child-components-ProductImage": "13.0f291565c7464444cf23.js",
-    "child-components-VariantSelector": "14.0f291565c7464444cf23.js",
-    "components-cart-EmptyCartMessage": "15.0f291565c7464444cf23.js",
-    "components-cart-FilledCart": "16.0f291565c7464444cf23.js",
-    "components-cart-FinancingAd": "17.0f291565c7464444cf23.js",
-    "components-cart-RecommendedItems": "18.0f291565c7464444cf23.js",
-    "components-cart-SideBar": "19.0f291565c7464444cf23.js",
-    "components-content-Hero": "20.0f291565c7464444cf23.js",
-    "components-content-assets-images-MoreContentArrow": "21.0f291565c7464444cf23.js",
-    "components-content-store-components-ShopHero": "22.0f291565c7464444cf23.js",
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": "23.0f291565c7464444cf23.js",
-    "components-main-nav-MainNav": "24.0f291565c7464444cf23.js",
-    "components-main-secondary-nav-MainSecondaryNav": "25.0f291565c7464444cf23.js",
-    "components-wishlist-FilledWishlist": "26.0f291565c7464444cf23.js",
-    "components-wishlist-Messaging": "27.0f291565c7464444cf23.js",
-    "components-wishlist-WishlistRecommendedItems": "28.0f291565c7464444cf23.js",
-    "container-HorizontalImageSlider": "29.0f291565c7464444cf23.js",
-    "containers-Cart": "30.0f291565c7464444cf23.js",
-    "containers-Home": "31.0f291565c7464444cf23.js",
-    "containers-Shop": "32.0f291565c7464444cf23.js",
-    "containers-Wishlist": "33.0f291565c7464444cf23.js",
-    "hero-components-List": "34.0f291565c7464444cf23.js",
-    "hero-components-ListButton": "35.0f291565c7464444cf23.js",
-    "hero-components-TextArticle": "36.0f291565c7464444cf23.js",
-    "hero-components-TitleHeader": "37.0f291565c7464444cf23.js",
-    "hero-components-VideoComponent": "38.0f291565c7464444cf23.js",
-    "image-tiles-ImageTile": "39.0f291565c7464444cf23.js",
-    "main": "main.0f291565c7464444cf23.js",
-    "main-nav-SharedMainList": "41.0f291565c7464444cf23.js",
-    "more-info-components-container-MoreInfoArticle": "42.0f291565c7464444cf23.js",
-    "order-parts-LineItem": "43.0f291565c7464444cf23.js",
-    "order-parts-OrderSummary": "44.0f291565c7464444cf23.js",
-    "text-Header": "45.0f291565c7464444cf23.js"
+    "vendor": "1.7147723701af0727e8e5.js",
+    "Image": "2.7147723701af0727e8e5.js",
+    "Stats": "3.7147723701af0727e8e5.js",
+    "CallToAction": "4.7147723701af0727e8e5.js",
+    "InfoPanelOpenList": "5.7147723701af0727e8e5.js",
+    "MainList": "6.7147723701af0727e8e5.js",
+    "MoreInfoComponent": "7.7147723701af0727e8e5.js",
+    "WishlistLineItem": "8.7147723701af0727e8e5.js",
+    "assets-images-NavigationArrow": "9.7147723701af0727e8e5.js",
+    "assets-images-PlusIcon": "10.7147723701af0727e8e5.js",
+    "assets-images-logo": "11.7147723701af0727e8e5.js",
+    "assets-images-secondary-menu-icon": "12.7147723701af0727e8e5.js",
+    "child-components-Breadcrumbs": "13.7147723701af0727e8e5.js",
+    "child-components-CurrentImage": "14.7147723701af0727e8e5.js",
+    "child-components-ProductDescription": "15.7147723701af0727e8e5.js",
+    "child-components-ThumbnailGallery": "16.7147723701af0727e8e5.js",
+    "child-components-image-gallery-ProductImageGallery": "17.7147723701af0727e8e5.js",
+    "components-cart-EmptyCartMessage": "18.7147723701af0727e8e5.js",
+    "components-cart-FilledCart": "19.7147723701af0727e8e5.js",
+    "components-cart-FinancingAd": "20.7147723701af0727e8e5.js",
+    "components-cart-RecommendedItems": "21.7147723701af0727e8e5.js",
+    "components-cart-SideBar": "22.7147723701af0727e8e5.js",
+    "components-content-Hero": "23.7147723701af0727e8e5.js",
+    "components-content-assets-images-MoreContentArrow": "24.7147723701af0727e8e5.js",
+    "components-content-store-components-ShopHero": "25.7147723701af0727e8e5.js",
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": "26.7147723701af0727e8e5.js",
+    "components-main-nav-MainNav": "27.7147723701af0727e8e5.js",
+    "components-main-secondary-nav-MainSecondaryNav": "28.7147723701af0727e8e5.js",
+    "components-wishlist-FilledWishlist": "29.7147723701af0727e8e5.js",
+    "components-wishlist-Messaging": "30.7147723701af0727e8e5.js",
+    "components-wishlist-WishlistRecommendedItems": "31.7147723701af0727e8e5.js",
+    "container-HorizontalImageSlider": "32.7147723701af0727e8e5.js",
+    "containers-Cart": "33.7147723701af0727e8e5.js",
+    "containers-Home": "34.7147723701af0727e8e5.js",
+    "containers-Shop": "35.7147723701af0727e8e5.js",
+    "containers-Wishlist": "36.7147723701af0727e8e5.js",
+    "hero-components-List": "37.7147723701af0727e8e5.js",
+    "hero-components-ListButton": "38.7147723701af0727e8e5.js",
+    "hero-components-TextArticle": "39.7147723701af0727e8e5.js",
+    "hero-components-TitleHeader": "40.7147723701af0727e8e5.js",
+    "hero-components-VideoComponent": "41.7147723701af0727e8e5.js",
+    "image-tiles-ImageTile": "42.7147723701af0727e8e5.js",
+    "main": "main.7147723701af0727e8e5.js",
+    "main-nav-SharedMainList": "44.7147723701af0727e8e5.js",
+    "more-info-components-container-MoreInfoArticle": "45.7147723701af0727e8e5.js",
+    "order-parts-LineItem": "46.7147723701af0727e8e5.js",
+    "order-parts-OrderSummary": "47.7147723701af0727e8e5.js",
+    "text-Header": "48.7147723701af0727e8e5.js"
   },
   "assets": [
     {
-      "name": "0.0f291565c7464444cf23.js",
-      "size": 1078,
+      "name": "0.7147723701af0727e8e5.js",
+      "size": 1100,
       "chunks": [
         0
       ],
@@ -69,8 +72,8 @@
       "emitted": false
     },
     {
-      "name": "1.0f291565c7464444cf23.js",
-      "size": 454881,
+      "name": "1.7147723701af0727e8e5.js",
+      "size": 453450,
       "chunks": [
         1
       ],
@@ -80,7 +83,7 @@
       "emitted": false
     },
     {
-      "name": "10.0f291565c7464444cf23.js",
+      "name": "10.7147723701af0727e8e5.js",
       "size": 1441,
       "chunks": [
         10
@@ -91,7 +94,7 @@
       "emitted": false
     },
     {
-      "name": "11.0f291565c7464444cf23.js",
+      "name": "11.7147723701af0727e8e5.js",
       "size": 3223,
       "chunks": [
         11
@@ -102,7 +105,7 @@
       "emitted": false
     },
     {
-      "name": "12.0f291565c7464444cf23.js",
+      "name": "12.7147723701af0727e8e5.js",
       "size": 1321,
       "chunks": [
         12
@@ -113,32 +116,65 @@
       "emitted": false
     },
     {
-      "name": "13.0f291565c7464444cf23.js",
-      "size": 1366,
+      "name": "13.7147723701af0727e8e5.js",
+      "size": 312,
       "chunks": [
         13
       ],
       "chunkNames": [
-        "child-components-ProductImage"
+        "child-components-Breadcrumbs"
       ],
       "emitted": false
     },
     {
-      "name": "14.0f291565c7464444cf23.js",
-      "size": 635,
+      "name": "14.7147723701af0727e8e5.js",
+      "size": 389,
       "chunks": [
         14
       ],
       "chunkNames": [
-        "child-components-VariantSelector"
+        "child-components-CurrentImage"
       ],
       "emitted": false
     },
     {
-      "name": "15.0f291565c7464444cf23.js",
-      "size": 760,
+      "name": "15.7147723701af0727e8e5.js",
+      "size": 311,
       "chunks": [
         15
+      ],
+      "chunkNames": [
+        "child-components-ProductDescription"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "16.7147723701af0727e8e5.js",
+      "size": 380,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "child-components-ThumbnailGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "17.7147723701af0727e8e5.js",
+      "size": 887,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "child-components-image-gallery-ProductImageGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "18.7147723701af0727e8e5.js",
+      "size": 760,
+      "chunks": [
+        18
       ],
       "chunkNames": [
         "components-cart-EmptyCartMessage"
@@ -146,10 +182,10 @@
       "emitted": false
     },
     {
-      "name": "16.0f291565c7464444cf23.js",
+      "name": "19.7147723701af0727e8e5.js",
       "size": 1245,
       "chunks": [
-        16
+        19
       ],
       "chunkNames": [
         "components-cart-FilledCart"
@@ -157,40 +193,7 @@
       "emitted": false
     },
     {
-      "name": "17.0f291565c7464444cf23.js",
-      "size": 323,
-      "chunks": [
-        17
-      ],
-      "chunkNames": [
-        "components-cart-FinancingAd"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "18.0f291565c7464444cf23.js",
-      "size": 1262,
-      "chunks": [
-        18
-      ],
-      "chunkNames": [
-        "components-cart-RecommendedItems"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "19.0f291565c7464444cf23.js",
-      "size": 584,
-      "chunks": [
-        19
-      ],
-      "chunkNames": [
-        "components-cart-SideBar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "2.0f291565c7464444cf23.js",
+      "name": "2.7147723701af0727e8e5.js",
       "size": 279,
       "chunks": [
         2
@@ -201,10 +204,43 @@
       "emitted": false
     },
     {
-      "name": "20.0f291565c7464444cf23.js",
-      "size": 7982,
+      "name": "20.7147723701af0727e8e5.js",
+      "size": 323,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "components-cart-FinancingAd"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.7147723701af0727e8e5.js",
+      "size": 1262,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "components-cart-RecommendedItems"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "22.7147723701af0727e8e5.js",
+      "size": 584,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "components-cart-SideBar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "23.7147723701af0727e8e5.js",
+      "size": 7982,
+      "chunks": [
+        23
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -212,10 +248,10 @@
       "emitted": false
     },
     {
-      "name": "21.0f291565c7464444cf23.js",
+      "name": "24.7147723701af0727e8e5.js",
       "size": 2899,
       "chunks": [
-        21
+        24
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -223,10 +259,10 @@
       "emitted": false
     },
     {
-      "name": "22.0f291565c7464444cf23.js",
+      "name": "25.7147723701af0727e8e5.js",
       "size": 5056,
       "chunks": [
-        22
+        25
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -234,10 +270,10 @@
       "emitted": false
     },
     {
-      "name": "23.0f291565c7464444cf23.js",
-      "size": 9584,
+      "name": "26.7147723701af0727e8e5.js",
+      "size": 1294,
       "chunks": [
-        23
+        26
       ],
       "chunkNames": [
         "components-content-store-components-product-display-for-purchase-ProductDisplay"
@@ -245,10 +281,10 @@
       "emitted": false
     },
     {
-      "name": "24.0f291565c7464444cf23.js",
+      "name": "27.7147723701af0727e8e5.js",
       "size": 5823,
       "chunks": [
-        24
+        27
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -256,10 +292,10 @@
       "emitted": false
     },
     {
-      "name": "25.0f291565c7464444cf23.js",
+      "name": "28.7147723701af0727e8e5.js",
       "size": 4449,
       "chunks": [
-        25
+        28
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -267,46 +303,13 @@
       "emitted": false
     },
     {
-      "name": "26.0f291565c7464444cf23.js",
+      "name": "29.7147723701af0727e8e5.js",
       "size": 1163,
-      "chunks": [
-        26
-      ],
-      "chunkNames": [
-        "components-wishlist-FilledWishlist"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "27.0f291565c7464444cf23.js",
-      "size": 777,
-      "chunks": [
-        27
-      ],
-      "chunkNames": [
-        "components-wishlist-Messaging"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "28.0f291565c7464444cf23.js",
-      "size": 1263,
-      "chunks": [
-        28
-      ],
-      "chunkNames": [
-        "components-wishlist-WishlistRecommendedItems"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "29.0f291565c7464444cf23.js",
-      "size": 2332,
       "chunks": [
         29
       ],
       "chunkNames": [
-        "container-HorizontalImageSlider"
+        "components-wishlist-FilledWishlist"
       ],
       "emitted": false
     },
@@ -325,7 +328,7 @@
       "emitted": false
     },
     {
-      "name": "3.0f291565c7464444cf23.js",
+      "name": "3.7147723701af0727e8e5.js",
       "size": 544,
       "chunks": [
         3
@@ -336,10 +339,43 @@
       "emitted": false
     },
     {
-      "name": "30.0f291565c7464444cf23.js",
-      "size": 1911,
+      "name": "30.7147723701af0727e8e5.js",
+      "size": 777,
       "chunks": [
         30
+      ],
+      "chunkNames": [
+        "components-wishlist-Messaging"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "31.7147723701af0727e8e5.js",
+      "size": 1263,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [
+        "components-wishlist-WishlistRecommendedItems"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "32.7147723701af0727e8e5.js",
+      "size": 2332,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "33.7147723701af0727e8e5.js",
+      "size": 1911,
+      "chunks": [
+        33
       ],
       "chunkNames": [
         "containers-Cart"
@@ -347,10 +383,10 @@
       "emitted": false
     },
     {
-      "name": "31.0f291565c7464444cf23.js",
+      "name": "34.7147723701af0727e8e5.js",
       "size": 6670,
       "chunks": [
-        31
+        34
       ],
       "chunkNames": [
         "containers-Home"
@@ -358,10 +394,10 @@
       "emitted": false
     },
     {
-      "name": "32.0f291565c7464444cf23.js",
+      "name": "35.7147723701af0727e8e5.js",
       "size": 2199,
       "chunks": [
-        32
+        35
       ],
       "chunkNames": [
         "containers-Shop"
@@ -369,10 +405,10 @@
       "emitted": false
     },
     {
-      "name": "33.0f291565c7464444cf23.js",
+      "name": "36.7147723701af0727e8e5.js",
       "size": 1258,
       "chunks": [
-        33
+        36
       ],
       "chunkNames": [
         "containers-Wishlist"
@@ -380,10 +416,10 @@
       "emitted": false
     },
     {
-      "name": "34.0f291565c7464444cf23.js",
+      "name": "37.7147723701af0727e8e5.js",
       "size": 381,
       "chunks": [
-        34
+        37
       ],
       "chunkNames": [
         "hero-components-List"
@@ -391,10 +427,10 @@
       "emitted": false
     },
     {
-      "name": "35.0f291565c7464444cf23.js",
+      "name": "38.7147723701af0727e8e5.js",
       "size": 228,
       "chunks": [
-        35
+        38
       ],
       "chunkNames": [
         "hero-components-ListButton"
@@ -402,10 +438,10 @@
       "emitted": false
     },
     {
-      "name": "36.0f291565c7464444cf23.js",
+      "name": "39.7147723701af0727e8e5.js",
       "size": 1351,
       "chunks": [
-        36
+        39
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -413,40 +449,7 @@
       "emitted": false
     },
     {
-      "name": "37.0f291565c7464444cf23.js",
-      "size": 437,
-      "chunks": [
-        37
-      ],
-      "chunkNames": [
-        "hero-components-TitleHeader"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "38.0f291565c7464444cf23.js",
-      "size": 984,
-      "chunks": [
-        38
-      ],
-      "chunkNames": [
-        "hero-components-VideoComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "39.0f291565c7464444cf23.js",
-      "size": 683,
-      "chunks": [
-        39
-      ],
-      "chunkNames": [
-        "image-tiles-ImageTile"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "4.0f291565c7464444cf23.js",
+      "name": "4.7147723701af0727e8e5.js",
       "size": 1963,
       "chunks": [
         4
@@ -457,10 +460,43 @@
       "emitted": false
     },
     {
-      "name": "41.0f291565c7464444cf23.js",
-      "size": 1870,
+      "name": "40.7147723701af0727e8e5.js",
+      "size": 437,
+      "chunks": [
+        40
+      ],
+      "chunkNames": [
+        "hero-components-TitleHeader"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "41.7147723701af0727e8e5.js",
+      "size": 984,
       "chunks": [
         41
+      ],
+      "chunkNames": [
+        "hero-components-VideoComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "42.7147723701af0727e8e5.js",
+      "size": 683,
+      "chunks": [
+        42
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "44.7147723701af0727e8e5.js",
+      "size": 1870,
+      "chunks": [
+        44
       ],
       "chunkNames": [
         "main-nav-SharedMainList"
@@ -468,10 +504,10 @@
       "emitted": false
     },
     {
-      "name": "42.0f291565c7464444cf23.js",
+      "name": "45.7147723701af0727e8e5.js",
       "size": 293,
       "chunks": [
-        42
+        45
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -479,10 +515,10 @@
       "emitted": false
     },
     {
-      "name": "43.0f291565c7464444cf23.js",
+      "name": "46.7147723701af0727e8e5.js",
       "size": 533,
       "chunks": [
-        43
+        46
       ],
       "chunkNames": [
         "order-parts-LineItem"
@@ -490,10 +526,10 @@
       "emitted": false
     },
     {
-      "name": "44.0f291565c7464444cf23.js",
+      "name": "47.7147723701af0727e8e5.js",
       "size": 614,
       "chunks": [
-        44
+        47
       ],
       "chunkNames": [
         "order-parts-OrderSummary"
@@ -501,10 +537,10 @@
       "emitted": false
     },
     {
-      "name": "45.0f291565c7464444cf23.js",
+      "name": "48.7147723701af0727e8e5.js",
       "size": 350,
       "chunks": [
-        45
+        48
       ],
       "chunkNames": [
         "text-Header"
@@ -519,7 +555,7 @@
       "emitted": false
     },
     {
-      "name": "5.0f291565c7464444cf23.js",
+      "name": "5.7147723701af0727e8e5.js",
       "size": 924,
       "chunks": [
         5
@@ -530,11 +566,11 @@
       "emitted": false
     },
     {
-      "name": "6.0f291565c7464444cf23.js",
+      "name": "6.7147723701af0727e8e5.js",
       "size": 3515,
       "chunks": [
         6,
-        41
+        44
       ],
       "chunkNames": [
         "MainList"
@@ -542,7 +578,7 @@
       "emitted": false
     },
     {
-      "name": "7.0f291565c7464444cf23.js",
+      "name": "7.7147723701af0727e8e5.js",
       "size": 8189,
       "chunks": [
         7
@@ -560,7 +596,7 @@
       "emitted": false
     },
     {
-      "name": "8.0f291565c7464444cf23.js",
+      "name": "8.7147723701af0727e8e5.js",
       "size": 532,
       "chunks": [
         8
@@ -571,7 +607,7 @@
       "emitted": false
     },
     {
-      "name": "9.0f291565c7464444cf23.js",
+      "name": "9.7147723701af0727e8e5.js",
       "size": 385,
       "chunks": [
         9
@@ -596,10 +632,10 @@
       "emitted": false
     },
     {
-      "name": "main.0f291565c7464444cf23.js",
-      "size": 16025,
+      "name": "main.7147723701af0727e8e5.js",
+      "size": 16017,
       "chunks": [
-        40
+        43
       ],
       "chunkNames": [
         "main"
@@ -608,7 +644,7 @@
     },
     {
       "name": "styles.css",
-      "size": 25643,
+      "size": 24439,
       "chunks": [
         0
       ],
@@ -624,13 +660,13 @@
       "chunks": [
         0,
         1,
-        40
+        43
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "main.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "main.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -641,13 +677,13 @@
       "chunks": [
         0,
         1,
-        40
+        43
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "main.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "main.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -656,13 +692,13 @@
       "chunks": [
         0,
         1,
-        24
+        27
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "24.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "27.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -671,13 +707,13 @@
       "chunks": [
         0,
         1,
-        25
+        28
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "25.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "28.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -686,13 +722,13 @@
       "chunks": [
         0,
         1,
-        21
+        24
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "21.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "24.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -700,21 +736,21 @@
     "containers-Home": {
       "chunks": [
         1,
-        31
+        34
       ],
       "assets": [
-        "1.0f291565c7464444cf23.js",
-        "31.0f291565c7464444cf23.js"
+        "1.7147723701af0727e8e5.js",
+        "34.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Shop": {
       "chunks": [
-        32
+        35
       ],
       "assets": [
-        "32.0f291565c7464444cf23.js"
+        "35.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -722,14 +758,12 @@
     "components-content-store-components-product-display-for-purchase-ProductDisplay": {
       "chunks": [
         0,
-        1,
-        23
+        26
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "23.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "26.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -737,22 +771,22 @@
     "containers-Cart": {
       "chunks": [
         0,
-        30
+        33
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "30.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "33.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Wishlist": {
       "chunks": [
-        33
+        36
       ],
       "assets": [
-        "33.0f291565c7464444cf23.js"
+        "36.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -765,9 +799,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "11.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "11.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -779,8 +813,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "12.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "12.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -790,7 +824,7 @@
         6
       ],
       "assets": [
-        "6.0f291565c7464444cf23.js"
+        "6.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -800,17 +834,17 @@
         5
       ],
       "assets": [
-        "5.0f291565c7464444cf23.js"
+        "5.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "main-nav-SharedMainList": {
       "chunks": [
-        41
+        44
       ],
       "assets": [
-        "41.0f291565c7464444cf23.js"
+        "44.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -819,13 +853,13 @@
       "chunks": [
         0,
         1,
-        20
+        23
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "20.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "23.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -834,33 +868,43 @@
       "chunks": [
         0,
         1,
-        22
+        25
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "22.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "25.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "child-components-VariantSelector": {
-      "chunks": [
-        14
-      ],
-      "assets": [
-        "14.0f291565c7464444cf23.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "child-components-ProductImage": {
+    "child-components-Breadcrumbs": {
       "chunks": [
         13
       ],
       "assets": [
-        "13.0f291565c7464444cf23.js"
+        "13.7147723701af0727e8e5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-image-gallery-ProductImageGallery": {
+      "chunks": [
+        17
+      ],
+      "assets": [
+        "17.7147723701af0727e8e5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductDescription": {
+      "chunks": [
+        15
+      ],
+      "assets": [
+        "15.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -868,12 +912,12 @@
     "components-cart-FinancingAd": {
       "chunks": [
         0,
-        17
+        20
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "17.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "20.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -881,12 +925,12 @@
     "components-cart-EmptyCartMessage": {
       "chunks": [
         0,
-        15
+        18
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "15.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "18.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -894,12 +938,12 @@
     "components-cart-FilledCart": {
       "chunks": [
         0,
-        16
+        19
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "16.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "19.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -907,12 +951,12 @@
     "components-cart-SideBar": {
       "chunks": [
         0,
-        19
+        22
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "19.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "22.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -920,12 +964,12 @@
     "components-cart-RecommendedItems": {
       "chunks": [
         0,
-        18
+        21
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "18.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "21.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -933,12 +977,12 @@
     "components-wishlist-Messaging": {
       "chunks": [
         0,
-        27
+        30
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "27.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "30.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -946,22 +990,22 @@
     "components-wishlist-FilledWishlist": {
       "chunks": [
         0,
-        26
+        29
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "26.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "29.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-wishlist-WishlistRecommendedItems": {
       "chunks": [
-        28
+        31
       ],
       "assets": [
-        "28.0f291565c7464444cf23.js"
+        "31.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -973,8 +1017,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "7.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "7.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -982,12 +1026,12 @@
     "hero-components-TitleHeader": {
       "chunks": [
         0,
-        37
+        40
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "37.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "40.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -999,8 +1043,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "3.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "3.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1008,12 +1052,12 @@
     "hero-components-TextArticle": {
       "chunks": [
         0,
-        36
+        39
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "36.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "39.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1025,8 +1069,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "2.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "2.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1034,32 +1078,32 @@
     "hero-components-VideoComponent": {
       "chunks": [
         0,
-        38
+        41
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "38.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "41.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-ListButton": {
       "chunks": [
-        35
+        38
       ],
       "assets": [
-        "35.0f291565c7464444cf23.js"
+        "38.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        34
+        37
       ],
       "assets": [
-        "34.0f291565c7464444cf23.js"
+        "37.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1067,12 +1111,35 @@
     "image-tiles-ImageTile": {
       "chunks": [
         0,
-        39
+        42
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "39.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "42.7147723701af0727e8e5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ThumbnailGallery": {
+      "chunks": [
+        16
+      ],
+      "assets": [
+        "16.7147723701af0727e8e5.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-CurrentImage": {
+      "chunks": [
+        0,
+        14
+      ],
+      "assets": [
+        "styles.css",
+        "0.7147723701af0727e8e5.js",
+        "14.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1080,12 +1147,12 @@
     "order-parts-LineItem": {
       "chunks": [
         0,
-        43
+        46
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "43.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "46.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1093,12 +1160,12 @@
     "order-parts-OrderSummary": {
       "chunks": [
         0,
-        44
+        47
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "44.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "47.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1110,8 +1177,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "8.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "8.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1119,12 +1186,12 @@
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
         0,
-        42
+        45
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "42.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "45.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1132,12 +1199,12 @@
     "text-Header": {
       "chunks": [
         0,
-        45
+        48
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "45.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "48.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1146,13 +1213,13 @@
       "chunks": [
         0,
         1,
-        29
+        32
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "29.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "32.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1164,8 +1231,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "2.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "2.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1177,8 +1244,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "4.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "4.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1190,8 +1257,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "3.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "3.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1203,8 +1270,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "9.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "9.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1217,9 +1284,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.0f291565c7464444cf23.js",
-        "1.0f291565c7464444cf23.js",
-        "10.0f291565c7464444cf23.js"
+        "0.7147723701af0727e8e5.js",
+        "1.7147723701af0727e8e5.js",
+        "10.7147723701af0727e8e5.js"
       ],
       "children": {},
       "childAssets": {}
@@ -2600,6 +2667,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/current-image.css"
     },
     {
       "errors": [],

@@ -91,3 +91,27 @@ dl dd:before {
 .clear-main-nav {
 	margin: 80px 1rem 0 1rem;
 }
+
+.col-25-75 {
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+
+.col-65-35 {
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+.col-70-30 {
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+.vertical-thumbnails {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-self-center {
+	align-self: center;
+}

@@ -1,0 +1,1 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[13],{415:function(e,n,a){"use strict";a.r(n);var t=a(2),r=a.n(t);n.default=function(e){return r.a.createElement("div",{className:"align-self-center"},r.a.createElement("p",null,"Interface for navigating around store easily"))}}}]);

@@ -1,0 +1,16 @@
+import React from 'react';
+import loadable from '@loadable/component';
+
+const ThumbnailGallery = loadable( () => import('./child-components/ThumbnailGallery') );
+const CurrentImage = loadable( () => import('./child-components/CurrentImage') );
+
+const ProductImageGallery = props => {
+  return (
+    <div className="col-25-75">
+      <ThumbnailGallery />
+      <CurrentImage />
+    </div>
+  );
+};
+
+export default ProductImageGallery;

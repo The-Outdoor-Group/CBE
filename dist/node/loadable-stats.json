@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "2a715352695ec08f036d",
+  "hash": "5a27683936999d454147",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -44,110 +44,116 @@
       "assets-images-secondary-menu-icon.css",
       "10.server.js"
     ],
-    "child-components-ProductImage": "11.server.js",
-    "child-components-VariantSelector": "12.server.js",
+    "child-components-Breadcrumbs": "11.server.js",
+    "child-components-CurrentImage": [
+      "child-components-CurrentImage.css",
+      "12.server.js"
+    ],
+    "child-components-ProductDescription": "13.server.js",
+    "child-components-ThumbnailGallery": "14.server.js",
+    "child-components-image-gallery-ProductImageGallery": "15.server.js",
     "components-cart-EmptyCartMessage": [
       "components-cart-EmptyCartMessage.css",
-      "13.server.js"
+      "16.server.js"
     ],
     "components-cart-FilledCart": [
       "components-cart-FilledCart.css",
-      "14.server.js"
+      "17.server.js"
     ],
     "components-cart-FinancingAd": [
       "components-cart-FinancingAd.css",
-      "15.server.js"
+      "18.server.js"
     ],
     "components-cart-RecommendedItems": [
       "components-cart-RecommendedItems.css",
-      "16.server.js"
+      "19.server.js"
     ],
     "components-cart-SideBar": [
       "components-cart-SideBar.css",
-      "17.server.js"
+      "20.server.js"
     ],
     "components-content-Hero": [
       "components-content-Hero.css",
-      "18.server.js"
+      "21.server.js"
     ],
     "components-content-assets-images-MoreContentArrow": [
       "components-content-assets-images-MoreContentArrow.css",
-      "19.server.js"
+      "22.server.js"
     ],
     "components-content-store-components-ShopHero": [
       "components-content-store-components-ShopHero.css",
-      "20.server.js"
+      "23.server.js"
     ],
     "components-content-store-components-product-display-for-purchase-ProductDisplay": [
       "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "21.server.js"
+      "24.server.js"
     ],
     "components-main-nav-MainNav": [
       "components-main-nav-MainNav.css",
-      "22.server.js"
+      "25.server.js"
     ],
     "components-main-secondary-nav-MainSecondaryNav": [
       "components-main-secondary-nav-MainSecondaryNav.css",
-      "23.server.js"
+      "26.server.js"
     ],
     "components-wishlist-FilledWishlist": [
       "components-wishlist-FilledWishlist.css",
-      "24.server.js"
+      "27.server.js"
     ],
     "components-wishlist-Messaging": [
       "components-wishlist-Messaging.css",
-      "25.server.js"
+      "28.server.js"
     ],
-    "components-wishlist-WishlistRecommendedItems": "26.server.js",
+    "components-wishlist-WishlistRecommendedItems": "29.server.js",
     "container-HorizontalImageSlider": [
       "container-HorizontalImageSlider.css",
-      "27.server.js"
+      "30.server.js"
     ],
     "containers-Cart": [
       "containers-Cart.css",
-      "28.server.js"
+      "31.server.js"
     ],
-    "containers-Home": "29.server.js",
-    "containers-Shop": "30.server.js",
-    "containers-Wishlist": "31.server.js",
-    "hero-components-List": "32.server.js",
-    "hero-components-ListButton": "33.server.js",
+    "containers-Home": "32.server.js",
+    "containers-Shop": "33.server.js",
+    "containers-Wishlist": "34.server.js",
+    "hero-components-List": "35.server.js",
+    "hero-components-ListButton": "36.server.js",
     "hero-components-TextArticle": [
       "hero-components-TextArticle.css",
-      "34.server.js"
+      "37.server.js"
     ],
     "hero-components-TitleHeader": [
       "hero-components-TitleHeader.css",
-      "35.server.js"
+      "38.server.js"
     ],
     "hero-components-VideoComponent": [
       "hero-components-VideoComponent.css",
-      "36.server.js"
+      "39.server.js"
     ],
     "image-tiles-ImageTile": [
       "image-tiles-ImageTile.css",
-      "37.server.js"
+      "40.server.js"
     ],
     "main": [
       "main.css",
       "server.js"
     ],
-    "main-nav-SharedMainList": "39.server.js",
+    "main-nav-SharedMainList": "42.server.js",
     "more-info-components-container-MoreInfoArticle": [
       "more-info-components-container-MoreInfoArticle.css",
-      "40.server.js"
+      "43.server.js"
     ],
     "order-parts-LineItem": [
       "order-parts-LineItem.css",
-      "41.server.js"
+      "44.server.js"
     ],
     "order-parts-OrderSummary": [
       "order-parts-OrderSummary.css",
-      "42.server.js"
+      "45.server.js"
     ],
     "text-Header": [
       "text-Header.css",
-      "43.server.js"
+      "46.server.js"
     ]
   },
   "assets": [
@@ -186,31 +192,64 @@
     },
     {
       "name": "11.server.js",
-      "size": 1281,
+      "size": 257,
       "chunks": [
         11
       ],
       "chunkNames": [
-        "child-components-ProductImage"
+        "child-components-Breadcrumbs"
       ],
       "emitted": false
     },
     {
       "name": "12.server.js",
-      "size": 580,
+      "size": 356,
       "chunks": [
         12
       ],
       "chunkNames": [
-        "child-components-VariantSelector"
+        "child-components-CurrentImage"
       ],
       "emitted": false
     },
     {
       "name": "13.server.js",
-      "size": 729,
+      "size": 256,
       "chunks": [
         13
+      ],
+      "chunkNames": [
+        "child-components-ProductDescription"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "14.server.js",
+      "size": 325,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "child-components-ThumbnailGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "15.server.js",
+      "size": 798,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "child-components-image-gallery-ProductImageGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "16.server.js",
+      "size": 729,
+      "chunks": [
+        16
       ],
       "chunkNames": [
         "components-cart-EmptyCartMessage"
@@ -218,10 +257,10 @@
       "emitted": false
     },
     {
-      "name": "14.server.js",
+      "name": "17.server.js",
       "size": 1188,
       "chunks": [
-        14
+        17
       ],
       "chunkNames": [
         "components-cart-FilledCart"
@@ -229,10 +268,10 @@
       "emitted": false
     },
     {
-      "name": "15.server.js",
+      "name": "18.server.js",
       "size": 290,
       "chunks": [
-        15
+        18
       ],
       "chunkNames": [
         "components-cart-FinancingAd"
@@ -240,46 +279,13 @@
       "emitted": false
     },
     {
-      "name": "16.server.js",
-      "size": 1229,
-      "chunks": [
-        16
-      ],
-      "chunkNames": [
-        "components-cart-RecommendedItems"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "17.server.js",
-      "size": 527,
-      "chunks": [
-        17
-      ],
-      "chunkNames": [
-        "components-cart-SideBar"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "18.server.js",
-      "size": 7748,
-      "chunks": [
-        18
-      ],
-      "chunkNames": [
-        "components-content-Hero"
-      ],
-      "emitted": false
-    },
-    {
       "name": "19.server.js",
-      "size": 2938,
+      "size": 1229,
       "chunks": [
         19
       ],
       "chunkNames": [
-        "components-content-assets-images-MoreContentArrow"
+        "components-cart-RecommendedItems"
       ],
       "emitted": false
     },
@@ -296,9 +302,42 @@
     },
     {
       "name": "20.server.js",
-      "size": 5033,
+      "size": 527,
       "chunks": [
         20
+      ],
+      "chunkNames": [
+        "components-cart-SideBar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.server.js",
+      "size": 7748,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "components-content-Hero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "22.server.js",
+      "size": 2938,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "23.server.js",
+      "size": 5033,
+      "chunks": [
+        23
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -306,10 +345,10 @@
       "emitted": false
     },
     {
-      "name": "21.server.js",
-      "size": 9528,
+      "name": "24.server.js",
+      "size": 1237,
       "chunks": [
-        21
+        24
       ],
       "chunkNames": [
         "components-content-store-components-product-display-for-purchase-ProductDisplay"
@@ -317,10 +356,10 @@
       "emitted": false
     },
     {
-      "name": "22.server.js",
+      "name": "25.server.js",
       "size": 5851,
       "chunks": [
-        22
+        25
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -328,10 +367,10 @@
       "emitted": false
     },
     {
-      "name": "23.server.js",
+      "name": "26.server.js",
       "size": 4545,
       "chunks": [
-        23
+        26
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -339,10 +378,10 @@
       "emitted": false
     },
     {
-      "name": "24.server.js",
+      "name": "27.server.js",
       "size": 1106,
       "chunks": [
-        24
+        27
       ],
       "chunkNames": [
         "components-wishlist-FilledWishlist"
@@ -350,10 +389,10 @@
       "emitted": false
     },
     {
-      "name": "25.server.js",
+      "name": "28.server.js",
       "size": 744,
       "chunks": [
-        25
+        28
       ],
       "chunkNames": [
         "components-wishlist-Messaging"
@@ -361,46 +400,13 @@
       "emitted": false
     },
     {
-      "name": "26.server.js",
-      "size": 1208,
-      "chunks": [
-        26
-      ],
-      "chunkNames": [
-        "components-wishlist-WishlistRecommendedItems"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "27.server.js",
-      "size": 2205,
-      "chunks": [
-        27
-      ],
-      "chunkNames": [
-        "container-HorizontalImageSlider"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "28.server.js",
-      "size": 1726,
-      "chunks": [
-        28
-      ],
-      "chunkNames": [
-        "containers-Cart"
-      ],
-      "emitted": false
-    },
-    {
       "name": "29.server.js",
-      "size": 6671,
+      "size": 1208,
       "chunks": [
         29
       ],
       "chunkNames": [
-        "containers-Home"
+        "components-wishlist-WishlistRecommendedItems"
       ],
       "emitted": false
     },
@@ -431,9 +437,42 @@
     },
     {
       "name": "30.server.js",
-      "size": 2113,
+      "size": 2205,
       "chunks": [
         30
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "31.server.js",
+      "size": 1726,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [
+        "containers-Cart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "32.server.js",
+      "size": 6669,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [
+        "containers-Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "33.server.js",
+      "size": 2113,
+      "chunks": [
+        33
       ],
       "chunkNames": [
         "containers-Shop"
@@ -441,10 +480,10 @@
       "emitted": false
     },
     {
-      "name": "31.server.js",
+      "name": "34.server.js",
       "size": 1137,
       "chunks": [
-        31
+        34
       ],
       "chunkNames": [
         "containers-Wishlist"
@@ -452,10 +491,10 @@
       "emitted": false
     },
     {
-      "name": "32.server.js",
+      "name": "35.server.js",
       "size": 326,
       "chunks": [
-        32
+        35
       ],
       "chunkNames": [
         "hero-components-List"
@@ -463,10 +502,10 @@
       "emitted": false
     },
     {
-      "name": "33.server.js",
+      "name": "36.server.js",
       "size": 173,
       "chunks": [
-        33
+        36
       ],
       "chunkNames": [
         "hero-components-ListButton"
@@ -474,10 +513,10 @@
       "emitted": false
     },
     {
-      "name": "34.server.js",
+      "name": "37.server.js",
       "size": 1262,
       "chunks": [
-        34
+        37
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -485,10 +524,10 @@
       "emitted": false
     },
     {
-      "name": "35.server.js",
+      "name": "38.server.js",
       "size": 404,
       "chunks": [
-        35
+        38
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -496,35 +535,13 @@
       "emitted": false
     },
     {
-      "name": "36.server.js",
-      "size": 927,
-      "chunks": [
-        36
-      ],
-      "chunkNames": [
-        "hero-components-VideoComponent"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "37.server.js",
-      "size": 626,
-      "chunks": [
-        37
-      ],
-      "chunkNames": [
-        "image-tiles-ImageTile"
-      ],
-      "emitted": false
-    },
-    {
       "name": "39.server.js",
-      "size": 1832,
+      "size": 927,
       "chunks": [
         39
       ],
       "chunkNames": [
-        "main-nav-SharedMainList"
+        "hero-components-VideoComponent"
       ],
       "emitted": false
     },
@@ -533,7 +550,7 @@
       "size": 3529,
       "chunks": [
         4,
-        39
+        42
       ],
       "chunkNames": [
         "MainList"
@@ -542,9 +559,31 @@
     },
     {
       "name": "40.server.js",
-      "size": 259,
+      "size": 626,
       "chunks": [
         40
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "42.server.js",
+      "size": 1832,
+      "chunks": [
+        42
+      ],
+      "chunkNames": [
+        "main-nav-SharedMainList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "43.server.js",
+      "size": 259,
+      "chunks": [
+        43
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -552,10 +591,10 @@
       "emitted": false
     },
     {
-      "name": "41.server.js",
+      "name": "44.server.js",
       "size": 498,
       "chunks": [
-        41
+        44
       ],
       "chunkNames": [
         "order-parts-LineItem"
@@ -563,10 +602,10 @@
       "emitted": false
     },
     {
-      "name": "42.server.js",
+      "name": "45.server.js",
       "size": 581,
       "chunks": [
-        42
+        45
       ],
       "chunkNames": [
         "order-parts-OrderSummary"
@@ -574,10 +613,10 @@
       "emitted": false
     },
     {
-      "name": "43.server.js",
+      "name": "46.server.js",
       "size": 317,
       "chunks": [
-        43
+        46
       ],
       "chunkNames": [
         "text-Header"
@@ -760,10 +799,21 @@
       "emitted": false
     },
     {
+      "name": "child-components-CurrentImage.css",
+      "size": 135,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "child-components-CurrentImage"
+      ],
+      "emitted": false
+    },
+    {
       "name": "components-cart-EmptyCartMessage.css",
       "size": 257,
       "chunks": [
-        13
+        16
       ],
       "chunkNames": [
         "components-cart-EmptyCartMessage"
@@ -774,7 +824,7 @@
       "name": "components-cart-FilledCart.css",
       "size": 449,
       "chunks": [
-        14
+        17
       ],
       "chunkNames": [
         "components-cart-FilledCart"
@@ -785,7 +835,7 @@
       "name": "components-cart-FinancingAd.css",
       "size": 79,
       "chunks": [
-        15
+        18
       ],
       "chunkNames": [
         "components-cart-FinancingAd"
@@ -796,7 +846,7 @@
       "name": "components-cart-RecommendedItems.css",
       "size": 709,
       "chunks": [
-        16
+        19
       ],
       "chunkNames": [
         "components-cart-RecommendedItems"
@@ -807,7 +857,7 @@
       "name": "components-cart-SideBar.css",
       "size": 137,
       "chunks": [
-        17
+        20
       ],
       "chunkNames": [
         "components-cart-SideBar"
@@ -818,7 +868,7 @@
       "name": "components-content-Hero.css",
       "size": 2375,
       "chunks": [
-        18
+        21
       ],
       "chunkNames": [
         "components-content-Hero"
@@ -829,7 +879,7 @@
       "name": "components-content-assets-images-MoreContentArrow.css",
       "size": 163,
       "chunks": [
-        19
+        22
       ],
       "chunkNames": [
         "components-content-assets-images-MoreContentArrow"
@@ -840,7 +890,7 @@
       "name": "components-content-store-components-ShopHero.css",
       "size": 9465,
       "chunks": [
-        20
+        23
       ],
       "chunkNames": [
         "components-content-store-components-ShopHero"
@@ -849,9 +899,9 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "size": 1667,
+      "size": 73,
       "chunks": [
-        21
+        24
       ],
       "chunkNames": [
         "components-content-store-components-product-display-for-purchase-ProductDisplay"
@@ -862,7 +912,7 @@
       "name": "components-main-nav-MainNav.css",
       "size": 1131,
       "chunks": [
-        22
+        25
       ],
       "chunkNames": [
         "components-main-nav-MainNav"
@@ -873,7 +923,7 @@
       "name": "components-main-secondary-nav-MainSecondaryNav.css",
       "size": 521,
       "chunks": [
-        23
+        26
       ],
       "chunkNames": [
         "components-main-secondary-nav-MainSecondaryNav"
@@ -884,7 +934,7 @@
       "name": "components-wishlist-FilledWishlist.css",
       "size": 421,
       "chunks": [
-        24
+        27
       ],
       "chunkNames": [
         "components-wishlist-FilledWishlist"
@@ -895,7 +945,7 @@
       "name": "components-wishlist-Messaging.css",
       "size": 337,
       "chunks": [
-        25
+        28
       ],
       "chunkNames": [
         "components-wishlist-Messaging"
@@ -906,7 +956,7 @@
       "name": "container-HorizontalImageSlider.css",
       "size": 563,
       "chunks": [
-        27
+        30
       ],
       "chunkNames": [
         "container-HorizontalImageSlider"
@@ -917,7 +967,7 @@
       "name": "containers-Cart.css",
       "size": 26,
       "chunks": [
-        28
+        31
       ],
       "chunkNames": [
         "containers-Cart"
@@ -928,7 +978,7 @@
       "name": "hero-components-TextArticle.css",
       "size": 734,
       "chunks": [
-        34
+        37
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -939,7 +989,7 @@
       "name": "hero-components-TitleHeader.css",
       "size": 663,
       "chunks": [
-        35
+        38
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -950,7 +1000,7 @@
       "name": "hero-components-VideoComponent.css",
       "size": 273,
       "chunks": [
-        36
+        39
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -961,7 +1011,7 @@
       "name": "image-tiles-ImageTile.css",
       "size": 312,
       "chunks": [
-        37
+        40
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -970,9 +1020,9 @@
     },
     {
       "name": "main.css",
-      "size": 1272,
+      "size": 1527,
       "chunks": [
-        38
+        41
       ],
       "chunkNames": [
         "main"
@@ -983,7 +1033,7 @@
       "name": "more-info-components-container-MoreInfoArticle.css",
       "size": 59,
       "chunks": [
-        40
+        43
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -994,7 +1044,7 @@
       "name": "order-parts-LineItem.css",
       "size": 56,
       "chunks": [
-        41
+        44
       ],
       "chunkNames": [
         "order-parts-LineItem"
@@ -1005,7 +1055,7 @@
       "name": "order-parts-OrderSummary.css",
       "size": 170,
       "chunks": [
-        42
+        45
       ],
       "chunkNames": [
         "order-parts-OrderSummary"
@@ -1014,9 +1064,9 @@
     },
     {
       "name": "server.js",
-      "size": 20342,
+      "size": 20224,
       "chunks": [
-        38
+        41
       ],
       "chunkNames": [
         "main"
@@ -1027,7 +1077,7 @@
       "name": "text-Header.css",
       "size": 129,
       "chunks": [
-        43
+        46
       ],
       "chunkNames": [
         "text-Header"
@@ -1039,7 +1089,7 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        38
+        41
       ],
       "assets": [
         "main.css",
@@ -1052,7 +1102,7 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        38
+        41
       ],
       "assets": [
         "main.css",
@@ -1063,85 +1113,85 @@
     },
     "components-main-nav-MainNav": {
       "chunks": [
-        22
+        25
       ],
       "assets": [
         "components-main-nav-MainNav.css",
-        "22.server.js"
+        "25.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-main-secondary-nav-MainSecondaryNav": {
       "chunks": [
-        23
+        26
       ],
       "assets": [
         "components-main-secondary-nav-MainSecondaryNav.css",
-        "23.server.js"
+        "26.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-assets-images-MoreContentArrow": {
       "chunks": [
-        19
+        22
       ],
       "assets": [
         "components-content-assets-images-MoreContentArrow.css",
-        "19.server.js"
+        "22.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Home": {
       "chunks": [
-        29
+        32
       ],
       "assets": [
-        "29.server.js"
+        "32.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Shop": {
       "chunks": [
-        30
+        33
       ],
       "assets": [
-        "30.server.js"
+        "33.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-store-components-product-display-for-purchase-ProductDisplay": {
       "chunks": [
-        21
+        24
       ],
       "assets": [
         "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-        "21.server.js"
+        "24.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Cart": {
       "chunks": [
-        28
+        31
       ],
       "assets": [
         "containers-Cart.css",
-        "28.server.js"
+        "31.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Wishlist": {
       "chunks": [
-        31
+        34
       ],
       "assets": [
-        "31.server.js"
+        "34.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1190,47 +1240,37 @@
     },
     "main-nav-SharedMainList": {
       "chunks": [
-        39
+        42
       ],
       "assets": [
-        "39.server.js"
+        "42.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-Hero": {
       "chunks": [
-        18
+        21
       ],
       "assets": [
         "components-content-Hero.css",
-        "18.server.js"
+        "21.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-content-store-components-ShopHero": {
       "chunks": [
-        20
+        23
       ],
       "assets": [
         "components-content-store-components-ShopHero.css",
-        "20.server.js"
+        "23.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
-    "child-components-VariantSelector": {
-      "chunks": [
-        12
-      ],
-      "assets": [
-        "12.server.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "child-components-ProductImage": {
+    "child-components-Breadcrumbs": {
       "chunks": [
         11
       ],
@@ -1240,89 +1280,109 @@
       "children": {},
       "childAssets": {}
     },
-    "components-cart-FinancingAd": {
+    "child-components-image-gallery-ProductImageGallery": {
       "chunks": [
         15
       ],
       "assets": [
-        "components-cart-FinancingAd.css",
         "15.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductDescription": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "13.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FinancingAd": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "components-cart-FinancingAd.css",
+        "18.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-cart-EmptyCartMessage": {
       "chunks": [
-        13
+        16
       ],
       "assets": [
         "components-cart-EmptyCartMessage.css",
-        "13.server.js"
+        "16.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-cart-FilledCart": {
       "chunks": [
-        14
+        17
       ],
       "assets": [
         "components-cart-FilledCart.css",
-        "14.server.js"
+        "17.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-cart-SideBar": {
       "chunks": [
-        17
+        20
       ],
       "assets": [
         "components-cart-SideBar.css",
-        "17.server.js"
+        "20.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-cart-RecommendedItems": {
       "chunks": [
-        16
+        19
       ],
       "assets": [
         "components-cart-RecommendedItems.css",
-        "16.server.js"
+        "19.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-wishlist-Messaging": {
       "chunks": [
-        25
+        28
       ],
       "assets": [
         "components-wishlist-Messaging.css",
-        "25.server.js"
+        "28.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-wishlist-FilledWishlist": {
       "chunks": [
-        24
+        27
       ],
       "assets": [
         "components-wishlist-FilledWishlist.css",
-        "24.server.js"
+        "27.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "components-wishlist-WishlistRecommendedItems": {
       "chunks": [
-        26
+        29
       ],
       "assets": [
-        "26.server.js"
+        "29.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1340,11 +1400,11 @@
     },
     "hero-components-TitleHeader": {
       "chunks": [
-        35
+        38
       ],
       "assets": [
         "hero-components-TitleHeader.css",
-        "35.server.js"
+        "38.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1362,11 +1422,11 @@
     },
     "hero-components-TextArticle": {
       "chunks": [
-        34
+        37
       ],
       "assets": [
         "hero-components-TextArticle.css",
-        "34.server.js"
+        "37.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1384,64 +1444,85 @@
     },
     "hero-components-VideoComponent": {
       "chunks": [
-        36
+        39
       ],
       "assets": [
         "hero-components-VideoComponent.css",
-        "36.server.js"
+        "39.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-ListButton": {
       "chunks": [
-        33
+        36
       ],
       "assets": [
-        "33.server.js"
+        "36.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "hero-components-List": {
       "chunks": [
-        32
+        35
       ],
       "assets": [
-        "32.server.js"
+        "35.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "image-tiles-ImageTile": {
       "chunks": [
-        37
+        40
       ],
       "assets": [
         "image-tiles-ImageTile.css",
-        "37.server.js"
+        "40.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ThumbnailGallery": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "14.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-CurrentImage": {
+      "chunks": [
+        12
+      ],
+      "assets": [
+        "child-components-CurrentImage.css",
+        "12.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "order-parts-LineItem": {
       "chunks": [
-        41
+        44
       ],
       "assets": [
         "order-parts-LineItem.css",
-        "41.server.js"
+        "44.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "order-parts-OrderSummary": {
       "chunks": [
-        42
+        45
       ],
       "assets": [
         "order-parts-OrderSummary.css",
-        "42.server.js"
+        "45.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1459,33 +1540,33 @@
     },
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
-        40
+        43
       ],
       "assets": [
         "more-info-components-container-MoreInfoArticle.css",
-        "40.server.js"
+        "43.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "text-Header": {
       "chunks": [
-        43
+        46
       ],
       "assets": [
         "text-Header.css",
-        "43.server.js"
+        "46.server.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "container-HorizontalImageSlider": {
       "chunks": [
-        27
+        30
       ],
       "assets": [
         "container-HorizontalImageSlider.css",
-        "27.server.js"
+        "30.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -2876,6 +2957,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/current-image.css"
     },
     {
       "errors": [],

@@ -1,0 +1,1 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[37],{431:function(e,t,n){"use strict";n.r(t);var a=n(2),l=n.n(a);t.default=function(e){var t=e.list,n=t.content,a=t.name;return l.a.createElement("dl",null,l.a.createElement("dt",null,a),n.map(function(e,t){return l.a.createElement("dd",{key:t},l.a.createElement("span",null,e.title),e.text)}))}}}]);
