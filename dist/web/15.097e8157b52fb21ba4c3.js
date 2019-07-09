@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[15],{417:function(n,t,e){"use strict";e.r(t);var a=e(2),_=e.n(a);t.default=function(n){return _.a.createElement("div",null,_.a.createElement("p",null,"Interface for product title and config and adding to wishlist and cart"))}}}]);

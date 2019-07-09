@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "af8cd69be33c7cc4c674",
+  "hash": "f3e6b1a9304855706ee9",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -44,13 +44,22 @@
       "assets-images-secondary-menu-icon.css",
       "10.server.js"
     ],
-    "child-components-Breadcrumbs": "11.server.js",
+    "child-components-Breadcrumbs": [
+      "child-components-Breadcrumbs.css",
+      "11.server.js"
+    ],
     "child-components-CurrentImage": [
       "child-components-CurrentImage.css",
       "12.server.js"
     ],
-    "child-components-ProductDescription": "13.server.js",
-    "child-components-ThumbnailGallery": "14.server.js",
+    "child-components-ProductDescription": [
+      "child-components-ProductDescription.css",
+      "13.server.js"
+    ],
+    "child-components-ThumbnailGallery": [
+      "child-components-ThumbnailGallery.css",
+      "14.server.js"
+    ],
     "child-components-image-gallery-ProductImageGallery": "15.server.js",
     "components-cart-EmptyCartMessage": [
       "components-cart-EmptyCartMessage.css",
@@ -154,6 +163,10 @@
     "text-Header": [
       "text-Header.css",
       "46.server.js"
+    ],
+    "variant-selector-Dropdown": [
+      "variant-selector-Dropdown.css",
+      "47.server.js"
     ]
   },
   "assets": [
@@ -192,7 +205,7 @@
     },
     {
       "name": "11.server.js",
-      "size": 257,
+      "size": 385,
       "chunks": [
         11
       ],
@@ -214,7 +227,7 @@
     },
     {
       "name": "13.server.js",
-      "size": 256,
+      "size": 729,
       "chunks": [
         13
       ],
@@ -225,7 +238,7 @@
     },
     {
       "name": "14.server.js",
-      "size": 325,
+      "size": 380,
       "chunks": [
         14
       ],
@@ -346,7 +359,7 @@
     },
     {
       "name": "24.server.js",
-      "size": 1237,
+      "size": 1239,
       "chunks": [
         24
       ],
@@ -624,6 +637,17 @@
       "emitted": false
     },
     {
+      "name": "47.server.js",
+      "size": 680,
+      "chunks": [
+        47
+      ],
+      "chunkNames": [
+        "variant-selector-Dropdown"
+      ],
+      "emitted": false
+    },
+    {
       "name": "4d2c24cff09792200910d7228266ad3c.png",
       "size": 1560,
       "chunks": [],
@@ -799,6 +823,17 @@
       "emitted": false
     },
     {
+      "name": "child-components-Breadcrumbs.css",
+      "size": 105,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "child-components-Breadcrumbs"
+      ],
+      "emitted": false
+    },
+    {
       "name": "child-components-CurrentImage.css",
       "size": 118,
       "chunks": [
@@ -806,6 +841,28 @@
       ],
       "chunkNames": [
         "child-components-CurrentImage"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ProductDescription.css",
+      "size": 369,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "child-components-ProductDescription"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ThumbnailGallery.css",
+      "size": 53,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "child-components-ThumbnailGallery"
       ],
       "emitted": false
     },
@@ -1020,7 +1077,7 @@
     },
     {
       "name": "main.css",
-      "size": 1564,
+      "size": 1690,
       "chunks": [
         41
       ],
@@ -1064,7 +1121,7 @@
     },
     {
       "name": "server.js",
-      "size": 20224,
+      "size": 20275,
       "chunks": [
         41
       ],
@@ -1081,6 +1138,17 @@
       ],
       "chunkNames": [
         "text-Header"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "variant-selector-Dropdown.css",
+      "size": 338,
+      "chunks": [
+        47
+      ],
+      "chunkNames": [
+        "variant-selector-Dropdown"
       ],
       "emitted": false
     }
@@ -1275,6 +1343,7 @@
         11
       ],
       "assets": [
+        "child-components-Breadcrumbs.css",
         "11.server.js"
       ],
       "children": {},
@@ -1295,6 +1364,7 @@
         13
       ],
       "assets": [
+        "child-components-ProductDescription.css",
         "13.server.js"
       ],
       "children": {},
@@ -1489,6 +1559,7 @@
         14
       ],
       "assets": [
+        "child-components-ThumbnailGallery.css",
         "14.server.js"
       ],
       "children": {},
@@ -1501,6 +1572,17 @@
       "assets": [
         "child-components-CurrentImage.css",
         "12.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "variant-selector-Dropdown": {
+      "chunks": [
+        47
+      ],
+      "assets": [
+        "variant-selector-Dropdown.css",
+        "47.server.js"
       ],
       "children": {},
       "childAssets": {}
@@ -2956,6 +3038,76 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/breadcrumbs.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-description.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
     },
     {
@@ -2992,6 +3144,76 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/current-image.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/thumbnail-gallery.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/variant-selector/assets/css/dropdown.css"
     },
     {
       "errors": [],

@@ -92,10 +92,22 @@ dl dd:before {
 	margin: 80px 1rem 0 1rem;
 }
 
+.col-10-90 {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	align-items: center;
+}
+
 .col-25-75 {
 	display: grid;
 	grid-template-columns: 25% 75%;
 	align-items: center;
+}
+
+.col-60-40 {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	align-items: start;
 }
 
 .col-65-35 {

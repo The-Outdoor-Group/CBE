@@ -16,7 +16,7 @@ export default CurrentImage;
 
 /*
   needs to be a component that
-  - has arrows to navigate
+  - has svg arrows to navigate
   - transparent pic is in the middle
   - has the ability to change cursor to zoom in on pic in a modal
 */

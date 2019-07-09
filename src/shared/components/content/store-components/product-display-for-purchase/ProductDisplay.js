@@ -11,7 +11,7 @@ const ProductDisplay = props => {
   return (
     <section className="clear-main-nav" id="product-display">
       <Breadcrumbs />
-      <div className="col-65-35">
+      <div className="col-60-40">
         <ProductImageGallery />
         <ProductDescription />
       </div>
