@@ -1,5 +1,5 @@
 #product-display {
   display: grid;
   grid-template-rows: 10% 90%;
-  min-height: 90vh;
+  min-height: 80vh;
 }

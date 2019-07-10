@@ -83,6 +83,12 @@ dl dd:before {
 	margin: 0 0 1rem 0;
 }
 
+h2 {
+ text-transform: uppercase;
+ font-size: 200%;
+ font-weight: 900;
+}
+
 .fade {
 	opacity: 0.1;
 	transition: opacity 0.25s ease-in-out;
@@ -128,4 +134,9 @@ dl dd:before {
 
 .align-self-center {
   align-self: center;
+}
+
+.width-85 {
+	margin: 8rem auto;
+	width: 85%;
 }

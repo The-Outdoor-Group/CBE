@@ -5,7 +5,7 @@ const CurrentImage = props => {
   return (
     <div id="current-product-image-wrapper">
       <p>left</p>
-      <img src="https://via.placeholder.com/400x300" />
+      <img src="https://via.placeholder.com/400x300" /> {/* onHover change this to a custom cursor circle with 2 arrows pointing out, so know can zoom in */}
       <p>right</p>
     </div>
   );

@@ -1,0 +1,21 @@
+#product-details div:nth-of-type(1) {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#product-details div:nth-of-type(1) button {
+  border-radius: 0;
+  font-size: 100%;
+  padding: 1rem 4rem;
+  width: 30%;
+}
+
+#product-details div:nth-of-type(1) button:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+#product-details div:nth-of-type(1) button {
+  transition: background 0.5s, color 0.5s, border 0.5s;
+}
