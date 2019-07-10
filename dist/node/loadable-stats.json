@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "51de5504f97df3f59147",
+  "hash": "fa22f0f8436739865698",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -131,7 +131,10 @@
     "containers-Home": "35.server.js",
     "containers-Shop": "36.server.js",
     "containers-Wishlist": "37.server.js",
-    "details-specs-Description": "38.server.js",
+    "details-specs-Description": [
+      "details-specs-Description.css",
+      "38.server.js"
+    ],
     "details-specs-Instructions": "39.server.js",
     "details-specs-Specs": "40.server.js",
     "hero-components-List": "41.server.js",
@@ -236,7 +239,7 @@
     },
     {
       "name": "13.server.js",
-      "size": 1872,
+      "size": 1896,
       "chunks": [
         13
       ],
@@ -547,7 +550,7 @@
     },
     {
       "name": "38.server.js",
-      "size": 206,
+      "size": 547,
       "chunks": [
         38
       ],
@@ -921,7 +924,7 @@
     },
     {
       "name": "child-components-ProductDetails.css",
-      "size": 355,
+      "size": 353,
       "chunks": [
         13
       ],
@@ -1042,7 +1045,7 @@
     },
     {
       "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
-      "size": 73,
+      "size": 57,
       "chunks": [
         27
       ],
@@ -1118,6 +1121,17 @@
       "emitted": false
     },
     {
+      "name": "details-specs-Description.css",
+      "size": 155,
+      "chunks": [
+        38
+      ],
+      "chunkNames": [
+        "details-specs-Description"
+      ],
+      "emitted": false
+    },
+    {
       "name": "hero-components-TextArticle.css",
       "size": 734,
       "chunks": [
@@ -1163,7 +1177,7 @@
     },
     {
       "name": "main.css",
-      "size": 1786,
+      "size": 1932,
       "chunks": [
         47
       ],
@@ -1207,7 +1221,7 @@
     },
     {
       "name": "server.js",
-      "size": 20476,
+      "size": 20481,
       "chunks": [
         47
       ],
@@ -1709,6 +1723,7 @@
         38
       ],
       "assets": [
+        "details-specs-Description.css",
         "38.server.js"
       ],
       "children": {},
@@ -3291,6 +3306,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-purchase.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/details-specs/assets/css/product-description.css"
     },
     {
       "errors": [],

@@ -1,0 +1,12 @@
+#product-description {
+  align-items: center;
+  justify-items: center;
+}
+
+#product-description div:first-child {
+  text-align: left;
+}
+
+#product-description img {
+  margin-top: 1rem;
+}

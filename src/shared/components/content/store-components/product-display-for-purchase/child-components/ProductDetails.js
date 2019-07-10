@@ -31,7 +31,7 @@ const ProductDetails = props => {
       <header>
         <h2>Product Details</h2>
       </header>
-      <div>
+      <div style={{ textAlign: 'center' }}>
         <button onClick={ () => setActiveDisplay('description') } style={ setStyle('description') }>Description</button>
         <button onClick={ () => setActiveDisplay('specifications') } style={ setStyle('specifications') }>Specifications</button>
         <button onClick={ () => setActiveDisplay('instructions') } style={ setStyle('instructions') }>Instructions</button>

@@ -2,74 +2,74 @@
   "errors": [],
   "warnings": [],
   "version": "4.35.0",
-  "hash": "aefb8a32ae2df6eacdf7",
+  "hash": "f2f754321a5978977da1",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "styles": [
       "styles.css",
-      "0.aefb8a32ae2df6eacdf7.js"
+      "0.f2f754321a5978977da1.js"
     ],
-    "vendor": "1.aefb8a32ae2df6eacdf7.js",
-    "Image": "2.aefb8a32ae2df6eacdf7.js",
-    "Stats": "3.aefb8a32ae2df6eacdf7.js",
-    "CallToAction": "4.aefb8a32ae2df6eacdf7.js",
-    "InfoPanelOpenList": "5.aefb8a32ae2df6eacdf7.js",
-    "MainList": "6.aefb8a32ae2df6eacdf7.js",
-    "MoreInfoComponent": "7.aefb8a32ae2df6eacdf7.js",
-    "WishlistLineItem": "8.aefb8a32ae2df6eacdf7.js",
-    "assets-images-NavigationArrow": "9.aefb8a32ae2df6eacdf7.js",
-    "assets-images-PlusIcon": "10.aefb8a32ae2df6eacdf7.js",
-    "assets-images-logo": "11.aefb8a32ae2df6eacdf7.js",
-    "assets-images-secondary-menu-icon": "12.aefb8a32ae2df6eacdf7.js",
-    "child-components-Breadcrumbs": "13.aefb8a32ae2df6eacdf7.js",
-    "child-components-CurrentImage": "14.aefb8a32ae2df6eacdf7.js",
-    "child-components-ProductDetails": "15.aefb8a32ae2df6eacdf7.js",
-    "child-components-ProductPurchase": "16.aefb8a32ae2df6eacdf7.js",
-    "child-components-ProductVideos": "17.aefb8a32ae2df6eacdf7.js",
-    "child-components-RelatedProducts": "18.aefb8a32ae2df6eacdf7.js",
-    "child-components-ThumbnailGallery": "19.aefb8a32ae2df6eacdf7.js",
-    "child-components-image-gallery-ProductImageGallery": "20.aefb8a32ae2df6eacdf7.js",
-    "components-cart-EmptyCartMessage": "21.aefb8a32ae2df6eacdf7.js",
-    "components-cart-FilledCart": "22.aefb8a32ae2df6eacdf7.js",
-    "components-cart-FinancingAd": "23.aefb8a32ae2df6eacdf7.js",
-    "components-cart-RecommendedItems": "24.aefb8a32ae2df6eacdf7.js",
-    "components-cart-SideBar": "25.aefb8a32ae2df6eacdf7.js",
-    "components-content-Hero": "26.aefb8a32ae2df6eacdf7.js",
-    "components-content-assets-images-MoreContentArrow": "27.aefb8a32ae2df6eacdf7.js",
-    "components-content-store-components-ShopHero": "28.aefb8a32ae2df6eacdf7.js",
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": "29.aefb8a32ae2df6eacdf7.js",
-    "components-main-nav-MainNav": "30.aefb8a32ae2df6eacdf7.js",
-    "components-main-secondary-nav-MainSecondaryNav": "31.aefb8a32ae2df6eacdf7.js",
-    "components-wishlist-FilledWishlist": "32.aefb8a32ae2df6eacdf7.js",
-    "components-wishlist-Messaging": "33.aefb8a32ae2df6eacdf7.js",
-    "components-wishlist-WishlistRecommendedItems": "34.aefb8a32ae2df6eacdf7.js",
-    "container-HorizontalImageSlider": "35.aefb8a32ae2df6eacdf7.js",
-    "containers-Cart": "36.aefb8a32ae2df6eacdf7.js",
-    "containers-Home": "37.aefb8a32ae2df6eacdf7.js",
-    "containers-Shop": "38.aefb8a32ae2df6eacdf7.js",
-    "containers-Wishlist": "39.aefb8a32ae2df6eacdf7.js",
-    "details-specs-Description": "40.aefb8a32ae2df6eacdf7.js",
-    "details-specs-Instructions": "41.aefb8a32ae2df6eacdf7.js",
-    "details-specs-Specs": "42.aefb8a32ae2df6eacdf7.js",
-    "hero-components-List": "43.aefb8a32ae2df6eacdf7.js",
-    "hero-components-ListButton": "44.aefb8a32ae2df6eacdf7.js",
-    "hero-components-TextArticle": "45.aefb8a32ae2df6eacdf7.js",
-    "hero-components-TitleHeader": "46.aefb8a32ae2df6eacdf7.js",
-    "hero-components-VideoComponent": "47.aefb8a32ae2df6eacdf7.js",
-    "image-tiles-ImageTile": "48.aefb8a32ae2df6eacdf7.js",
-    "main": "main.aefb8a32ae2df6eacdf7.js",
-    "main-nav-SharedMainList": "50.aefb8a32ae2df6eacdf7.js",
-    "more-info-components-container-MoreInfoArticle": "51.aefb8a32ae2df6eacdf7.js",
-    "order-parts-LineItem": "52.aefb8a32ae2df6eacdf7.js",
-    "order-parts-OrderSummary": "53.aefb8a32ae2df6eacdf7.js",
-    "text-Header": "54.aefb8a32ae2df6eacdf7.js",
-    "variant-selector-Dropdown": "55.aefb8a32ae2df6eacdf7.js"
+    "vendor": "1.f2f754321a5978977da1.js",
+    "Image": "2.f2f754321a5978977da1.js",
+    "Stats": "3.f2f754321a5978977da1.js",
+    "CallToAction": "4.f2f754321a5978977da1.js",
+    "InfoPanelOpenList": "5.f2f754321a5978977da1.js",
+    "MainList": "6.f2f754321a5978977da1.js",
+    "MoreInfoComponent": "7.f2f754321a5978977da1.js",
+    "WishlistLineItem": "8.f2f754321a5978977da1.js",
+    "assets-images-NavigationArrow": "9.f2f754321a5978977da1.js",
+    "assets-images-PlusIcon": "10.f2f754321a5978977da1.js",
+    "assets-images-logo": "11.f2f754321a5978977da1.js",
+    "assets-images-secondary-menu-icon": "12.f2f754321a5978977da1.js",
+    "child-components-Breadcrumbs": "13.f2f754321a5978977da1.js",
+    "child-components-CurrentImage": "14.f2f754321a5978977da1.js",
+    "child-components-ProductDetails": "15.f2f754321a5978977da1.js",
+    "child-components-ProductPurchase": "16.f2f754321a5978977da1.js",
+    "child-components-ProductVideos": "17.f2f754321a5978977da1.js",
+    "child-components-RelatedProducts": "18.f2f754321a5978977da1.js",
+    "child-components-ThumbnailGallery": "19.f2f754321a5978977da1.js",
+    "child-components-image-gallery-ProductImageGallery": "20.f2f754321a5978977da1.js",
+    "components-cart-EmptyCartMessage": "21.f2f754321a5978977da1.js",
+    "components-cart-FilledCart": "22.f2f754321a5978977da1.js",
+    "components-cart-FinancingAd": "23.f2f754321a5978977da1.js",
+    "components-cart-RecommendedItems": "24.f2f754321a5978977da1.js",
+    "components-cart-SideBar": "25.f2f754321a5978977da1.js",
+    "components-content-Hero": "26.f2f754321a5978977da1.js",
+    "components-content-assets-images-MoreContentArrow": "27.f2f754321a5978977da1.js",
+    "components-content-store-components-ShopHero": "28.f2f754321a5978977da1.js",
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": "29.f2f754321a5978977da1.js",
+    "components-main-nav-MainNav": "30.f2f754321a5978977da1.js",
+    "components-main-secondary-nav-MainSecondaryNav": "31.f2f754321a5978977da1.js",
+    "components-wishlist-FilledWishlist": "32.f2f754321a5978977da1.js",
+    "components-wishlist-Messaging": "33.f2f754321a5978977da1.js",
+    "components-wishlist-WishlistRecommendedItems": "34.f2f754321a5978977da1.js",
+    "container-HorizontalImageSlider": "35.f2f754321a5978977da1.js",
+    "containers-Cart": "36.f2f754321a5978977da1.js",
+    "containers-Home": "37.f2f754321a5978977da1.js",
+    "containers-Shop": "38.f2f754321a5978977da1.js",
+    "containers-Wishlist": "39.f2f754321a5978977da1.js",
+    "details-specs-Description": "40.f2f754321a5978977da1.js",
+    "details-specs-Instructions": "41.f2f754321a5978977da1.js",
+    "details-specs-Specs": "42.f2f754321a5978977da1.js",
+    "hero-components-List": "43.f2f754321a5978977da1.js",
+    "hero-components-ListButton": "44.f2f754321a5978977da1.js",
+    "hero-components-TextArticle": "45.f2f754321a5978977da1.js",
+    "hero-components-TitleHeader": "46.f2f754321a5978977da1.js",
+    "hero-components-VideoComponent": "47.f2f754321a5978977da1.js",
+    "image-tiles-ImageTile": "48.f2f754321a5978977da1.js",
+    "main": "main.f2f754321a5978977da1.js",
+    "main-nav-SharedMainList": "50.f2f754321a5978977da1.js",
+    "more-info-components-container-MoreInfoArticle": "51.f2f754321a5978977da1.js",
+    "order-parts-LineItem": "52.f2f754321a5978977da1.js",
+    "order-parts-OrderSummary": "53.f2f754321a5978977da1.js",
+    "text-Header": "54.f2f754321a5978977da1.js",
+    "variant-selector-Dropdown": "55.f2f754321a5978977da1.js"
   },
   "assets": [
     {
-      "name": "0.aefb8a32ae2df6eacdf7.js",
-      "size": 1210,
+      "name": "0.f2f754321a5978977da1.js",
+      "size": 1232,
       "chunks": [
         0
       ],
@@ -79,7 +79,7 @@
       "emitted": false
     },
     {
-      "name": "1.aefb8a32ae2df6eacdf7.js",
+      "name": "1.f2f754321a5978977da1.js",
       "size": 453450,
       "chunks": [
         1
@@ -90,7 +90,7 @@
       "emitted": false
     },
     {
-      "name": "10.aefb8a32ae2df6eacdf7.js",
+      "name": "10.f2f754321a5978977da1.js",
       "size": 1441,
       "chunks": [
         10
@@ -101,7 +101,7 @@
       "emitted": false
     },
     {
-      "name": "11.aefb8a32ae2df6eacdf7.js",
+      "name": "11.f2f754321a5978977da1.js",
       "size": 3223,
       "chunks": [
         11
@@ -112,7 +112,7 @@
       "emitted": false
     },
     {
-      "name": "12.aefb8a32ae2df6eacdf7.js",
+      "name": "12.f2f754321a5978977da1.js",
       "size": 1321,
       "chunks": [
         12
@@ -123,7 +123,7 @@
       "emitted": false
     },
     {
-      "name": "13.aefb8a32ae2df6eacdf7.js",
+      "name": "13.f2f754321a5978977da1.js",
       "size": 410,
       "chunks": [
         13
@@ -134,7 +134,7 @@
       "emitted": false
     },
     {
-      "name": "14.aefb8a32ae2df6eacdf7.js",
+      "name": "14.f2f754321a5978977da1.js",
       "size": 393,
       "chunks": [
         14
@@ -145,8 +145,8 @@
       "emitted": false
     },
     {
-      "name": "15.aefb8a32ae2df6eacdf7.js",
-      "size": 1928,
+      "name": "15.f2f754321a5978977da1.js",
+      "size": 1974,
       "chunks": [
         15
       ],
@@ -156,7 +156,7 @@
       "emitted": false
     },
     {
-      "name": "16.aefb8a32ae2df6eacdf7.js",
+      "name": "16.f2f754321a5978977da1.js",
       "size": 892,
       "chunks": [
         16
@@ -167,7 +167,7 @@
       "emitted": false
     },
     {
-      "name": "17.aefb8a32ae2df6eacdf7.js",
+      "name": "17.f2f754321a5978977da1.js",
       "size": 427,
       "chunks": [
         17
@@ -178,7 +178,7 @@
       "emitted": false
     },
     {
-      "name": "18.aefb8a32ae2df6eacdf7.js",
+      "name": "18.f2f754321a5978977da1.js",
       "size": 454,
       "chunks": [
         18
@@ -189,7 +189,7 @@
       "emitted": false
     },
     {
-      "name": "19.aefb8a32ae2df6eacdf7.js",
+      "name": "19.f2f754321a5978977da1.js",
       "size": 413,
       "chunks": [
         19
@@ -200,7 +200,7 @@
       "emitted": false
     },
     {
-      "name": "2.aefb8a32ae2df6eacdf7.js",
+      "name": "2.f2f754321a5978977da1.js",
       "size": 279,
       "chunks": [
         2
@@ -211,7 +211,7 @@
       "emitted": false
     },
     {
-      "name": "20.aefb8a32ae2df6eacdf7.js",
+      "name": "20.f2f754321a5978977da1.js",
       "size": 960,
       "chunks": [
         20
@@ -222,7 +222,7 @@
       "emitted": false
     },
     {
-      "name": "21.aefb8a32ae2df6eacdf7.js",
+      "name": "21.f2f754321a5978977da1.js",
       "size": 760,
       "chunks": [
         21
@@ -233,7 +233,7 @@
       "emitted": false
     },
     {
-      "name": "22.aefb8a32ae2df6eacdf7.js",
+      "name": "22.f2f754321a5978977da1.js",
       "size": 1245,
       "chunks": [
         22
@@ -244,7 +244,7 @@
       "emitted": false
     },
     {
-      "name": "23.aefb8a32ae2df6eacdf7.js",
+      "name": "23.f2f754321a5978977da1.js",
       "size": 323,
       "chunks": [
         23
@@ -255,7 +255,7 @@
       "emitted": false
     },
     {
-      "name": "24.aefb8a32ae2df6eacdf7.js",
+      "name": "24.f2f754321a5978977da1.js",
       "size": 1262,
       "chunks": [
         24
@@ -266,7 +266,7 @@
       "emitted": false
     },
     {
-      "name": "25.aefb8a32ae2df6eacdf7.js",
+      "name": "25.f2f754321a5978977da1.js",
       "size": 584,
       "chunks": [
         25
@@ -277,7 +277,7 @@
       "emitted": false
     },
     {
-      "name": "26.aefb8a32ae2df6eacdf7.js",
+      "name": "26.f2f754321a5978977da1.js",
       "size": 7982,
       "chunks": [
         26
@@ -288,7 +288,7 @@
       "emitted": false
     },
     {
-      "name": "27.aefb8a32ae2df6eacdf7.js",
+      "name": "27.f2f754321a5978977da1.js",
       "size": 2899,
       "chunks": [
         27
@@ -299,7 +299,7 @@
       "emitted": false
     },
     {
-      "name": "28.aefb8a32ae2df6eacdf7.js",
+      "name": "28.f2f754321a5978977da1.js",
       "size": 5056,
       "chunks": [
         28
@@ -310,7 +310,7 @@
       "emitted": false
     },
     {
-      "name": "29.aefb8a32ae2df6eacdf7.js",
+      "name": "29.f2f754321a5978977da1.js",
       "size": 2439,
       "chunks": [
         29
@@ -335,7 +335,7 @@
       "emitted": false
     },
     {
-      "name": "3.aefb8a32ae2df6eacdf7.js",
+      "name": "3.f2f754321a5978977da1.js",
       "size": 544,
       "chunks": [
         3
@@ -346,7 +346,7 @@
       "emitted": false
     },
     {
-      "name": "30.aefb8a32ae2df6eacdf7.js",
+      "name": "30.f2f754321a5978977da1.js",
       "size": 5823,
       "chunks": [
         30
@@ -357,7 +357,7 @@
       "emitted": false
     },
     {
-      "name": "31.aefb8a32ae2df6eacdf7.js",
+      "name": "31.f2f754321a5978977da1.js",
       "size": 4449,
       "chunks": [
         31
@@ -368,7 +368,7 @@
       "emitted": false
     },
     {
-      "name": "32.aefb8a32ae2df6eacdf7.js",
+      "name": "32.f2f754321a5978977da1.js",
       "size": 1163,
       "chunks": [
         32
@@ -379,7 +379,7 @@
       "emitted": false
     },
     {
-      "name": "33.aefb8a32ae2df6eacdf7.js",
+      "name": "33.f2f754321a5978977da1.js",
       "size": 777,
       "chunks": [
         33
@@ -390,7 +390,7 @@
       "emitted": false
     },
     {
-      "name": "34.aefb8a32ae2df6eacdf7.js",
+      "name": "34.f2f754321a5978977da1.js",
       "size": 1263,
       "chunks": [
         34
@@ -401,7 +401,7 @@
       "emitted": false
     },
     {
-      "name": "35.aefb8a32ae2df6eacdf7.js",
+      "name": "35.f2f754321a5978977da1.js",
       "size": 2332,
       "chunks": [
         35
@@ -412,7 +412,7 @@
       "emitted": false
     },
     {
-      "name": "36.aefb8a32ae2df6eacdf7.js",
+      "name": "36.f2f754321a5978977da1.js",
       "size": 1911,
       "chunks": [
         36
@@ -423,7 +423,7 @@
       "emitted": false
     },
     {
-      "name": "37.aefb8a32ae2df6eacdf7.js",
+      "name": "37.f2f754321a5978977da1.js",
       "size": 6670,
       "chunks": [
         37
@@ -434,7 +434,7 @@
       "emitted": false
     },
     {
-      "name": "38.aefb8a32ae2df6eacdf7.js",
+      "name": "38.f2f754321a5978977da1.js",
       "size": 2199,
       "chunks": [
         38
@@ -445,7 +445,7 @@
       "emitted": false
     },
     {
-      "name": "39.aefb8a32ae2df6eacdf7.js",
+      "name": "39.f2f754321a5978977da1.js",
       "size": 1258,
       "chunks": [
         39
@@ -456,7 +456,7 @@
       "emitted": false
     },
     {
-      "name": "4.aefb8a32ae2df6eacdf7.js",
+      "name": "4.f2f754321a5978977da1.js",
       "size": 1963,
       "chunks": [
         4
@@ -467,8 +467,8 @@
       "emitted": false
     },
     {
-      "name": "40.aefb8a32ae2df6eacdf7.js",
-      "size": 261,
+      "name": "40.f2f754321a5978977da1.js",
+      "size": 580,
       "chunks": [
         40
       ],
@@ -478,7 +478,7 @@
       "emitted": false
     },
     {
-      "name": "41.aefb8a32ae2df6eacdf7.js",
+      "name": "41.f2f754321a5978977da1.js",
       "size": 262,
       "chunks": [
         41
@@ -489,7 +489,7 @@
       "emitted": false
     },
     {
-      "name": "42.aefb8a32ae2df6eacdf7.js",
+      "name": "42.f2f754321a5978977da1.js",
       "size": 255,
       "chunks": [
         42
@@ -500,7 +500,7 @@
       "emitted": false
     },
     {
-      "name": "43.aefb8a32ae2df6eacdf7.js",
+      "name": "43.f2f754321a5978977da1.js",
       "size": 381,
       "chunks": [
         43
@@ -511,7 +511,7 @@
       "emitted": false
     },
     {
-      "name": "44.aefb8a32ae2df6eacdf7.js",
+      "name": "44.f2f754321a5978977da1.js",
       "size": 228,
       "chunks": [
         44
@@ -522,7 +522,7 @@
       "emitted": false
     },
     {
-      "name": "45.aefb8a32ae2df6eacdf7.js",
+      "name": "45.f2f754321a5978977da1.js",
       "size": 1351,
       "chunks": [
         45
@@ -533,7 +533,7 @@
       "emitted": false
     },
     {
-      "name": "46.aefb8a32ae2df6eacdf7.js",
+      "name": "46.f2f754321a5978977da1.js",
       "size": 437,
       "chunks": [
         46
@@ -544,7 +544,7 @@
       "emitted": false
     },
     {
-      "name": "47.aefb8a32ae2df6eacdf7.js",
+      "name": "47.f2f754321a5978977da1.js",
       "size": 984,
       "chunks": [
         47
@@ -555,7 +555,7 @@
       "emitted": false
     },
     {
-      "name": "48.aefb8a32ae2df6eacdf7.js",
+      "name": "48.f2f754321a5978977da1.js",
       "size": 683,
       "chunks": [
         48
@@ -573,7 +573,7 @@
       "emitted": false
     },
     {
-      "name": "5.aefb8a32ae2df6eacdf7.js",
+      "name": "5.f2f754321a5978977da1.js",
       "size": 924,
       "chunks": [
         5
@@ -584,7 +584,7 @@
       "emitted": false
     },
     {
-      "name": "50.aefb8a32ae2df6eacdf7.js",
+      "name": "50.f2f754321a5978977da1.js",
       "size": 1870,
       "chunks": [
         50
@@ -595,7 +595,7 @@
       "emitted": false
     },
     {
-      "name": "51.aefb8a32ae2df6eacdf7.js",
+      "name": "51.f2f754321a5978977da1.js",
       "size": 293,
       "chunks": [
         51
@@ -606,7 +606,7 @@
       "emitted": false
     },
     {
-      "name": "52.aefb8a32ae2df6eacdf7.js",
+      "name": "52.f2f754321a5978977da1.js",
       "size": 533,
       "chunks": [
         52
@@ -617,7 +617,7 @@
       "emitted": false
     },
     {
-      "name": "53.aefb8a32ae2df6eacdf7.js",
+      "name": "53.f2f754321a5978977da1.js",
       "size": 614,
       "chunks": [
         53
@@ -628,7 +628,7 @@
       "emitted": false
     },
     {
-      "name": "54.aefb8a32ae2df6eacdf7.js",
+      "name": "54.f2f754321a5978977da1.js",
       "size": 350,
       "chunks": [
         54
@@ -639,7 +639,7 @@
       "emitted": false
     },
     {
-      "name": "55.aefb8a32ae2df6eacdf7.js",
+      "name": "55.f2f754321a5978977da1.js",
       "size": 1130,
       "chunks": [
         55
@@ -650,7 +650,7 @@
       "emitted": false
     },
     {
-      "name": "6.aefb8a32ae2df6eacdf7.js",
+      "name": "6.f2f754321a5978977da1.js",
       "size": 3515,
       "chunks": [
         6,
@@ -662,7 +662,7 @@
       "emitted": false
     },
     {
-      "name": "7.aefb8a32ae2df6eacdf7.js",
+      "name": "7.f2f754321a5978977da1.js",
       "size": 8189,
       "chunks": [
         7
@@ -680,7 +680,7 @@
       "emitted": false
     },
     {
-      "name": "8.aefb8a32ae2df6eacdf7.js",
+      "name": "8.f2f754321a5978977da1.js",
       "size": 532,
       "chunks": [
         8
@@ -691,7 +691,7 @@
       "emitted": false
     },
     {
-      "name": "9.aefb8a32ae2df6eacdf7.js",
+      "name": "9.f2f754321a5978977da1.js",
       "size": 385,
       "chunks": [
         9
@@ -716,7 +716,7 @@
       "emitted": false
     },
     {
-      "name": "main.aefb8a32ae2df6eacdf7.js",
+      "name": "main.f2f754321a5978977da1.js",
       "size": 16017,
       "chunks": [
         49
@@ -728,7 +728,7 @@
     },
     {
       "name": "styles.css",
-      "size": 25926,
+      "size": 26209,
       "chunks": [
         0
       ],
@@ -748,9 +748,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "main.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "main.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -765,9 +765,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "main.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "main.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -780,9 +780,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "30.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "30.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -795,9 +795,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "31.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "31.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -810,9 +810,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "27.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "27.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -823,8 +823,8 @@
         37
       ],
       "assets": [
-        "1.aefb8a32ae2df6eacdf7.js",
-        "37.aefb8a32ae2df6eacdf7.js"
+        "1.f2f754321a5978977da1.js",
+        "37.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -834,7 +834,7 @@
         38
       ],
       "assets": [
-        "38.aefb8a32ae2df6eacdf7.js"
+        "38.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -846,8 +846,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "29.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "29.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -859,8 +859,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "36.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "36.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -870,7 +870,7 @@
         39
       ],
       "assets": [
-        "39.aefb8a32ae2df6eacdf7.js"
+        "39.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -883,9 +883,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "11.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "11.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -897,8 +897,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "12.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "12.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -908,7 +908,7 @@
         6
       ],
       "assets": [
-        "6.aefb8a32ae2df6eacdf7.js"
+        "6.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -918,7 +918,7 @@
         5
       ],
       "assets": [
-        "5.aefb8a32ae2df6eacdf7.js"
+        "5.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -928,7 +928,7 @@
         50
       ],
       "assets": [
-        "50.aefb8a32ae2df6eacdf7.js"
+        "50.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -941,9 +941,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "26.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "26.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -956,9 +956,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "28.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "28.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -970,8 +970,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "13.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "13.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -981,7 +981,7 @@
         20
       ],
       "assets": [
-        "20.aefb8a32ae2df6eacdf7.js"
+        "20.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -993,8 +993,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "16.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "16.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1007,9 +1007,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "15.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "15.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1019,7 +1019,7 @@
         17
       ],
       "assets": [
-        "17.aefb8a32ae2df6eacdf7.js"
+        "17.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1029,7 +1029,7 @@
         18
       ],
       "assets": [
-        "18.aefb8a32ae2df6eacdf7.js"
+        "18.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1041,8 +1041,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "23.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "23.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1054,8 +1054,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "21.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "21.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1067,8 +1067,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "22.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "22.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1080,8 +1080,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "25.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "25.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1093,8 +1093,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "24.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "24.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1106,8 +1106,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "33.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "33.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1119,8 +1119,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "32.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "32.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1130,7 +1130,7 @@
         34
       ],
       "assets": [
-        "34.aefb8a32ae2df6eacdf7.js"
+        "34.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1142,8 +1142,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "7.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "7.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1155,8 +1155,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "46.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "46.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1168,8 +1168,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "3.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "3.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1181,8 +1181,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "45.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "45.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1194,8 +1194,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "2.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "2.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1207,8 +1207,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "47.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "47.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1218,7 +1218,7 @@
         44
       ],
       "assets": [
-        "44.aefb8a32ae2df6eacdf7.js"
+        "44.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1228,7 +1228,7 @@
         43
       ],
       "assets": [
-        "43.aefb8a32ae2df6eacdf7.js"
+        "43.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1240,8 +1240,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "48.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "48.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1253,8 +1253,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "19.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "19.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1266,8 +1266,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "14.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "14.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1280,19 +1280,22 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "55.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "55.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "details-specs-Description": {
       "chunks": [
+        0,
         40
       ],
       "assets": [
-        "40.aefb8a32ae2df6eacdf7.js"
+        "styles.css",
+        "0.f2f754321a5978977da1.js",
+        "40.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1302,7 +1305,7 @@
         42
       ],
       "assets": [
-        "42.aefb8a32ae2df6eacdf7.js"
+        "42.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1312,7 +1315,7 @@
         41
       ],
       "assets": [
-        "41.aefb8a32ae2df6eacdf7.js"
+        "41.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1324,8 +1327,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "52.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "52.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1337,8 +1340,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "53.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "53.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1350,8 +1353,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "8.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "8.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1363,8 +1366,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "51.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "51.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1376,8 +1379,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "54.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "54.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1390,9 +1393,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "35.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "35.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1404,8 +1407,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "2.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "2.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1417,8 +1420,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "4.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "4.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1430,8 +1433,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "3.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "3.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1443,8 +1446,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "9.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "9.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1457,9 +1460,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.aefb8a32ae2df6eacdf7.js",
-        "1.aefb8a32ae2df6eacdf7.js",
-        "10.aefb8a32ae2df6eacdf7.js"
+        "0.f2f754321a5978977da1.js",
+        "1.f2f754321a5978977da1.js",
+        "10.f2f754321a5978977da1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -2945,6 +2948,41 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-purchase.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/web/",
+      "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/details-specs/assets/css/product-description.css"
     },
     {
       "errors": [],

@@ -1,4 +1,4 @@
-#product-details div:nth-of-type(1) {
+#product-details div:first-child {
   text-align: center;
   padding: 1rem 0;
 }
