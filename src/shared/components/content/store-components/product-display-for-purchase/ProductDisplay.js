@@ -15,22 +15,26 @@ const ProductDisplay = props => {
     <>
       <section className="clear-main-nav" id="product-display">
         <Breadcrumbs />
-        <div className="col-60-40">
+        <div className="col-70-30">
           <ProductImageGallery />
           <ProductPurchase />
         </div>
       </section>
-      <section>
+      <section className="width-85">
+        <RelatedProducts title={"Complete The Look"} />
         <ProductDetails />
-      </section>
-      <section>
         <ProductVideos />
-      </section>
-      <section>
-        <RelatedProducts />
+        <RelatedProducts title={"Related Poducts"} />
       </section>
     </>
   );
 };
 
 export default ProductDisplay;
+
+
+/*
+<AssociativeApparel /> - will have intelligence to query for matching hat and shirt color/camo pattern
+ => will be a "Complete The Look" component - show pic and price -- want to entice clicking around
+will need a way to capture url so can easily navigate back to main product
+*/

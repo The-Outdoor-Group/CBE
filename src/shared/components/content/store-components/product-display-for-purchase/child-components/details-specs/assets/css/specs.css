@@ -1,0 +1,10 @@
+#specs ul {
+  margin-left: 2rem;
+}
+
+#specs ul li {
+  font-size: 140%;
+  font-weight: 300;
+  list-style-type: disc;
+  padding: 1rem 0;
+}

@@ -2,13 +2,22 @@ import React from 'react';
 
 const RelatedProducts = props => {
   return (
-    <article className="width-85">
+    <article>
       <header>
-        <h2>Related Products</h2>
+        <h2>{props.title}</h2>
       </header>
-      <p style={{marginTop: '1rem'}}>This will show a list of similar categories of product or supplies or apparel of product</p>
+      <ul>
+        <li>
+          <div>
+            <img src="https://via.placeholder.com/135x135" />
+            <p>$xx.xx</p>
+          </div>
+        </li>
+      </ul>
     </article>
   );
 };
 
 export default RelatedProducts;
+
+// <p>This will show a list of similar categories of product or supplies or apparel of product</p>

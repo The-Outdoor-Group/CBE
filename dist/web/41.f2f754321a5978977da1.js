@@ -1,1 +1,0 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[41],{446:function(n,t,_){"use strict";_.r(t);var e=_(2),u=_.n(e);t.default=function(n){return u.a.createElement("div",null,u.a.createElement("h3",null,"Product Instructions"))}}}]);

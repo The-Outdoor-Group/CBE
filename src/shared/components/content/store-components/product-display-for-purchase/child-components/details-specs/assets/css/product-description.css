@@ -5,8 +5,11 @@
 
 #product-description div:first-child {
   text-align: left;
+  justify-self: baseline;
+  align-self: baseline;
+  /* padding-left: 1rem; */
 }
 
 #product-description img {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }

@@ -1,10 +1,20 @@
 import React from 'react';
 
 const Instructions = props => {
+
+  const pStyle = {
+
+  };
+
   return (
-    <div>
-      <h3>Product Instructions</h3>
-    </div>
+    <article>
+      <header>
+        <h3>Product Instructions</h3>
+      </header>
+      <p>This would contain supporting videos like how-tos.</p>
+      <p>This would contain any sort of care or maintenance links.</p>
+      <p>Any other sort of instruction and support info that is helpful is here.</p>
+    </article>
   );
 };
 

@@ -27,7 +27,7 @@ const ProductDetails = props => {
   const setStyle = val => activeDisplay === val ? ({ border: '1px solid #000', background: '#000', color: '#fff' }) : null;
 
   return (
-    <article className="width-85" id="product-details">
+    <article id="product-details">
       <header>
         <h2>Product Details</h2>
       </header>

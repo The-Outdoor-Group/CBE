@@ -1,1 +1,1 @@
-exports.ids=[21],exports.modules={136:function(e,n,a){},73:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t);a(136);n.default=function(e){return r.a.createElement("div",{className:"financing-ad"},r.a.createElement("header",null,r.a.createElement("h1",null,"Finance with Klarna")))}}};
+exports.ids=[21],exports.modules={137:function(e,n,a){},73:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t);a(137);n.default=function(e){return r.a.createElement("div",{className:"financing-ad"},r.a.createElement("header",null,r.a.createElement("h1",null,"Finance with Klarna")))}}};
