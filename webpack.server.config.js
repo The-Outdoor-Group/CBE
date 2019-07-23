@@ -61,7 +61,6 @@ module.exports = {
       name: false,
       cacheGroups: {
         vendors: {
-          // test:  /[\\/](helmet|react|react-router-dom|redux-saga|redux|express|pm2|@loadable)[\\/]/,
           test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
           chunks: 'all',

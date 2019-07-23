@@ -44,6 +44,54 @@ Queries a specific product by handle:
 */
 
 /*
+
+Queries a collection and gets all products in it:
+
+{
+  collectionByHandle(handle: "competition-sights") {
+    id
+    descriptionHtml
+    products(first: 100) {
+      edges {
+        node {
+          id
+          availableForSale
+          title
+          handle
+          variants(first:20) {
+            edges {
+              node {
+                id
+                availableForSale
+                compareAtPriceV2 {
+                  amount
+                  currencyCode
+                }
+                image {
+                  transformedSrc(maxWidth: 1200)
+                }
+                selectedOptions {
+                  name
+                  value
+                }
+                priceV2 {
+                  amount
+                }
+                sku
+                title
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+*/
+
+/*
   Queries a collection by handle:
   This will display product member handles to query by to use above
   {

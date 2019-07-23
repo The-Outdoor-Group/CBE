@@ -2,73 +2,74 @@
   "errors": [],
   "warnings": [],
   "version": "4.36.1",
-  "hash": "c1d8bcf550b02cf3c807",
+  "hash": "1c7b79c8efd7c1553c5e",
   "publicPath": "/assets/web/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/web/",
   "assetsByChunkName": {
     "styles": [
       "styles.css",
-      "0.c1d8bcf550b02cf3c807.js"
+      "0.1c7b79c8efd7c1553c5e.js"
     ],
-    "vendor": "1.c1d8bcf550b02cf3c807.js",
-    "Image": "2.c1d8bcf550b02cf3c807.js",
-    "Stats": "3.c1d8bcf550b02cf3c807.js",
-    "CallToAction": "4.c1d8bcf550b02cf3c807.js",
-    "InfoPanelOpenList": "5.c1d8bcf550b02cf3c807.js",
-    "MainList": "6.c1d8bcf550b02cf3c807.js",
-    "MoreInfoComponent": "7.c1d8bcf550b02cf3c807.js",
-    "WishlistLineItem": "8.c1d8bcf550b02cf3c807.js",
-    "assets-images-NavigationArrow": "9.c1d8bcf550b02cf3c807.js",
-    "assets-images-PlusIcon": "10.c1d8bcf550b02cf3c807.js",
-    "assets-images-logo": "11.c1d8bcf550b02cf3c807.js",
-    "assets-images-secondary-menu-icon": "12.c1d8bcf550b02cf3c807.js",
-    "child-components-Breadcrumbs": "13.c1d8bcf550b02cf3c807.js",
-    "child-components-CurrentImage": "14.c1d8bcf550b02cf3c807.js",
-    "child-components-ProductDetails": "15.c1d8bcf550b02cf3c807.js",
-    "child-components-ProductPurchase": "16.c1d8bcf550b02cf3c807.js",
-    "child-components-ProductVideos": "17.c1d8bcf550b02cf3c807.js",
-    "child-components-RelatedProducts": "18.c1d8bcf550b02cf3c807.js",
-    "child-components-ThumbnailGallery": "19.c1d8bcf550b02cf3c807.js",
-    "child-components-image-gallery-ProductImageGallery": "20.c1d8bcf550b02cf3c807.js",
-    "components-cart-EmptyCartMessage": "21.c1d8bcf550b02cf3c807.js",
-    "components-cart-FilledCart": "22.c1d8bcf550b02cf3c807.js",
-    "components-cart-FinancingAd": "23.c1d8bcf550b02cf3c807.js",
-    "components-cart-RecommendedItems": "24.c1d8bcf550b02cf3c807.js",
-    "components-cart-SideBar": "25.c1d8bcf550b02cf3c807.js",
-    "components-content-Hero": "26.c1d8bcf550b02cf3c807.js",
-    "components-content-assets-images-MoreContentArrow": "27.c1d8bcf550b02cf3c807.js",
-    "components-content-store-components-ShopHero": "28.c1d8bcf550b02cf3c807.js",
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": "29.c1d8bcf550b02cf3c807.js",
-    "components-main-nav-MainNav": "30.c1d8bcf550b02cf3c807.js",
-    "components-main-secondary-nav-MainSecondaryNav": "31.c1d8bcf550b02cf3c807.js",
-    "components-wishlist-FilledWishlist": "32.c1d8bcf550b02cf3c807.js",
-    "components-wishlist-Messaging": "33.c1d8bcf550b02cf3c807.js",
-    "components-wishlist-WishlistRecommendedItems": "34.c1d8bcf550b02cf3c807.js",
-    "container-HorizontalImageSlider": "35.c1d8bcf550b02cf3c807.js",
-    "containers-Cart": "36.c1d8bcf550b02cf3c807.js",
-    "containers-Home": "37.c1d8bcf550b02cf3c807.js",
-    "containers-Shop": "38.c1d8bcf550b02cf3c807.js",
-    "containers-Wishlist": "39.c1d8bcf550b02cf3c807.js",
-    "details-specs-Description": "40.c1d8bcf550b02cf3c807.js",
-    "details-specs-Instructions": "41.c1d8bcf550b02cf3c807.js",
-    "details-specs-Specs": "42.c1d8bcf550b02cf3c807.js",
-    "hero-components-List": "43.c1d8bcf550b02cf3c807.js",
-    "hero-components-ListButton": "44.c1d8bcf550b02cf3c807.js",
-    "hero-components-TextArticle": "45.c1d8bcf550b02cf3c807.js",
-    "hero-components-TitleHeader": "46.c1d8bcf550b02cf3c807.js",
-    "hero-components-VideoComponent": "47.c1d8bcf550b02cf3c807.js",
-    "image-tiles-ImageTile": "48.c1d8bcf550b02cf3c807.js",
-    "main": "main.c1d8bcf550b02cf3c807.js",
-    "main-nav-SharedMainList": "50.c1d8bcf550b02cf3c807.js",
-    "more-info-components-container-MoreInfoArticle": "51.c1d8bcf550b02cf3c807.js",
-    "order-parts-LineItem": "52.c1d8bcf550b02cf3c807.js",
-    "order-parts-OrderSummary": "53.c1d8bcf550b02cf3c807.js",
-    "text-Header": "54.c1d8bcf550b02cf3c807.js",
-    "variant-selector-Dropdown": "55.c1d8bcf550b02cf3c807.js"
+    "vendor": "1.1c7b79c8efd7c1553c5e.js",
+    "Image": "2.1c7b79c8efd7c1553c5e.js",
+    "Stats": "3.1c7b79c8efd7c1553c5e.js",
+    "CallToAction": "4.1c7b79c8efd7c1553c5e.js",
+    "InfoPanelOpenList": "5.1c7b79c8efd7c1553c5e.js",
+    "MainList": "6.1c7b79c8efd7c1553c5e.js",
+    "MoreInfoComponent": "7.1c7b79c8efd7c1553c5e.js",
+    "WishlistLineItem": "8.1c7b79c8efd7c1553c5e.js",
+    "assets-images-NavigationArrow": "9.1c7b79c8efd7c1553c5e.js",
+    "assets-images-PlusIcon": "10.1c7b79c8efd7c1553c5e.js",
+    "assets-images-logo": "11.1c7b79c8efd7c1553c5e.js",
+    "assets-images-secondary-menu-icon": "12.1c7b79c8efd7c1553c5e.js",
+    "child-components-Breadcrumbs": "13.1c7b79c8efd7c1553c5e.js",
+    "child-components-CurrentImage": "14.1c7b79c8efd7c1553c5e.js",
+    "child-components-ProductDetails": "15.1c7b79c8efd7c1553c5e.js",
+    "child-components-ProductPurchase": "16.1c7b79c8efd7c1553c5e.js",
+    "child-components-ProductVideos": "17.1c7b79c8efd7c1553c5e.js",
+    "child-components-RelatedProducts": "18.1c7b79c8efd7c1553c5e.js",
+    "child-components-ThumbnailGallery": "19.1c7b79c8efd7c1553c5e.js",
+    "child-components-image-gallery-ProductImageGallery": "20.1c7b79c8efd7c1553c5e.js",
+    "components-cart-EmptyCartMessage": "21.1c7b79c8efd7c1553c5e.js",
+    "components-cart-FilledCart": "22.1c7b79c8efd7c1553c5e.js",
+    "components-cart-FinancingAd": "23.1c7b79c8efd7c1553c5e.js",
+    "components-cart-RecommendedItems": "24.1c7b79c8efd7c1553c5e.js",
+    "components-cart-SideBar": "25.1c7b79c8efd7c1553c5e.js",
+    "components-content-Hero": "26.1c7b79c8efd7c1553c5e.js",
+    "components-content-assets-images-MoreContentArrow": "27.1c7b79c8efd7c1553c5e.js",
+    "components-content-store-components-ShopHero": "28.1c7b79c8efd7c1553c5e.js",
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": "29.1c7b79c8efd7c1553c5e.js",
+    "components-main-nav-MainNav": "30.1c7b79c8efd7c1553c5e.js",
+    "components-main-secondary-nav-MainSecondaryNav": "31.1c7b79c8efd7c1553c5e.js",
+    "components-wishlist-FilledWishlist": "32.1c7b79c8efd7c1553c5e.js",
+    "components-wishlist-Messaging": "33.1c7b79c8efd7c1553c5e.js",
+    "components-wishlist-WishlistRecommendedItems": "34.1c7b79c8efd7c1553c5e.js",
+    "container-HorizontalImageSlider": "35.1c7b79c8efd7c1553c5e.js",
+    "containers-Cart": "36.1c7b79c8efd7c1553c5e.js",
+    "containers-Collections": "37.1c7b79c8efd7c1553c5e.js",
+    "containers-Home": "38.1c7b79c8efd7c1553c5e.js",
+    "containers-Shop": "39.1c7b79c8efd7c1553c5e.js",
+    "containers-Wishlist": "40.1c7b79c8efd7c1553c5e.js",
+    "details-specs-Description": "41.1c7b79c8efd7c1553c5e.js",
+    "details-specs-Instructions": "42.1c7b79c8efd7c1553c5e.js",
+    "details-specs-Specs": "43.1c7b79c8efd7c1553c5e.js",
+    "hero-components-List": "44.1c7b79c8efd7c1553c5e.js",
+    "hero-components-ListButton": "45.1c7b79c8efd7c1553c5e.js",
+    "hero-components-TextArticle": "46.1c7b79c8efd7c1553c5e.js",
+    "hero-components-TitleHeader": "47.1c7b79c8efd7c1553c5e.js",
+    "hero-components-VideoComponent": "48.1c7b79c8efd7c1553c5e.js",
+    "image-tiles-ImageTile": "49.1c7b79c8efd7c1553c5e.js",
+    "main": "main.1c7b79c8efd7c1553c5e.js",
+    "main-nav-SharedMainList": "51.1c7b79c8efd7c1553c5e.js",
+    "more-info-components-container-MoreInfoArticle": "52.1c7b79c8efd7c1553c5e.js",
+    "order-parts-LineItem": "53.1c7b79c8efd7c1553c5e.js",
+    "order-parts-OrderSummary": "54.1c7b79c8efd7c1553c5e.js",
+    "text-Header": "55.1c7b79c8efd7c1553c5e.js",
+    "variant-selector-Dropdown": "56.1c7b79c8efd7c1553c5e.js"
   },
   "assets": [
     {
-      "name": "0.c1d8bcf550b02cf3c807.js",
+      "name": "0.1c7b79c8efd7c1553c5e.js",
       "size": 1276,
       "chunks": [
         0
@@ -79,8 +80,8 @@
       "emitted": false
     },
     {
-      "name": "1.c1d8bcf550b02cf3c807.js",
-      "size": 453669,
+      "name": "1.1c7b79c8efd7c1553c5e.js",
+      "size": 453664,
       "chunks": [
         1
       ],
@@ -90,7 +91,7 @@
       "emitted": false
     },
     {
-      "name": "10.c1d8bcf550b02cf3c807.js",
+      "name": "10.1c7b79c8efd7c1553c5e.js",
       "size": 1441,
       "chunks": [
         10
@@ -101,7 +102,7 @@
       "emitted": false
     },
     {
-      "name": "11.c1d8bcf550b02cf3c807.js",
+      "name": "11.1c7b79c8efd7c1553c5e.js",
       "size": 3223,
       "chunks": [
         11
@@ -112,7 +113,7 @@
       "emitted": false
     },
     {
-      "name": "12.c1d8bcf550b02cf3c807.js",
+      "name": "12.1c7b79c8efd7c1553c5e.js",
       "size": 1321,
       "chunks": [
         12
@@ -123,7 +124,7 @@
       "emitted": false
     },
     {
-      "name": "13.c1d8bcf550b02cf3c807.js",
+      "name": "13.1c7b79c8efd7c1553c5e.js",
       "size": 410,
       "chunks": [
         13
@@ -134,7 +135,7 @@
       "emitted": false
     },
     {
-      "name": "14.c1d8bcf550b02cf3c807.js",
+      "name": "14.1c7b79c8efd7c1553c5e.js",
       "size": 393,
       "chunks": [
         14
@@ -145,7 +146,7 @@
       "emitted": false
     },
     {
-      "name": "15.c1d8bcf550b02cf3c807.js",
+      "name": "15.1c7b79c8efd7c1553c5e.js",
       "size": 1975,
       "chunks": [
         15
@@ -156,7 +157,7 @@
       "emitted": false
     },
     {
-      "name": "16.c1d8bcf550b02cf3c807.js",
+      "name": "16.1c7b79c8efd7c1553c5e.js",
       "size": 892,
       "chunks": [
         16
@@ -167,7 +168,7 @@
       "emitted": false
     },
     {
-      "name": "17.c1d8bcf550b02cf3c807.js",
+      "name": "17.1c7b79c8efd7c1553c5e.js",
       "size": 638,
       "chunks": [
         17
@@ -178,7 +179,7 @@
       "emitted": false
     },
     {
-      "name": "18.c1d8bcf550b02cf3c807.js",
+      "name": "18.1c7b79c8efd7c1553c5e.js",
       "size": 478,
       "chunks": [
         18
@@ -189,7 +190,7 @@
       "emitted": false
     },
     {
-      "name": "19.c1d8bcf550b02cf3c807.js",
+      "name": "19.1c7b79c8efd7c1553c5e.js",
       "size": 413,
       "chunks": [
         19
@@ -200,7 +201,7 @@
       "emitted": false
     },
     {
-      "name": "2.c1d8bcf550b02cf3c807.js",
+      "name": "2.1c7b79c8efd7c1553c5e.js",
       "size": 279,
       "chunks": [
         2
@@ -211,7 +212,7 @@
       "emitted": false
     },
     {
-      "name": "20.c1d8bcf550b02cf3c807.js",
+      "name": "20.1c7b79c8efd7c1553c5e.js",
       "size": 960,
       "chunks": [
         20
@@ -222,7 +223,7 @@
       "emitted": false
     },
     {
-      "name": "21.c1d8bcf550b02cf3c807.js",
+      "name": "21.1c7b79c8efd7c1553c5e.js",
       "size": 760,
       "chunks": [
         21
@@ -233,7 +234,7 @@
       "emitted": false
     },
     {
-      "name": "22.c1d8bcf550b02cf3c807.js",
+      "name": "22.1c7b79c8efd7c1553c5e.js",
       "size": 1245,
       "chunks": [
         22
@@ -244,7 +245,7 @@
       "emitted": false
     },
     {
-      "name": "23.c1d8bcf550b02cf3c807.js",
+      "name": "23.1c7b79c8efd7c1553c5e.js",
       "size": 323,
       "chunks": [
         23
@@ -255,7 +256,7 @@
       "emitted": false
     },
     {
-      "name": "24.c1d8bcf550b02cf3c807.js",
+      "name": "24.1c7b79c8efd7c1553c5e.js",
       "size": 1262,
       "chunks": [
         24
@@ -266,7 +267,7 @@
       "emitted": false
     },
     {
-      "name": "25.c1d8bcf550b02cf3c807.js",
+      "name": "25.1c7b79c8efd7c1553c5e.js",
       "size": 584,
       "chunks": [
         25
@@ -277,7 +278,7 @@
       "emitted": false
     },
     {
-      "name": "26.c1d8bcf550b02cf3c807.js",
+      "name": "26.1c7b79c8efd7c1553c5e.js",
       "size": 7982,
       "chunks": [
         26
@@ -288,7 +289,7 @@
       "emitted": false
     },
     {
-      "name": "27.c1d8bcf550b02cf3c807.js",
+      "name": "27.1c7b79c8efd7c1553c5e.js",
       "size": 2899,
       "chunks": [
         27
@@ -299,7 +300,7 @@
       "emitted": false
     },
     {
-      "name": "28.c1d8bcf550b02cf3c807.js",
+      "name": "28.1c7b79c8efd7c1553c5e.js",
       "size": 5056,
       "chunks": [
         28
@@ -310,7 +311,7 @@
       "emitted": false
     },
     {
-      "name": "29.c1d8bcf550b02cf3c807.js",
+      "name": "29.1c7b79c8efd7c1553c5e.js",
       "size": 2481,
       "chunks": [
         29
@@ -335,7 +336,7 @@
       "emitted": false
     },
     {
-      "name": "3.c1d8bcf550b02cf3c807.js",
+      "name": "3.1c7b79c8efd7c1553c5e.js",
       "size": 544,
       "chunks": [
         3
@@ -346,7 +347,7 @@
       "emitted": false
     },
     {
-      "name": "30.c1d8bcf550b02cf3c807.js",
+      "name": "30.1c7b79c8efd7c1553c5e.js",
       "size": 5823,
       "chunks": [
         30
@@ -357,8 +358,8 @@
       "emitted": false
     },
     {
-      "name": "31.c1d8bcf550b02cf3c807.js",
-      "size": 4449,
+      "name": "31.1c7b79c8efd7c1553c5e.js",
+      "size": 4441,
       "chunks": [
         31
       ],
@@ -368,7 +369,7 @@
       "emitted": false
     },
     {
-      "name": "32.c1d8bcf550b02cf3c807.js",
+      "name": "32.1c7b79c8efd7c1553c5e.js",
       "size": 1163,
       "chunks": [
         32
@@ -379,7 +380,7 @@
       "emitted": false
     },
     {
-      "name": "33.c1d8bcf550b02cf3c807.js",
+      "name": "33.1c7b79c8efd7c1553c5e.js",
       "size": 777,
       "chunks": [
         33
@@ -390,7 +391,7 @@
       "emitted": false
     },
     {
-      "name": "34.c1d8bcf550b02cf3c807.js",
+      "name": "34.1c7b79c8efd7c1553c5e.js",
       "size": 1263,
       "chunks": [
         34
@@ -401,7 +402,7 @@
       "emitted": false
     },
     {
-      "name": "35.c1d8bcf550b02cf3c807.js",
+      "name": "35.1c7b79c8efd7c1553c5e.js",
       "size": 2332,
       "chunks": [
         35
@@ -412,7 +413,7 @@
       "emitted": false
     },
     {
-      "name": "36.c1d8bcf550b02cf3c807.js",
+      "name": "36.1c7b79c8efd7c1553c5e.js",
       "size": 1911,
       "chunks": [
         36
@@ -423,10 +424,21 @@
       "emitted": false
     },
     {
-      "name": "37.c1d8bcf550b02cf3c807.js",
-      "size": 6670,
+      "name": "37.1c7b79c8efd7c1553c5e.js",
+      "size": 347,
       "chunks": [
         37
+      ],
+      "chunkNames": [
+        "containers-Collections"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "38.1c7b79c8efd7c1553c5e.js",
+      "size": 6728,
+      "chunks": [
+        38
       ],
       "chunkNames": [
         "containers-Home"
@@ -434,10 +446,10 @@
       "emitted": false
     },
     {
-      "name": "38.c1d8bcf550b02cf3c807.js",
+      "name": "39.1c7b79c8efd7c1553c5e.js",
       "size": 2199,
       "chunks": [
-        38
+        39
       ],
       "chunkNames": [
         "containers-Shop"
@@ -445,18 +457,7 @@
       "emitted": false
     },
     {
-      "name": "39.c1d8bcf550b02cf3c807.js",
-      "size": 1258,
-      "chunks": [
-        39
-      ],
-      "chunkNames": [
-        "containers-Wishlist"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "4.c1d8bcf550b02cf3c807.js",
+      "name": "4.1c7b79c8efd7c1553c5e.js",
       "size": 1963,
       "chunks": [
         4
@@ -467,10 +468,21 @@
       "emitted": false
     },
     {
-      "name": "40.c1d8bcf550b02cf3c807.js",
-      "size": 580,
+      "name": "40.1c7b79c8efd7c1553c5e.js",
+      "size": 1258,
       "chunks": [
         40
+      ],
+      "chunkNames": [
+        "containers-Wishlist"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "41.1c7b79c8efd7c1553c5e.js",
+      "size": 580,
+      "chunks": [
+        41
       ],
       "chunkNames": [
         "details-specs-Description"
@@ -478,10 +490,10 @@
       "emitted": false
     },
     {
-      "name": "41.c1d8bcf550b02cf3c807.js",
+      "name": "42.1c7b79c8efd7c1553c5e.js",
       "size": 570,
       "chunks": [
-        41
+        42
       ],
       "chunkNames": [
         "details-specs-Instructions"
@@ -489,10 +501,10 @@
       "emitted": false
     },
     {
-      "name": "42.c1d8bcf550b02cf3c807.js",
+      "name": "43.1c7b79c8efd7c1553c5e.js",
       "size": 870,
       "chunks": [
-        42
+        43
       ],
       "chunkNames": [
         "details-specs-Specs"
@@ -500,10 +512,10 @@
       "emitted": false
     },
     {
-      "name": "43.c1d8bcf550b02cf3c807.js",
+      "name": "44.1c7b79c8efd7c1553c5e.js",
       "size": 381,
       "chunks": [
-        43
+        44
       ],
       "chunkNames": [
         "hero-components-List"
@@ -511,10 +523,10 @@
       "emitted": false
     },
     {
-      "name": "44.c1d8bcf550b02cf3c807.js",
+      "name": "45.1c7b79c8efd7c1553c5e.js",
       "size": 228,
       "chunks": [
-        44
+        45
       ],
       "chunkNames": [
         "hero-components-ListButton"
@@ -522,10 +534,10 @@
       "emitted": false
     },
     {
-      "name": "45.c1d8bcf550b02cf3c807.js",
+      "name": "46.1c7b79c8efd7c1553c5e.js",
       "size": 1351,
       "chunks": [
-        45
+        46
       ],
       "chunkNames": [
         "hero-components-TextArticle"
@@ -533,10 +545,10 @@
       "emitted": false
     },
     {
-      "name": "46.c1d8bcf550b02cf3c807.js",
+      "name": "47.1c7b79c8efd7c1553c5e.js",
       "size": 437,
       "chunks": [
-        46
+        47
       ],
       "chunkNames": [
         "hero-components-TitleHeader"
@@ -544,10 +556,10 @@
       "emitted": false
     },
     {
-      "name": "47.c1d8bcf550b02cf3c807.js",
+      "name": "48.1c7b79c8efd7c1553c5e.js",
       "size": 984,
       "chunks": [
-        47
+        48
       ],
       "chunkNames": [
         "hero-components-VideoComponent"
@@ -555,10 +567,10 @@
       "emitted": false
     },
     {
-      "name": "48.c1d8bcf550b02cf3c807.js",
+      "name": "49.1c7b79c8efd7c1553c5e.js",
       "size": 683,
       "chunks": [
-        48
+        49
       ],
       "chunkNames": [
         "image-tiles-ImageTile"
@@ -573,7 +585,7 @@
       "emitted": false
     },
     {
-      "name": "5.c1d8bcf550b02cf3c807.js",
+      "name": "5.1c7b79c8efd7c1553c5e.js",
       "size": 924,
       "chunks": [
         5
@@ -584,10 +596,10 @@
       "emitted": false
     },
     {
-      "name": "50.c1d8bcf550b02cf3c807.js",
+      "name": "51.1c7b79c8efd7c1553c5e.js",
       "size": 1870,
       "chunks": [
-        50
+        51
       ],
       "chunkNames": [
         "main-nav-SharedMainList"
@@ -595,10 +607,10 @@
       "emitted": false
     },
     {
-      "name": "51.c1d8bcf550b02cf3c807.js",
+      "name": "52.1c7b79c8efd7c1553c5e.js",
       "size": 293,
       "chunks": [
-        51
+        52
       ],
       "chunkNames": [
         "more-info-components-container-MoreInfoArticle"
@@ -606,10 +618,10 @@
       "emitted": false
     },
     {
-      "name": "52.c1d8bcf550b02cf3c807.js",
+      "name": "53.1c7b79c8efd7c1553c5e.js",
       "size": 533,
       "chunks": [
-        52
+        53
       ],
       "chunkNames": [
         "order-parts-LineItem"
@@ -617,10 +629,10 @@
       "emitted": false
     },
     {
-      "name": "53.c1d8bcf550b02cf3c807.js",
+      "name": "54.1c7b79c8efd7c1553c5e.js",
       "size": 614,
       "chunks": [
-        53
+        54
       ],
       "chunkNames": [
         "order-parts-OrderSummary"
@@ -628,10 +640,10 @@
       "emitted": false
     },
     {
-      "name": "54.c1d8bcf550b02cf3c807.js",
+      "name": "55.1c7b79c8efd7c1553c5e.js",
       "size": 350,
       "chunks": [
-        54
+        55
       ],
       "chunkNames": [
         "text-Header"
@@ -639,10 +651,10 @@
       "emitted": false
     },
     {
-      "name": "55.c1d8bcf550b02cf3c807.js",
+      "name": "56.1c7b79c8efd7c1553c5e.js",
       "size": 1130,
       "chunks": [
-        55
+        56
       ],
       "chunkNames": [
         "variant-selector-Dropdown"
@@ -650,11 +662,11 @@
       "emitted": false
     },
     {
-      "name": "6.c1d8bcf550b02cf3c807.js",
+      "name": "6.1c7b79c8efd7c1553c5e.js",
       "size": 3515,
       "chunks": [
         6,
-        50
+        51
       ],
       "chunkNames": [
         "MainList"
@@ -662,7 +674,7 @@
       "emitted": false
     },
     {
-      "name": "7.c1d8bcf550b02cf3c807.js",
+      "name": "7.1c7b79c8efd7c1553c5e.js",
       "size": 8189,
       "chunks": [
         7
@@ -680,7 +692,7 @@
       "emitted": false
     },
     {
-      "name": "8.c1d8bcf550b02cf3c807.js",
+      "name": "8.1c7b79c8efd7c1553c5e.js",
       "size": 532,
       "chunks": [
         8
@@ -691,7 +703,7 @@
       "emitted": false
     },
     {
-      "name": "9.c1d8bcf550b02cf3c807.js",
+      "name": "9.1c7b79c8efd7c1553c5e.js",
       "size": 385,
       "chunks": [
         9
@@ -716,10 +728,10 @@
       "emitted": false
     },
     {
-      "name": "main.c1d8bcf550b02cf3c807.js",
-      "size": 16017,
+      "name": "main.1c7b79c8efd7c1553c5e.js",
+      "size": 16448,
       "chunks": [
-        49
+        50
       ],
       "chunkNames": [
         "main"
@@ -744,13 +756,13 @@
       "chunks": [
         0,
         1,
-        49
+        50
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "main.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "main.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -761,13 +773,13 @@
       "chunks": [
         0,
         1,
-        49
+        50
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "main.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "main.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -780,9 +792,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "30.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "30.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -795,9 +807,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "31.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "31.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -810,44 +822,19 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "27.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "containers-Home": {
-      "chunks": [
-        1,
-        37
-      ],
-      "assets": [
-        "1.c1d8bcf550b02cf3c807.js",
-        "37.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "27.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Shop": {
       "chunks": [
-        38
+        39
       ],
       "assets": [
-        "38.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-content-store-components-product-display-for-purchase-ProductDisplay": {
-      "chunks": [
-        0,
-        29
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "29.c1d8bcf550b02cf3c807.js"
+        "39.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -859,18 +846,53 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "36.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "36.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "containers-Wishlist": {
       "chunks": [
-        39
+        40
       ],
       "assets": [
-        "39.c1d8bcf550b02cf3c807.js"
+        "40.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Collections": {
+      "chunks": [
+        37
+      ],
+      "assets": [
+        "37.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Home": {
+      "chunks": [
+        1,
+        38
+      ],
+      "assets": [
+        "1.1c7b79c8efd7c1553c5e.js",
+        "38.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": {
+      "chunks": [
+        0,
+        29
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "29.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -883,9 +905,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "11.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "11.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -897,8 +919,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "12.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "12.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -908,7 +930,7 @@
         6
       ],
       "assets": [
-        "6.c1d8bcf550b02cf3c807.js"
+        "6.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -918,32 +940,17 @@
         5
       ],
       "assets": [
-        "5.c1d8bcf550b02cf3c807.js"
+        "5.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "main-nav-SharedMainList": {
       "chunks": [
-        50
+        51
       ],
       "assets": [
-        "50.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-content-Hero": {
-      "chunks": [
-        0,
-        1,
-        26
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "26.c1d8bcf550b02cf3c807.js"
+        "51.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -956,9 +963,125 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "28.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "28.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FinancingAd": {
+      "chunks": [
+        0,
+        23
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "23.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-EmptyCartMessage": {
+      "chunks": [
+        0,
+        21
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "21.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FilledCart": {
+      "chunks": [
+        0,
+        22
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "22.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-SideBar": {
+      "chunks": [
+        0,
+        25
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "25.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-RecommendedItems": {
+      "chunks": [
+        0,
+        24
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "24.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-Messaging": {
+      "chunks": [
+        0,
+        33
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "33.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-FilledWishlist": {
+      "chunks": [
+        0,
+        32
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "32.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-WishlistRecommendedItems": {
+      "chunks": [
+        34
+      ],
+      "assets": [
+        "34.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-Hero": {
+      "chunks": [
+        0,
+        1,
+        26
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "26.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -970,8 +1093,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "13.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "13.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -981,7 +1104,7 @@
         20
       ],
       "assets": [
-        "20.c1d8bcf550b02cf3c807.js"
+        "20.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -993,8 +1116,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "16.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "16.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1007,9 +1130,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "15.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "15.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1021,8 +1144,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "17.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "17.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1032,206 +1155,7 @@
         18
       ],
       "assets": [
-        "18.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-cart-FinancingAd": {
-      "chunks": [
-        0,
-        23
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "23.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-cart-EmptyCartMessage": {
-      "chunks": [
-        0,
-        21
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "21.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-cart-FilledCart": {
-      "chunks": [
-        0,
-        22
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "22.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-cart-SideBar": {
-      "chunks": [
-        0,
-        25
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "25.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-cart-RecommendedItems": {
-      "chunks": [
-        0,
-        24
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "24.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-wishlist-Messaging": {
-      "chunks": [
-        0,
-        33
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "33.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-wishlist-FilledWishlist": {
-      "chunks": [
-        0,
-        32
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "32.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "components-wishlist-WishlistRecommendedItems": {
-      "chunks": [
-        34
-      ],
-      "assets": [
-        "34.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "MoreInfoComponent": {
-      "chunks": [
-        0,
-        7
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "7.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-TitleHeader": {
-      "chunks": [
-        0,
-        46
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "46.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-Stats": {
-      "chunks": [
-        0,
-        3
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "3.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-TextArticle": {
-      "chunks": [
-        0,
-        45
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "45.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-Image": {
-      "chunks": [
-        0,
-        2
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "2.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-VideoComponent": {
-      "chunks": [
-        0,
-        47
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "47.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-ListButton": {
-      "chunks": [
-        44
-      ],
-      "assets": [
-        "44.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "hero-components-List": {
-      "chunks": [
-        43
-      ],
-      "assets": [
-        "43.c1d8bcf550b02cf3c807.js"
+        "18.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1239,89 +1163,12 @@
     "image-tiles-ImageTile": {
       "chunks": [
         0,
-        48
+        49
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "48.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "child-components-ThumbnailGallery": {
-      "chunks": [
-        0,
-        19
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "19.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "child-components-CurrentImage": {
-      "chunks": [
-        0,
-        14
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "14.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "variant-selector-Dropdown": {
-      "chunks": [
-        0,
-        1,
-        55
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "55.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "details-specs-Description": {
-      "chunks": [
-        0,
-        40
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "40.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "details-specs-Specs": {
-      "chunks": [
-        0,
-        42
-      ],
-      "assets": [
-        "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "42.c1d8bcf550b02cf3c807.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "details-specs-Instructions": {
-      "chunks": [
-        41
-      ],
-      "assets": [
-        "41.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "49.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1329,12 +1176,12 @@
     "order-parts-LineItem": {
       "chunks": [
         0,
-        52
+        53
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "52.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "53.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1342,12 +1189,12 @@
     "order-parts-OrderSummary": {
       "chunks": [
         0,
-        53
+        54
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "53.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "54.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1359,8 +1206,183 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "8.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "8.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "MoreInfoComponent": {
+      "chunks": [
+        0,
+        7
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "7.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-TitleHeader": {
+      "chunks": [
+        0,
+        47
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "47.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-Stats": {
+      "chunks": [
+        0,
+        3
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "3.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-TextArticle": {
+      "chunks": [
+        0,
+        46
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "46.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-Image": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "2.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-VideoComponent": {
+      "chunks": [
+        0,
+        48
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "48.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-ListButton": {
+      "chunks": [
+        45
+      ],
+      "assets": [
+        "45.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-List": {
+      "chunks": [
+        44
+      ],
+      "assets": [
+        "44.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ThumbnailGallery": {
+      "chunks": [
+        0,
+        19
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "19.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-CurrentImage": {
+      "chunks": [
+        0,
+        14
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "14.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "variant-selector-Dropdown": {
+      "chunks": [
+        0,
+        1,
+        56
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "56.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Description": {
+      "chunks": [
+        0,
+        41
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "41.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Specs": {
+      "chunks": [
+        0,
+        43
+      ],
+      "assets": [
+        "styles.css",
+        "0.1c7b79c8efd7c1553c5e.js",
+        "43.1c7b79c8efd7c1553c5e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Instructions": {
+      "chunks": [
+        42
+      ],
+      "assets": [
+        "42.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1368,12 +1390,12 @@
     "more-info-components-container-MoreInfoArticle": {
       "chunks": [
         0,
-        51
+        52
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "51.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "52.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1381,12 +1403,12 @@
     "text-Header": {
       "chunks": [
         0,
-        54
+        55
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "54.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "55.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1399,9 +1421,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "35.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "35.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1413,8 +1435,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "2.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "2.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1426,8 +1448,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "4.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "4.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1439,8 +1461,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "3.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "3.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1452,8 +1474,8 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "9.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "9.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1466,9 +1488,9 @@
       ],
       "assets": [
         "styles.css",
-        "0.c1d8bcf550b02cf3c807.js",
-        "1.c1d8bcf550b02cf3c807.js",
-        "10.c1d8bcf550b02cf3c807.js"
+        "0.1c7b79c8efd7c1553c5e.js",
+        "1.1c7b79c8efd7c1553c5e.js",
+        "10.1c7b79c8efd7c1553c5e.js"
       ],
       "children": {},
       "childAssets": {}

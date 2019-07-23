@@ -77,6 +77,8 @@ const App = (props) => {
             <Route path="/product" component={() => <Routes.ProductPage />} />
             <Route path="/cart" component={() => <Routes.CartPage />} />
             <Route path="/wishlist" component={() => <Routes.WishlistPage />} />
+
+            <Route path="/arrow-rest" render={props => <Routes.CollectionPage {...props} />} /> {/* doing this way will allow match to pass in url for collections/product getting */}
           </Switch>
         </main>
         <MainSecondaryNav />

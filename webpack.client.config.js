@@ -96,7 +96,6 @@ module.exports = {
           enforce: true
         },
         vendors: {
-          // test:  /[\\/]node_modules[\\/](helmet|react|react-dom|react-redux|redux|redux-saga|@redux-saga[\\/]simple-saga-monitor|lodash|react-router|react-router-dom|gsap|TimelineMax|TweenMax|@loadable|prop-types)[\\/]/,
           test: /[\\/]node_modules[\\/]/,
           name: 'vendor',
           chunks: 'all',

@@ -42,7 +42,6 @@ const layout = (html, preloadedState, webExtractor) => {
       </html>
   `
   );
-  // <script>window.__PRELOADED_STATE__ = ${serialize(preloadedState).replace(/</g, '\\x3c')}</script>
 };
 
 const getWebExtractor = () => {

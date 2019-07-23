@@ -137,9 +137,26 @@ const heroNodes = [
   }
 ];
 
+/*
+  This is the selected product page. This will be used once a product has been selected to show
+  selling features and benefits of the product to intice the customer to purchase.
+
+  There will be multiple opportunities to order now and will be presented proper UI components
+*/
+
 const HomePage = (props) => {
 
   useEffect(() => {
+    /*
+      Will need to employ an action in here to query the specific product. This is used for once they've
+      made their choice and want to immerse themselves in the product info.
+      Want to keep things as generic and reusable as possible. NO HARD COUPLING or HARD CODING.
+    */
+    console.log('props: ', props);
+  });
+
+  useEffect(() => {
+
     const mainNavHeight = 80;
 
     const handleScroll = () => {

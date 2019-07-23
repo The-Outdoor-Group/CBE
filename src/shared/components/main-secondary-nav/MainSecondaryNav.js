@@ -44,7 +44,7 @@ const MainSecondaryNav = (props) => {
           <ul>
             { showMainNavNodes() }
             <li><Link to="/contact-cbe">Contact CBE</Link></li>
-            <li><Link to="/shop/apparel">Apparel</Link></li>
+            <li><Link to="/shop">Apparel</Link></li>
             <li><Link to="/dealers">Locate Dealers</Link></li>
             <li><Link to="/contingency">Contingency</Link></li>
             <li><Link to="/videos">Videos</Link></li>
