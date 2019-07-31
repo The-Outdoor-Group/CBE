@@ -1,0 +1,4203 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.38.0",
+  "hash": "c32011b4bbbc887aba81",
+  "publicPath": "/assets/node/",
+  "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+  "assetsByChunkName": {
+    "Image": [
+      "Image.css",
+      "0.server.js"
+    ],
+    "Stats": [
+      "Stats.css",
+      "1.server.js"
+    ],
+    "CallToAction": [
+      "CallToAction.css",
+      "2.server.js"
+    ],
+    "InfoPanelOpenList": "3.server.js",
+    "MainList": "4.server.js",
+    "MoreInfoComponent": [
+      "MoreInfoComponent.css",
+      "5.server.js"
+    ],
+    "WishlistLineItem": [
+      "WishlistLineItem.css",
+      "6.server.js"
+    ],
+    "assets-images-NavigationArrow": [
+      "assets-images-NavigationArrow.css",
+      "7.server.js"
+    ],
+    "assets-images-PlusIcon": [
+      "assets-images-PlusIcon.css",
+      "8.server.js"
+    ],
+    "assets-images-logo": [
+      "assets-images-logo.css",
+      "9.server.js"
+    ],
+    "assets-images-secondary-menu-icon": [
+      "assets-images-secondary-menu-icon.css",
+      "10.server.js"
+    ],
+    "child-components-Breadcrumbs": [
+      "child-components-Breadcrumbs.css",
+      "11.server.js"
+    ],
+    "child-components-CurrentImage": [
+      "child-components-CurrentImage.css",
+      "12.server.js"
+    ],
+    "child-components-ProductDetails": [
+      "child-components-ProductDetails.css",
+      "13.server.js"
+    ],
+    "child-components-ProductPurchase": [
+      "child-components-ProductPurchase.css",
+      "14.server.js"
+    ],
+    "child-components-ProductVideos": [
+      "child-components-ProductVideos.css",
+      "15.server.js"
+    ],
+    "child-components-RelatedProducts": "16.server.js",
+    "child-components-ThumbnailGallery": [
+      "child-components-ThumbnailGallery.css",
+      "17.server.js"
+    ],
+    "child-components-image-gallery-ProductImageGallery": "18.server.js",
+    "components-cart-EmptyCartMessage": [
+      "components-cart-EmptyCartMessage.css",
+      "19.server.js"
+    ],
+    "components-cart-FilledCart": [
+      "components-cart-FilledCart.css",
+      "20.server.js"
+    ],
+    "components-cart-FinancingAd": [
+      "components-cart-FinancingAd.css",
+      "21.server.js"
+    ],
+    "components-cart-RecommendedItems": [
+      "components-cart-RecommendedItems.css",
+      "22.server.js"
+    ],
+    "components-cart-SideBar": [
+      "components-cart-SideBar.css",
+      "23.server.js"
+    ],
+    "components-content-Hero": [
+      "components-content-Hero.css",
+      "24.server.js"
+    ],
+    "components-content-assets-images-MoreContentArrow": [
+      "components-content-assets-images-MoreContentArrow.css",
+      "25.server.js"
+    ],
+    "components-content-store-components-ShopHero": [
+      "components-content-store-components-ShopHero.css",
+      "26.server.js"
+    ],
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": [
+      "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+      "27.server.js"
+    ],
+    "components-main-nav-MainNav": [
+      "components-main-nav-MainNav.css",
+      "28.server.js"
+    ],
+    "components-main-secondary-nav-MainSecondaryNav": [
+      "components-main-secondary-nav-MainSecondaryNav.css",
+      "29.server.js"
+    ],
+    "components-wishlist-FilledWishlist": [
+      "components-wishlist-FilledWishlist.css",
+      "30.server.js"
+    ],
+    "components-wishlist-Messaging": [
+      "components-wishlist-Messaging.css",
+      "31.server.js"
+    ],
+    "components-wishlist-WishlistRecommendedItems": "32.server.js",
+    "container-HorizontalImageSlider": [
+      "container-HorizontalImageSlider.css",
+      "33.server.js"
+    ],
+    "containers-Cart": [
+      "containers-Cart.css",
+      "34.server.js"
+    ],
+    "containers-Collections": "35.server.js",
+    "containers-Home": "36.server.js",
+    "containers-Shop": "37.server.js",
+    "containers-Wishlist": "38.server.js",
+    "details-specs-Description": [
+      "details-specs-Description.css",
+      "39.server.js"
+    ],
+    "details-specs-Instructions": "40.server.js",
+    "details-specs-Specs": [
+      "details-specs-Specs.css",
+      "41.server.js"
+    ],
+    "hero-components-List": "42.server.js",
+    "hero-components-ListButton": "43.server.js",
+    "hero-components-TextArticle": [
+      "hero-components-TextArticle.css",
+      "44.server.js"
+    ],
+    "hero-components-TitleHeader": [
+      "hero-components-TitleHeader.css",
+      "45.server.js"
+    ],
+    "hero-components-VideoComponent": [
+      "hero-components-VideoComponent.css",
+      "46.server.js"
+    ],
+    "image-tiles-ImageTile": [
+      "image-tiles-ImageTile.css",
+      "47.server.js"
+    ],
+    "main": [
+      "main.css",
+      "server.js"
+    ],
+    "main-nav-SharedMainList": "49.server.js",
+    "more-info-components-container-MoreInfoArticle": [
+      "more-info-components-container-MoreInfoArticle.css",
+      "50.server.js"
+    ],
+    "order-parts-LineItem": [
+      "order-parts-LineItem.css",
+      "51.server.js"
+    ],
+    "order-parts-OrderSummary": [
+      "order-parts-OrderSummary.css",
+      "52.server.js"
+    ],
+    "text-Header": [
+      "text-Header.css",
+      "53.server.js"
+    ],
+    "variant-selector-Dropdown": [
+      "variant-selector-Dropdown.css",
+      "54.server.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "0.server.js",
+      "size": 246,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "Image"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "1.server.js",
+      "size": 511,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Stats"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "10.server.js",
+      "size": 1292,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "assets-images-secondary-menu-icon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "11.server.js",
+      "size": 385,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "child-components-Breadcrumbs"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "12.server.js",
+      "size": 360,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "child-components-CurrentImage"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "13.server.js",
+      "size": 1875,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "child-components-ProductDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "14.server.js",
+      "size": 828,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "child-components-ProductPurchase"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "15.server.js",
+      "size": 605,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "child-components-ProductVideos"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "16.server.js",
+      "size": 423,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "child-components-RelatedProducts"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "17.server.js",
+      "size": 380,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "child-components-ThumbnailGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "18.server.js",
+      "size": 849,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [
+        "child-components-image-gallery-ProductImageGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "19.server.js",
+      "size": 729,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "components-cart-EmptyCartMessage"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "2.server.js",
+      "size": 1937,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "CallToAction"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "20.server.js",
+      "size": 1188,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [
+        "components-cart-FilledCart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "21.server.js",
+      "size": 290,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "components-cart-FinancingAd"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "22.server.js",
+      "size": 1229,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "components-cart-RecommendedItems"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "23.server.js",
+      "size": 527,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "components-cart-SideBar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "24.server.js",
+      "size": 7749,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [
+        "components-content-Hero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "25.server.js",
+      "size": 2941,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "26.server.js",
+      "size": 5034,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "27.server.js",
+      "size": 2301,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "28.server.js",
+      "size": 5854,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "29.server.js",
+      "size": 4540,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [
+        "components-main-secondary-nav-MainSecondaryNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "29ff4983730cde61545de2e5260f5d2e.png",
+      "size": 876,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "2a9397b3be4862c3d7d1ffb0547b5856.png",
+      "size": 10363,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "3.server.js",
+      "size": 874,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "InfoPanelOpenList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "30.server.js",
+      "size": 1106,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [
+        "components-wishlist-FilledWishlist"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "31.server.js",
+      "size": 744,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [
+        "components-wishlist-Messaging"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "32.server.js",
+      "size": 1208,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [
+        "components-wishlist-WishlistRecommendedItems"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "33.server.js",
+      "size": 2208,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "34.server.js",
+      "size": 1726,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [
+        "containers-Cart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "35.server.js",
+      "size": 748,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [
+        "containers-Collections"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "36.server.js",
+      "size": 6730,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [
+        "containers-Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "37.server.js",
+      "size": 2115,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [
+        "containers-Shop"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "38.server.js",
+      "size": 1137,
+      "chunks": [
+        38
+      ],
+      "chunkNames": [
+        "containers-Wishlist"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "39.server.js",
+      "size": 547,
+      "chunks": [
+        39
+      ],
+      "chunkNames": [
+        "details-specs-Description"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4.server.js",
+      "size": 3530,
+      "chunks": [
+        4,
+        49
+      ],
+      "chunkNames": [
+        "MainList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "40.server.js",
+      "size": 515,
+      "chunks": [
+        40
+      ],
+      "chunkNames": [
+        "details-specs-Instructions"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "41.server.js",
+      "size": 837,
+      "chunks": [
+        41
+      ],
+      "chunkNames": [
+        "details-specs-Specs"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "42.server.js",
+      "size": 326,
+      "chunks": [
+        42
+      ],
+      "chunkNames": [
+        "hero-components-List"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "43.server.js",
+      "size": 173,
+      "chunks": [
+        43
+      ],
+      "chunkNames": [
+        "hero-components-ListButton"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "44.server.js",
+      "size": 1264,
+      "chunks": [
+        44
+      ],
+      "chunkNames": [
+        "hero-components-TextArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "45.server.js",
+      "size": 404,
+      "chunks": [
+        45
+      ],
+      "chunkNames": [
+        "hero-components-TitleHeader"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "46.server.js",
+      "size": 927,
+      "chunks": [
+        46
+      ],
+      "chunkNames": [
+        "hero-components-VideoComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "47.server.js",
+      "size": 626,
+      "chunks": [
+        47
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "49.server.js",
+      "size": 1832,
+      "chunks": [
+        49
+      ],
+      "chunkNames": [
+        "main-nav-SharedMainList"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "4d2c24cff09792200910d7228266ad3c.png",
+      "size": 1560,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "5.server.js",
+      "size": 8014,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "MoreInfoComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "50.server.js",
+      "size": 259,
+      "chunks": [
+        50
+      ],
+      "chunkNames": [
+        "more-info-components-container-MoreInfoArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "51.server.js",
+      "size": 498,
+      "chunks": [
+        51
+      ],
+      "chunkNames": [
+        "order-parts-LineItem"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "52.server.js",
+      "size": 581,
+      "chunks": [
+        52
+      ],
+      "chunkNames": [
+        "order-parts-OrderSummary"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "53.server.js",
+      "size": 317,
+      "chunks": [
+        53
+      ],
+      "chunkNames": [
+        "text-Header"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "54.server.js",
+      "size": 1110,
+      "chunks": [
+        54
+      ],
+      "chunkNames": [
+        "variant-selector-Dropdown"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "6.server.js",
+      "size": 497,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "WishlistLineItem"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "7.server.js",
+      "size": 353,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "assets-images-NavigationArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "71f0872ccf4b3446812f20d8c9640891.svg",
+      "size": 2512,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "8.server.js",
+      "size": 1402,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "assets-images-PlusIcon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "9.server.js",
+      "size": 3183,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "assets-images-logo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "CallToAction.css",
+      "size": 352,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "CallToAction"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "Image.css",
+      "size": 116,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "Image"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "MoreInfoComponent.css",
+      "size": 1083,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "MoreInfoComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "Stats.css",
+      "size": 1193,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Stats"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "WishlistLineItem.css",
+      "size": 56,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "WishlistLineItem"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "ac133a441768e68a50c0560cf6c15b5e.ico",
+      "size": 15086,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-NavigationArrow.css",
+      "size": 72,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "assets-images-NavigationArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-PlusIcon.css",
+      "size": 199,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "assets-images-PlusIcon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-logo.css",
+      "size": 473,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "assets-images-logo"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "assets-images-secondary-menu-icon.css",
+      "size": 187,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "assets-images-secondary-menu-icon"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-Breadcrumbs.css",
+      "size": 105,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "child-components-Breadcrumbs"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-CurrentImage.css",
+      "size": 118,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "child-components-CurrentImage"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ProductDetails.css",
+      "size": 376,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "child-components-ProductDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ProductPurchase.css",
+      "size": 354,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "child-components-ProductPurchase"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ProductVideos.css",
+      "size": 49,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "child-components-ProductVideos"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "child-components-ThumbnailGallery.css",
+      "size": 53,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "child-components-ThumbnailGallery"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-cart-EmptyCartMessage.css",
+      "size": 257,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "components-cart-EmptyCartMessage"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-cart-FilledCart.css",
+      "size": 449,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [
+        "components-cart-FilledCart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-cart-FinancingAd.css",
+      "size": 79,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "components-cart-FinancingAd"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-cart-RecommendedItems.css",
+      "size": 709,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "components-cart-RecommendedItems"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-cart-SideBar.css",
+      "size": 137,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "components-cart-SideBar"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-Hero.css",
+      "size": 2375,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [
+        "components-content-Hero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-assets-images-MoreContentArrow.css",
+      "size": 163,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [
+        "components-content-assets-images-MoreContentArrow"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-ShopHero.css",
+      "size": 9465,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [
+        "components-content-store-components-ShopHero"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+      "size": 92,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-main-nav-MainNav.css",
+      "size": 1131,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [
+        "components-main-nav-MainNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-main-secondary-nav-MainSecondaryNav.css",
+      "size": 521,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [
+        "components-main-secondary-nav-MainSecondaryNav"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-wishlist-FilledWishlist.css",
+      "size": 421,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [
+        "components-wishlist-FilledWishlist"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "components-wishlist-Messaging.css",
+      "size": 337,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [
+        "components-wishlist-Messaging"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "container-HorizontalImageSlider.css",
+      "size": 563,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [
+        "container-HorizontalImageSlider"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Cart.css",
+      "size": 26,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [
+        "containers-Cart"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "details-specs-Description.css",
+      "size": 156,
+      "chunks": [
+        39
+      ],
+      "chunkNames": [
+        "details-specs-Description"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "details-specs-Specs.css",
+      "size": 107,
+      "chunks": [
+        41
+      ],
+      "chunkNames": [
+        "details-specs-Specs"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "hero-components-TextArticle.css",
+      "size": 734,
+      "chunks": [
+        44
+      ],
+      "chunkNames": [
+        "hero-components-TextArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "hero-components-TitleHeader.css",
+      "size": 663,
+      "chunks": [
+        45
+      ],
+      "chunkNames": [
+        "hero-components-TitleHeader"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "hero-components-VideoComponent.css",
+      "size": 273,
+      "chunks": [
+        46
+      ],
+      "chunkNames": [
+        "hero-components-VideoComponent"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "image-tiles-ImageTile.css",
+      "size": 312,
+      "chunks": [
+        47
+      ],
+      "chunkNames": [
+        "image-tiles-ImageTile"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 1961,
+      "chunks": [
+        48
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "more-info-components-container-MoreInfoArticle.css",
+      "size": 59,
+      "chunks": [
+        50
+      ],
+      "chunkNames": [
+        "more-info-components-container-MoreInfoArticle"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "order-parts-LineItem.css",
+      "size": 56,
+      "chunks": [
+        51
+      ],
+      "chunkNames": [
+        "order-parts-LineItem"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "order-parts-OrderSummary.css",
+      "size": 170,
+      "chunks": [
+        52
+      ],
+      "chunkNames": [
+        "order-parts-OrderSummary"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "server.js",
+      "size": 23607,
+      "chunks": [
+        48
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "text-Header.css",
+      "size": 129,
+      "chunks": [
+        53
+      ],
+      "chunkNames": [
+        "text-Header"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "variant-selector-Dropdown.css",
+      "size": 378,
+      "chunks": [
+        54
+      ],
+      "chunkNames": [
+        "variant-selector-Dropdown"
+      ],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        48
+      ],
+      "assets": [
+        "main.css",
+        "server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        48
+      ],
+      "assets": [
+        "main.css",
+        "server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-main-nav-MainNav": {
+      "chunks": [
+        28
+      ],
+      "assets": [
+        "components-main-nav-MainNav.css",
+        "28.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-main-secondary-nav-MainSecondaryNav": {
+      "chunks": [
+        29
+      ],
+      "assets": [
+        "components-main-secondary-nav-MainSecondaryNav.css",
+        "29.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-assets-images-MoreContentArrow": {
+      "chunks": [
+        25
+      ],
+      "assets": [
+        "components-content-assets-images-MoreContentArrow.css",
+        "25.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Shop": {
+      "chunks": [
+        37
+      ],
+      "assets": [
+        "37.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Cart": {
+      "chunks": [
+        34
+      ],
+      "assets": [
+        "containers-Cart.css",
+        "34.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Wishlist": {
+      "chunks": [
+        38
+      ],
+      "assets": [
+        "38.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Collections": {
+      "chunks": [
+        35
+      ],
+      "assets": [
+        "35.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Home": {
+      "chunks": [
+        36
+      ],
+      "assets": [
+        "36.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-store-components-product-display-for-purchase-ProductDisplay": {
+      "chunks": [
+        27
+      ],
+      "assets": [
+        "components-content-store-components-product-display-for-purchase-ProductDisplay.css",
+        "27.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-logo": {
+      "chunks": [
+        9
+      ],
+      "assets": [
+        "assets-images-logo.css",
+        "9.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-secondary-menu-icon": {
+      "chunks": [
+        10
+      ],
+      "assets": [
+        "assets-images-secondary-menu-icon.css",
+        "10.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "MainList": {
+      "chunks": [
+        4
+      ],
+      "assets": [
+        "4.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "InfoPanelOpenList": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "3.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "main-nav-SharedMainList": {
+      "chunks": [
+        49
+      ],
+      "assets": [
+        "49.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-store-components-ShopHero": {
+      "chunks": [
+        26
+      ],
+      "assets": [
+        "components-content-store-components-ShopHero.css",
+        "26.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FinancingAd": {
+      "chunks": [
+        21
+      ],
+      "assets": [
+        "components-cart-FinancingAd.css",
+        "21.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-EmptyCartMessage": {
+      "chunks": [
+        19
+      ],
+      "assets": [
+        "components-cart-EmptyCartMessage.css",
+        "19.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-FilledCart": {
+      "chunks": [
+        20
+      ],
+      "assets": [
+        "components-cart-FilledCart.css",
+        "20.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-SideBar": {
+      "chunks": [
+        23
+      ],
+      "assets": [
+        "components-cart-SideBar.css",
+        "23.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-cart-RecommendedItems": {
+      "chunks": [
+        22
+      ],
+      "assets": [
+        "components-cart-RecommendedItems.css",
+        "22.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-Messaging": {
+      "chunks": [
+        31
+      ],
+      "assets": [
+        "components-wishlist-Messaging.css",
+        "31.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-FilledWishlist": {
+      "chunks": [
+        30
+      ],
+      "assets": [
+        "components-wishlist-FilledWishlist.css",
+        "30.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-wishlist-WishlistRecommendedItems": {
+      "chunks": [
+        32
+      ],
+      "assets": [
+        "32.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "components-content-Hero": {
+      "chunks": [
+        24
+      ],
+      "assets": [
+        "components-content-Hero.css",
+        "24.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-Breadcrumbs": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "child-components-Breadcrumbs.css",
+        "11.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-image-gallery-ProductImageGallery": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "18.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductPurchase": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "child-components-ProductPurchase.css",
+        "14.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductDetails": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "child-components-ProductDetails.css",
+        "13.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ProductVideos": {
+      "chunks": [
+        15
+      ],
+      "assets": [
+        "child-components-ProductVideos.css",
+        "15.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-RelatedProducts": {
+      "chunks": [
+        16
+      ],
+      "assets": [
+        "16.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "image-tiles-ImageTile": {
+      "chunks": [
+        47
+      ],
+      "assets": [
+        "image-tiles-ImageTile.css",
+        "47.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "order-parts-LineItem": {
+      "chunks": [
+        51
+      ],
+      "assets": [
+        "order-parts-LineItem.css",
+        "51.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "order-parts-OrderSummary": {
+      "chunks": [
+        52
+      ],
+      "assets": [
+        "order-parts-OrderSummary.css",
+        "52.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "WishlistLineItem": {
+      "chunks": [
+        6
+      ],
+      "assets": [
+        "WishlistLineItem.css",
+        "6.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "MoreInfoComponent": {
+      "chunks": [
+        5
+      ],
+      "assets": [
+        "MoreInfoComponent.css",
+        "5.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-TitleHeader": {
+      "chunks": [
+        45
+      ],
+      "assets": [
+        "hero-components-TitleHeader.css",
+        "45.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-Stats": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "Stats.css",
+        "1.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-TextArticle": {
+      "chunks": [
+        44
+      ],
+      "assets": [
+        "hero-components-TextArticle.css",
+        "44.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-Image": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "Image.css",
+        "0.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-VideoComponent": {
+      "chunks": [
+        46
+      ],
+      "assets": [
+        "hero-components-VideoComponent.css",
+        "46.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-ListButton": {
+      "chunks": [
+        43
+      ],
+      "assets": [
+        "43.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "hero-components-List": {
+      "chunks": [
+        42
+      ],
+      "assets": [
+        "42.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-ThumbnailGallery": {
+      "chunks": [
+        17
+      ],
+      "assets": [
+        "child-components-ThumbnailGallery.css",
+        "17.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "child-components-CurrentImage": {
+      "chunks": [
+        12
+      ],
+      "assets": [
+        "child-components-CurrentImage.css",
+        "12.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "variant-selector-Dropdown": {
+      "chunks": [
+        54
+      ],
+      "assets": [
+        "variant-selector-Dropdown.css",
+        "54.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Description": {
+      "chunks": [
+        39
+      ],
+      "assets": [
+        "details-specs-Description.css",
+        "39.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Specs": {
+      "chunks": [
+        41
+      ],
+      "assets": [
+        "details-specs-Specs.css",
+        "41.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "details-specs-Instructions": {
+      "chunks": [
+        40
+      ],
+      "assets": [
+        "40.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "more-info-components-container-MoreInfoArticle": {
+      "chunks": [
+        50
+      ],
+      "assets": [
+        "more-info-components-container-MoreInfoArticle.css",
+        "50.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "text-Header": {
+      "chunks": [
+        53
+      ],
+      "assets": [
+        "text-Header.css",
+        "53.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "container-HorizontalImageSlider": {
+      "chunks": [
+        33
+      ],
+      "assets": [
+        "container-HorizontalImageSlider.css",
+        "33.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Image": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "Image.css",
+        "0.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "CallToAction": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "CallToAction.css",
+        "2.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Stats": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "Stats.css",
+        "1.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-NavigationArrow": {
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "assets-images-NavigationArrow.css",
+        "7.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "assets-images-PlusIcon": {
+      "chunks": [
+        8
+      ],
+      "assets": [
+        "assets-images-PlusIcon.css",
+        "8.server.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 18,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/cart.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/empty-cart-message.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/filled-cart.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/financing-ad.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/line-item.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/order-summary.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/recommended-items.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/sidebar.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/call-to-action.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-horizontal-three-quarter-media-quarter-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-horizontal-whole-component.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-half-media-half-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-quarter-article-three-quarter-media.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-three-quarter-media-quarter-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/image.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/more-content-arrow.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/moreInfoPanel/more-info-component.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/plus-icon.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/stats.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/text-content.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/title-header.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/video-component.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/alternate-text-media.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/horizontal-left-media-right-article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/horizontal-top-article-thirds-bottom-media.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/article.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/horizontal-image-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/navigation-arrow.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/text/assets/css/header.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-full-image-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-image-header-spread-tile.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-two-tiles.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-image-tile-slider.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-vertical-tiles-one-left-two-right.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/shop-hero.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/image-tiles/assets/css/image-tile.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/breadcrumbs.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-details.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-purchase.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-videos.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/details-specs/assets/css/product-description.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/details-specs/assets/css/specs.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/current-image.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/thumbnail-gallery.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/variant-selector/assets/css/dropdown.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/logo.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/main-nav.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/secondary-menu-icon.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-secondary-nav/assets/css/main-secondary-nav.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/wishlist/assets/css/filled-wishlist.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/wishlist/assets/css/messaging.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/assets/node/",
+      "outputPath": "/home/gcardella/Documents/projects/web/universal/dist/node/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/containers/assets/css/global.css"
+    }
+  ]
+}

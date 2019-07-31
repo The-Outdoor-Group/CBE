@@ -1,0 +1,1 @@
+exports.ids=[17],exports.modules={162:function(e,t,a){},93:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n);a(162);t.default=function(e){return r.a.createElement("ul",{className:"vertical-thumbnails"},[1,2,3,4,5,6,7].map(function(e,t){return r.a.createElement("li",{key:t},r.a.createElement("img",{className:"thumbnail-img",src:"https://via.placeholder.com/50x50"}))}))}}};
