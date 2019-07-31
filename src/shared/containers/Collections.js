@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component, Suspense, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { getShopifyCollection } from '../actions/shopify-data-actions';
 
@@ -17,9 +17,11 @@ class Collections extends Component {
 
   render() {
     return (
-      <div>
-        <h1>The Collections Page {this.props.title}</h1>
-      </div>
+      <Suspense fallback={<h1>Loading ...</h1>}>
+        <div>
+          <h1>The Collections Page {this.props.title}</h1>
+        </div>
+      </Suspense>
     );
   }
 }

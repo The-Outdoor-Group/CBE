@@ -3,6 +3,7 @@ import Express from 'express';
 import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import ssrPrepass from 'react-ssr-prepass';
 import { StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Helmet } from 'react-helmet';
@@ -19,15 +20,6 @@ const port = process.env.PORT || 3000;
 
 app.use( '/assets/node', Express.static('dist/node') );
 app.use( '/assets/web', Express.static('dist/web') );
-
-/*
-  This works for SSR HTML and in store if i hard code data in - need to async put data into configStore()
-  make a function to say once data has returned, pop in the data?
-
-*/
-// const store = configureStore();
-
-
 
 
 app.get('*', async (req, res) => {
@@ -66,7 +58,7 @@ app.get('*', async (req, res) => {
     return new ChunkExtractor({ statsFile });
   };
 
-  const sendContent = (req, store) => {
+  const sendContent = async (req, store) => {
 
     return layout(
       createJsx( req, store ),
@@ -74,7 +66,7 @@ app.get('*', async (req, res) => {
     );
   };
 
-  const createJsx = (req, store) => {
+  const createJsx = async (req, store) => {
     let extractor = getExtractor();
 
     let context = {};
@@ -92,6 +84,8 @@ app.get('*', async (req, res) => {
       return;
     }
 
+    await ssrPrepass(jsx);
+
     return renderToString( jsx );
   };
 
@@ -99,7 +93,12 @@ app.get('*', async (req, res) => {
       .runSaga(rootSaga)
       .toPromise()
       .then( () => {
-        res.status(200).send( sendContent(req, store) );
+        const result = sendContent(req, store);
+        return result;
+      })
+      .then( result => {
+        res.status(200).send(result)
+        // res.status(200).send( sendContent(req, store) );
       })
       .catch( e => res.status(500).send(e.message) );
 
