@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+// import '@babel/polyfill';
 import Express from 'express';
 import path from 'path';
 import React from 'react';
@@ -86,14 +86,14 @@ app.use( async (req, res) => {
       htmlStream.pipe( res, { end: false } );
 
       htmlStream.on('data', (data) => {
-        console.log(serialize(data));
+        console.log('data: ', data);
         console.log('store.getState: ', store.getState())
       });
 
       htmlStream.on('end', () => {
         loadableState = store.getState();
         res.write( renderFooter(loadableState, getWebExtractor()) );
-        return res.end();
+        res.end();
         console.log('end occurred');
       });
 

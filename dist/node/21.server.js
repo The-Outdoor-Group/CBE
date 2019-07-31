@@ -1,1 +1,0 @@
-exports.ids=[21],exports.modules={122:function(e,n,a){},67:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t);a(122);n.default=function(e){return r.a.createElement("div",{className:"financing-ad"},r.a.createElement("header",null,r.a.createElement("h1",null,"Finance with Klarna")))}}};

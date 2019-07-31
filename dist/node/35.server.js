@@ -1,1 +1,0 @@
-exports.ids=[35],exports.modules={31:function(e,t,n){"use strict";n.r(t);var l=n(0),o=n.n(l);t.default=function(e){return Object(l.useEffect)(function(){console.log("props.match in Collections: ",e.match)}),o.a.createElement("div",null,o.a.createElement("h1",null,"The Collections Page"))}}};
