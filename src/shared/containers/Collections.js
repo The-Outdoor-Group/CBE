@@ -16,30 +16,12 @@ class Collections extends Component {
 
   render() {
     return (
-      <Suspense fallback={<h1>Loading ...</h1>}>
         <div>
           <h1>The Collections Page {this.props.title}</h1>
         </div>
-      </Suspense>
     );
   }
 }
-
-// const Collections = props => {
-//
-//   useEffect(() => {
-//     // console.log('props.match in Collections: ', props.match);
-//     props.getShopifyCollection(props.match);
-//   }, [props.title]);
-//
-//   console.log('props.title: ', props.title);
-//
-//   return (
-//     <div>
-//       <h1>The Collections Page {props.title}</h1>
-//     </div>
-//   );
-// };
 
 const mapStateToProps = ({ currentShopifyCollection }) => {
   const { handle, title, products } = currentShopifyCollection;

@@ -91,6 +91,8 @@ Queries a collection and gets all products in it:
 
 */
 
+// descriptionHtml -> put back in ProductFragment but need to fix/sanitize html
+
 const ProductFragment = `
   id
   handle
@@ -98,7 +100,6 @@ const ProductFragment = `
   tags
   availableForSale
   description
-  descriptionHtml
   priceRange {
     minVariantPrice {
       amount
