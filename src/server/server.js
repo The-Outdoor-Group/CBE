@@ -60,10 +60,31 @@ app.get('*', async (req, res) => {
 
   const sendContent = async (req, store) => {
 
+    // createJsx(req, store).then(
+    //   (result) => {
+    //     return result;
+    //   }
+    // ).then(
+    //   result => {
+    //     console.log('result createJsx: ', result);
+    //
+    //     return layout(
+    //       result,
+    //       JSON.stringify( store.getState() )
+    //     );
+    //   }
+    // ).catch(e => console.log('e: ', e));
+
+    const result = await createJsx(req, store).catch(e => console.log('error in createJsx: ', e));
     return layout(
-      createJsx( req, store ),
+      result,
       JSON.stringify( store.getState() )
-    );
+    )
+
+    // return layout(
+    //   createJsx( req, store ),
+    //   JSON.stringify( store.getState() )
+    // );
   };
 
   const createJsx = async (req, store) => {
@@ -89,7 +110,8 @@ app.get('*', async (req, res) => {
     return renderToString( jsx );
   };
 
-    store
+    const f = async () => {
+      store
       .runSaga(rootSaga)
       .toPromise()
       .then( () => {
@@ -97,34 +119,15 @@ app.get('*', async (req, res) => {
         return result;
       })
       .then( result => {
-        res.status(200).send(result)
-        // res.status(200).send( sendContent(req, store) );
+       res.status(200).send(result)
       })
       .catch( e => res.status(500).send(e.message) );
+    }
 
-    sendContent(req, store)
+    f();
+
+    await sendContent(req, store)
     store.close();
-
-    // const promise1 = new Promise((resolve, reject) => {
-    //   resolve( store.runSaga(rootSaga) ); //
-    // });
-    //    // .catch( e => res.status(500).send(e.message) );
-    // // });
-    //
-    // Promise.all([promise1]).then( values => {
-    //   console.log('values: ', values);
-    //
-    // });
-    //
-    // promise1.then( (result) => {
-    //   console.log('resolved all promises: ', result);
-    //   return result;
-    // })
-    // .then((result) => {
-    //   console.log('store: ', store.getState());
-    //   res.status(200).send( sendContent(req, store) );
-    // })
-    // .catch(e => console.log('err in promise: ', e) );
 
 });
 

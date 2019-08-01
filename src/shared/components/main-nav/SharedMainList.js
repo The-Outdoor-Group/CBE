@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 const SharedMainList = props => {
 
-  console.log('SharedMainList props: ', props);
-
   const { colorTheme, mainUrl, mobileLayout } =  props;
 
   const needStyle = () => props.getStyle ? true : false;

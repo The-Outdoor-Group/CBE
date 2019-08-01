@@ -11,8 +11,7 @@ import { getShopifyCollection } from '../actions/shopify-data-actions';
 class Collections extends Component {
 
   componentWillMount() {
-    const foo = this.props.getShopifyCollection(this.props.match);
-    console.log('foo: ', foo);
+    this.props.getShopifyCollection(this.props.match);
   }
 
   render() {

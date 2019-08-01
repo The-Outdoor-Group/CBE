@@ -11,7 +11,6 @@ const initialState = {
 const shopifyCollectionReducer = ( state = initialState, { type, payload } ) => {
   switch (type) {
     case GET_SHOPIFY_COLLECTION_SUCCEEDED:
-      console.log('collection title in reducer: ', payload.title);
       const { id, handle, title } = payload;
       const products = payload.edges;
       return merge( {}, state, { id, handle, title, products } );
