@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { Component, useEffect } from 'react';
+import { connect } from 'react-redux';
+import { getShopifyCollection } from '../actions/shopify-data-actions';
 
 
 /*
@@ -6,17 +8,41 @@ import React, { useEffect } from 'react';
   said collection. Will have an action to link up
 */
 
-const Collections = props => {
+class Collections extends Component {
 
-  useEffect(() => {
-    console.log('props.match in Collections: ', props.match);
-  });
+  componentWillMount() {
+    const foo = this.props.getShopifyCollection(this.props.match);
+    console.log('foo: ', foo);
+  }
 
-  return (
-    <div>
-      <h1>The Collections Page</h1>
-    </div>
-  );
+  render() {
+    return (
+      <div>
+        <h1>The Collections Page {this.props.title}</h1>
+      </div>
+    );
+  }
+}
+
+// const Collections = props => {
+//
+//   useEffect(() => {
+//     // console.log('props.match in Collections: ', props.match);
+//     props.getShopifyCollection(props.match);
+//   }, [props.title]);
+//
+//   console.log('props.title: ', props.title);
+//
+//   return (
+//     <div>
+//       <h1>The Collections Page {props.title}</h1>
+//     </div>
+//   );
+// };
+
+const mapStateToProps = ({ currentShopifyCollection }) => {
+  const { handle, title, products } = currentShopifyCollection;
+  return { handle, title, products };
 };
 
-export default Collections;
+export default connect(mapStateToProps, { getShopifyCollection })( Collections );

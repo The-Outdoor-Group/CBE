@@ -1,8 +1,8 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.36.1",
-  "hash": "e965c9179af951702b19",
+  "version": "4.38.0",
+  "hash": "c32011b4bbbc887aba81",
   "publicPath": "/assets/node/",
   "outputPath": "/Users/jcardella/Documents/projects/CBE/dist/node/",
   "assetsByChunkName": {
@@ -213,7 +213,7 @@
     },
     {
       "name": "10.server.js",
-      "size": 1291,
+      "size": 1292,
       "chunks": [
         10
       ],
@@ -323,7 +323,7 @@
     },
     {
       "name": "2.server.js",
-      "size": 1935,
+      "size": 1937,
       "chunks": [
         2
       ],
@@ -378,7 +378,7 @@
     },
     {
       "name": "24.server.js",
-      "size": 7748,
+      "size": 7749,
       "chunks": [
         24
       ],
@@ -389,7 +389,7 @@
     },
     {
       "name": "25.server.js",
-      "size": 2940,
+      "size": 2941,
       "chunks": [
         25
       ],
@@ -422,7 +422,7 @@
     },
     {
       "name": "28.server.js",
-      "size": 5853,
+      "size": 5854,
       "chunks": [
         28
       ],
@@ -433,7 +433,7 @@
     },
     {
       "name": "29.server.js",
-      "size": 4539,
+      "size": 4540,
       "chunks": [
         29
       ],
@@ -502,7 +502,7 @@
     },
     {
       "name": "33.server.js",
-      "size": 2207,
+      "size": 2208,
       "chunks": [
         33
       ],
@@ -524,7 +524,7 @@
     },
     {
       "name": "35.server.js",
-      "size": 292,
+      "size": 748,
       "chunks": [
         35
       ],
@@ -535,7 +535,7 @@
     },
     {
       "name": "36.server.js",
-      "size": 6729,
+      "size": 6730,
       "chunks": [
         36
       ],
@@ -579,7 +579,7 @@
     },
     {
       "name": "4.server.js",
-      "size": 3529,
+      "size": 3530,
       "chunks": [
         4,
         49
@@ -635,7 +635,7 @@
     },
     {
       "name": "44.server.js",
-      "size": 1262,
+      "size": 1264,
       "chunks": [
         44
       ],
@@ -697,7 +697,7 @@
     },
     {
       "name": "5.server.js",
-      "size": 8011,
+      "size": 8014,
       "chunks": [
         5
       ],
@@ -1261,7 +1261,7 @@
     },
     {
       "name": "server.js",
-      "size": 20945,
+      "size": 23607,
       "chunks": [
         48
       ],
@@ -1923,6 +1923,13 @@
       "childAssets": {}
     }
   },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 18,
+      "debug": false
+    }
+  },
   "children": [
     {
       "errors": [],
@@ -1954,6 +1961,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -1991,6 +2005,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/empty-cart-message.css"
     },
@@ -2024,6 +2045,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2061,6 +2089,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/financing-ad.css"
     },
@@ -2094,6 +2129,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2131,6 +2173,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/order-summary.css"
     },
@@ -2164,6 +2213,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2201,6 +2257,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/cart/assets/css/sidebar.css"
     },
@@ -2234,6 +2297,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2271,6 +2341,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-horizontal-three-quarter-media-quarter-article.css"
     },
@@ -2304,6 +2381,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2341,6 +2425,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-half-media-half-article.css"
     },
@@ -2374,6 +2465,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2411,6 +2509,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/hero-vertical-three-quarter-media-quarter-article.css"
     },
@@ -2444,6 +2549,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2481,6 +2593,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/image.css"
     },
@@ -2514,6 +2633,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2551,6 +2677,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/moreInfoPanel/more-info-component.css"
     },
@@ -2584,6 +2717,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2621,6 +2761,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/stats.css"
     },
@@ -2654,6 +2801,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2691,6 +2845,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/assets/css/title-header.css"
     },
@@ -2724,6 +2885,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2761,6 +2929,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/alternate-text-media.css"
     },
@@ -2794,6 +2969,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2831,6 +3013,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/assembleComponents/assets/css/horizontal-top-article-thirds-bottom-media.css"
     },
@@ -2864,6 +3053,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2901,6 +3097,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/container/assets/css/horizontal-image-slider.css"
     },
@@ -2934,6 +3137,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -2971,6 +3181,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/more-info-components/text/assets/css/header.css"
     },
@@ -3004,6 +3221,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3041,6 +3265,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-horizontal-image-header-spread-tile.css"
     },
@@ -3074,6 +3305,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3111,6 +3349,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/hero-image-tile-slider.css"
     },
@@ -3144,6 +3389,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3181,6 +3433,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/assets/css/shop-hero.css"
     },
@@ -3214,6 +3473,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3251,6 +3517,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/breadcrumbs.css"
     },
@@ -3284,6 +3557,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3321,6 +3601,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-display.css"
     },
@@ -3354,6 +3641,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3391,6 +3685,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/assets/css/product-videos.css"
     },
@@ -3424,6 +3725,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3461,6 +3769,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/details-specs/assets/css/specs.css"
     },
@@ -3494,6 +3809,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3531,6 +3853,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/content/store-components/product-display-for-purchase/child-components/image-gallery/assets/css/thumbnail-gallery.css"
     },
@@ -3564,6 +3893,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3601,6 +3937,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/logo.css"
     },
@@ -3634,6 +3977,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3671,6 +4021,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/main-nav/assets/css/secondary-menu-icon.css"
     },
@@ -3704,6 +4061,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],
@@ -3741,6 +4105,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/wishlist/assets/css/filled-wishlist.css"
     },
@@ -3776,6 +4147,13 @@
           "childAssets": {}
         }
       },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
       "children": [],
       "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!shared/components/wishlist/assets/css/messaging.css"
     },
@@ -3809,6 +4187,13 @@
           ],
           "children": {},
           "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
         }
       },
       "children": [],

@@ -8,12 +8,9 @@ import configureStore from '../shared/store/configureStore';
 import rootSaga from '../shared/sagas/rootSaga';
 import App from '../shared/containers';
 
-
-const preloadedState = window.__PRELOADED_STATE__;
-
 delete window.__PRELOADED_STATE__;
 
-const store = configureStore( jsesc(preloadedState) );
+const store = configureStore( jsesc(window.__PRELOADED_STATE__) );
 
 store.runSaga(rootSaga);
 

@@ -9,10 +9,10 @@ const srcPath = path.resolve(__dirname, 'src');
 const distPath = path.resolve(__dirname, 'dist');
 
 const plugins = [
+  new LoadablePlugin(),
   new MiniCssExtractPlugin({
     filename: '[name].css',
   }),
-  new LoadablePlugin()
 ];
 
 module.exports = {

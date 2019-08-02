@@ -35,10 +35,8 @@ const sharedUiReducer = ( state = initialState, { type, payload } ) => {
     case SET_INFO_PANEL_ID_DOM_MATCH_SUCCEEDED:
       return merge( {}, state, { elMatchForScrolling: payload });
 
-      case SET_MAIN_NAV_URL_SUCCEEDED:
-        return merge( {}, state, { mainUrl: payload });
-
-      break;
+    case SET_MAIN_NAV_URL_SUCCEEDED:
+      return merge( {}, state, { mainUrl: payload });
 
     default:
       return state;

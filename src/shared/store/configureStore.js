@@ -4,6 +4,7 @@ import sagaMonitor from '@redux-saga/simple-saga-monitor';
 import rootReducer from '../reducers';
 
 const configureStore = (preloadedState) => {
+  // gets initial state ... how to grab updated state to preload on SERVER
   const composeEnhancers = global.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
   const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
   const reduxMiddlewares = [ sagaMiddleware ];
