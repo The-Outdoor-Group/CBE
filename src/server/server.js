@@ -1,8 +1,8 @@
-// import '@babel/polyfill';
 import Express from 'express';
 import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import ssrPrepass from 'react-ssr-prepass';
 import { StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Helmet } from 'react-helmet';
@@ -19,15 +19,6 @@ const port = process.env.PORT || 3000;
 
 app.use( '/assets/node', Express.static('dist/node') );
 app.use( '/assets/web', Express.static('dist/web') );
-
-/*
-  This works for SSR HTML and in store if i hard code data in - need to async put data into configStore()
-  make a function to say once data has returned, pop in the data?
-
-*/
-// const store = configureStore();
-
-
 
 
 app.get('*', async (req, res) => {
@@ -66,15 +57,16 @@ app.get('*', async (req, res) => {
     return new ChunkExtractor({ statsFile });
   };
 
-  const sendContent = (req, store) => {
+  const sendContent = async (req, store) => {
 
+    const result = await createJsx(req, store).catch(e => console.log('error in createJsx: ', e));
     return layout(
-      createJsx( req, store ),
+      result,
       JSON.stringify( store.getState() )
     );
   };
 
-  const createJsx = (req, store) => {
+  const createJsx = async (req, store) => {
     let extractor = getExtractor();
 
     let context = {};
@@ -92,40 +84,29 @@ app.get('*', async (req, res) => {
       return;
     }
 
+    await ssrPrepass(jsx);
+
     return renderToString( jsx );
   };
 
-    store
+    const getExternalData = async () => {
+      store
       .runSaga(rootSaga)
       .toPromise()
       .then( () => {
-        res.status(200).send( sendContent(req, store) );
+        const result = sendContent(req, store);
+        return result;
+      })
+      .then( result => {
+       res.status(200).send(result)
       })
       .catch( e => res.status(500).send(e.message) );
+    }
 
-    sendContent(req, store)
+    getExternalData();
+
+    await sendContent(req, store)
     store.close();
-
-    // const promise1 = new Promise((resolve, reject) => {
-    //   resolve( store.runSaga(rootSaga) ); //
-    // });
-    //    // .catch( e => res.status(500).send(e.message) );
-    // // });
-    //
-    // Promise.all([promise1]).then( values => {
-    //   console.log('values: ', values);
-    //
-    // });
-    //
-    // promise1.then( (result) => {
-    //   console.log('resolved all promises: ', result);
-    //   return result;
-    // })
-    // .then((result) => {
-    //   console.log('store: ', store.getState());
-    //   res.status(200).send( sendContent(req, store) );
-    // })
-    // .catch(e => console.log('err in promise: ', e) );
 
 });
 

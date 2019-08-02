@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 exports.ids=[39],exports.modules={165:function(e,t,r){},96:function(e,t,r){"use strict";r.r(t);var a=r(0),l=r.n(a);r(165);t.default=function(e){return l.a.createElement("article",{className:"col-50-50",id:"product-description"},l.a.createElement("div",null,l.a.createElement("header",null,l.a.createElement("h3",null,"Product Title"),l.a.createElement("h4",null,"Product Description in summary.")),l.a.createElement("p",null,"This is a paragraph describing this product.")),l.a.createElement("img",{src:"https://via.placeholder.com/325x300"}))}}};
+=======
+exports.ids=[39],exports.modules={166:function(e,t,r){},97:function(e,t,r){"use strict";r.r(t);var a=r(0),l=r.n(a);r(166);t.default=function(e){return l.a.createElement("article",{className:"col-50-50",id:"product-description"},l.a.createElement("div",null,l.a.createElement("header",null,l.a.createElement("h3",null,"Product Title"),l.a.createElement("h4",null,"Product Description in summary.")),l.a.createElement("p",null,"This is a paragraph describing this product.")),l.a.createElement("img",{src:"https://via.placeholder.com/325x300"}))}}};
+>>>>>>> b98f36bc7bdbfbb336b979d5bee1276d2471661d

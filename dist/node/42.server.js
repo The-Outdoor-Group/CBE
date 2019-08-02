@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 exports.ids=[42],exports.modules={92:function(e,t,n){"use strict";n.r(t);var l=n(0),a=n.n(l);t.default=function(e){var t=e.list,n=t.content,l=t.name;return a.a.createElement("dl",null,a.a.createElement("dt",null,l),n.map(function(e,t){return a.a.createElement("dd",{key:t},a.a.createElement("span",null,e.title),e.text)}))}}};
+=======
+exports.ids=[42],exports.modules={93:function(e,t,n){"use strict";n.r(t);var l=n(0),a=n.n(l);t.default=function(e){var t=e.list,n=t.content,l=t.name;return a.a.createElement("dl",null,a.a.createElement("dt",null,l),n.map(function(e,t){return a.a.createElement("dd",{key:t},a.a.createElement("span",null,e.title),e.text)}))}}};
+>>>>>>> b98f36bc7bdbfbb336b979d5bee1276d2471661d
